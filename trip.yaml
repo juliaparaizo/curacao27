@@ -23,6 +23,8 @@ places:
     desc: "Base da viagem em Punda, com café da manhã incluso e rooftop com piscina."
   - id: queen-emma
     name: "Queen Emma Bridge, Willemstad"
+    lat: 12.1077
+    lon: -68.9357
     type: sight
     desc: "A ponte flutuante que liga Punda a Otrobanda e abre pra passagem dos navios."
     model: bridge
@@ -51,13 +53,9 @@ places:
     type: food
     desc: "Jardim tropical e pratos locais. Abre só à noite."
   - id: fensi
-    name: "Fensi, Curaçao"
+    name: "Fensi, Penstraat, Willemstad"
     type: food
-    desc: "Indicação da amiga."
-  - id: james
-    name: "James, Curaçao"
-    type: food
-    desc: "Indicação da amiga."
+    desc: "Fine dining em Pietermaai, clima intimista e boa carta de vinhos."
   - id: zanzibar
     name: "Zanzibar, Jan Thiel, Curaçao"
     type: food
@@ -180,7 +178,7 @@ days:
     items:
       - {time: "09:00", text: "ATV off-road com a Kezia", place: atv}
       - {time: "14:00", text: "Tarde livre na piscina", place: elements}
-      - {time: "20:00", text: "Jantar no James", place: james}
+      - {time: "20:00", type: food, text: "Jantar no James (endereço a confirmar)"}
   - title: "Tartarugas e Kenepa"
     area: "Westpunt"
     items:
