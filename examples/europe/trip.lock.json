@@ -1,0 +1,2986 @@
+{
+ "geocode": {
+  "aeroporto di roma fiumicino": [
+   {
+    "city": "Fiumicino",
+    "country": "Italia",
+    "label": "Aeroporto di Roma-Fiumicino, Fiumicino, Lazio, Italia",
+    "lat": 41.8153911,
+    "lon": 12.2264848,
+    "osm": "aerodrome",
+    "state": "Lazio"
+   },
+   {
+    "city": "Roma",
+    "country": "Italia",
+    "label": "Autostrada Roma - aeroporto di Fiumicino, Roma, Lazio, Italia",
+    "lat": 41.8214048,
+    "lon": 12.4164919,
+    "osm": "motorway",
+    "state": "Lazio"
+   },
+   {
+    "city": "Roma",
+    "country": "Italia",
+    "label": "Autostrada Roma - aeroporto di Fiumicino, Roma, Lazio, Italia",
+    "lat": 41.840491,
+    "lon": 12.4552459,
+    "osm": "motorway",
+    "state": "Lazio"
+   }
+  ],
+  "aeroporto humberto delgado, lisboa": [
+   {
+    "city": "Lisboa",
+    "country": "Portugal",
+    "label": "Aeroporto Humberto Delgado, Lisboa, Portugal",
+    "lat": 38.7809981,
+    "lon": -9.1318608,
+    "osm": "aerodrome",
+    "state": null
+   }
+  ],
+  "alfama, lisboa": [
+   {
+    "city": "Lisboa",
+    "country": "Portugal",
+    "label": "Alfama, Lisboa, Portugal",
+    "lat": 38.7117704,
+    "lon": -9.12838,
+    "osm": "neighbourhood",
+    "state": null
+   },
+   {
+    "city": "Lisboa",
+    "country": "Portugal",
+    "label": "Sé de Lisboa, Lisboa, Portugal",
+    "lat": 38.7098185,
+    "lon": -9.1328001,
+    "osm": "place_of_worship",
+    "state": null
+   },
+   {
+    "city": "Lisboa",
+    "country": "Portugal",
+    "label": "Alfama, Lisboa, Portugal",
+    "lat": 38.7117561,
+    "lon": -9.1320111,
+    "osm": "suburb",
+    "state": null
+   },
+   {
+    "city": "Lisboa",
+    "country": "Portugal",
+    "label": "Igreja de Santo Estêvão, Lisboa, Portugal",
+    "lat": 38.7122373,
+    "lon": -9.1278391,
+    "osm": "place_of_worship",
+    "state": null
+   },
+   {
+    "city": "Lisboa",
+    "country": "Portugal",
+    "label": "Museu do Fado, Lisboa, Portugal",
+    "lat": 38.7110254,
+    "lon": -9.1276597,
+    "osm": "museum",
+    "state": null
+   }
+  ],
+  "basilica di san pietro": [
+   {
+    "city": null,
+    "country": "Civitas Vaticana",
+    "label": "Basilica di San Pietro, Civitas Vaticana",
+    "lat": 41.9021569,
+    "lon": 12.4537105,
+    "osm": "place_of_worship",
+    "state": null
+   },
+   {
+    "city": "Roma",
+    "country": "Italia",
+    "label": "Basilica di San Pietro in Vincoli, Roma, Lazio, Italia",
+    "lat": 41.893851,
+    "lon": 12.4931577,
+    "osm": "place_of_worship",
+    "state": "Lazio"
+   },
+   {
+    "city": "Perugia",
+    "country": "Italia",
+    "label": "Basilica di San Pietro, Perugia, Umbria, Italia",
+    "lat": 43.1015592,
+    "lon": 12.395758,
+    "osm": "place_of_worship",
+    "state": "Umbria"
+   },
+   {
+    "city": "Venezia",
+    "country": "Italia",
+    "label": "Basilica di San Pietro di Castello, Venezia, Veneto, Italia",
+    "lat": 45.4345409,
+    "lon": 12.3598151,
+    "osm": "place_of_worship",
+    "state": "Veneto"
+   },
+   {
+    "city": "Tuscania",
+    "country": "Italia",
+    "label": "Basilica di San Pietro, Tuscania, Lazio, Italia",
+    "lat": 42.4127331,
+    "lon": 11.8783639,
+    "osm": "basilica",
+    "state": "Lazio"
+   }
+  ],
+  "cabo da roca, portugal": [
+   {
+    "city": "Colares",
+    "country": "Portugal",
+    "label": "Cabo da Roca, Colares, Portugal",
+    "lat": 38.7809045,
+    "lon": -9.4994163,
+    "osm": "locality",
+    "state": null
+   },
+   {
+    "city": "Colares",
+    "country": "Portugal",
+    "label": "Cabo da Roca, Colares, Portugal",
+    "lat": 38.7809045,
+    "lon": -9.4994163,
+    "osm": "locality",
+    "state": null
+   },
+   {
+    "city": "Colares",
+    "country": "Portugal",
+    "label": "Farol do Cabo da Roca, Colares, Portugal",
+    "lat": 38.7818963,
+    "lon": -9.4973216,
+    "osm": "lighthouse",
+    "state": null
+   },
+   {
+    "city": "Colares",
+    "country": "Portugal",
+    "label": "Estação Meteorológica Cabo da Roca, Colares, Portugal",
+    "lat": 38.7816864,
+    "lon": -9.4975952,
+    "osm": "institutional",
+    "state": null
+   },
+   {
+    "city": "Colares",
+    "country": "Portugal",
+    "label": "Estrada do Cabo da Roca, Colares, Portugal",
+    "lat": 38.7805013,
+    "lon": -9.4825869,
+    "osm": "tertiary",
+    "state": null
+   }
+  ],
+  "castelo de sao jorge, lisboa": [
+   {
+    "city": "Lisboa",
+    "country": "Portugal",
+    "label": "Castelo de São Jorge, Lisboa, Portugal",
+    "lat": 38.7139258,
+    "lon": -9.133483,
+    "osm": "attraction",
+    "state": null
+   },
+   {
+    "city": "Lisboa",
+    "country": "Portugal",
+    "label": "Jardim do Castelo de São Jorge, Lisboa, Portugal",
+    "lat": 38.7132067,
+    "lon": -9.1337053,
+    "osm": "garden",
+    "state": null
+   },
+   {
+    "city": "Lisboa",
+    "country": "Portugal",
+    "label": "Núcleo Museológico do Castelo de São Jorge, Lisboa, Portugal",
+    "lat": 38.7130466,
+    "lon": -9.1339828,
+    "osm": "museum",
+    "state": null
+   },
+   {
+    "city": "Lisboa",
+    "country": "Portugal",
+    "label": "Elevador do Castelo de São Jorge, Lisboa, Portugal",
+    "lat": 38.7114059,
+    "lon": -9.1359499,
+    "osm": "apartments",
+    "state": null
+   },
+   {
+    "city": "Lisboa",
+    "country": "Portugal",
+    "label": "Núcleo Arqueológico do Castelo de São Jorge, Lisboa, Portugal",
+    "lat": 38.7140443,
+    "lon": -9.1323299,
+    "osm": "archaeological_site",
+    "state": null
+   }
+  ],
+  "castelo dos mouros, sintra": [
+   {
+    "city": "Sintra (Santa Maria e São Miguel, São Martinho e São Pedro de Penaferrim)",
+    "country": "Portugal",
+    "label": "Castelo dos Mouros, Sintra (Santa Maria e São Miguel, São Martinho e São Pedro de Penaferrim), Portugal",
+    "lat": 38.7924119,
+    "lon": -9.388669,
+    "osm": "castle",
+    "state": null
+   },
+   {
+    "city": "Sintra (Santa Maria e São Miguel, São Martinho e São Pedro de Penaferrim)",
+    "country": "Portugal",
+    "label": "Castelo dos Mouros, Sintra (Santa Maria e São Miguel, São Martinho e São Pedro de Penaferrim), Portugal",
+    "lat": 38.7919889,
+    "lon": -9.3895393,
+    "osm": "peak",
+    "state": null
+   },
+   {
+    "city": "Sintra (Santa Maria e São Miguel, São Martinho e São Pedro de Penaferrim)",
+    "country": "Portugal",
+    "label": "Castelo dos Mouros, Sintra (Santa Maria e São Miguel, São Martinho e São Pedro de Penaferrim), Portugal",
+    "lat": 38.7899077,
+    "lon": -9.3902351,
+    "osm": "bus_stop",
+    "state": null
+   },
+   {
+    "city": "Sintra (Santa Maria e São Miguel, São Martinho e São Pedro de Penaferrim)",
+    "country": "Portugal",
+    "label": "Castelo dos Mouros, Sintra (Santa Maria e São Miguel, São Martinho e São Pedro de Penaferrim), Portugal",
+    "lat": 38.7937661,
+    "lon": -9.386695,
+    "osm": "board",
+    "state": null
+   },
+   {
+    "city": "Sintra (Santa Maria e São Miguel, São Martinho e São Pedro de Penaferrim)",
+    "country": "Portugal",
+    "label": "Castelo dos Mouros / Casa do Guarda / Palácio da Pena, Sintra (Santa Maria e São Miguel, São Martinho e São Pedro de Penaferrim), Portugal",
+    "lat": 38.7912652,
+    "lon": -9.3887584,
+    "osm": "guidepost",
+    "state": null
+   }
+  ],
+  "colosseo, roma": [
+   {
+    "city": "Roma",
+    "country": "Italia",
+    "label": "Colosseo, Roma, Lazio, Italia",
+    "lat": 41.8909421,
+    "lon": 12.491903,
+    "osm": "pedestrian",
+    "state": "Lazio"
+   },
+   {
+    "city": "Roma",
+    "country": "Italia",
+    "label": "Colosseo, Roma, Lazio, Italia",
+    "lat": 41.8902572,
+    "lon": 12.4923841,
+    "osm": "archaeological_site",
+    "state": "Lazio"
+   },
+   {
+    "city": "Roma",
+    "country": "Italia",
+    "label": "Colosseo, Roma, Lazio, Italia",
+    "lat": 41.8912684,
+    "lon": 12.4913087,
+    "osm": "station",
+    "state": "Lazio"
+   },
+   {
+    "city": "Roma",
+    "country": "Italia",
+    "label": "Metro C (Tratta T3 Colosseo - Venezia, in costruzione), Roma, Lazio, Italia",
+    "lat": 41.8947234,
+    "lon": 12.4849029,
+    "osm": "construction",
+    "state": "Lazio"
+   },
+   {
+    "city": "Roma",
+    "country": "Italia",
+    "label": "Metro C (Tratta T3 Colosseo - Venezia, in costruzione), Roma, Lazio, Italia",
+    "lat": 41.8945621,
+    "lon": 12.4847885,
+    "osm": "construction",
+    "state": "Lazio"
+   }
+  ],
+  "fontana di trevi, roma": [
+   {
+    "city": "Roma",
+    "country": "Italia",
+    "label": "Fontana di Trevi, Roma, Lazio, Italia",
+    "lat": 41.9009778,
+    "lon": 12.4832848,
+    "osm": "fountain",
+    "state": "Lazio"
+   },
+   {
+    "city": "Roma",
+    "country": "Italia",
+    "label": "Barberini, Roma, Lazio, Italia",
+    "lat": 41.9038098,
+    "lon": 12.4886166,
+    "osm": "station",
+    "state": "Lazio"
+   },
+   {
+    "city": "Roma",
+    "country": "Italia",
+    "label": "Santi Vincenzo e Anastasio a Fontana di Trevi, Roma, Lazio, Italia",
+    "lat": 41.9006768,
+    "lon": 12.4838914,
+    "osm": "place_of_worship",
+    "state": "Lazio"
+   },
+   {
+    "city": "Roma",
+    "country": "Italia",
+    "label": "Via Fontana di Trevi, Roma, Lazio, Italia",
+    "lat": 41.7799056,
+    "lon": 12.3946239,
+    "osm": "residential",
+    "state": "Lazio"
+   },
+   {
+    "city": "Roma",
+    "country": "Italia",
+    "label": "Tritone/Fontana di Trevi, Roma, Lazio, Italia",
+    "lat": 41.9023541,
+    "lon": 12.4839038,
+    "osm": "bus_stop",
+    "state": "Lazio"
+   }
+  ],
+  "foro romano, roma": [
+   {
+    "city": "Roma",
+    "country": "Italia",
+    "label": "Santi Luca e Martina al Foro Romano, Roma, Lazio, Italia",
+    "lat": 41.893175,
+    "lon": 12.4850758,
+    "osm": "place_of_worship",
+    "state": "Lazio"
+   },
+   {
+    "city": "Roma",
+    "country": "Italia",
+    "label": "Santa Maria della Consolazione al Foro Romano, Roma, Lazio, Italia",
+    "lat": 41.8913452,
+    "lon": 12.4830866,
+    "osm": "place_of_worship",
+    "state": "Lazio"
+   },
+   {
+    "city": "Roma",
+    "country": "Italia",
+    "label": "Foro Romano, Roma, Lazio, Italia",
+    "lat": 41.8918062,
+    "lon": 12.4841917,
+    "osm": "residential",
+    "state": "Lazio"
+   },
+   {
+    "city": "Roma",
+    "country": "Italia",
+    "label": "Chiesa di San Giuseppe dei Falegnami al Foro Romano, Roma, Lazio, Italia",
+    "lat": 41.893145,
+    "lon": 12.4844639,
+    "osm": "place_of_worship",
+    "state": "Lazio"
+   },
+   {
+    "city": "Roma",
+    "country": "Italia",
+    "label": "Antiquarium Forense, Roma, Lazio, Italia",
+    "lat": 41.891087,
+    "lon": 12.4894633,
+    "osm": "museum",
+    "state": "Lazio"
+   }
+  ],
+  "giessbachfalle": [
+   {
+    "city": "Brienz BE",
+    "country": "Schweiz/Suisse/Svizzera/Svizra",
+    "label": "Giessbachfälle, Brienz BE, Bern/Berne, Schweiz/Suisse/Svizzera/Svizra",
+    "lat": 46.7335518,
+    "lon": 8.0238235,
+    "osm": "waterfall",
+    "state": "Bern/Berne"
+   },
+   {
+    "city": "Brienz BE",
+    "country": "Schweiz/Suisse/Svizzera/Svizra",
+    "label": "Giessbachfall I, Brienz BE, Bern/Berne, Schweiz/Suisse/Svizzera/Svizra",
+    "lat": 46.7316045,
+    "lon": 8.0244682,
+    "osm": "waterfall",
+    "state": "Bern/Berne"
+   },
+   {
+    "city": "Brienz BE",
+    "country": "Schweiz/Suisse/Svizzera/Svizra",
+    "label": "Giessbachfall V, Brienz BE, Bern/Berne, Schweiz/Suisse/Svizzera/Svizra",
+    "lat": 46.7333933,
+    "lon": 8.0238851,
+    "osm": "waterfall",
+    "state": "Bern/Berne"
+   },
+   {
+    "city": "Brienz BE",
+    "country": "Schweiz/Suisse/Svizzera/Svizra",
+    "label": "Giessbachfall X, Brienz BE, Bern/Berne, Schweiz/Suisse/Svizzera/Svizra",
+    "lat": 46.7346345,
+    "lon": 8.0218336,
+    "osm": "waterfall",
+    "state": "Bern/Berne"
+   },
+   {
+    "city": "Brienz BE",
+    "country": "Schweiz/Suisse/Svizzera/Svizra",
+    "label": "Giessbachfall XI, Brienz BE, Bern/Berne, Schweiz/Suisse/Svizzera/Svizra",
+    "lat": 46.7351257,
+    "lon": 8.0207308,
+    "osm": "waterfall",
+    "state": "Bern/Berne"
+   }
+  ],
+  "grindelwald": [
+   {
+    "city": null,
+    "country": "Schweiz/Suisse/Svizzera/Svizra",
+    "label": "Grindelwald, Bern/Berne, Schweiz/Suisse/Svizzera/Svizra",
+    "lat": 46.6242733,
+    "lon": 8.0367462,
+    "osm": "village",
+    "state": "Bern/Berne"
+   },
+   {
+    "city": "Grindelwald",
+    "country": "Schweiz/Suisse/Svizzera/Svizra",
+    "label": "Grindelwald, Bern/Berne, Schweiz/Suisse/Svizzera/Svizra",
+    "lat": 46.6245321,
+    "lon": 8.0325427,
+    "osm": "station",
+    "state": "Bern/Berne"
+   },
+   {
+    "city": null,
+    "country": "Australia",
+    "label": "Grindelwald, Tasmania, Australia",
+    "lat": -41.3475708,
+    "lon": 147.0014833,
+    "osm": "suburb",
+    "state": "Tasmania"
+   },
+   {
+    "city": "Entlebuch",
+    "country": "Schweiz/Suisse/Svizzera/Svizra",
+    "label": "Grindelwald, Entlebuch, Luzern, Schweiz/Suisse/Svizzera/Svizra",
+    "lat": 47.032839,
+    "lon": 8.0962265,
+    "osm": "farm",
+    "state": "Luzern"
+   },
+   {
+    "city": "Grindelwald",
+    "country": "Schweiz/Suisse/Svizzera/Svizra",
+    "label": "Grindelwald, Bern/Berne, Schweiz/Suisse/Svizzera/Svizra",
+    "lat": 46.6247896,
+    "lon": 8.0315912,
+    "osm": "railway",
+    "state": "Bern/Berne"
+   }
+  ],
+  "harder kulm": [
+   {
+    "city": "Interlaken",
+    "country": "Schweiz/Suisse/Svizzera/Svizra",
+    "label": "Harder Kulm, Interlaken, Bern/Berne, Schweiz/Suisse/Svizzera/Svizra",
+    "lat": 46.6996822,
+    "lon": 7.8561411,
+    "osm": "forest",
+    "state": "Bern/Berne"
+   },
+   {
+    "city": "Unterseen",
+    "country": "Schweiz/Suisse/Svizzera/Svizra",
+    "label": "Harder Kulm, Unterseen, Bern/Berne, Schweiz/Suisse/Svizzera/Svizra",
+    "lat": 46.6982529,
+    "lon": 7.8548637,
+    "osm": "ticket",
+    "state": "Bern/Berne"
+   },
+   {
+    "city": "Unterseen",
+    "country": "Schweiz/Suisse/Svizzera/Svizra",
+    "label": "Harder Kulm, Unterseen, Bern/Berne, Schweiz/Suisse/Svizzera/Svizra",
+    "lat": 46.6982497,
+    "lon": 7.8549038,
+    "osm": "transportation",
+    "state": "Bern/Berne"
+   },
+   {
+    "city": "Unterseen",
+    "country": "Schweiz/Suisse/Svizzera/Svizra",
+    "label": "Panorama-Restaurant Harder-Kulm, Unterseen, Bern/Berne, Schweiz/Suisse/Svizzera/Svizra",
+    "lat": 46.6975337,
+    "lon": 7.8518756,
+    "osm": "restaurant",
+    "state": "Bern/Berne"
+   }
+  ],
+  "interlaken": [
+   {
+    "city": null,
+    "country": "Schweiz/Suisse/Svizzera/Svizra",
+    "label": "Interlaken, Bern/Berne, Schweiz/Suisse/Svizzera/Svizra",
+    "lat": 46.6855231,
+    "lon": 7.8585139,
+    "osm": "town",
+    "state": "Bern/Berne"
+   },
+   {
+    "city": "Covert",
+    "country": "United States",
+    "label": "Interlaken, Covert, New York, United States",
+    "lat": 42.6170155,
+    "lon": -76.7249502,
+    "osm": "hamlet",
+    "state": "New York"
+   },
+   {
+    "city": null,
+    "country": "United States",
+    "label": "Interlaken, New Jersey, United States",
+    "lat": 40.2334459,
+    "lon": -74.015693,
+    "osm": "village",
+    "state": "New Jersey"
+   },
+   {
+    "city": null,
+    "country": "United States",
+    "label": "Interlaken, California, United States",
+    "lat": 36.9529645,
+    "lon": -121.730762,
+    "osm": "village",
+    "state": "California"
+   },
+   {
+    "city": "Interlaken",
+    "country": "United States",
+    "label": "Interlaken, California, United States",
+    "lat": 36.953012,
+    "lon": -121.7443527,
+    "osm": "locality",
+    "state": "California"
+   }
+  ],
+  "interlaken ost": [
+   {
+    "city": "Interlaken",
+    "country": "Schweiz/Suisse/Svizzera/Svizra",
+    "label": "Interlaken Ost, Interlaken, Bern/Berne, Schweiz/Suisse/Svizzera/Svizra",
+    "lat": 46.6904478,
+    "lon": 7.8689965,
+    "osm": "station",
+    "state": "Bern/Berne"
+   },
+   {
+    "city": "Interlaken",
+    "country": "Schweiz/Suisse/Svizzera/Svizra",
+    "label": "Interlaken Ost, Interlaken, Bern/Berne, Schweiz/Suisse/Svizzera/Svizra",
+    "lat": 46.6906018,
+    "lon": 7.8689838,
+    "osm": "stop",
+    "state": "Bern/Berne"
+   },
+   {
+    "city": "Interlaken",
+    "country": "Schweiz/Suisse/Svizzera/Svizra",
+    "label": "Interlaken Ost, Interlaken, Bern/Berne, Schweiz/Suisse/Svizzera/Svizra",
+    "lat": 46.6905645,
+    "lon": 7.8689871,
+    "osm": "stop",
+    "state": "Bern/Berne"
+   },
+   {
+    "city": "Interlaken",
+    "country": "Schweiz/Suisse/Svizzera/Svizra",
+    "label": "Interlaken Ost, Interlaken, Bern/Berne, Schweiz/Suisse/Svizzera/Svizra",
+    "lat": 46.6908222,
+    "lon": 7.8699984,
+    "osm": "stop",
+    "state": "Bern/Berne"
+   },
+   {
+    "city": "Interlaken",
+    "country": "Schweiz/Suisse/Svizzera/Svizra",
+    "label": "Interlaken Ost, Interlaken, Bern/Berne, Schweiz/Suisse/Svizzera/Svizra",
+    "lat": 46.6910098,
+    "lon": 7.8697428,
+    "osm": "stop",
+    "state": "Bern/Berne"
+   }
+  ],
+  "iseltwald": [
+   {
+    "city": null,
+    "country": "Schweiz/Suisse/Svizzera/Svizra",
+    "label": "Iseltwald, Bern/Berne, Schweiz/Suisse/Svizzera/Svizra",
+    "lat": 46.7104598,
+    "lon": 7.9634571,
+    "osm": "village",
+    "state": "Bern/Berne"
+   },
+   {
+    "city": "Iseltwald",
+    "country": "Schweiz/Suisse/Svizzera/Svizra",
+    "label": "Iseltwald, Bern/Berne, Schweiz/Suisse/Svizzera/Svizra",
+    "lat": 46.7001755,
+    "lon": 7.9415315,
+    "osm": "cliff",
+    "state": "Bern/Berne"
+   },
+   {
+    "city": "Iseltwald",
+    "country": "Schweiz/Suisse/Svizzera/Svizra",
+    "label": "Iseltwald, Bern/Berne, Schweiz/Suisse/Svizzera/Svizra",
+    "lat": 46.7116144,
+    "lon": 7.9641926,
+    "osm": "guidepost",
+    "state": "Bern/Berne"
+   },
+   {
+    "city": "Iseltwald",
+    "country": "Schweiz/Suisse/Svizzera/Svizra",
+    "label": "Iseltwald, Bern/Berne, Schweiz/Suisse/Svizzera/Svizra",
+    "lat": 46.7086094,
+    "lon": 7.9629763,
+    "osm": "guidepost",
+    "state": "Bern/Berne"
+   },
+   {
+    "city": "Iseltwald",
+    "country": "Schweiz/Suisse/Svizzera/Svizra",
+    "label": "Iseltwald, Bern/Berne, Schweiz/Suisse/Svizzera/Svizra",
+    "lat": 46.708261,
+    "lon": 7.9647461,
+    "osm": "motorway_junction",
+    "state": "Bern/Berne"
+   }
+  ],
+  "jungfraujoch": [
+   {
+    "city": "Lauterbrunnen",
+    "country": "Schweiz/Suisse/Svizzera/Svizra",
+    "label": "Jungfraujoch, Lauterbrunnen, Bern/Berne, Schweiz/Suisse/Svizzera/Svizra",
+    "lat": 46.5475788,
+    "lon": 7.9789741,
+    "osm": "saddle",
+    "state": "Bern/Berne"
+   },
+   {
+    "city": "Fieschertal",
+    "country": "Schweiz/Suisse/Svizzera/Svizra",
+    "label": "Jungfraujoch, Fieschertal, Valais/Wallis, Schweiz/Suisse/Svizzera/Svizra",
+    "lat": 46.5474422,
+    "lon": 7.9827186,
+    "osm": "stop",
+    "state": "Valais/Wallis"
+   },
+   {
+    "city": "Fieschertal",
+    "country": "Schweiz/Suisse/Svizzera/Svizra",
+    "label": "Jungfraujoch, Fieschertal, Valais/Wallis, Schweiz/Suisse/Svizzera/Svizra",
+    "lat": 46.5474958,
+    "lon": 7.9827094,
+    "osm": "station",
+    "state": "Valais/Wallis"
+   },
+   {
+    "city": "Fieschertal",
+    "country": "Schweiz/Suisse/Svizzera/Svizra",
+    "label": "Jungfraujoch, Fieschertal, Valais/Wallis, Schweiz/Suisse/Svizzera/Svizra",
+    "lat": 46.5474574,
+    "lon": 7.9824379,
+    "osm": "footway",
+    "state": "Valais/Wallis"
+   },
+   {
+    "city": "Fieschertal",
+    "country": "Schweiz/Suisse/Svizzera/Svizra",
+    "label": "Jungfraujoch, Fieschertal, Valais/Wallis, Schweiz/Suisse/Svizzera/Svizra",
+    "lat": 46.5475415,
+    "lon": 7.982857,
+    "osm": "stop",
+    "state": "Valais/Wallis"
+   }
+  ],
+  "miradouro da senhora do monte, lisboa": [
+   {
+    "city": "Lisboa",
+    "country": "Portugal",
+    "label": "Miradouro da Senhora do Monte, Lisboa, Portugal",
+    "lat": 38.7190781,
+    "lon": -9.1329112,
+    "osm": "viewpoint",
+    "state": null
+   },
+   {
+    "city": "Lisboa",
+    "country": "Portugal",
+    "label": "Miradouro Nossa Senhora do Monte, Lisboa, Portugal",
+    "lat": 38.7191589,
+    "lon": -9.1328103,
+    "osm": "park",
+    "state": null
+   },
+   {
+    "city": "Lisboa",
+    "country": "Portugal",
+    "label": "Miradouro Nossa Senhora do Monte, Lisboa, Portugal",
+    "lat": 38.7191589,
+    "lon": -9.1328103,
+    "osm": "viewpoint",
+    "state": null
+   }
+  ],
+  "mosteiro dos jeronimos, lisboa": [
+   {
+    "city": "Lisboa",
+    "country": "Portugal",
+    "label": "Mosteiro dos Jerónimos, Lisboa, Portugal",
+    "lat": 38.6977577,
+    "lon": -9.2066239,
+    "osm": "protected_area",
+    "state": null
+   },
+   {
+    "city": "Lisboa",
+    "country": "Portugal",
+    "label": "Mosteiro dos Jerónimos, Lisboa, Portugal",
+    "lat": 38.6980083,
+    "lon": -9.2057435,
+    "osm": "museum",
+    "state": null
+   },
+   {
+    "city": "Lisboa",
+    "country": "Portugal",
+    "label": "Mosteiro dos Jerónimos, Lisboa, Portugal",
+    "lat": 38.6977531,
+    "lon": -9.2055912,
+    "osm": "building",
+    "state": null
+   },
+   {
+    "city": "Lisboa",
+    "country": "Portugal",
+    "label": "Mosteiro dos Jerónimos, Lisboa, Portugal",
+    "lat": 38.6972402,
+    "lon": -9.2050708,
+    "osm": "shelter",
+    "state": null
+   },
+   {
+    "city": "Lisboa",
+    "country": "Portugal",
+    "label": "Mosteiro dos Jerónimos, Lisboa, Portugal",
+    "lat": 38.6973233,
+    "lon": -9.2034816,
+    "osm": "bus_stop",
+    "state": null
+   }
+  ],
+  "murren, switzerland": [
+   {
+    "city": "Lauterbrunnen",
+    "country": "Schweiz/Suisse/Svizzera/Svizra",
+    "label": "Mürren, Lauterbrunnen, Bern/Berne, Schweiz/Suisse/Svizzera/Svizra",
+    "lat": 46.5591404,
+    "lon": 7.8928785,
+    "osm": "village",
+    "state": "Bern/Berne"
+   },
+   {
+    "city": "Mürren",
+    "country": "Schweiz/Suisse/Svizzera/Svizra",
+    "label": "Mürren, Bern/Berne, Schweiz/Suisse/Svizzera/Svizra",
+    "lat": 46.5636889,
+    "lon": 7.8971188,
+    "osm": "station",
+    "state": "Bern/Berne"
+   },
+   {
+    "city": "Lauterbrunnen",
+    "country": "Schweiz/Suisse/Svizzera/Svizra",
+    "label": "Mürrenbachfall, Lauterbrunnen, Bern/Berne, Schweiz/Suisse/Svizzera/Svizra",
+    "lat": 46.5554228,
+    "lon": 7.8966601,
+    "osm": "stream",
+    "state": "Bern/Berne"
+   },
+   {
+    "city": "Lauterbrunnen",
+    "country": "Schweiz/Suisse/Svizzera/Svizra",
+    "label": "Mürren/Schilthorn, Lauterbrunnen, Bern/Berne, Schweiz/Suisse/Svizzera/Svizra",
+    "lat": 46.5813751,
+    "lon": 7.8848785,
+    "osm": "winter_sports",
+    "state": "Bern/Berne"
+   },
+   {
+    "city": "Lauterbrunnen",
+    "country": "Schweiz/Suisse/Svizzera/Svizra",
+    "label": "Mürrenbachfall, Lauterbrunnen, Bern/Berne, Schweiz/Suisse/Svizzera/Svizra",
+    "lat": 46.5555921,
+    "lon": 7.8957796,
+    "osm": "waterfall",
+    "state": "Bern/Berne"
+   }
+  ],
+  "musei vaticani": [
+   {
+    "city": null,
+    "country": "Civitas Vaticana",
+    "label": "Musei Vaticani, Civitas Vaticana",
+    "lat": 41.904961,
+    "lon": 12.4546617,
+    "osm": "museum",
+    "state": null
+   },
+   {
+    "city": null,
+    "country": "Civitas Vaticana",
+    "label": "Musei Vaticani, Civitas Vaticana",
+    "lat": 41.9062438,
+    "lon": 12.4527428,
+    "osm": "museum",
+    "state": null
+   },
+   {
+    "city": "Fiumicino",
+    "country": "Italia",
+    "label": "Musei Vaticani, Fiumicino, Lazio, Italia",
+    "lat": 41.7949259,
+    "lon": 12.2488007,
+    "osm": "gift",
+    "state": "Lazio"
+   },
+   {
+    "city": "Roma",
+    "country": "Italia",
+    "label": "Ottaviano, Roma, Lazio, Italia",
+    "lat": 41.9094639,
+    "lon": 12.4584619,
+    "osm": "station",
+    "state": "Lazio"
+   },
+   {
+    "city": null,
+    "country": "Civitas Vaticana",
+    "label": "Fototeca dei Musei Vaticani, Civitas Vaticana",
+    "lat": 41.9057326,
+    "lon": 12.4522492,
+    "osm": "archive",
+    "state": null
+   }
+  ],
+  "palacio da pena, sintra": [
+   {
+    "city": "Sintra (Santa Maria e São Miguel, São Martinho e São Pedro de Penaferrim)",
+    "country": "Portugal",
+    "label": "Palácio da Pena, Sintra (Santa Maria e São Miguel, São Martinho e São Pedro de Penaferrim), Portugal",
+    "lat": 38.7875681,
+    "lon": -9.3905649,
+    "osm": "castle",
+    "state": null
+   },
+   {
+    "city": "Sintra (Santa Maria e São Miguel, São Martinho e São Pedro de Penaferrim)",
+    "country": "Portugal",
+    "label": "Palácio Nacional de Sintra, Sintra (Santa Maria e São Miguel, São Martinho e São Pedro de Penaferrim), Portugal",
+    "lat": 38.7977723,
+    "lon": -9.3908257,
+    "osm": "attraction",
+    "state": null
+   },
+   {
+    "city": "Sintra (Santa Maria e São Miguel, São Martinho e São Pedro de Penaferrim)",
+    "country": "Portugal",
+    "label": "Pena, Sintra (Santa Maria e São Miguel, São Martinho e São Pedro de Penaferrim), Portugal",
+    "lat": 38.7878673,
+    "lon": -9.3903914,
+    "osm": "peak",
+    "state": null
+   },
+   {
+    "city": "Sintra (Santa Maria e São Miguel, São Martinho e São Pedro de Penaferrim)",
+    "country": "Portugal",
+    "label": "Palácio Biester, Sintra (Santa Maria e São Miguel, São Martinho e São Pedro de Penaferrim), Portugal",
+    "lat": 38.7938827,
+    "lon": -9.3943077,
+    "osm": "castle",
+    "state": null
+   },
+   {
+    "city": "Sintra (Santa Maria e São Miguel, São Martinho e São Pedro de Penaferrim)",
+    "country": "Portugal",
+    "label": "Castelo dos Mouros / Casa do Guarda / Palácio da Pena, Sintra (Santa Maria e São Miguel, São Martinho e São Pedro de Penaferrim), Portugal",
+    "lat": 38.7912652,
+    "lon": -9.3887584,
+    "osm": "guidepost",
+    "state": null
+   }
+  ],
+  "pantheon, roma": [
+   {
+    "city": "Roma",
+    "country": "Italia",
+    "label": "Pantheon, Roma, Lazio, Italia",
+    "lat": 41.898616,
+    "lon": 12.4768334,
+    "osm": "place_of_worship",
+    "state": "Lazio"
+   },
+   {
+    "city": "Roma",
+    "country": "Italia",
+    "label": "Piazza della Rotonda, Roma, Lazio, Italia",
+    "lat": 41.89929,
+    "lon": 12.4768694,
+    "osm": "square",
+    "state": "Lazio"
+   },
+   {
+    "city": "Roma",
+    "country": "Italia",
+    "label": "Fontana di piazza della Rotonda, Roma, Lazio, Italia",
+    "lat": 41.8993121,
+    "lon": 12.476772,
+    "osm": "fountain",
+    "state": "Lazio"
+   },
+   {
+    "city": "Roma",
+    "country": "Italia",
+    "label": "Fontana di piazza della Rotonda, Roma, Lazio, Italia",
+    "lat": 41.8993121,
+    "lon": 12.476772,
+    "osm": "water",
+    "state": "Lazio"
+   },
+   {
+    "city": "Roma",
+    "country": "Italia",
+    "label": "Via Pantheon, Roma, Lazio, Italia",
+    "lat": 41.7785856,
+    "lon": 12.3972718,
+    "osm": "residential",
+    "state": "Lazio"
+   }
+  ],
+  "pasteis de belem, lisboa": [
+   {
+    "city": "Lisboa",
+    "country": "Portugal",
+    "label": "Pastéis de Belém, Lisboa, Portugal",
+    "lat": 38.6974795,
+    "lon": -9.2033202,
+    "osm": "pastry",
+    "state": null
+   },
+   {
+    "city": "Lisboa",
+    "country": "Portugal",
+    "label": "Manteigaria \"Fábrica de Pastéis de Nata\", Lisboa, Portugal",
+    "lat": 38.6971728,
+    "lon": -9.2021881,
+    "osm": "cafe",
+    "state": null
+   },
+   {
+    "city": "Lisboa",
+    "country": "Portugal",
+    "label": "Manteigaria \"Fábrica de Pastéis de Nata\", Lisboa, Portugal",
+    "lat": 38.6971728,
+    "lon": -9.2021881,
+    "osm": "pastry",
+    "state": null
+   },
+   {
+    "city": "Lisboa",
+    "country": "Portugal",
+    "label": "Pastéis de Cerveja, Lisboa, Portugal",
+    "lat": 38.6971313,
+    "lon": -9.20197,
+    "osm": "pastry",
+    "state": null
+   }
+  ],
+  "roma termini": [
+   {
+    "city": "Roma",
+    "country": "Italia",
+    "label": "Roma Termini, Roma, Lazio, Italia",
+    "lat": 41.9005815,
+    "lon": 12.5025272,
+    "osm": "station",
+    "state": "Lazio"
+   },
+   {
+    "city": "Roma",
+    "country": "Italia",
+    "label": "Roma Termini, Roma, Lazio, Italia",
+    "lat": 41.901195,
+    "lon": 12.5016713,
+    "osm": "train_station",
+    "state": "Lazio"
+   },
+   {
+    "city": "Roma",
+    "country": "Italia",
+    "label": "Termini, Roma, Lazio, Italia",
+    "lat": 41.9016577,
+    "lon": 12.5007858,
+    "osm": "station",
+    "state": "Lazio"
+   },
+   {
+    "city": "Roma",
+    "country": "Italia",
+    "label": "Stazione Termini, Roma, Lazio, Italia",
+    "lat": 41.8996176,
+    "lon": 12.5062494,
+    "osm": "train_station",
+    "state": "Lazio"
+   },
+   {
+    "city": "Roma",
+    "country": "Italia",
+    "label": "POLFER - Polizia Ferroviaria sezione di Roma Termini, Roma, Lazio, Italia",
+    "lat": 41.9002964,
+    "lon": 12.5052442,
+    "osm": "police",
+    "state": "Lazio"
+   }
+  ],
+  "staubbachfall, lauterbrunnen": [
+   {
+    "city": "Lauterbrunnen",
+    "country": "Schweiz/Suisse/Svizzera/Svizra",
+    "label": "Staubbachfall, Lauterbrunnen, Bern/Berne, Schweiz/Suisse/Svizzera/Svizra",
+    "lat": 46.589776,
+    "lon": 7.905429,
+    "osm": "waterfall",
+    "state": "Bern/Berne"
+   },
+   {
+    "city": "Lauterbrunnen",
+    "country": "Schweiz/Suisse/Svizzera/Svizra",
+    "label": "Lauterbrunnen, Bern/Berne, Schweiz/Suisse/Svizzera/Svizra",
+    "lat": 46.5948854,
+    "lon": 7.9083661,
+    "osm": "viewpoint",
+    "state": "Bern/Berne"
+   }
+  ],
+  "torre de belem, lisboa": [
+   {
+    "city": "Lisboa",
+    "country": "Portugal",
+    "label": "Torre de Belém, Lisboa, Portugal",
+    "lat": 38.691586,
+    "lon": -9.2159288,
+    "osm": "attraction",
+    "state": null
+   },
+   {
+    "city": "Lisboa",
+    "country": "Portugal",
+    "label": "Jardim António Viana Barreto, Lisboa, Portugal",
+    "lat": 38.6928201,
+    "lon": -9.2156677,
+    "osm": "park",
+    "state": null
+   },
+   {
+    "city": "Lisboa",
+    "country": "Portugal",
+    "label": "Avenida da Torre de Belém, Lisboa, Portugal",
+    "lat": 38.6948555,
+    "lon": -9.2152104,
+    "osm": "tertiary",
+    "state": null
+   },
+   {
+    "city": "Lisboa",
+    "country": "Portugal",
+    "label": "Avenida da Torre de Belém, Lisboa, Portugal",
+    "lat": 38.6951906,
+    "lon": -9.2151175,
+    "osm": "tertiary",
+    "state": null
+   },
+   {
+    "city": "Lisboa",
+    "country": "Portugal",
+    "label": "Avenida da Torre de Belém, Lisboa, Portugal",
+    "lat": 38.6980808,
+    "lon": -9.2144079,
+    "osm": "tertiary",
+    "state": null
+   }
+  ],
+  "trastevere, roma": [
+   {
+    "city": "Roma",
+    "country": "Italia",
+    "label": "Trastevere, Roma, Lazio, Italia",
+    "lat": 41.8911586,
+    "lon": 12.4668459,
+    "osm": "quarter",
+    "state": "Lazio"
+   },
+   {
+    "city": "Roma",
+    "country": "Italia",
+    "label": "Roma Trastevere, Roma, Lazio, Italia",
+    "lat": 41.8725501,
+    "lon": 12.466094,
+    "osm": "station",
+    "state": "Lazio"
+   },
+   {
+    "city": "Roma",
+    "country": "Italia",
+    "label": "Basilica di Santa Maria in Trastevere, Roma, Lazio, Italia",
+    "lat": 41.8894229,
+    "lon": 12.469501,
+    "osm": "place_of_worship",
+    "state": "Lazio"
+   },
+   {
+    "city": "Roma",
+    "country": "Italia",
+    "label": "Basilica di Santa Cecilia in Trastevere, Roma, Lazio, Italia",
+    "lat": 41.8875623,
+    "lon": 12.4758569,
+    "osm": "place_of_worship",
+    "state": "Lazio"
+   },
+   {
+    "city": "Roma",
+    "country": "Italia",
+    "label": "Museo di Roma in Trastevere, Roma, Lazio, Italia",
+    "lat": 41.8898257,
+    "lon": 12.469015,
+    "osm": "museum",
+    "state": "Lazio"
+   }
+  ]
+ },
+ "routes": {
+  "38.69159,-9.21593;38.69748,-9.20332;38.69776,-9.20662": [
+   [
+    38.69193,
+    -9.21475
+   ],
+   [
+    38.69228,
+    -9.21288
+   ],
+   [
+    38.69339,
+    -9.21322
+   ],
+   [
+    38.69377,
+    -9.21318
+   ],
+   [
+    38.69339,
+    -9.21801
+   ],
+   [
+    38.69408,
+    -9.22037
+   ],
+   [
+    38.69487,
+    -9.22137
+   ],
+   [
+    38.69729,
+    -9.2259
+   ],
+   [
+    38.69753,
+    -9.22593
+   ],
+   [
+    38.6984,
+    -9.22537
+   ],
+   [
+    38.69917,
+    -9.22552
+   ],
+   [
+    38.70228,
+    -9.21807
+   ],
+   [
+    38.70235,
+    -9.21763
+   ],
+   [
+    38.70216,
+    -9.2171
+   ],
+   [
+    38.7011,
+    -9.21651
+   ],
+   [
+    38.70035,
+    -9.21573
+   ],
+   [
+    38.69991,
+    -9.21488
+   ],
+   [
+    38.69969,
+    -9.21393
+   ],
+   [
+    38.69976,
+    -9.2124
+   ],
+   [
+    38.70095,
+    -9.2081
+   ],
+   [
+    38.701,
+    -9.20745
+   ],
+   [
+    38.70087,
+    -9.20682
+   ],
+   [
+    38.70029,
+    -9.20609
+   ],
+   [
+    38.69875,
+    -9.20534
+   ],
+   [
+    38.698,
+    -9.20477
+   ],
+   [
+    38.69813,
+    -9.2041
+   ],
+   [
+    38.69803,
+    -9.204
+   ],
+   [
+    38.69795,
+    -9.20259
+   ],
+   [
+    38.69734,
+    -9.20248
+   ],
+   [
+    38.6974,
+    -9.20333
+   ],
+   [
+    38.6974,
+    -9.2045
+   ],
+   [
+    38.69694,
+    -9.20628
+   ]
+  ],
+  "38.71393,-9.13348;38.71177,-9.12838;38.71908,-9.13291": [
+   [
+    38.71441,
+    -9.13508
+   ],
+   [
+    38.7145,
+    -9.13512
+   ],
+   [
+    38.71461,
+    -9.13539
+   ],
+   [
+    38.71494,
+    -9.13527
+   ],
+   [
+    38.71528,
+    -9.13476
+   ],
+   [
+    38.71586,
+    -9.13328
+   ],
+   [
+    38.71614,
+    -9.13309
+   ],
+   [
+    38.71548,
+    -9.13204
+   ],
+   [
+    38.71495,
+    -9.13149
+   ],
+   [
+    38.71456,
+    -9.13121
+   ],
+   [
+    38.71418,
+    -9.13076
+   ],
+   [
+    38.71393,
+    -9.13065
+   ],
+   [
+    38.71295,
+    -9.13059
+   ],
+   [
+    38.71319,
+    -9.13046
+   ],
+   [
+    38.71328,
+    -9.13025
+   ],
+   [
+    38.71272,
+    -9.13004
+   ],
+   [
+    38.71247,
+    -9.12968
+   ],
+   [
+    38.71256,
+    -9.12951
+   ],
+   [
+    38.71243,
+    -9.12962
+   ],
+   [
+    38.71216,
+    -9.12884
+   ],
+   [
+    38.71179,
+    -9.12832
+   ],
+   [
+    38.71176,
+    -9.12836
+   ],
+   [
+    38.71119,
+    -9.12922
+   ],
+   [
+    38.71129,
+    -9.12943
+   ],
+   [
+    38.71119,
+    -9.12922
+   ],
+   [
+    38.71179,
+    -9.12832
+   ],
+   [
+    38.71216,
+    -9.12884
+   ],
+   [
+    38.71243,
+    -9.12962
+   ],
+   [
+    38.71256,
+    -9.12951
+   ],
+   [
+    38.71247,
+    -9.12968
+   ],
+   [
+    38.71272,
+    -9.13004
+   ],
+   [
+    38.71328,
+    -9.13025
+   ],
+   [
+    38.71319,
+    -9.13046
+   ],
+   [
+    38.71295,
+    -9.13059
+   ],
+   [
+    38.71393,
+    -9.13065
+   ],
+   [
+    38.71418,
+    -9.13076
+   ],
+   [
+    38.71433,
+    -9.1307
+   ],
+   [
+    38.71503,
+    -9.13106
+   ],
+   [
+    38.7157,
+    -9.13125
+   ],
+   [
+    38.7162,
+    -9.13029
+   ],
+   [
+    38.7165,
+    -9.13037
+   ],
+   [
+    38.71669,
+    -9.13033
+   ],
+   [
+    38.71743,
+    -9.1301
+   ],
+   [
+    38.71752,
+    -9.12995
+   ],
+   [
+    38.71811,
+    -9.12987
+   ],
+   [
+    38.71878,
+    -9.12992
+   ],
+   [
+    38.71935,
+    -9.1298
+   ],
+   [
+    38.71956,
+    -9.13124
+   ],
+   [
+    38.71901,
+    -9.13253
+   ],
+   [
+    38.71913,
+    -9.13256
+   ]
+  ],
+  "38.78757,-9.39056;38.79241,-9.38867;38.78090,-9.49942": [
+   [
+    38.78753,
+    -9.39049
+   ],
+   [
+    38.78721,
+    -9.38996
+   ],
+   [
+    38.78803,
+    -9.38958
+   ],
+   [
+    38.7869,
+    -9.38901
+   ],
+   [
+    38.78717,
+    -9.38805
+   ],
+   [
+    38.78789,
+    -9.38802
+   ],
+   [
+    38.78845,
+    -9.38598
+   ],
+   [
+    38.79032,
+    -9.38557
+   ],
+   [
+    38.79009,
+    -9.38668
+   ],
+   [
+    38.79076,
+    -9.38824
+   ],
+   [
+    38.79185,
+    -9.38791
+   ],
+   [
+    38.79077,
+    -9.38826
+   ],
+   [
+    38.79009,
+    -9.38668
+   ],
+   [
+    38.79195,
+    -9.38346
+   ],
+   [
+    38.79193,
+    -9.38206
+   ],
+   [
+    38.79111,
+    -9.38147
+   ],
+   [
+    38.79078,
+    -9.37798
+   ],
+   [
+    38.78869,
+    -9.37447
+   ],
+   [
+    38.78736,
+    -9.37335
+   ],
+   [
+    38.77307,
+    -9.38129
+   ],
+   [
+    38.76767,
+    -9.38499
+   ],
+   [
+    38.76494,
+    -9.38579
+   ],
+   [
+    38.76801,
+    -9.39201
+   ],
+   [
+    38.76804,
+    -9.39508
+   ],
+   [
+    38.76705,
+    -9.39711
+   ],
+   [
+    38.76529,
+    -9.39882
+   ],
+   [
+    38.7644,
+    -9.40152
+   ],
+   [
+    38.76247,
+    -9.40379
+   ],
+   [
+    38.75953,
+    -9.4095
+   ],
+   [
+    38.75994,
+    -9.41198
+   ],
+   [
+    38.75841,
+    -9.41333
+   ],
+   [
+    38.75804,
+    -9.41651
+   ],
+   [
+    38.75884,
+    -9.41964
+   ],
+   [
+    38.75741,
+    -9.42527
+   ],
+   [
+    38.75383,
+    -9.4284
+   ],
+   [
+    38.7523,
+    -9.43088
+   ],
+   [
+    38.75097,
+    -9.43174
+   ],
+   [
+    38.74887,
+    -9.43191
+   ],
+   [
+    38.74736,
+    -9.43348
+   ],
+   [
+    38.7492,
+    -9.43516
+   ],
+   [
+    38.75126,
+    -9.43855
+   ],
+   [
+    38.75132,
+    -9.44476
+   ],
+   [
+    38.75193,
+    -9.44753
+   ],
+   [
+    38.75293,
+    -9.44811
+   ],
+   [
+    38.75317,
+    -9.4492
+   ],
+   [
+    38.75227,
+    -9.45175
+   ],
+   [
+    38.75317,
+    -9.45316
+   ],
+   [
+    38.75209,
+    -9.45545
+   ],
+   [
+    38.75248,
+    -9.45727
+   ],
+   [
+    38.75487,
+    -9.45657
+   ],
+   [
+    38.75559,
+    -9.45787
+   ],
+   [
+    38.75656,
+    -9.45799
+   ],
+   [
+    38.75767,
+    -9.45927
+   ],
+   [
+    38.75873,
+    -9.45929
+   ],
+   [
+    38.7587,
+    -9.45992
+   ],
+   [
+    38.75729,
+    -9.46097
+   ],
+   [
+    38.75881,
+    -9.46452
+   ],
+   [
+    38.76136,
+    -9.4652
+   ],
+   [
+    38.76122,
+    -9.46736
+   ],
+   [
+    38.7625,
+    -9.46961
+   ],
+   [
+    38.76477,
+    -9.47116
+   ],
+   [
+    38.76646,
+    -9.47334
+   ],
+   [
+    38.77043,
+    -9.47372
+   ],
+   [
+    38.77283,
+    -9.47016
+   ],
+   [
+    38.77393,
+    -9.47233
+   ],
+   [
+    38.77291,
+    -9.47436
+   ],
+   [
+    38.77311,
+    -9.47606
+   ],
+   [
+    38.7719,
+    -9.47702
+   ],
+   [
+    38.77195,
+    -9.47796
+   ],
+   [
+    38.77827,
+    -9.48273
+   ],
+   [
+    38.78026,
+    -9.48233
+   ],
+   [
+    38.78057,
+    -9.48414
+   ],
+   [
+    38.78262,
+    -9.48499
+   ],
+   [
+    38.78316,
+    -9.4872
+   ],
+   [
+    38.78297,
+    -9.49058
+   ],
+   [
+    38.78172,
+    -9.49525
+   ],
+   [
+    38.78189,
+    -9.49621
+   ],
+   [
+    38.78069,
+    -9.49773
+   ]
+  ],
+  "41.81539,12.22648;41.89116,12.46685": [
+   [
+    41.81596,
+    12.22811
+   ],
+   [
+    41.81738,
+    12.22911
+   ],
+   [
+    41.81302,
+    12.23274
+   ],
+   [
+    41.8137,
+    12.23551
+   ],
+   [
+    41.82073,
+    12.23165
+   ],
+   [
+    41.8184,
+    12.22119
+   ],
+   [
+    41.81673,
+    12.22141
+   ],
+   [
+    41.81614,
+    12.2195
+   ],
+   [
+    41.77518,
+    12.24068
+   ],
+   [
+    41.78223,
+    12.25676
+   ],
+   [
+    41.78206,
+    12.25364
+   ],
+   [
+    41.78368,
+    12.25244
+   ],
+   [
+    41.78558,
+    12.25264
+   ],
+   [
+    41.78755,
+    12.25616
+   ],
+   [
+    41.78527,
+    12.26007
+   ],
+   [
+    41.78632,
+    12.26464
+   ],
+   [
+    41.79027,
+    12.27353
+   ],
+   [
+    41.808,
+    12.3053
+   ],
+   [
+    41.81078,
+    12.31268
+   ],
+   [
+    41.82061,
+    12.41453
+   ],
+   [
+    41.82337,
+    12.41885
+   ],
+   [
+    41.83014,
+    12.42025
+   ],
+   [
+    41.83334,
+    12.42378
+   ],
+   [
+    41.83397,
+    12.42769
+   ],
+   [
+    41.83144,
+    12.43527
+   ],
+   [
+    41.83164,
+    12.44085
+   ],
+   [
+    41.83368,
+    12.44723
+   ],
+   [
+    41.83935,
+    12.45334
+   ],
+   [
+    41.85052,
+    12.45912
+   ],
+   [
+    41.85762,
+    12.45923
+   ],
+   [
+    41.86153,
+    12.4639
+   ],
+   [
+    41.86544,
+    12.46529
+   ],
+   [
+    41.87392,
+    12.45774
+   ],
+   [
+    41.88518,
+    12.45848
+   ],
+   [
+    41.88499,
+    12.46363
+   ],
+   [
+    41.88792,
+    12.46697
+   ],
+   [
+    41.88991,
+    12.46589
+   ],
+   [
+    41.89115,
+    12.46686
+   ]
+  ],
+  "41.89094,12.49190;41.89317,12.48508;41.89862,12.47683": [
+   [
+    41.89142,
+    12.49193
+   ],
+   [
+    41.89134,
+    12.49296
+   ],
+   [
+    41.89081,
+    12.49423
+   ],
+   [
+    41.8906,
+    12.4943
+   ],
+   [
+    41.88939,
+    12.49349
+   ],
+   [
+    41.88925,
+    12.49291
+   ],
+   [
+    41.8892,
+    12.49141
+   ],
+   [
+    41.88864,
+    12.4904
+   ],
+   [
+    41.88474,
+    12.48916
+   ],
+   [
+    41.88416,
+    12.48865
+   ],
+   [
+    41.88374,
+    12.48794
+   ],
+   [
+    41.88399,
+    12.48727
+   ],
+   [
+    41.88622,
+    12.48354
+   ],
+   [
+    41.88719,
+    12.48225
+   ],
+   [
+    41.88819,
+    12.48326
+   ],
+   [
+    41.88894,
+    12.48208
+   ],
+   [
+    41.89107,
+    12.48204
+   ],
+   [
+    41.89119,
+    12.48253
+   ],
+   [
+    41.89201,
+    12.48381
+   ],
+   [
+    41.89195,
+    12.48392
+   ],
+   [
+    41.89137,
+    12.48496
+   ],
+   [
+    41.88977,
+    12.48384
+   ],
+   [
+    41.88854,
+    12.48354
+   ],
+   [
+    41.88819,
+    12.48326
+   ],
+   [
+    41.88894,
+    12.48208
+   ],
+   [
+    41.88928,
+    12.48124
+   ],
+   [
+    41.8916,
+    12.4803
+   ],
+   [
+    41.89263,
+    12.48065
+   ],
+   [
+    41.89365,
+    12.48183
+   ],
+   [
+    41.89451,
+    12.48209
+   ],
+   [
+    41.89517,
+    12.48209
+   ],
+   [
+    41.89553,
+    12.48232
+   ],
+   [
+    41.89661,
+    12.48192
+   ],
+   [
+    41.896,
+    12.47919
+   ],
+   [
+    41.89595,
+    12.47781
+   ],
+   [
+    41.8965,
+    12.47449
+   ],
+   [
+    41.89695,
+    12.47461
+   ],
+   [
+    41.89699,
+    12.47509
+   ],
+   [
+    41.89832,
+    12.47511
+   ],
+   [
+    41.89837,
+    12.47559
+   ],
+   [
+    41.89812,
+    12.47565
+   ],
+   [
+    41.89759,
+    12.47686
+   ],
+   [
+    41.89767,
+    12.47733
+   ],
+   [
+    41.89865,
+    12.47726
+   ]
+  ],
+  "41.90496,12.45466;41.90216,12.45371;41.90098,12.48328": [
+   [
+    41.90493,
+    12.45404
+   ],
+   [
+    41.90311,
+    12.45417
+   ],
+   [
+    41.90297,
+    12.45336
+   ],
+   [
+    41.90266,
+    12.45261
+   ],
+   [
+    41.90223,
+    12.4523
+   ],
+   [
+    41.90103,
+    12.45236
+   ],
+   [
+    41.90094,
+    12.4543
+   ],
+   [
+    41.90124,
+    12.45532
+   ],
+   [
+    41.90149,
+    12.45528
+   ],
+   [
+    41.90156,
+    12.45375
+   ],
+   [
+    41.90144,
+    12.45344
+   ],
+   [
+    41.90091,
+    12.45346
+   ],
+   [
+    41.90113,
+    12.45512
+   ],
+   [
+    41.90124,
+    12.45532
+   ],
+   [
+    41.90149,
+    12.45528
+   ],
+   [
+    41.90153,
+    12.45622
+   ],
+   [
+    41.90117,
+    12.45663
+   ],
+   [
+    41.90026,
+    12.45659
+   ],
+   [
+    41.89966,
+    12.45972
+   ],
+   [
+    41.89955,
+    12.46104
+   ],
+   [
+    41.89979,
+    12.46425
+   ],
+   [
+    41.90046,
+    12.46455
+   ],
+   [
+    41.90107,
+    12.4655
+   ],
+   [
+    41.90159,
+    12.46965
+   ],
+   [
+    41.902,
+    12.47129
+   ],
+   [
+    41.90253,
+    12.47269
+   ],
+   [
+    41.90344,
+    12.47412
+   ],
+   [
+    41.90492,
+    12.47508
+   ],
+   [
+    41.90473,
+    12.47535
+   ],
+   [
+    41.90445,
+    12.47538
+   ],
+   [
+    41.9041,
+    12.476
+   ],
+   [
+    41.90363,
+    12.47644
+   ],
+   [
+    41.90367,
+    12.47712
+   ],
+   [
+    41.90301,
+    12.47719
+   ],
+   [
+    41.90297,
+    12.47769
+   ],
+   [
+    41.90248,
+    12.47779
+   ],
+   [
+    41.90236,
+    12.4793
+   ],
+   [
+    41.90248,
+    12.47978
+   ],
+   [
+    41.90159,
+    12.48018
+   ],
+   [
+    41.90148,
+    12.48043
+   ],
+   [
+    41.90205,
+    12.48248
+   ],
+   [
+    41.901,
+    12.48293
+   ]
+  ],
+  "46.58978,7.90543;46.55914,7.89288": [
+   [
+    46.59024,
+    7.9078
+   ],
+   [
+    46.59288,
+    7.90743
+   ],
+   [
+    46.59272,
+    7.90811
+   ],
+   [
+    46.5936,
+    7.90875
+   ],
+   [
+    46.59209,
+    7.91078
+   ],
+   [
+    46.58702,
+    7.91465
+   ],
+   [
+    46.58412,
+    7.91552
+   ],
+   [
+    46.58097,
+    7.91504
+   ],
+   [
+    46.57384,
+    7.91284
+   ],
+   [
+    46.57137,
+    7.91097
+   ],
+   [
+    46.56637,
+    7.90871
+   ],
+   [
+    46.56191,
+    7.9052
+   ],
+   [
+    46.55618,
+    7.9037
+   ],
+   [
+    46.55321,
+    7.90212
+   ],
+   [
+    46.54962,
+    7.9015
+   ],
+   [
+    46.54956,
+    7.89974
+   ],
+   [
+    46.55188,
+    7.89851
+   ],
+   [
+    46.55357,
+    7.89844
+   ],
+   [
+    46.55604,
+    7.90072
+   ],
+   [
+    46.55812,
+    7.90132
+   ]
+  ],
+  "46.62427,8.03675;46.54758,7.97897": [
+   [
+    46.62431,
+    8.03654
+   ],
+   [
+    46.62382,
+    8.03598
+   ],
+   [
+    46.62428,
+    8.03489
+   ],
+   [
+    46.62341,
+    8.03467
+   ],
+   [
+    46.6238,
+    8.03373
+   ],
+   [
+    46.62256,
+    8.03064
+   ],
+   [
+    46.62169,
+    8.0307
+   ],
+   [
+    46.62116,
+    8.02952
+   ],
+   [
+    46.62047,
+    8.03062
+   ],
+   [
+    46.61784,
+    8.02924
+   ],
+   [
+    46.61753,
+    8.02636
+   ],
+   [
+    46.61931,
+    8.02446
+   ],
+   [
+    46.61918,
+    8.02392
+   ],
+   [
+    46.61847,
+    8.02448
+   ],
+   [
+    46.61795,
+    8.02364
+   ],
+   [
+    46.61859,
+    8.02265
+   ],
+   [
+    46.6185,
+    8.02181
+   ],
+   [
+    46.61776,
+    8.02157
+   ],
+   [
+    46.61665,
+    8.02315
+   ],
+   [
+    46.61653,
+    8.02133
+   ],
+   [
+    46.616,
+    8.02076
+   ],
+   [
+    46.61487,
+    8.02191
+   ],
+   [
+    46.61379,
+    8.02166
+   ],
+   [
+    46.6137,
+    8.0211
+   ],
+   [
+    46.61431,
+    8.02101
+   ],
+   [
+    46.61434,
+    8.01908
+   ],
+   [
+    46.61305,
+    8.01772
+   ],
+   [
+    46.61345,
+    8.01681
+   ],
+   [
+    46.61319,
+    8.01587
+   ],
+   [
+    46.61243,
+    8.01634
+   ],
+   [
+    46.61191,
+    8.01582
+   ],
+   [
+    46.61181,
+    8.01706
+   ],
+   [
+    46.61131,
+    8.01746
+   ],
+   [
+    46.61124,
+    8.01527
+   ],
+   [
+    46.61048,
+    8.01364
+   ],
+   [
+    46.60955,
+    8.01513
+   ],
+   [
+    46.6091,
+    8.01505
+   ],
+   [
+    46.60951,
+    8.01372
+   ],
+   [
+    46.60855,
+    8.01315
+   ],
+   [
+    46.6094,
+    8.01261
+   ],
+   [
+    46.60999,
+    8.01085
+   ],
+   [
+    46.60981,
+    8.00969
+   ],
+   [
+    46.6088,
+    8.01022
+   ],
+   [
+    46.60854,
+    8.00838
+   ],
+   [
+    46.60686,
+    8.00871
+   ],
+   [
+    46.60678,
+    8.00947
+   ],
+   [
+    46.60558,
+    8.00894
+   ],
+   [
+    46.60459,
+    8.00488
+   ],
+   [
+    46.6055,
+    8.00249
+   ],
+   [
+    46.60459,
+    8.00145
+   ],
+   [
+    46.6033,
+    8.00152
+   ],
+   [
+    46.60167,
+    8.0005
+   ],
+   [
+    46.60131,
+    7.99794
+   ],
+   [
+    46.60061,
+    7.99719
+   ],
+   [
+    46.60125,
+    7.99541
+   ],
+   [
+    46.60006,
+    7.99489
+   ],
+   [
+    46.60069,
+    7.99414
+   ],
+   [
+    46.59965,
+    7.9916
+   ],
+   [
+    46.60034,
+    7.98972
+   ],
+   [
+    46.59957,
+    7.99059
+   ],
+   [
+    46.59857,
+    7.98998
+   ],
+   [
+    46.59958,
+    7.98874
+   ],
+   [
+    46.5982,
+    7.98805
+   ],
+   [
+    46.59579,
+    7.9846
+   ],
+   [
+    46.59515,
+    7.98254
+   ],
+   [
+    46.59523,
+    7.98386
+   ],
+   [
+    46.59478,
+    7.98468
+   ],
+   [
+    46.59347,
+    7.98314
+   ],
+   [
+    46.59293,
+    7.98356
+   ],
+   [
+    46.59196,
+    7.97937
+   ],
+   [
+    46.59033,
+    7.97537
+   ],
+   [
+    46.58646,
+    7.97348
+   ],
+   [
+    46.5853,
+    7.97163
+   ],
+   [
+    46.58585,
+    7.96952
+   ],
+   [
+    46.58571,
+    7.96726
+   ],
+   [
+    46.58528,
+    7.96669
+   ],
+   [
+    46.58587,
+    7.96452
+   ],
+   [
+    46.5854,
+    7.9611
+   ],
+   [
+    46.58347,
+    7.9634
+   ],
+   [
+    46.57998,
+    7.9639
+   ],
+   [
+    46.57879,
+    7.96629
+   ],
+   [
+    46.57884,
+    7.96826
+   ],
+   [
+    46.57821,
+    7.96922
+   ],
+   [
+    46.57528,
+    7.96813
+   ],
+   [
+    46.57517,
+    7.96884
+   ]
+  ],
+  "46.69968,7.85614;46.68552,7.85851": [
+   [
+    46.70184,
+    7.84773
+   ],
+   [
+    46.70288,
+    7.84788
+   ],
+   [
+    46.70381,
+    7.84729
+   ],
+   [
+    46.70664,
+    7.84732
+   ],
+   [
+    46.70733,
+    7.84754
+   ],
+   [
+    46.70747,
+    7.84817
+   ],
+   [
+    46.70828,
+    7.84927
+   ],
+   [
+    46.71028,
+    7.84979
+   ],
+   [
+    46.70886,
+    7.84852
+   ],
+   [
+    46.70742,
+    7.84539
+   ],
+   [
+    46.70667,
+    7.84519
+   ],
+   [
+    46.70551,
+    7.84428
+   ],
+   [
+    46.70405,
+    7.84434
+   ],
+   [
+    46.70325,
+    7.84381
+   ],
+   [
+    46.70144,
+    7.84359
+   ],
+   [
+    46.69977,
+    7.84236
+   ],
+   [
+    46.69858,
+    7.84079
+   ],
+   [
+    46.69598,
+    7.83852
+   ],
+   [
+    46.69398,
+    7.83717
+   ],
+   [
+    46.69319,
+    7.83713
+   ],
+   [
+    46.68975,
+    7.84053
+   ],
+   [
+    46.68848,
+    7.84321
+   ],
+   [
+    46.68629,
+    7.84564
+   ],
+   [
+    46.68517,
+    7.84812
+   ],
+   [
+    46.68372,
+    7.85207
+   ],
+   [
+    46.68495,
+    7.85436
+   ],
+   [
+    46.68474,
+    7.8548
+   ],
+   [
+    46.68267,
+    7.85586
+   ],
+   [
+    46.68305,
+    7.8572
+   ],
+   [
+    46.68409,
+    7.85758
+   ],
+   [
+    46.68387,
+    7.85741
+   ],
+   [
+    46.68414,
+    7.85633
+   ],
+   [
+    46.68513,
+    7.85699
+   ]
+  ],
+  "46.71046,7.96346;46.73355,8.02382": [
+   [
+    46.71068,
+    7.96329
+   ],
+   [
+    46.71057,
+    7.96266
+   ],
+   [
+    46.70863,
+    7.96295
+   ],
+   [
+    46.70811,
+    7.96165
+   ],
+   [
+    46.70702,
+    7.96046
+   ],
+   [
+    46.70758,
+    7.96197
+   ],
+   [
+    46.70725,
+    7.96335
+   ],
+   [
+    46.70857,
+    7.96544
+   ],
+   [
+    46.71078,
+    7.97124
+   ],
+   [
+    46.71173,
+    7.97457
+   ],
+   [
+    46.71481,
+    7.98191
+   ],
+   [
+    46.71573,
+    7.98327
+   ],
+   [
+    46.71823,
+    7.98526
+   ],
+   [
+    46.72106,
+    7.99119
+   ],
+   [
+    46.72538,
+    7.99852
+   ],
+   [
+    46.72774,
+    8.00803
+   ],
+   [
+    46.73377,
+    8.02364
+   ]
+  ]
+ },
+ "timezone": {
+  "38.7,-9.3": "Europe/Lisbon",
+  "41.9,12.4": "Europe/Rome",
+  "46.6,7.9": "Europe/Zurich"
+ }
+}

@@ -1,0 +1,10 @@
+# The smallest trip: one day, three places, names only.
+title: "Toledo en un día"
+dates: {start: 2027-04-18}
+language: es
+
+days:
+  - items:
+      - {text: "Catedral", place: "Catedral de Toledo"}
+      - {text: "Alcázar", place: "Alcazar de Toledo"}
+      - {text: "Puente de San Martín", place: "Puente de San Martin, Toledo"}

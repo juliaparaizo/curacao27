@@ -1,0 +1,36 @@
+# Quiet and neutral: system of grays with one blue accent.
+brand:
+  badge_style: pill
+
+fonts:
+  display: "Inter"
+  display_thin: 0
+  body: "Inter"
+  mono: "IBM Plex Mono"
+
+colors:
+  bg: "#F2F2EF"
+  card: "#FFFFFF"
+  ink: "#17191C"
+  accent: "#BFD7F2"
+  line: "#DEDEDA"
+
+map:
+  land_low: "#DCDFD3"
+  land_mid: "#BFC8B4"
+  land_high: "#8FA08C"
+  dry: "#E0DAC8"
+  sand: "#EFE9D9"
+  urban: "#D6D5D0"
+  rock: "#B0ADA3"
+  snow: "#FAFAF8"
+  sea_shallow: "#BCD9E6"
+  sea_deep: "#7FA9C4"
+  road: "#FFFFFF"
+  river: "#9CC4DA"
+  exaggeration: auto
+
+ui:
+  clouds: false
+  animated_sea: true
+  day_colors: auto

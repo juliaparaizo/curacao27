@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="{{LANG}}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{TITLE}}</title>
+<meta name="description" content="{{SUBTITLE}}">
+<meta name="generator" content="trip-map-3d">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="stylesheet" href="app.css">
+<link rel="stylesheet" href="data/theme.css">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="{{THEME_COLOR}}">
+<link rel="apple-touch-icon" href="icons/icon-180.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="{{TITLE}}">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<script type="importmap">{"imports":{"three":"./vendor/three.module.js"}}</script>
+</head>
+<body data-badge="{{BADGE_STYLE}}">
+<div id="stage" class="stage">
+  <canvas id="gl" aria-label="{{TITLE}}"></canvas>
+  <svg id="leaders" class="leaders" aria-hidden="true"></svg>
+  <div id="overlay" class="overlay"></div>
+  <div id="loading" class="loading"><span data-t="loading"></span></div>
+  <div id="hint" class="hint" role="note"><span id="hintText"></span><button type="button" id="hintX" data-t-aria="closeHint">×</button></div>
+</div>
+
+<header class="bar-top">
+  <a class="brand" href="index.html" aria-label="{{BRAND}}">{{BRAND}}<b>{{BADGE}}</b></a>
+  <div class="search" role="search">
+    <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>
+    <input id="q" type="search" data-t-placeholder="search" autocomplete="off" data-t-aria="searchLabel" aria-controls="results" aria-expanded="false">
+    <button type="button" id="qclear" class="qclear" data-t-aria="clearSearch" hidden>✕</button>
+    <ul id="results" class="results" role="listbox" hidden></ul>
+  </div>
+  <nav class="links">
+    <button type="button" id="condBtn" class="condbtn" aria-expanded="false" aria-controls="cond"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 15c3-6 7-6 10 0s7 6 10 0M2 20c3-3 7-3 10 0s7 3 10 0"/></svg><span data-t="weather"></span></button>
+    <a href="roteiro.html" data-t="itinerary"></a>
+  </nav>
+</header>
+
+<aside class="legend" id="legend" data-t-aria="filters">
+  <button type="button" class="legend-toggle" id="legendToggle" aria-expanded="true" data-t="filters"></button>
+  <div class="legend-body" id="legendBody"></div>
+</aside>
+<div class="zoom" role="group">
+  <button type="button" id="zin" data-t-aria="zoomIn">+</button>
+  <button type="button" id="zout" data-t-aria="zoomOut">−</button>
+  <button type="button" id="zme" data-t-aria="showMe" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3"/><circle cx="12" cy="12" r="7.5"/></svg></button>
+  <button type="button" id="zhome" data-t-aria="showAll"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 11l8-7 8 7M6 10v10h12V10"/></svg></button>
+</div>
+
+<nav class="days" id="days" data-t-aria="chooseDay"></nav>
+<button type="button" class="creditsbtn" id="creditsBtn" data-t="credits"></button>
+
+<aside class="cond" id="cond" role="dialog" aria-modal="false" aria-labelledby="condTitle" hidden>
+  <div class="chead"><h2 id="condTitle" data-t="wxTitle"></h2><button type="button" class="close" id="condX" data-t-aria="close">✕</button></div>
+  <div class="cbody" id="condBody"></div>
+</aside>
+
+<aside class="creditsbox" id="credits" role="dialog" aria-labelledby="creditsTitle" hidden>
+  <div class="chead"><h2 id="creditsTitle" data-t="credits"></h2><button type="button" class="close" id="creditsX" data-t-aria="close">✕</button></div>
+  <ul id="creditsList"></ul>
+</aside>
+
+<div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+<div class="offline" id="offline" role="status" data-t="offline" hidden></div>
+
+<section class="card" id="card" role="dialog" aria-modal="false" aria-labelledby="cardTitle" hidden></section>
+
+<script src="data/trip.js"></script>
+<script src="data/tides.js"></script>
+<script src="i18n.js"></script>
+<script type="module" src="app.js"></script>
+</body>
+</html>

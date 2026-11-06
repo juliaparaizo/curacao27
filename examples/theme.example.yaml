@@ -1,0 +1,43 @@
+# Every theme option. Without this file the site uses the oahu preset.
+preset: oahu                        # oahu (warm paper) | minimal | dark
+
+brand:
+  name: "O'ahu"
+  badge: "26"                       # small label next to the name
+  badge_style: highlighter           # highlighter | pill | none
+
+fonts:                              # Google Font names, from @fontsource
+  display: "Darumadrop One"         # what you see first: brand, buttons, pins
+  display_thin: 0.038em             # thins the letters with an outline (0 = off)
+  body: "Inter"                     # cards and long text
+  mono: "IBM Plex Mono"             # times and details
+
+colors:
+  bg: "#E9E6DF"
+  card: "#FBFAF6"
+  ink: "#1C221E"
+  accent: "#C9E68E"
+  line: "#DCD7CB"
+
+map:                                # colors of the map
+  land_low: "#C9D98F"
+  land_mid: "#86B56A"
+  land_high: "#3A6E44"
+  dry: "#D4C789"
+  sand: "#F1E3B8"
+  urban: "#D9D5CA"
+  sea_shallow: "#86D8CF"
+  sea_deep: "#2A73A6"
+  road: "#FBF6E8"
+  exaggeration: auto                # or a number, like 4
+
+pins:
+  types:                            # color and icon by type
+    surf: {color: "#1F7FA6", icon: wave}
+    hike: {color: "#3F7A3A", icon: mountain}
+    food: {color: "#9A4E26", icon: plate}
+
+ui:
+  clouds: true
+  animated_sea: true
+  day_colors: auto                  # or a list of colors, one per day

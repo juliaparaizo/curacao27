@@ -1,0 +1,52 @@
+# Every field of a trip, with sample values. Only title, dates.start and days are required.
+# Anything else is inferred, and the build prints what it inferred so you can review it.
+
+title: "Rio 5 days"
+subtitle: "A short trip"
+dates: {start: 2027-03-10, end: 2027-03-14}
+timezone: America/Sao_Paulo         # optional: inferred from the coordinates
+language: en                        # pt-BR | en | es
+units: {temp: C, distance: km, waves: ft}
+
+home:                               # optional: where you sleep. Becomes the "home" pin.
+  name: "Our hotel"
+  address: "Copacabana, Rio de Janeiro"
+  # Careful: this site is public. A neighborhood is enough, you do not need the street number.
+
+regions:
+  max_km: 400                       # optional: largest side of one 3D map. Groups adapt to the trip.
+
+places:                             # optional: places can also go straight into the days, by name
+  - id: sugarloaf
+    name: Sugarloaf Mountain
+    lat: -22.9493
+    lon: -43.1546
+    type: hike                      # surf | hike | food | sight | travel | maybe ...
+    desc: "Granite peak at the mouth of Guanabara Bay."
+    tip: "Go up before sunset."
+    photo: photos/sugarloaf.jpg     # use your own photos, or ones you are licensed to use
+    photo_focus: "center 55%"       # optional: part of the photo that must stay visible
+    model: tower                    # optional: 3D landmark from the kit
+    camera: {zoom: 10}              # optional
+
+days:
+  - date: 2027-03-10                # optional: defaults to dates.start plus the day's position
+    title: "Arrival"
+    items:
+      - {time: "09:00", type: travel, text: "Land at Galeao", place: "Galeao International Airport, Rio de Janeiro"}
+      - {time: "12:00", type: food,   text: "Lunch downtown", place: "Confeitaria Colombo, Rio de Janeiro"}
+      - {time: "17:00", text: "Sunset", place: sugarloaf}
+    route_via: []                   # optional: extra points the route must pass through
+
+modules:
+  weather: true
+  surf: false
+  tides: false
+  landmarks: auto                   # auto | off
+
+services:                           # optional: use your own servers
+  geocoder: https://photon.komoot.io/api/
+  router: https://routing.openstreetmap.de/routed-car/route/v1/driving/
+
+downloads:                          # optional: extra files on the itinerary page
+  - files/itinerary.pdf

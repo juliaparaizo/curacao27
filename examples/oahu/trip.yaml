@@ -1,0 +1,436 @@
+# Example trip with public places only. Used as the regression test against the original site.
+title: O'ahu
+subtitle: Exemplo de viagem de 6 dias pela ilha
+dates:
+  start: '2027-01-18'
+language: pt-BR
+units:
+  temp: C
+  distance: km
+  waves: ft
+landmarks: landmarks.js
+places:
+- id: rainbow-bridge
+  name: Rainbow Bridge
+  lat: 21.5936
+  lon: -158.1034
+  type: sight
+  desc: Ponte de dois arcos de 1921 sobre o rio Anahulu, na entrada de Haleiwa.
+  model: bridge
+  camera:
+    zoom: 4.5
+    dir:
+    - 0.62
+    - 0.52
+    - 0.58
+- id: matsumoto
+  name: Matsumoto Shave Ice
+  lat: 21.5914
+  lon: -158.1026
+  type: food
+  desc: Shave ice na mesma janelinha de Haleiwa desde 1951.
+- id: rays
+  name: Ray's Kiawe Broiled Chicken
+  lat: 21.5853
+  lon: -158.1043
+  type: food
+  desc: Frango assado na lenha de kiawe, numa barraca à beira da estrada em Haleiwa.
+- id: waimea
+  name: Waimea Bay
+  lat: 21.6405
+  lon: -158.0668
+  type: beach
+  desc: Baía famosa do North Shore. No inverno é onde acontece The Eddie.
+- id: pipeline
+  name: Pipeline
+  lat: 21.665
+  lon: -158.053
+  type: sight
+  desc: A onda quebra sobre uma bancada de coral rasa. O nome veio em 1961, quando os tubos lembraram uns canos
+    de uma obra na estrada.
+- id: sunset-beach
+  name: Sunset Beach
+  lat: 21.6782
+  lon: -158.041
+  type: beach
+  desc: Areia larga de frente para o mar de inverno.
+- id: kualoa
+  name: Kualoa Ranch
+  lat: 21.5205
+  lon: -157.837
+  type: sight
+  desc: O vale Ka'a'awa já serviu de cenário para Jurassic Park, Lost, Kong e dezenas de outras produções. O tour
+    Movie Sites passa pelos lugares das filmagens.
+  camera:
+    zoom: 7
+- id: mokolii
+  name: Mokoli'i
+  lat: 21.5097
+  lon: -157.8306
+  type: sight
+  desc: A ilhota em forma de chapéu na ponta norte da Baía de Kaneohe.
+- id: byodoin
+  name: Templo Byodo-In
+  lat: 21.4306
+  lon: -157.832
+  type: sight
+  desc: Réplica do templo Byōdō-in de Uji, no Japão, dedicada em 1968 pelos 100 anos da chegada dos primeiros imigrantes
+    japoneses ao Havaí. O Ko'olau fecha o fundo.
+  model: temple
+  camera:
+    zoom: 5.5
+    dir:
+    - 0.42
+    - 0.62
+    - -0.66
+- id: hoomaluhia
+  name: Ho'omaluhia
+  lat: 21.387
+  lon: -157.8085
+  type: sight
+  desc: Jardim botânico gratuito com um lago e o Ko'olau inteiro de fundo.
+- id: kjs
+  name: KJ's Local Grindz
+  lat: 21.4105
+  lon: -157.8
+  type: food
+  desc: Plate local em Kaneohe. Pedir o frango com furikake.
+- id: haiku
+  name: Haiku Stairs
+  lat: 21.4096
+  lon: -157.8227
+  type: sight
+  desc: 'Escada na crista do Ko''olau, construída em 1942 pela Marinha para uma estação de rádio. Fechada ao público:
+    fica aqui como marco da paisagem.'
+  model: ridge_stairs
+  camera:
+    zoom: 10
+    dir:
+    - 0.5
+    - 0.62
+    - -0.6
+- id: pali
+  name: Mirante do Pali
+  lat: 21.3667
+  lon: -157.7933
+  type: sight
+  desc: Mirante a uns 1.200 pés no paredão do Ko'olau. Aqui, em 1795, Kamehameha I venceu a Batalha de Nu'uanu e
+    tomou O'ahu.
+  tip: Venta muito.
+- id: maunawili
+  name: Maunawili Falls
+  lat: 21.36
+  lon: -157.764
+  type: hike
+  desc: Trilha pela floresta até a cachoeira.
+- id: kailua
+  name: Kailua
+  lat: 21.396
+  lon: -157.74
+  type: beach
+  desc: Cidade de praia do lado windward.
+- id: lanikai
+  name: Lanikai
+  lat: 21.392
+  lon: -157.715
+  type: beach
+  desc: Areia branca e as duas ilhas Mokulua na frente.
+- id: hanauma
+  name: Hanauma Bay
+  lat: 21.2691
+  lon: -157.6938
+  type: beach
+  desc: Uma cratera vulcânica que o mar invadiu. Em 1967 virou o primeiro Marine Life Conservation District do Havaí.
+    Snorkel no recife.
+  tip: Precisa de reserva.
+- id: makapuu
+  name: Farol de Makapu'u
+  lat: 21.3099
+  lon: -157.6497
+  type: hike
+  desc: Trilha asfaltada até o farol de 1909, que tem a maior lente de farol dos EUA. Vista da Rabbit Island e de
+    Waimanalo.
+  model: lighthouse
+  camera:
+    zoom: 6
+    dir:
+    - -0.3
+    - 0.6
+    - 0.75
+- id: waikiki
+  name: Waikiki
+  lat: 21.276
+  lon: -157.827
+  type: beach
+  desc: Até os anos 1920, quase toda a área era alagada, com taro, arroz e tanques de peixe. O Canal Ala Wai drenou
+    tudo e abriu espaço para os hotéis.
+- id: queens
+  name: Queens
+  lat: 21.27
+  lon: -157.8245
+  type: surf
+  desc: Onda macia de longboard em Waikiki.
+- id: rainbow-drivein
+  name: Rainbow Drive-In
+  lat: 21.2765
+  lon: -157.814
+  type: food
+  desc: Drive-in clássico de Kapahulu, perto de Waikiki.
+- id: diamond
+  name: Diamond Head
+  lat: 21.262
+  lon: -157.805
+  type: hike
+  desc: Lē'ahi em havaiano. Precisa de reserva para subir.
+- id: pearl
+  name: Pearl Harbor
+  lat: 21.367
+  lon: -157.939
+  type: sight
+  desc: A base atacada em 7 de dezembro de 1941.
+- id: kaena
+  name: Ka'ena Point
+  lat: 21.575
+  lon: -158.281
+  type: hike
+  desc: A ponta oeste da ilha, reserva natural desde 1983.
+  tip: Fique longe das focas.
+- id: hnl
+  name: Aeroporto de Honolulu
+  lat: 21.3187
+  lon: -157.9225
+  type: travel
+  desc: Aeroporto principal da ilha. Na aproximação dá para ver o recife turquesa em volta da pista.
+  model: airport
+  camera:
+    zoom: 9
+    dir:
+    - 0.1
+    - 0.8
+    - 0.6
+- id: teds
+  name: Ted's Bakery
+  lat: 21.6795
+  lon: -158.039
+  type: food
+  desc: Plate no almoço e a famosa torta de chocolate com haupia de sobremesa.
+- id: puaena
+  name: Pua'ena Point
+  lat: 21.6005
+  lon: -158.1075
+  type: surf
+  desc: Pico protegido, colado no porto de Haleiwa.
+- id: bowls
+  name: Ala Moana Bowls
+  lat: 21.286
+  lon: -157.848
+  type: surf
+  desc: Esquerda clássica do South Shore, na entrada do porto. Só funciona com swell sul.
+stories:
+- id: northshore
+  title: North Shore
+  lat: 21.728
+  lon: -158.085
+  story:
+  - No inverno, tempestades no Pacífico Norte mandam swells que viram ondas gigantes aqui. É o palco mais famoso
+    do surf de onda grande.
+  - 'Em Waimea acontece a The Eddie, campeonato em homenagem ao salva-vidas e surfista havaiano Eddie Aikau. Ela
+    só roda quando as ondas passam de uns 40 pés de face: foram só 11 edições em 41 anos, a última em 22 de dezembro
+    de 2024.'
+  - Pipeline ganhou o nome em dezembro de 1961. O shaper Mike Diffenderfer achou os tubos parecidos com os canos
+    de uma obra na estrada, e o nome pegou no filme de Bruce Brown.
+  - 'Haleiwa é a cidadezinha da região: a Rainbow Bridge é de 1921 e o Matsumoto vende shave ice desde 1951.'
+  places:
+  - puaena
+  - rainbow-bridge
+  - matsumoto
+  - waimea
+  - pipeline
+  - sunset-beach
+  - teds
+- id: windward
+  title: Lado Windward
+  lat: 21.5
+  lon: -157.765
+  story:
+  - É o lado que recebe de frente os ventos alísios de nordeste. Por isso é mais verde e chove mais.
+  - 'Os paredões do Ko''olau que aparecem da estrada são a marca de um dos maiores deslizamentos de terra do planeta:
+    o Nu''uanu Slide arrancou o lado nordeste do vulcão Ko''olau entre 1 e 1,5 milhão de anos atrás e espalhou pedaços
+    da ilha por mais de 200 km no fundo do mar.'
+  - Kualoa era terra sagrada na época dos reis havaianos. Hoje o vale Ka'a'awa é o set de cinema mais famoso da
+    ilha.
+  places:
+  - kualoa
+  - mokolii
+  - byodoin
+  - hoomaluhia
+  - kjs
+  - kailua
+  - lanikai
+- id: honolulu
+  title: Honolulu e Waikiki
+  lat: 21.312
+  lon: -157.838
+  story:
+  - 'Até o começo do século 20, cerca de 85% de Waikiki eram área alagada: taro, arroz, tanques de peixe e de patos.'
+  - O Canal Ala Wai, cavado entre 1921 e 1928, drenou tudo e abriu espaço para os hotéis que estão lá hoje.
+  - Queens leva o nome porque ficava em frente à casa de praia da Rainha Lili'uokalani, a última monarca do Havaí.
+  - Diamond Head se chama Lē'ahi em havaiano. O nome em inglês veio de marinheiros britânicos que, em 1825, confundiram
+    cristais de calcita com diamantes.
+  places:
+  - queens
+  - waikiki
+  - bowls
+  - rainbow-drivein
+  - diamond
+  - hnl
+- id: koolau
+  title: Montanhas Ko'olau
+  lat: 21.47
+  lon: -157.905
+  story:
+  - É o que sobrou do vulcão Ko'olau, o mais novo dos dois que formaram O'ahu.
+  - 'A Haiku Stairs sobe essa crista: a escada foi construída em 1942 pela Marinha americana para levar cabos até
+    uma estação de rádio.'
+  - No Mirante do Pali, em 1795, Kamehameha I venceu a Batalha de Nu'uanu e tomou O'ahu, empurrando os guerreiros
+    da ilha pelo penhasco. Foi o passo decisivo para unificar o Havaí.
+  places:
+  - haiku
+  - pali
+  - maunawili
+  - hoomaluhia
+- id: waianae
+  title: Montanhas Wai'anae
+  lat: 21.47
+  lon: -158.165
+  story:
+  - 'O vulcão mais antigo da ilha: as lavas mais velhas têm cerca de 3,9 milhões de anos e a última erupção foi
+    há uns 2,5 milhões.'
+  - O Ka'ala, com 1.227 m, é o ponto mais alto de O'ahu. Lá em cima tem um platô pantanoso e uma estação de rastreamento
+    da FAA.
+  places:
+  - kaena
+- id: kbay
+  title: Baía de Kaneohe
+  lat: 21.462
+  lon: -157.808
+  story:
+  - Com 45 km², é a maior área de água abrigada das ilhas principais do Havaí, protegida por uma barreira de recife.
+  - A ilhota Moku o Lo'e (Coconut Island) aparece na abertura da série Gilligan's Island. Hoje é um centro de pesquisa
+    marinha da Universidade do Havaí.
+  - Mokoli'i, o chapéu no canto norte da baía, fica bem em frente ao Kualoa.
+  places:
+  - mokolii
+  - kualoa
+  - byodoin
+  - kjs
+- id: pearl
+  title: Pearl Harbor
+  lat: 21.343
+  lon: -157.99
+  story:
+  - A base naval atacada pelo Japão em 7 de dezembro de 1941, o que levou os Estados Unidos à Segunda Guerra.
+  places:
+  - pearl
+  - hnl
+days:
+- title: North Shore
+  items:
+  - time: 08:00
+    type: surf
+    text: Surf em Pua'ena
+    place: puaena
+  - time: '10:00'
+    text: Ponte de Haleiwa
+    place: rainbow-bridge
+  - time: '12:00'
+    text: Almoço no Ray's
+    place: rays
+  - time: '13:00'
+    text: Shave ice no Matsumoto
+    place: matsumoto
+  - time: '15:00'
+    text: Waimea Bay
+    place: waimea
+  - time: '16:00'
+    text: Pipeline
+    place: pipeline
+  - time: '17:45'
+    text: Pôr do sol em Sunset Beach
+    place: sunset-beach
+- title: Lado windward
+  items:
+  - time: 09:00
+    text: Kualoa Ranch
+    place: kualoa
+  - time: '11:00'
+    text: Vista de Mokoli'i
+    place: mokolii
+  - time: '12:30'
+    text: Almoço no KJ's
+    place: kjs
+  - time: '14:00'
+    text: Templo Byodo-In
+    place: byodoin
+  - time: '15:00'
+    text: Jardim Ho'omaluhia
+    place: hoomaluhia
+- title: Honolulu e Waikiki
+  items:
+  - time: 07:30
+    text: Diamond Head
+    place: diamond
+  - time: '10:00'
+    text: Surf em Queens
+    place: queens
+  - time: '13:00'
+    text: Rainbow Drive-In
+    place: rainbow-drivein
+  - time: '15:00'
+    text: Waikiki
+    place: waikiki
+- title: Lado leste
+  items:
+  - time: 07:00
+    text: Snorkel em Hanauma Bay
+    place: hanauma
+  - time: '10:00'
+    text: Farol de Makapu'u
+    place: makapuu
+  - time: '13:00'
+    text: Almoço em Kailua
+    place: kailua
+  - time: '15:00'
+    text: Praia de Lanikai
+    place: lanikai
+- title: Montanhas Ko'olau
+  items:
+  - time: 09:00
+    text: Mirante do Pali
+    place: pali
+  - time: '11:00'
+    text: Maunawili Falls
+    place: maunawili
+  - time: '15:00'
+    text: Haiku Stairs vista de longe
+    place: haiku
+- title: Lado oeste e volta
+  items:
+  - time: 08:00
+    text: Ka'ena Point
+    place: kaena
+  - time: '12:30'
+    text: Almoço no Ted's
+    place: teds
+  - time: '15:00'
+    text: Pearl Harbor
+    place: pearl
+  - time: '18:00'
+    type: travel
+    text: Aeroporto
+    place: hnl
+modules:
+  weather: true
+  surf: true
+  tides: true
+surf_spots: surf_spots.yaml

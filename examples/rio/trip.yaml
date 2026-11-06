@@ -1,0 +1,53 @@
+# Cidade densa, morros e praias, em português.
+title: "Rio em 5 dias"
+subtitle: "Morros, praias e botecos"
+dates: {start: 2027-03-10}
+language: pt-BR
+
+home:
+  name: "Hotel em Copacabana"
+  address: "Copacabana, Rio de Janeiro"
+
+places:
+  - id: pao-de-acucar
+    name: Pão de Açúcar
+    lat: -22.9493
+    lon: -43.1546
+    type: hike
+    desc: "Morro de granito na entrada da Baía de Guanabara, com bondinho desde 1912."
+    tip: "Suba perto do pôr do sol."
+    camera: {zoom: 7}
+  - id: cristo
+    name: Cristo Redentor
+    lat: -22.9519
+    lon: -43.2105
+    type: sight
+    desc: "Estátua de 30 metros no alto do Corcovado, inaugurada em 1931."
+    model: tower
+
+days:
+  - title: "Chegada"
+    items:
+      - {time: "10:00", type: travel, text: "Pouso no Galeão", place: "Galeao International Airport, Rio de Janeiro"}
+      - {time: "14:00", type: food, text: "Almoço no centro", place: "Confeitaria Colombo, Rio de Janeiro"}
+      - {time: "18:00", text: "Pôr do sol no Arpoador", type: sight, place: "Arpoador, Rio de Janeiro"}
+  - title: "Cartões-postais"
+    items:
+      - {time: "08:30", text: "Cristo pelo trem do Corcovado", place: cristo}
+      - {time: "13:00", type: food, text: "Almoço em Santa Teresa", place: "Santa Teresa, Rio de Janeiro"}
+      - {time: "17:00", text: "Bondinho do Pão de Açúcar", place: pao-de-acucar}
+  - title: "Floresta da Tijuca"
+    items:
+      - {time: "08:00", type: hike, text: "Pico da Tijuca", place: "Pico da Tijuca, Rio de Janeiro"}
+      - {time: "13:00", type: sight, text: "Vista Chinesa", place: "Vista Chinesa, Rio de Janeiro"}
+      - {time: "16:00", type: sight, text: "Jardim Botânico", place: "Jardim Botanico do Rio de Janeiro"}
+  - title: "Praias"
+    items:
+      - {time: "09:00", type: beach, text: "Ipanema", place: "Praia de Ipanema, Rio de Janeiro"}
+      - {time: "12:00", type: beach, text: "Leblon", place: "Praia do Leblon, Rio de Janeiro"}
+      - {time: "16:00", type: hike, text: "Trilha do Morro Dois Irmãos", place: "Morro Dois Irmãos, Rio de Janeiro"}
+  - title: "Centro e despedida"
+    items:
+      - {time: "10:00", type: museum, text: "Museu do Amanhã", place: "Museu do Amanha, Rio de Janeiro"}
+      - {time: "13:00", type: sight, text: "Escadaria Selarón", place: "Escadaria Selaron, Rio de Janeiro"}
+      - {time: "19:00", type: nightlife, text: "Noite na Lapa", place: "Arcos da Lapa, Rio de Janeiro"}

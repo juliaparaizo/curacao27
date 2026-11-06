@@ -1,0 +1,36 @@
+# Night map: dark interface and deep colors.
+brand:
+  badge_style: pill
+
+fonts:
+  display: "Inter"
+  display_thin: 0
+  body: "Inter"
+  mono: "IBM Plex Mono"
+
+colors:
+  bg: "#14181C"
+  card: "#1E2429"
+  ink: "#EEF1EE"
+  accent: "#7DD3A8"
+  line: "#333B42"
+
+map:
+  land_low: "#55634A"
+  land_mid: "#3F5240"
+  land_high: "#2A3C31"
+  dry: "#6A6048"
+  sand: "#8A7F62"
+  urban: "#5C5F63"
+  rock: "#5F5A50"
+  snow: "#C9CFD2"
+  sea_shallow: "#2F6B78"
+  sea_deep: "#123047"
+  road: "#D8C98F"
+  river: "#3F8FA8"
+  exaggeration: auto
+
+ui:
+  clouds: false
+  animated_sea: true
+  day_colors: auto

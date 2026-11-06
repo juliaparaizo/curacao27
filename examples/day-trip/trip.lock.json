@@ -1,0 +1,536 @@
+{
+ "geocode": {
+  "alcazar de toledo": [
+   {
+    "city": "San Luis",
+    "country": "Perú",
+    "label": "Alcazar de Toledo, San Luis, Lima, Perú",
+    "lat": -12.0770562,
+    "lon": -76.9920418,
+    "osm": "residential",
+    "state": "Lima"
+   },
+   {
+    "city": "Culiacán Rosales",
+    "country": "México",
+    "label": "Alcazar de Toledo, Culiacán Rosales, Sinaloa, México",
+    "lat": 24.8317257,
+    "lon": -107.4496462,
+    "osm": "residential",
+    "state": "Sinaloa"
+   },
+   {
+    "city": "San Antonio",
+    "country": "Ecuador",
+    "label": "Alcazar de Toledo 2, San Antonio, Pichincha, Ecuador",
+    "lat": -0.0250318,
+    "lon": -78.4510086,
+    "osm": "residential",
+    "state": "Pichincha"
+   },
+   {
+    "city": "Toledo",
+    "country": "España",
+    "label": "Alcázar de Toledo, Toledo, Castilla-La Mancha, España",
+    "lat": 39.8580056,
+    "lon": -4.0205045,
+    "osm": "castle",
+    "state": "Castilla-La Mancha"
+   },
+   {
+    "city": "Rio de Janeiro",
+    "country": "Brasil",
+    "label": "Praça Alcazar de Toledo, Rio de Janeiro, Brasil",
+    "lat": -22.9837995,
+    "lon": -43.2136784,
+    "osm": "park",
+    "state": "Rio de Janeiro"
+   }
+  ],
+  "catedral de toledo": [
+   {
+    "city": "Guadalupe",
+    "country": "México",
+    "label": "Catedral De Toledo, Guadalupe, Nuevo León, México",
+    "lat": 25.719453,
+    "lon": -100.1947523,
+    "osm": "residential",
+    "state": "Nuevo León"
+   },
+   {
+    "city": "Toledo",
+    "country": "España",
+    "label": "Catedral de Toledo, Toledo, Castilla-La Mancha, España",
+    "lat": 39.8566253,
+    "lon": -4.0240067,
+    "osm": "ticket",
+    "state": "Castilla-La Mancha"
+   },
+   {
+    "city": "Toledo",
+    "country": "España",
+    "label": "Catedral de Santa María, Toledo, Castilla-La Mancha, España",
+    "lat": 39.857363,
+    "lon": -4.0236384,
+    "osm": "place_of_worship",
+    "state": "Castilla-La Mancha"
+   },
+   {
+    "city": "Madrid",
+    "country": "España",
+    "label": "Calle Catedral de Toledo, Madrid, Comunidad de Madrid, España",
+    "lat": 40.3636666,
+    "lon": -3.7588053,
+    "osm": "residential",
+    "state": "Comunidad de Madrid"
+   },
+   {
+    "city": null,
+    "country": "México",
+    "label": "Calle Catedral de Toledo, Nuevo León, México",
+    "lat": 25.8758875,
+    "lon": -100.3130195,
+    "osm": "residential",
+    "state": "Nuevo León"
+   }
+  ],
+  "puente de san martin, toledo": [
+   {
+    "city": "Toledo",
+    "country": "España",
+    "label": "Puente de San Martín, Toledo, Castilla-La Mancha, España",
+    "lat": 39.8566828,
+    "lon": -4.0341265,
+    "osm": "bridge",
+    "state": "Castilla-La Mancha"
+   },
+   {
+    "city": "Toledo",
+    "country": "España",
+    "label": "Puente de San Martín, Toledo, Castilla-La Mancha, España",
+    "lat": 39.8566925,
+    "lon": -4.0341151,
+    "osm": "footway",
+    "state": "Castilla-La Mancha"
+   },
+   {
+    "city": "Toledo",
+    "country": "España",
+    "label": "Torre del Puente de San Martín, Toledo, Castilla-La Mancha, España",
+    "lat": 39.8571402,
+    "lon": -4.0335515,
+    "osm": "yes",
+    "state": "Castilla-La Mancha"
+   },
+   {
+    "city": "Toledo",
+    "country": "España",
+    "label": "Torre del Puente de San Martín, Toledo, Castilla-La Mancha, España",
+    "lat": 39.8562741,
+    "lon": -4.0346098,
+    "osm": "city_gate",
+    "state": "Castilla-La Mancha"
+   },
+   {
+    "city": "Toledo",
+    "country": "España",
+    "label": "Torre del Puente de San Martín, Toledo, Castilla-La Mancha, España",
+    "lat": 39.8562405,
+    "lon": -4.0346452,
+    "osm": "yes",
+    "state": "Castilla-La Mancha"
+   }
+  ]
+ },
+ "routes": {
+  "39.85663,-4.02401;39.85801,-4.02050;39.85668,-4.03413": [
+   [
+    39.85675,
+    -4.024
+   ],
+   [
+    39.85675,
+    -4.02321
+   ],
+   [
+    39.85687,
+    -4.02303
+   ],
+   [
+    39.85688,
+    -4.02277
+   ],
+   [
+    39.85632,
+    -4.02255
+   ],
+   [
+    39.85578,
+    -4.02249
+   ],
+   [
+    39.85548,
+    -4.02261
+   ],
+   [
+    39.85523,
+    -4.02258
+   ],
+   [
+    39.8545,
+    -4.02235
+   ],
+   [
+    39.85415,
+    -4.02233
+   ],
+   [
+    39.85386,
+    -4.02216
+   ],
+   [
+    39.85399,
+    -4.02171
+   ],
+   [
+    39.85367,
+    -4.02075
+   ],
+   [
+    39.8537,
+    -4.0205
+   ],
+   [
+    39.85389,
+    -4.02036
+   ],
+   [
+    39.85459,
+    -4.02028
+   ],
+   [
+    39.8558,
+    -4.01917
+   ],
+   [
+    39.85654,
+    -4.01884
+   ],
+   [
+    39.85768,
+    -4.01806
+   ],
+   [
+    39.85802,
+    -4.01791
+   ],
+   [
+    39.85878,
+    -4.01787
+   ],
+   [
+    39.85955,
+    -4.01802
+   ],
+   [
+    39.85984,
+    -4.01795
+   ],
+   [
+    39.86069,
+    -4.01821
+   ],
+   [
+    39.86094,
+    -4.0184
+   ],
+   [
+    39.86164,
+    -4.01985
+   ],
+   [
+    39.86201,
+    -4.02023
+   ],
+   [
+    39.86236,
+    -4.02037
+   ],
+   [
+    39.86305,
+    -4.02037
+   ],
+   [
+    39.86335,
+    -4.0202
+   ],
+   [
+    39.86356,
+    -4.01995
+   ],
+   [
+    39.8638,
+    -4.02005
+   ],
+   [
+    39.86384,
+    -4.02027
+   ],
+   [
+    39.86369,
+    -4.02069
+   ],
+   [
+    39.86364,
+    -4.02269
+   ],
+   [
+    39.86334,
+    -4.02386
+   ],
+   [
+    39.86304,
+    -4.02451
+   ],
+   [
+    39.86312,
+    -4.02501
+   ],
+   [
+    39.86274,
+    -4.02533
+   ],
+   [
+    39.86233,
+    -4.0255
+   ],
+   [
+    39.86219,
+    -4.02541
+   ],
+   [
+    39.86215,
+    -4.02521
+   ],
+   [
+    39.8617,
+    -4.02525
+   ],
+   [
+    39.86131,
+    -4.02503
+   ],
+   [
+    39.86111,
+    -4.02443
+   ],
+   [
+    39.86128,
+    -4.02191
+   ],
+   [
+    39.86078,
+    -4.02116
+   ],
+   [
+    39.86048,
+    -4.02103
+   ],
+   [
+    39.85987,
+    -4.02111
+   ],
+   [
+    39.85801,
+    -4.02109
+   ],
+   [
+    39.8574,
+    -4.0211
+   ],
+   [
+    39.85736,
+    -4.01932
+   ],
+   [
+    39.85873,
+    -4.01919
+   ],
+   [
+    39.85864,
+    -4.01887
+   ],
+   [
+    39.85828,
+    -4.01871
+   ],
+   [
+    39.85831,
+    -4.01896
+   ],
+   [
+    39.85862,
+    -4.01908
+   ],
+   [
+    39.85938,
+    -4.01904
+   ],
+   [
+    39.85935,
+    -4.0189
+   ],
+   [
+    39.85868,
+    -4.01833
+   ],
+   [
+    39.85803,
+    -4.01811
+   ],
+   [
+    39.85787,
+    -4.01798
+   ],
+   [
+    39.85802,
+    -4.01791
+   ],
+   [
+    39.85878,
+    -4.01787
+   ],
+   [
+    39.85955,
+    -4.01802
+   ],
+   [
+    39.85984,
+    -4.01795
+   ],
+   [
+    39.86076,
+    -4.01825
+   ],
+   [
+    39.86105,
+    -4.01854
+   ],
+   [
+    39.86171,
+    -4.01995
+   ],
+   [
+    39.86194,
+    -4.02018
+   ],
+   [
+    39.86236,
+    -4.02037
+   ],
+   [
+    39.86305,
+    -4.02037
+   ],
+   [
+    39.86363,
+    -4.01994
+   ],
+   [
+    39.86376,
+    -4.02
+   ],
+   [
+    39.86384,
+    -4.02018
+   ],
+   [
+    39.86369,
+    -4.02061
+   ],
+   [
+    39.86364,
+    -4.02269
+   ],
+   [
+    39.86334,
+    -4.02386
+   ],
+   [
+    39.86307,
+    -4.0244
+   ],
+   [
+    39.86304,
+    -4.02461
+   ],
+   [
+    39.86312,
+    -4.02501
+   ],
+   [
+    39.86285,
+    -4.02529
+   ],
+   [
+    39.86257,
+    -4.02671
+   ],
+   [
+    39.86271,
+    -4.02742
+   ],
+   [
+    39.86255,
+    -4.02761
+   ],
+   [
+    39.86218,
+    -4.02867
+   ],
+   [
+    39.86148,
+    -4.03126
+   ],
+   [
+    39.86122,
+    -4.03198
+   ],
+   [
+    39.86078,
+    -4.03265
+   ],
+   [
+    39.85974,
+    -4.0335
+   ],
+   [
+    39.85928,
+    -4.03407
+   ],
+   [
+    39.85826,
+    -4.03664
+   ],
+   [
+    39.85813,
+    -4.03683
+   ],
+   [
+    39.85801,
+    -4.03688
+   ],
+   [
+    39.85718,
+    -4.03611
+   ],
+   [
+    39.8561,
+    -4.03481
+   ]
+  ]
+ },
+ "timezone": {
+  "39.9,-4.0": "Europe/Madrid"
+ }
+}

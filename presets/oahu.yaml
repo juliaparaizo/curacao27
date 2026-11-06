@@ -1,0 +1,36 @@
+# The original look: warm paper, soft greens, turquoise sea.
+brand:
+  badge_style: highlighter
+
+fonts:
+  display: "Darumadrop One"
+  display_thin: 0.038em
+  body: "Inter"
+  mono: "IBM Plex Mono"
+
+colors:
+  bg: "#E9E6DF"
+  card: "#FBFAF6"
+  ink: "#1C221E"
+  accent: "#C9E68E"
+  line: "#DCD7CB"
+
+map:
+  land_low: "#C9D98F"
+  land_mid: "#86B56A"
+  land_high: "#3A6E44"
+  dry: "#D4C789"
+  sand: "#F1E3B8"
+  urban: "#D9D5CA"
+  rock: "#A39A84"
+  snow: "#F6F7F4"
+  sea_shallow: "#86D8CF"
+  sea_deep: "#2A73A6"
+  road: "#FBF6E8"
+  river: "#5DB3D3"
+  exaggeration: auto
+
+ui:
+  clouds: true
+  animated_sea: true
+  day_colors: auto

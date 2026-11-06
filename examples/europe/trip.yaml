@@ -1,0 +1,62 @@
+# Twelve days across three regions: each one gets its own 3D map, joined by an overview.
+title: "Lisbon, Rome and the Alps"
+subtitle: "Twelve days in Europe"
+dates: {start: 2027-06-05}
+language: en
+regions:
+  titles: {Lauterbrunnen: "Swiss Alps"}
+
+days:
+  - title: "Alfama and the river"
+    items:
+      - {time: "10:00", type: sight, text: "Walk up to the castle", place: "Castelo de Sao Jorge, Lisboa"}
+      - {time: "13:00", type: food, text: "Lunch in Alfama", place: "Alfama, Lisboa"}
+      - {time: "17:00", type: sight, text: "Sunset at the viewpoint", place: "Miradouro da Senhora do Monte, Lisboa"}
+  - title: "Belem"
+    items:
+      - {time: "10:00", type: sight, text: "Tower of Belem", place: "Torre de Belem, Lisboa"}
+      - {time: "12:00", type: food, text: "Custard tarts", place: "Pasteis de Belem, Lisboa"}
+      - {time: "15:00", type: museum, text: "Jeronimos Monastery", place: "Mosteiro dos Jeronimos, Lisboa"}
+  - title: "Sintra"
+    items:
+      - {time: "10:00", type: sight, text: "Pena Palace", place: "Palacio da Pena, Sintra"}
+      - {time: "15:00", type: hike, text: "Moorish Castle", place: "Castelo dos Mouros, Sintra"}
+      - {time: "18:00", type: sight, text: "Westernmost point of Europe", place: "Cabo da Roca, Portugal"}
+  - title: "Fly to Rome"
+    items:
+      - {time: "09:00", type: travel, text: "Flight from Lisbon", place: "Aeroporto Humberto Delgado, Lisboa"}
+      - {time: "14:00", type: travel, text: "Land in Rome", place: "Aeroporto di Roma Fiumicino"}
+      - {time: "19:00", type: food, text: "Dinner in Trastevere", place: "Trastevere, Roma"}
+  - title: "Ancient Rome"
+    items:
+      - {time: "09:00", type: sight, text: "Colosseum", place: "Colosseo, Roma"}
+      - {time: "11:30", type: sight, text: "Roman Forum", place: "Foro Romano, Roma"}
+      - {time: "17:00", type: sight, text: "Pantheon", place: "Pantheon, Roma"}
+  - title: "Vatican"
+    items:
+      - {time: "09:00", type: museum, text: "Vatican Museums", place: "Musei Vaticani"}
+      - {time: "13:00", type: sight, text: "St. Peter's Basilica", place: "Basilica di San Pietro"}
+      - {time: "18:00", type: sight, text: "Trevi Fountain", place: "Fontana di Trevi, Roma"}
+  - title: "Train to the Alps"
+    items:
+      - {time: "08:00", type: travel, text: "Train from Rome", place: "Roma Termini"}
+      - {time: "17:00", type: travel, text: "Arrive in Interlaken", place: "Interlaken Ost"}
+  - title: "Lauterbrunnen valley"
+    items:
+      - {time: "10:00", type: hike, text: "Staubbach Falls", place: "Staubbachfall, Lauterbrunnen"}
+      - {time: "14:00", type: hike, text: "Up to Murren", place: "Murren, Switzerland"}
+  - title: "Top of Europe"
+    items:
+      - {time: "08:00", type: travel, text: "Cog railway from Grindelwald", place: "Grindelwald"}
+      - {time: "12:00", type: sight, text: "Jungfraujoch", place: "Jungfraujoch"}
+  - title: "Lake Brienz"
+    items:
+      - {time: "11:00", type: sight, text: "Boat to Iseltwald", place: "Iseltwald"}
+      - {time: "16:00", type: hike, text: "Giessbach Falls", place: "Giessbachfalle"}
+  - title: "Harder Kulm"
+    items:
+      - {time: "10:00", type: hike, text: "Harder Kulm viewpoint", place: "Harder Kulm"}
+      - {time: "18:00", type: food, text: "Fondue night", place: "Interlaken"}
+  - title: "Home"
+    items:
+      - {time: "09:00", type: travel, text: "Train to Zurich and fly home", place: "Interlaken Ost"}

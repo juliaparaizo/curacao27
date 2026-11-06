@@ -1,0 +1,8 @@
+numpy
+scipy
+pillow
+pyyaml
+requests
+rasterio
+overturemaps
+shapely

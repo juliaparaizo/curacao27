@@ -1,0 +1,652 @@
+# Surf spots of O'ahu with researched coordinates, size ranges and hazards.
+- id: s_haleiwa
+  name: Haleiwa (Ali'i Beach)
+  lat: 21.596
+  lon: -158.1087
+  coast: north
+  facing: 300
+  win: 48
+  min: 4
+  max: 20
+  gain: 1.0
+  level: avancado
+  level_txt: Avançado
+  wave_txt: Direita e esquerda (mais direita) · bancada
+  best_swell: NO-O
+  best_wind: SE (terral)
+  best_tide: qualquer (melhor enchendo)
+  hazards: correnteza forte, fundo raso no inside (Toilet Bowl), crowd
+  desc: Bancada em frente ao Ali'i Beach Park.
+  maps: Haleiwa (Ali'i Beach), Oahu
+- id: s_puaena_point
+  name: Puaʻena Point
+  lat: 21.6015
+  lon: -158.1051
+  coast: north
+  facing: 330
+  win: 48
+  min: 2
+  max: 10
+  gain: 1.0
+  level: intermediario
+  level_txt: Intermediário
+  wave_txt: Direita e esquerda · bancada
+  best_swell: N-NO
+  hazards: ouriços, pedras, água suja depois de chuva
+  desc: ''
+  maps: Puaʻena Point, Oahu
+  place: puaena
+- id: s_laniakea
+  name: Laniakea
+  lat: 21.6196
+  lon: -158.0878
+  coast: north
+  facing: 340
+  win: 48
+  min: 4
+  max: 16
+  gain: 1.0
+  level: intermediario
+  level_txt: Intermediário
+  wave_txt: Direita · bancada
+  best_swell: N-NO
+  best_wind: SE-S (terral)
+  best_tide: qualquer (melhor enchendo)
+  hazards: inside raso, corrente forte para oeste em swell grande, crowd
+  desc: Direita longa que funciona melhor com swell reto de norte. A praia é famosa pelas tartarugas descansando
+    na areia.
+  maps: Laniakea, Oahu
+- id: s_jockos
+  name: Jocko's
+  lat: 21.6231
+  lon: -158.0858
+  coast: north
+  facing: 330
+  win: 48
+  min: 8
+  max: 24
+  gain: 1.0
+  level: avancado
+  level_txt: Avançado
+  wave_txt: Esquerda · bancada
+  best_swell: NO-N
+  best_wind: SE-S (terral)
+  best_tide: qualquer
+  hazards: corrente forte, bancada rasa, séries que limpam o line-up
+  desc: Esquerda de bancada que pode correr 300 a 500 m nos dias bons.
+  maps: Jocko's, Oahu
+- id: s_chuns_reef
+  name: Chun's Reef
+  lat: 21.6251
+  lon: -158.0833
+  coast: north
+  facing: 330
+  win: 48
+  min: 2
+  max: 10
+  gain: 1.0
+  level: intermediario
+  level_txt: Intermediário
+  wave_txt: Direita (e uma esquerda) · bancada
+  best_swell: NO-N
+  best_wind: SE-S (terral)
+  best_tide: qualquer (melhor enchendo)
+  hazards: bancada afiada, corrente no inside, arrombamento de carro
+  desc: ''
+  maps: Chun's Reef, Oahu
+- id: s_waimea_bay
+  name: Waimea Bay
+  lat: 21.6432
+  lon: -158.0665
+  coast: north
+  facing: 315
+  win: 48
+  min: 30
+  max: 78
+  gain: 1.0
+  level: expert
+  level_txt: Expert
+  wave_txt: Direita · bancada de point
+  best_swell: 'NO'
+  best_wind: L-SE (terral)
+  best_tide: qualquer
+  hazards: impacto pesado, correnteza no meio da baía, shorebreak, swell que entra de repente
+  desc: ''
+  maps: Waimea Bay, Oahu
+  place: waimea
+- id: s_log_cabins
+  name: Log Cabins
+  lat: 21.6524
+  lon: -158.063
+  coast: north
+  facing: 320
+  win: 48
+  min: 10
+  max: 24
+  gain: 1.0
+  level: expert
+  level_txt: Expert
+  wave_txt: Direita e esquerda (mais direita) · bancada
+  best_swell: NO-N
+  best_wind: L-SE (terral)
+  best_tide: média a cheia
+  hazards: bancada afiada, correnteza, localismo
+  desc: Bancada externa pesada e instável entre Waimea e Pipeline.
+  maps: Log Cabins, Oahu
+- id: s_off_the_wall
+  name: Off the Wall
+  lat: 21.6637
+  lon: -158.0547
+  coast: north
+  facing: 320
+  win: 48
+  min: 6
+  max: 12
+  gain: 1.0
+  level: expert
+  level_txt: Expert
+  wave_txt: Direita e esquerda (mais direita) · bancada
+  best_swell: NO-N
+  best_wind: L-SE (terral)
+  best_tide: média (melhor enchendo)
+  hazards: bancada rasa, ouriços, crowd
+  desc: Também chamada de Kodak Reef. Pico cavado logo a oeste de Backdoor e Pipeline.
+  maps: Off the Wall, Oahu
+- id: s_pipeline
+  name: Banzai Pipeline
+  lat: 21.6649
+  lon: -158.0536
+  coast: north
+  facing: 320
+  win: 48
+  min: 12
+  max: 30
+  gain: 1.0
+  level: expert
+  level_txt: Expert
+  wave_txt: Esquerda · bancada · Backdoor é a direita do mesmo pico
+  best_swell: O-NO
+  best_wind: SE (terral)
+  best_tide: média a cheia
+  hazards: bancada de lava muito rasa com cavernas, vacas que podem matar, localismo
+  desc: ''
+  maps: Banzai Pipeline, Oahu
+  place: pipeline
+- id: s_ehukai
+  name: Ehukai
+  lat: 21.6661
+  lon: -158.051
+  coast: north
+  facing: 320
+  win: 55
+  min: 4
+  max: 10
+  gain: 0.85
+  level: avancado
+  level_txt: Avançado
+  wave_txt: Direita e esquerda · banco de areia
+  best_swell: N-NO
+  best_wind: L-NE (terral)
+  best_tide: qualquer
+  hazards: correnteza, fechadeiras pesadas
+  desc: Picos de banco de areia logo a nordeste de Pipeline, em frente ao Ehukai Beach Park.
+  maps: Ehukai, Oahu
+- id: s_rocky_point
+  name: Rocky Point
+  lat: 21.6705
+  lon: -158.0479
+  coast: north
+  facing: 315
+  win: 48
+  min: 4
+  max: 12
+  gain: 1.0
+  level: avancado
+  level_txt: Avançado
+  wave_txt: Direita e esquerda · bancada
+  best_swell: 'NO'
+  best_wind: SE (terral)
+  best_tide: qualquer (melhor enchendo)
+  hazards: bancada irregular, pedra no inside das direitas, crowd
+  desc: Ímã de swell entre Pipeline e Sunset, cheio de surf de alta performance.
+  maps: Rocky Point, Oahu
+- id: s_sunset_beach
+  name: Sunset Beach
+  lat: 21.6786
+  lon: -158.0419
+  coast: north
+  facing: 315
+  win: 48
+  min: 8
+  max: 40
+  gain: 1.0
+  level: expert
+  level_txt: Expert
+  wave_txt: Direita (e uma esquerda) · bancada
+  best_swell: O-NO-N
+  best_wind: L-SE (terral)
+  best_tide: qualquer
+  hazards: caldos longos, séries grandes e instáveis, corrente forte
+  desc: ''
+  maps: Sunset Beach, Oahu
+  place: sunset-beach
+- id: s_velzyland
+  name: Velzyland
+  lat: 21.6852
+  lon: -158.0335
+  coast: north
+  facing: 315
+  win: 48
+  min: 4
+  max: 12
+  gain: 1.0
+  level: expert
+  level_txt: Expert
+  wave_txt: Direita e esquerda · bancada
+  best_swell: 'NO'
+  best_wind: SE (terral)
+  best_tide: seca a média (melhor enchendo)
+  hazards: bancada de lava rasa e irregular, sem canal, crowd
+  desc: ''
+  maps: Velzyland, Oahu
+- id: s_mokuleia_army_beach
+  name: Mokuleia (Army Beach)
+  lat: 21.5817
+  lon: -158.207
+  coast: north
+  facing: 0
+  win: 48
+  min: 4
+  max: 12
+  gain: 1.0
+  level: avancado
+  level_txt: Avançado
+  wave_txt: Direita e esquerda · bancada
+  best_swell: NO-N
+  best_wind: S-SE (terral)
+  hazards: tubarões, correnteza, pedras, lugar isolado
+  desc: Bancada isolada depois de Waialua, a caminho de Ka'ena. Quase sem crowd.
+  maps: Mokuleia (Army Beach), Oahu
+- id: s_makaha
+  name: Makaha
+  lat: 21.4779
+  lon: -158.2231
+  coast: west
+  facing: 250
+  win: 48
+  min: 6
+  max: 30
+  gain: 1.0
+  level: avancado
+  level_txt: Avançado
+  wave_txt: Direita · bancada de point
+  best_swell: NO-O, SO
+  best_wind: L-NE (terral)
+  best_tide: média a cheia (enchendo)
+  hazards: inside raso, backwash, localismo, crowd
+  desc: Onde o surf de onda grande começou no lado oeste. Point e bowl lendários.
+  maps: Makaha, Oahu
+- id: s_yokohama_bay
+  name: Yokohama Bay
+  lat: 21.5467
+  lon: -158.2405
+  coast: west
+  facing: 285
+  win: 55
+  min: 6
+  max: 20
+  gain: 1.0
+  level: expert
+  level_txt: Expert
+  wave_txt: Direita e esquerda (mais esquerda) · bancada e areia
+  best_swell: NO-O (inverno), S-SO
+  best_wind: L-NE (terral)
+  best_tide: média a cheia (enchendo)
+  hazards: correnteza, pedras, drop íngreme, localismo
+  desc: No fim da estrada, perto de Ka'ena Point. Ondas pesadas no inverno.
+  maps: Yokohama Bay, Oahu
+- id: s_maili_point
+  name: Maili Point
+  lat: 21.4076
+  lon: -158.1807
+  coast: west
+  facing: 260
+  win: 48
+  min: 6
+  max: 20
+  gain: 1.0
+  level: avancado
+  level_txt: Avançado
+  wave_txt: Esquerda · bancada de point
+  best_swell: SO-O-ONO
+  best_wind: NE (terral)
+  best_tide: qualquer (melhor enchendo)
+  hazards: corrente, tubarões, entrada pelas pedras, séries que limpam o line-up
+  desc: Esquerda longa de point no lado oeste.
+  maps: Maili Point, Oahu
+- id: s_tracks_kahe
+  name: Tracks
+  lat: 21.3615
+  lon: -158.1327
+  coast: west
+  facing: 240
+  win: 55
+  min: 2
+  max: 8
+  gain: 1.0
+  level: intermediario
+  level_txt: Intermediário
+  wave_txt: Direita e esquerda · bancada e areia
+  best_swell: S-SO, O
+  best_wind: NE (terral)
+  best_tide: qualquer
+  hazards: ouriços, pedras, tubarões, localismo
+  desc: Bancada tranquila ao lado da usina de Kahe. Costuma ficar vazia em swell grande de norte.
+  maps: Tracks, Oahu
+- id: s_white_plains
+  name: White Plains
+  lat: 21.3036
+  lon: -158.0453
+  coast: south
+  facing: 190
+  win: 48
+  min: 2
+  max: 6
+  gain: 1.0
+  level: iniciante
+  level_txt: Iniciante
+  wave_txt: Direita e esquerda · bancada
+  best_swell: S-SO
+  best_wind: N-NE (terral)
+  best_tide: média
+  hazards: pedras, tubarões, crowd
+  desc: Onda mansa de longboard na antiga praia militar de Barbers Point.
+  maps: White Plains, Oahu
+- id: s_ala_moana_bowls
+  name: Ala Moana Bowls
+  lat: 21.2809
+  lon: -157.8439
+  coast: south
+  facing: 200
+  win: 48
+  min: 4
+  max: 16
+  gain: 1.0
+  level: avancado
+  level_txt: Avançado
+  wave_txt: Esquerda (e uma direita curta) · bancada
+  best_swell: S-SO
+  best_wind: N-NE (terral)
+  best_tide: qualquer (melhor enchendo)
+  hazards: bancada rasa, barcos no canal, água suja, crowd
+  desc: ''
+  maps: Ala Moana Bowls, Oahu
+  place: bowls
+- id: s_kewalos
+  name: Kewalos
+  lat: 21.2901
+  lon: -157.8593
+  coast: south
+  facing: 200
+  win: 48
+  min: 2
+  max: 10
+  gain: 1.0
+  level: avancado
+  level_txt: Avançado
+  wave_txt: Direita e esquerda · bancada
+  best_swell: S
+  best_wind: NE (terral)
+  best_tide: qualquer
+  hazards: barcos no canal, cabeços de coral, água suja, tubarões, crowd
+  desc: Bancada movimentada ao lado do canal de Kewalo Basin.
+  maps: Kewalos, Oahu
+- id: s_point_panic
+  name: Point Panic
+  lat: 21.2939
+  lon: -157.8641
+  coast: south
+  facing: 200
+  win: 48
+  min: 4
+  max: 12
+  gain: 1.0
+  level: avancado
+  level_txt: Avançado
+  wave_txt: Direita · bancada
+  best_swell: S
+  best_wind: NE (terral)
+  best_tide: seca a média
+  hazards: bancada rasa, muro de pedra, localismo
+  desc: 'Zona só de bodysurf: prancha e bodyboard proibidos (handboard pode).'
+  maps: Point Panic, Oahu
+- id: s_kaisers
+  name: Kaisers
+  lat: 21.28
+  lon: -157.8408
+  coast: south
+  facing: 200
+  win: 48
+  min: 2
+  max: 10
+  gain: 1.0
+  level: avancado
+  level_txt: Avançado
+  wave_txt: Direita e esquerda · bancada
+  best_swell: S-SO
+  best_wind: N-NE (terral)
+  best_tide: qualquer (enchendo)
+  hazards: bancada rasa, estruturas no fundo, localismo, tubarões
+  desc: Bancada com crowd logo a leste do canal do Ala Wai.
+  maps: Kaisers, Oahu
+- id: s_canoes
+  name: Canoes
+  lat: 21.2763
+  lon: -157.8293
+  coast: south
+  facing: 200
+  win: 48
+  min: 2
+  max: 8
+  gain: 1.0
+  level: iniciante
+  level_txt: Iniciante
+  wave_txt: Direita e esquerda · bancada
+  best_swell: S-SO
+  best_wind: N-NE (terral)
+  best_tide: seca a média
+  hazards: crowd, ouriços, colisões
+  desc: A onda clássica de aprender e de longboard em Waikiki.
+  maps: Canoes, Oahu
+- id: s_queens
+  name: Queens
+  lat: 21.2742
+  lon: -157.8272
+  coast: south
+  facing: 210
+  win: 48
+  min: 2
+  max: 10
+  gain: 1.0
+  level: intermediario
+  level_txt: Intermediário
+  wave_txt: Direita e esquerda (mais direita) · bancada
+  best_swell: S-SO
+  best_wind: NE (terral)
+  best_tide: qualquer
+  hazards: pedras, crowd
+  desc: ''
+  maps: Queens, Oahu
+  place: queens
+- id: s_publics
+  name: Publics
+  lat: 21.2665
+  lon: -157.8257
+  coast: south
+  facing: 215
+  win: 48
+  min: 2
+  max: 8
+  gain: 1.0
+  level: intermediario
+  level_txt: Intermediário
+  wave_txt: Esquerda · bancada
+  best_swell: S-SE
+  best_wind: NE (terral)
+  best_tide: média a cheia (enchendo)
+  hazards: coral vivo raso, remada longa
+  desc: Esquerda em frente ao Kapiolani Park e Sans Souci.
+  maps: Publics, Oahu
+- id: s_tonggs
+  name: Tonggs
+  lat: 21.2569
+  lon: -157.8216
+  coast: south
+  facing: 210
+  win: 48
+  min: 2
+  max: 6
+  gain: 1.0
+  level: iniciante
+  level_txt: Iniciante
+  wave_txt: Direita e esquerda · bancada
+  best_swell: S
+  best_wind: N (terral)
+  best_tide: seca a média
+  hazards: ouriços, bancada rasa, crowd
+  desc: Esquerdas pequenas e tranquilas abaixo da Diamond Head Rd.
+  maps: Tonggs, Oahu
+- id: s_diamond_head_cliffs
+  name: Diamond Head (Cliffs)
+  lat: 21.2525
+  lon: -157.8041
+  coast: south
+  facing: 180
+  win: 48
+  min: 2
+  max: 10
+  gain: 1.0
+  level: intermediario
+  level_txt: Intermediário
+  wave_txt: Direita e esquerda · bancada
+  best_swell: S
+  best_wind: N (terral)
+  best_tide: qualquer (melhor enchendo)
+  hazards: correnteza, bancada, remada longa, tubarões
+  desc: Bancada consistente abaixo do farol de Diamond Head.
+  maps: Diamond Head (Cliffs), Oahu
+- id: s_sandy_beach
+  name: Sandy Beach
+  lat: 21.2873
+  lon: -157.6693
+  coast: south
+  facing: 160
+  win: 55
+  min: 2
+  max: 8
+  gain: 0.75
+  level: expert
+  level_txt: Expert
+  wave_txt: Direita e esquerda · shorebreak
+  best_swell: S-SE-L
+  best_wind: NO (terral)
+  best_tide: qualquer
+  hazards: shorebreak violento, lesões de pescoço e coluna, correnteza
+  desc: Shorebreak famoso e perigoso, com um dos maiores índices de lesão de coluna do Havaí. Bodysurf e bodyboard
+    na beira; prancha só na bancada.
+  maps: Sandy Beach, Oahu
+- id: s_makapuu
+  name: Makapu'u Beach
+  lat: 21.3101
+  lon: -157.6587
+  coast: east
+  facing: 60
+  win: 55
+  min: 2
+  max: 8
+  gain: 0.75
+  level: intermediario
+  level_txt: Intermediário
+  wave_txt: Direita e esquerda · shorebreak
+  best_swell: NE-L
+  best_wind: SO-O (terral)
+  best_tide: qualquer
+  hazards: correnteza forte, shorebreak pesado, caravelas
+  desc: Praia clássica de bodysurf e bodyboard. Prancha de surf é proibida na Zona A (HAR §13-256-76).
+  maps: Makapu'u Beach, Oahu
+- id: s_waimanalo
+  name: Waimanalo
+  lat: 21.3461
+  lon: -157.7056
+  coast: east
+  facing: 65
+  win: 55
+  min: 2
+  max: 6
+  gain: 0.75
+  level: iniciante
+  level_txt: Iniciante
+  wave_txt: Direita e esquerda · fundo de areia
+  best_swell: NE-L
+  best_wind: SO (terral)
+  best_tide: qualquer
+  hazards: águas-vivas, pedras
+  desc: Baía longa de areia. Dias pequenos de vento leste servem para iniciante.
+  maps: Waimanalo, Oahu
+- id: s_kailua_beach
+  name: Kailua Beach
+  lat: 21.3992
+  lon: -157.7264
+  coast: east
+  facing: 75
+  win: 55
+  min: 2
+  max: 6
+  gain: 0.75
+  level: iniciante
+  level_txt: Iniciante
+  wave_txt: Direita e esquerda · fundo de areia
+  best_swell: NE-L
+  best_wind: SO (terral)
+  best_tide: qualquer
+  hazards: águas-vivas, pedras, vento
+  desc: Mais praia de kite e windsurf. Ondinhas de vento nordeste.
+  maps: Kailua Beach, Oahu
+- id: s_laie_pounders
+  name: Lāʻie Pounders
+  lat: 21.6303
+  lon: -157.921
+  coast: east
+  facing: 70
+  win: 55
+  min: 2
+  max: 8
+  gain: 0.75
+  level: avancado
+  level_txt: Avançado
+  wave_txt: Direita e esquerda · shorebreak
+  best_swell: N-NE
+  best_wind: SO-O (terral)
+  best_tide: qualquer
+  hazards: shorebreak pesado, correnteza, localismo
+  desc: ''
+  maps: Lāʻie Pounders, Oahu
+- id: s_goat_island_malaekahana
+  name: Goat Island (Malaekahana)
+  lat: 21.6626
+  lon: -157.9227
+  coast: east
+  facing: 45
+  win: 48
+  min: 4
+  max: 12
+  gain: 1.0
+  level: avancado
+  level_txt: Avançado
+  wave_txt: Direita e esquerda (mais esquerda) · bancada
+  best_swell: N-NE
+  best_wind: O-SO (terral)
+  best_tide: cheia (enchendo)
+  hazards: ouriços, correnteza, pedras, tubarões (água turva)
+  desc: Bancada em volta da ilhota Moku'auia, em Malaekahana. Dá para ir andando ou remando na maré seca.
+  maps: Goat Island (Malaekahana), Oahu

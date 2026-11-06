@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="{{LANG}}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{TITLE}}</title>
+<meta name="description" content="{{SUBTITLE}}">
+<meta name="generator" content="trip-map-3d">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="stylesheet" href="roteiro.css">
+<link rel="stylesheet" href="data/theme.css">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="{{THEME_COLOR}}">
+<link rel="apple-touch-icon" href="icons/icon-180.png">
+</head>
+<body data-badge="{{BADGE_STYLE}}">
+<header class="top">
+  <a class="brand" href="index.html" aria-label="{{BRAND}}">{{BRAND}}<b>{{BADGE}}</b></a>
+  <nav class="toplinks">
+    <a href="index.html" data-t="map3d"></a>
+    <a href="#baixar" id="downloadsLink" data-t="downloads"></a>
+  </nav>
+</header>
+
+<main>
+  <section class="hero" id="hero">
+    <div class="hero-text">
+      <p class="kicker" id="heroDates"></p>
+      <h1 id="heroTitle"></h1>
+      <p class="sub">{{SUBTITLE}}</p>
+      <a class="btn" href="index.html" data-t="openMap"></a>
+    </div>
+  </section>
+
+  <nav class="daynav" id="daynav" data-t-aria="days"></nav>
+  <div id="days"></div>
+
+  <section class="downloads" id="baixar">
+    <h2 data-t="downloads"></h2>
+    <p class="muted" data-t="takeOffline"></p>
+    <p class="install" data-t-html="install"></p>
+    <div class="dl-grid" id="downloadList"></div>
+  </section>
+</main>
+
+<footer class="foot">
+  <a href="index.html" data-t="map3d"></a> · <a href="#" id="toTop" data-t="backToTop"></a>
+</footer>
+
+<script src="data/trip.js"></script>
+<script src="i18n.js"></script>
+<script src="roteiro.js"></script>
+</body>
+</html>

@@ -1,0 +1,1743 @@
+{
+ "geocode": {
+  "angels landing, utah": [
+   {
+    "city": null,
+    "country": "United States",
+    "label": "Angels Landing, Utah, United States",
+    "lat": 37.2693149,
+    "lon": -112.94799,
+    "osm": "peak",
+    "state": "Utah"
+   },
+   {
+    "city": null,
+    "country": "United States",
+    "label": "Angels Landing, Utah, United States",
+    "lat": 40.6720365,
+    "lon": -111.2585568,
+    "osm": "residential",
+    "state": "Utah"
+   },
+   {
+    "city": "Washington",
+    "country": "United States",
+    "label": "South Angels Landing Drive, Washington, Utah, United States",
+    "lat": 37.1300059,
+    "lon": -113.5341265,
+    "osm": "residential",
+    "state": "Utah"
+   },
+   {
+    "city": "Washington",
+    "country": "United States",
+    "label": "North Angels Landing Drive, Washington, Utah, United States",
+    "lat": 37.1322103,
+    "lon": -113.5323013,
+    "osm": "residential",
+    "state": "Utah"
+   },
+   {
+    "city": null,
+    "country": "United States",
+    "label": "Angels Landing Trail, Utah, United States",
+    "lat": 37.2715808,
+    "lon": -112.9500225,
+    "osm": "path",
+    "state": "Utah"
+   }
+  ],
+  "boulder, utah": [
+   {
+    "city": null,
+    "country": "United States",
+    "label": "Boulder, Utah, United States",
+    "lat": 37.9082439,
+    "lon": -111.4230613,
+    "osm": "village",
+    "state": "Utah"
+   },
+   {
+    "city": null,
+    "country": "United States",
+    "label": "Boulder Mountain, Utah, United States",
+    "lat": 41.689102,
+    "lon": -111.5774343,
+    "osm": "peak",
+    "state": "Utah"
+   },
+   {
+    "city": null,
+    "country": "United States",
+    "label": "Boulder Mesa, Utah, United States",
+    "lat": 39.2605217,
+    "lon": -110.0193104,
+    "osm": "peak",
+    "state": "Utah"
+   },
+   {
+    "city": null,
+    "country": "United States",
+    "label": "Boulder Mountain, Utah, United States",
+    "lat": 38.0869284,
+    "lon": -111.4340631,
+    "osm": "peak",
+    "state": "Utah"
+   },
+   {
+    "city": null,
+    "country": "United States",
+    "label": "Boulder Point, Utah, United States",
+    "lat": 37.8855556,
+    "lon": -111.3688889,
+    "osm": "peak",
+    "state": "Utah"
+   }
+  ],
+  "canyon overlook trail, zion": [
+   {
+    "city": "Benson",
+    "country": "United States",
+    "label": "Canyon Overlook Trail, Benson, Arizona, United States",
+    "lat": 31.9289002,
+    "lon": -110.3313261,
+    "osm": "residential",
+    "state": "Arizona"
+   },
+   {
+    "city": "Santa Rosa Valley",
+    "country": "United States",
+    "label": "Canyon Overlook Trail, Santa Rosa Valley, California, United States",
+    "lat": 34.226939,
+    "lon": -118.9280302,
+    "osm": "track",
+    "state": "California"
+   },
+   {
+    "city": null,
+    "country": "United States",
+    "label": "Zion Canyon Overlook Parking, Utah, United States",
+    "lat": 37.2133959,
+    "lon": -112.9405319,
+    "osm": "parking",
+    "state": "Utah"
+   },
+   {
+    "city": "White Rock",
+    "country": "United States",
+    "label": "Water Canyon Overlook Trail, White Rock, New Mexico, United States",
+    "lat": 35.8066322,
+    "lon": -106.230959,
+    "osm": "track",
+    "state": "New Mexico"
+   },
+   {
+    "city": null,
+    "country": "United States",
+    "label": "Rock Canyon / Barracks Overlook Trail, Utah, United States",
+    "lat": 37.162596,
+    "lon": -112.8427994,
+    "osm": "track",
+    "state": "Utah"
+   }
+  ],
+  "dead horse point state park": [
+   {
+    "city": null,
+    "country": "United States",
+    "label": "Dead Horse Point State Park, Utah, United States",
+    "lat": 38.5142197,
+    "lon": -109.7387738,
+    "osm": "nature_reserve",
+    "state": "Utah"
+   },
+   {
+    "city": null,
+    "country": "United States",
+    "label": "Dead Horse Point State Park Road, Utah, United States",
+    "lat": 38.5163933,
+    "lon": -109.7299526,
+    "osm": "tertiary",
+    "state": "Utah"
+   },
+   {
+    "city": null,
+    "country": "United States",
+    "label": "Dead Horse Point State Park Visitor Center, Utah, United States",
+    "lat": 38.4876802,
+    "lon": -109.7355986,
+    "osm": "office",
+    "state": "Utah"
+   },
+   {
+    "city": null,
+    "country": "United States",
+    "label": "Dead Horse Point State Park Parking, Utah, United States",
+    "lat": 38.4704892,
+    "lon": -109.739514,
+    "osm": "parking",
+    "state": "Utah"
+   }
+  ],
+  "delicate arch, utah": [
+   {
+    "city": null,
+    "country": "United States",
+    "label": "Delicate Arch, Utah, United States",
+    "lat": 38.7434703,
+    "lon": -109.4993193,
+    "osm": "arch",
+    "state": "Utah"
+   },
+   {
+    "city": "West Jordan",
+    "country": "United States",
+    "label": "Delicate Arch Drive, West Jordan, Utah, United States",
+    "lat": 40.5977577,
+    "lon": -112.0560337,
+    "osm": "residential",
+    "state": "Utah"
+   },
+   {
+    "city": null,
+    "country": "United States",
+    "label": "Delicate Arch Trail, Utah, United States",
+    "lat": 38.7434805,
+    "lon": -109.4992732,
+    "osm": "path",
+    "state": "Utah"
+   },
+   {
+    "city": null,
+    "country": "United States",
+    "label": "Delicate Arch Road, Utah, United States",
+    "lat": 38.7343162,
+    "lon": -109.5218926,
+    "osm": "unclassified",
+    "state": "Utah"
+   },
+   {
+    "city": null,
+    "country": "United States",
+    "label": "Upper Delicate Arch Viewpoint Trail, Utah, United States",
+    "lat": 38.7376083,
+    "lon": -109.5011119,
+    "osm": "path",
+    "state": "Utah"
+   }
+  ],
+  "escalante, utah": [
+   {
+    "city": null,
+    "country": "United States",
+    "label": "Escalante, Utah, United States",
+    "lat": 37.7703057,
+    "lon": -111.602166,
+    "osm": "village",
+    "state": "Utah"
+   },
+   {
+    "city": null,
+    "country": "United States",
+    "label": "Escalante Desert, Utah, United States",
+    "lat": 38.0272744,
+    "lon": -113.293199,
+    "osm": "desert",
+    "state": "Utah"
+   },
+   {
+    "city": null,
+    "country": "United States",
+    "label": "Escalante River, Utah, United States",
+    "lat": 37.60797,
+    "lon": -111.176345,
+    "osm": "river",
+    "state": "Utah"
+   },
+   {
+    "city": null,
+    "country": "United States",
+    "label": "Escalante Petrified Forest State Park, Utah, United States",
+    "lat": 37.7911934,
+    "lon": -111.6167266,
+    "osm": "nature_reserve",
+    "state": "Utah"
+   },
+   {
+    "city": null,
+    "country": "United States",
+    "label": "Mount Escalante, Utah, United States",
+    "lat": 37.6838586,
+    "lon": -113.9791442,
+    "osm": "peak",
+    "state": "Utah"
+   }
+  ],
+  "fruita, capitol reef national park": [
+   {
+    "city": null,
+    "country": "United States",
+    "label": "Capitol Reef National Park, Utah, United States",
+    "lat": 38.0670286,
+    "lon": -111.1552562,
+    "osm": "nature_reserve",
+    "state": "Utah"
+   },
+   {
+    "city": null,
+    "country": "United States",
+    "label": "Capitol Reef National Park, Utah, United States",
+    "lat": 38.325698,
+    "lon": -111.3557948,
+    "osm": "board",
+    "state": "Utah"
+   },
+   {
+    "city": null,
+    "country": "United States",
+    "label": "Capitol Reef National Park Visitor Center, Utah, United States",
+    "lat": 38.2914495,
+    "lon": -111.2620324,
+    "osm": "office",
+    "state": "Utah"
+   },
+   {
+    "city": null,
+    "country": "United States",
+    "label": "Entering Capitol Reef National Park, Utah, United States",
+    "lat": 37.8320634,
+    "lon": -110.9679043,
+    "osm": "board",
+    "state": "Utah"
+   }
+  ],
+  "grand view point, canyonlands": [
+   {
+    "city": null,
+    "country": "United States",
+    "label": "Entrance Canyonlands National Park, Utah, United States",
+    "lat": 38.4733999,
+    "lon": -109.809568,
+    "osm": "ticket",
+    "state": "Utah"
+   },
+   {
+    "city": null,
+    "country": "United States",
+    "label": "Canyonlands National Park, Utah, United States",
+    "lat": 38.4882735,
+    "lon": -109.8076164,
+    "osm": "board",
+    "state": "Utah"
+   }
+  ],
+  "hickman bridge, capitol reef": [],
+  "hickman natural bridge, utah": [
+   {
+    "city": null,
+    "country": "United States",
+    "label": "Nels Johnson Natural Bridge, Utah, United States",
+    "lat": 38.2905735,
+    "lon": -111.23145,
+    "osm": "rock",
+    "state": "Utah"
+   }
+  ],
+  "landscape arch, utah": [
+   {
+    "city": null,
+    "country": "United States",
+    "label": "Landscape Arch, Utah, United States",
+    "lat": 38.7905114,
+    "lon": -109.607216,
+    "osm": "arch",
+    "state": "Utah"
+   },
+   {
+    "city": null,
+    "country": "United States",
+    "label": "Landscape Arch, Utah, United States",
+    "lat": 38.7904979,
+    "lon": -109.6044163,
+    "osm": "board",
+    "state": "Utah"
+   },
+   {
+    "city": null,
+    "country": "United States",
+    "label": "Landscape Arch, Utah, United States",
+    "lat": 38.7904718,
+    "lon": -109.6071788,
+    "osm": "attraction",
+    "state": "Utah"
+   },
+   {
+    "city": null,
+    "country": "United States",
+    "label": "Landscape Arch Viewpoint Trail, Utah, United States",
+    "lat": 38.7911593,
+    "lon": -109.6068599,
+    "osm": "path",
+    "state": "Utah"
+   },
+   {
+    "city": null,
+    "country": "United States",
+    "label": "Landscape Arch Viewpoint Trail, Utah, United States",
+    "lat": 38.7911642,
+    "lon": -109.6067041,
+    "osm": "steps",
+    "state": "Utah"
+   }
+  ],
+  "mesa arch, utah": [
+   {
+    "city": null,
+    "country": "United States",
+    "label": "Mesa Arch, Utah, United States",
+    "lat": 38.3880453,
+    "lon": -109.8634458,
+    "osm": "arch",
+    "state": "Utah"
+   },
+   {
+    "city": null,
+    "country": "United States",
+    "label": "Mesa Arch Trailhead, Utah, United States",
+    "lat": 38.3891421,
+    "lon": -109.868054,
+    "osm": "locality",
+    "state": "Utah"
+   },
+   {
+    "city": "West Jordan",
+    "country": "United States",
+    "label": "Mesa Arch Drive, West Jordan, Utah, United States",
+    "lat": 40.5957231,
+    "lon": -112.0542086,
+    "osm": "residential",
+    "state": "Utah"
+   },
+   {
+    "city": null,
+    "country": "United States",
+    "label": "Mesa Arch Lane, Utah, United States",
+    "lat": 41.1461339,
+    "lon": -111.7966919,
+    "osm": "residential",
+    "state": "Utah"
+   },
+   {
+    "city": null,
+    "country": "United States",
+    "label": "West Mesa Arch Lane, Utah, United States",
+    "lat": 41.1468821,
+    "lon": -111.7940109,
+    "osm": "residential",
+    "state": "Utah"
+   }
+  ],
+  "moab, utah": [
+   {
+    "city": null,
+    "country": "United States",
+    "label": "Moab, Utah, United States",
+    "lat": 38.5738096,
+    "lon": -109.546214,
+    "osm": "city",
+    "state": "Utah"
+   },
+   {
+    "city": null,
+    "country": "United States",
+    "label": "Moab Salt Potash Pond Dam 2N, Utah, United States",
+    "lat": 38.4691017,
+    "lon": -109.6817505,
+    "osm": "dam",
+    "state": "Utah"
+   },
+   {
+    "city": null,
+    "country": "United States",
+    "label": "Moab Salt Potash Stockpile Dam, Utah, United States",
+    "lat": 38.5195133,
+    "lon": -109.6623858,
+    "osm": "dam",
+    "state": "Utah"
+   },
+   {
+    "city": null,
+    "country": "United States",
+    "label": "Moab Sand Hill, Utah, United States",
+    "lat": 38.6132274,
+    "lon": -109.6126229,
+    "osm": "sand",
+    "state": "Utah"
+   },
+   {
+    "city": null,
+    "country": "United States",
+    "label": "Moab Rim Arch, Utah, United States",
+    "lat": 38.4498533,
+    "lon": -109.448973,
+    "osm": "arch",
+    "state": "Utah"
+   }
+  ],
+  "navajo loop trail, bryce canyon": [
+   {
+    "city": null,
+    "country": "United States",
+    "label": "Ruby Rim Loop Trail, Utah, United States",
+    "lat": 37.6654491,
+    "lon": -112.1387965,
+    "osm": "track",
+    "state": "Utah"
+   },
+   {
+    "city": null,
+    "country": "United States",
+    "label": "Ruby Rim Loop B Trail, Utah, United States",
+    "lat": 37.6638974,
+    "lon": -112.1544163,
+    "osm": "path",
+    "state": "Utah"
+   },
+   {
+    "city": null,
+    "country": "United States",
+    "label": "Ruby Rim Loop Trail, Utah, United States",
+    "lat": 37.6716281,
+    "lon": -112.1478854,
+    "osm": "path",
+    "state": "Utah"
+   }
+  ],
+  "sunset point, bryce canyon": [
+   {
+    "city": null,
+    "country": "United States",
+    "label": "Sunset Point, Utah, United States",
+    "lat": 37.6234283,
+    "lon": -112.167119,
+    "osm": "bus_stop",
+    "state": "Utah"
+   },
+   {
+    "city": null,
+    "country": "United States",
+    "label": "Sunset Point Parking, Utah, United States",
+    "lat": 37.6237064,
+    "lon": -112.1683868,
+    "osm": "parking",
+    "state": "Utah"
+   }
+  ],
+  "temple of sinawava, zion national park": [],
+  "tropic, utah": [
+   {
+    "city": null,
+    "country": "United States",
+    "label": "Tropic, Utah, United States",
+    "lat": 37.6252615,
+    "lon": -112.082135,
+    "osm": "village",
+    "state": "Utah"
+   },
+   {
+    "city": "Tropic",
+    "country": "United States",
+    "label": "Tropic Canyon, Tropic, Utah, United States",
+    "lat": 37.6609485,
+    "lon": -112.0970955,
+    "osm": "river",
+    "state": "Utah"
+   },
+   {
+    "city": null,
+    "country": "United States",
+    "label": "Tropic Reservoir, Utah, United States",
+    "lat": 37.6022261,
+    "lon": -112.2538949,
+    "osm": "reservoir",
+    "state": "Utah"
+   },
+   {
+    "city": null,
+    "country": "United States",
+    "label": "Tropic Ditch Falls, Utah, United States",
+    "lat": 37.665313,
+    "lon": -112.114304,
+    "osm": "waterfall",
+    "state": "Utah"
+   },
+   {
+    "city": null,
+    "country": "United States",
+    "label": "Tropic Reservoir Dam, Utah, United States",
+    "lat": 37.6127213,
+    "lon": -112.2506622,
+    "osm": "dam",
+    "state": "Utah"
+   }
+  ],
+  "zion lodge, utah": [
+   {
+    "city": null,
+    "country": "United States",
+    "label": "Zion Lodge, Utah, United States",
+    "lat": 37.2498536,
+    "lon": -112.9570894,
+    "osm": "hamlet",
+    "state": "Utah"
+   },
+   {
+    "city": null,
+    "country": "United States",
+    "label": "Zion Lodge, Utah, United States",
+    "lat": 37.2524911,
+    "lon": -112.9568359,
+    "osm": "board",
+    "state": "Utah"
+   },
+   {
+    "city": null,
+    "country": "United States",
+    "label": "Zion Lodge, Utah, United States",
+    "lat": 37.2507545,
+    "lon": -112.9564327,
+    "osm": "motel",
+    "state": "Utah"
+   },
+   {
+    "city": null,
+    "country": "United States",
+    "label": "Zion Lodge, Utah, United States",
+    "lat": 37.2514396,
+    "lon": -112.9557223,
+    "osm": "hotel",
+    "state": "Utah"
+   },
+   {
+    "city": null,
+    "country": "United States",
+    "label": "Zion Canyon Scenic Drive, Utah, United States",
+    "lat": 37.2335619,
+    "lon": -112.9624058,
+    "osm": "tertiary",
+    "state": "Utah"
+   }
+  ]
+ },
+ "routes": {
+  "37.21340,-112.94053;37.62343,-112.16712": [
+   [
+    37.2134,
+    -112.94051
+   ],
+   [
+    37.21829,
+    -112.92196
+   ],
+   [
+    37.21583,
+    -112.91892
+   ],
+   [
+    37.22547,
+    -112.91015
+   ],
+   [
+    37.22216,
+    -112.89881
+   ],
+   [
+    37.22756,
+    -112.87964
+   ],
+   [
+    37.23409,
+    -112.87376
+   ],
+   [
+    37.24266,
+    -112.81224
+   ],
+   [
+    37.25389,
+    -112.79441
+   ],
+   [
+    37.26169,
+    -112.79041
+   ],
+   [
+    37.26297,
+    -112.77582
+   ],
+   [
+    37.23904,
+    -112.74832
+   ],
+   [
+    37.2263,
+    -112.72471
+   ],
+   [
+    37.21956,
+    -112.69816
+   ],
+   [
+    37.22769,
+    -112.68702
+   ],
+   [
+    37.22326,
+    -112.68113
+   ],
+   [
+    37.27109,
+    -112.64975
+   ],
+   [
+    37.27655,
+    -112.63073
+   ],
+   [
+    37.30749,
+    -112.59897
+   ],
+   [
+    37.32229,
+    -112.5976
+   ],
+   [
+    37.34043,
+    -112.60521
+   ],
+   [
+    37.36494,
+    -112.59255
+   ],
+   [
+    37.37346,
+    -112.59457
+   ],
+   [
+    37.39107,
+    -112.56331
+   ],
+   [
+    37.42518,
+    -112.53895
+   ],
+   [
+    37.44402,
+    -112.53703
+   ],
+   [
+    37.46374,
+    -112.51877
+   ],
+   [
+    37.48727,
+    -112.51339
+   ],
+   [
+    37.5307,
+    -112.4875
+   ],
+   [
+    37.55792,
+    -112.48764
+   ],
+   [
+    37.61235,
+    -112.46684
+   ],
+   [
+    37.63099,
+    -112.45418
+   ],
+   [
+    37.64063,
+    -112.43716
+   ],
+   [
+    37.65793,
+    -112.43315
+   ],
+   [
+    37.67765,
+    -112.40074
+   ],
+   [
+    37.69398,
+    -112.40211
+   ],
+   [
+    37.72816,
+    -112.38161
+   ],
+   [
+    37.74955,
+    -112.37675
+   ],
+   [
+    37.74328,
+    -112.33446
+   ],
+   [
+    37.74735,
+    -112.32358
+   ],
+   [
+    37.74464,
+    -112.30212
+   ],
+   [
+    37.72087,
+    -112.26324
+   ],
+   [
+    37.71663,
+    -112.23361
+   ],
+   [
+    37.69943,
+    -112.19219
+   ],
+   [
+    37.69262,
+    -112.1529
+   ],
+   [
+    37.63248,
+    -112.17365
+   ],
+   [
+    37.62351,
+    -112.16722
+   ]
+  ],
+  "37.24985,-112.95709;37.26931,-112.94799": [
+   [
+    37.24983,
+    -112.95734
+   ],
+   [
+    37.25037,
+    -112.95733
+   ],
+   [
+    37.25035,
+    -112.95785
+   ],
+   [
+    37.25131,
+    -112.95797
+   ],
+   [
+    37.25175,
+    -112.95785
+   ],
+   [
+    37.25383,
+    -112.95537
+   ],
+   [
+    37.25477,
+    -112.95453
+   ],
+   [
+    37.25769,
+    -112.9531
+   ],
+   [
+    37.25841,
+    -112.95254
+   ],
+   [
+    37.25915,
+    -112.95147
+   ],
+   [
+    37.25977,
+    -112.94942
+   ],
+   [
+    37.26033,
+    -112.94864
+   ],
+   [
+    37.26098,
+    -112.94833
+   ],
+   [
+    37.26298,
+    -112.94876
+   ],
+   [
+    37.2637,
+    -112.94845
+   ],
+   [
+    37.26484,
+    -112.94749
+   ],
+   [
+    37.26531,
+    -112.94581
+   ],
+   [
+    37.26553,
+    -112.94549
+   ],
+   [
+    37.26779,
+    -112.94422
+   ]
+  ],
+  "37.66545,-112.13880;37.62526,-112.08213": [
+   [
+    37.67116,
+    -112.14258
+   ],
+   [
+    37.67113,
+    -112.14465
+   ],
+   [
+    37.67254,
+    -112.14741
+   ],
+   [
+    37.67633,
+    -112.1479
+   ],
+   [
+    37.67583,
+    -112.15596
+   ],
+   [
+    37.69019,
+    -112.1522
+   ],
+   [
+    37.69228,
+    -112.15236
+   ],
+   [
+    37.68257,
+    -112.12909
+   ],
+   [
+    37.68302,
+    -112.12471
+   ],
+   [
+    37.68511,
+    -112.11708
+   ],
+   [
+    37.68441,
+    -112.1146
+   ],
+   [
+    37.68156,
+    -112.11322
+   ],
+   [
+    37.67844,
+    -112.11331
+   ],
+   [
+    37.67601,
+    -112.11205
+   ],
+   [
+    37.67296,
+    -112.11258
+   ],
+   [
+    37.66976,
+    -112.10987
+   ],
+   [
+    37.66597,
+    -112.11012
+   ],
+   [
+    37.66374,
+    -112.10862
+   ],
+   [
+    37.66219,
+    -112.10545
+   ],
+   [
+    37.66302,
+    -112.10191
+   ],
+   [
+    37.66272,
+    -112.10018
+   ],
+   [
+    37.65929,
+    -112.09637
+   ],
+   [
+    37.65364,
+    -112.08418
+   ],
+   [
+    37.65064,
+    -112.08159
+   ],
+   [
+    37.64643,
+    -112.08054
+   ],
+   [
+    37.63835,
+    -112.08191
+   ],
+   [
+    37.62537,
+    -112.08213
+   ]
+  ],
+  "37.77031,-111.60217;37.90824,-111.42306;38.06703,-111.15526": [
+   [
+    37.77036,
+    -111.60217
+   ],
+   [
+    37.7614,
+    -111.57876
+   ],
+   [
+    37.74298,
+    -111.55937
+   ],
+   [
+    37.72666,
+    -111.52743
+   ],
+   [
+    37.74874,
+    -111.48983
+   ],
+   [
+    37.75058,
+    -111.4582
+   ],
+   [
+    37.74184,
+    -111.45366
+   ],
+   [
+    37.74323,
+    -111.44748
+   ],
+   [
+    37.74587,
+    -111.452
+   ],
+   [
+    37.75406,
+    -111.43651
+   ],
+   [
+    37.77072,
+    -111.42498
+   ],
+   [
+    37.77279,
+    -111.41502
+   ],
+   [
+    37.77644,
+    -111.41954
+   ],
+   [
+    37.78578,
+    -111.4178
+   ],
+   [
+    37.80517,
+    -111.40108
+   ],
+   [
+    37.87002,
+    -111.44254
+   ],
+   [
+    37.88096,
+    -111.45744
+   ],
+   [
+    37.89418,
+    -111.45705
+   ],
+   [
+    37.88862,
+    -111.44841
+   ],
+   [
+    37.89661,
+    -111.44735
+   ],
+   [
+    37.90116,
+    -111.4253
+   ],
+   [
+    37.90824,
+    -111.42313
+   ],
+   [
+    37.95634,
+    -111.43563
+   ],
+   [
+    37.99438,
+    -111.43002
+   ],
+   [
+    37.99173,
+    -111.42084
+   ],
+   [
+    38.00831,
+    -111.4036
+   ],
+   [
+    38.00638,
+    -111.39285
+   ],
+   [
+    38.0138,
+    -111.35877
+   ],
+   [
+    38.02587,
+    -111.34947
+   ],
+   [
+    38.03491,
+    -111.33148
+   ],
+   [
+    38.05377,
+    -111.32531
+   ],
+   [
+    38.06831,
+    -111.33011
+   ],
+   [
+    38.07271,
+    -111.33823
+   ],
+   [
+    38.08507,
+    -111.33696
+   ],
+   [
+    38.09238,
+    -111.34581
+   ],
+   [
+    38.10031,
+    -111.33738
+   ],
+   [
+    38.10695,
+    -111.33893
+   ],
+   [
+    38.10999,
+    -111.32967
+   ],
+   [
+    38.11908,
+    -111.32571
+   ],
+   [
+    38.12396,
+    -111.33063
+   ],
+   [
+    38.14703,
+    -111.32687
+   ],
+   [
+    38.14974,
+    -111.33248
+   ],
+   [
+    38.16306,
+    -111.33499
+   ],
+   [
+    38.18776,
+    -111.35296
+   ],
+   [
+    38.22177,
+    -111.34262
+   ],
+   [
+    38.24003,
+    -111.37641
+   ],
+   [
+    38.27047,
+    -111.37586
+   ],
+   [
+    38.28324,
+    -111.3955
+   ],
+   [
+    38.29819,
+    -111.40205
+   ],
+   [
+    38.29929,
+    -111.39196
+   ],
+   [
+    38.31918,
+    -111.3833
+   ],
+   [
+    38.32654,
+    -111.36634
+   ],
+   [
+    38.32159,
+    -111.3216
+   ],
+   [
+    38.3089,
+    -111.29702
+   ],
+   [
+    38.30715,
+    -111.28105
+   ],
+   [
+    38.29159,
+    -111.26122
+   ],
+   [
+    38.28743,
+    -111.24661
+   ],
+   [
+    38.28845,
+    -111.22333
+   ],
+   [
+    38.28202,
+    -111.21559
+   ],
+   [
+    38.28516,
+    -111.19572
+   ],
+   [
+    38.27738,
+    -111.19025
+   ],
+   [
+    38.2832,
+    -111.16515
+   ],
+   [
+    38.28944,
+    -111.16147
+   ],
+   [
+    38.28419,
+    -111.14839
+   ],
+   [
+    38.28723,
+    -111.14107
+   ],
+   [
+    38.28182,
+    -111.13712
+   ],
+   [
+    38.28353,
+    -111.12854
+   ],
+   [
+    38.26591,
+    -111.13039
+   ],
+   [
+    38.25746,
+    -111.11878
+   ],
+   [
+    38.22927,
+    -111.11611
+   ],
+   [
+    38.19062,
+    -111.09438
+   ],
+   [
+    38.17433,
+    -111.09651
+   ],
+   [
+    38.15141,
+    -111.0826
+   ],
+   [
+    38.10262,
+    -111.06936
+   ],
+   [
+    38.0901,
+    -111.09521
+   ],
+   [
+    38.08656,
+    -111.12382
+   ],
+   [
+    38.08142,
+    -111.12785
+   ]
+  ],
+  "38.29057,-111.23145;38.57381,-109.54621": [
+   [
+    38.28876,
+    -111.23131
+   ],
+   [
+    38.28516,
+    -111.19572
+   ],
+   [
+    38.27736,
+    -111.18997
+   ],
+   [
+    38.28944,
+    -111.16147
+   ],
+   [
+    38.28499,
+    -111.11916
+   ],
+   [
+    38.26795,
+    -111.07655
+   ],
+   [
+    38.28348,
+    -111.04875
+   ],
+   [
+    38.3332,
+    -111.02885
+   ],
+   [
+    38.36608,
+    -110.90956
+   ],
+   [
+    38.35915,
+    -110.87349
+   ],
+   [
+    38.36947,
+    -110.84801
+   ],
+   [
+    38.36495,
+    -110.81245
+   ],
+   [
+    38.37831,
+    -110.73476
+   ],
+   [
+    38.37619,
+    -110.7013
+   ],
+   [
+    38.43498,
+    -110.69039
+   ],
+   [
+    38.66916,
+    -110.54257
+   ],
+   [
+    38.75689,
+    -110.45061
+   ],
+   [
+    38.79934,
+    -110.43506
+   ],
+   [
+    38.87156,
+    -110.3602
+   ],
+   [
+    38.89181,
+    -110.35896
+   ],
+   [
+    38.92047,
+    -110.37529
+   ],
+   [
+    38.96734,
+    -110.27125
+   ],
+   [
+    38.99126,
+    -110.18483
+   ],
+   [
+    38.97485,
+    -110.15536
+   ],
+   [
+    38.97558,
+    -110.11651
+   ],
+   [
+    38.96131,
+    -110.0663
+   ],
+   [
+    38.92613,
+    -110.00103
+   ],
+   [
+    38.92044,
+    -109.93987
+   ],
+   [
+    38.94162,
+    -109.81666
+   ],
+   [
+    38.8554,
+    -109.80372
+   ],
+   [
+    38.79306,
+    -109.75802
+   ],
+   [
+    38.74191,
+    -109.73529
+   ],
+   [
+    38.71445,
+    -109.70486
+   ],
+   [
+    38.6414,
+    -109.66785
+   ],
+   [
+    38.61405,
+    -109.62637
+   ],
+   [
+    38.60614,
+    -109.58033
+   ],
+   [
+    38.57401,
+    -109.54624
+   ]
+  ],
+  "38.38805,-109.86345;38.47340,-109.80957;38.51422,-109.73877": [
+   [
+    38.39106,
+    -109.86553
+   ],
+   [
+    38.39283,
+    -109.86329
+   ],
+   [
+    38.39364,
+    -109.85854
+   ],
+   [
+    38.3956,
+    -109.85807
+   ],
+   [
+    38.39957,
+    -109.85385
+   ],
+   [
+    38.40944,
+    -109.84733
+   ],
+   [
+    38.41704,
+    -109.84445
+   ],
+   [
+    38.42264,
+    -109.83862
+   ],
+   [
+    38.42674,
+    -109.83754
+   ],
+   [
+    38.43146,
+    -109.83223
+   ],
+   [
+    38.43622,
+    -109.82317
+   ],
+   [
+    38.44349,
+    -109.8229
+   ],
+   [
+    38.44551,
+    -109.82126
+   ],
+   [
+    38.45113,
+    -109.82074
+   ],
+   [
+    38.45457,
+    -109.82202
+   ],
+   [
+    38.45714,
+    -109.82009
+   ],
+   [
+    38.46105,
+    -109.82023
+   ],
+   [
+    38.46665,
+    -109.81797
+   ],
+   [
+    38.47342,
+    -109.8096
+   ],
+   [
+    38.47876,
+    -109.80486
+   ],
+   [
+    38.49335,
+    -109.80861
+   ],
+   [
+    38.54604,
+    -109.79295
+   ],
+   [
+    38.55261,
+    -109.79251
+   ],
+   [
+    38.55092,
+    -109.78393
+   ],
+   [
+    38.54374,
+    -109.76081
+   ],
+   [
+    38.52872,
+    -109.74968
+   ],
+   [
+    38.52273,
+    -109.74098
+   ],
+   [
+    38.52141,
+    -109.7328
+   ],
+   [
+    38.51613,
+    -109.73
+   ]
+  ],
+  "38.74347,-109.49932;38.79051,-109.60722": [
+   [
+    38.73412,
+    -109.50138
+   ],
+   [
+    38.7332,
+    -109.50683
+   ],
+   [
+    38.73301,
+    -109.51358
+   ],
+   [
+    38.73343,
+    -109.51637
+   ],
+   [
+    38.73508,
+    -109.51869
+   ],
+   [
+    38.73506,
+    -109.52047
+   ],
+   [
+    38.73352,
+    -109.52324
+   ],
+   [
+    38.73364,
+    -109.52492
+   ],
+   [
+    38.73296,
+    -109.52704
+   ],
+   [
+    38.72961,
+    -109.53299
+   ],
+   [
+    38.72951,
+    -109.53761
+   ],
+   [
+    38.72803,
+    -109.53996
+   ],
+   [
+    38.73172,
+    -109.54435
+   ],
+   [
+    38.73261,
+    -109.55511
+   ],
+   [
+    38.73589,
+    -109.56121
+   ],
+   [
+    38.73724,
+    -109.56678
+   ],
+   [
+    38.73902,
+    -109.56981
+   ],
+   [
+    38.7397,
+    -109.57357
+   ],
+   [
+    38.74128,
+    -109.57418
+   ],
+   [
+    38.7442,
+    -109.56935
+   ],
+   [
+    38.74666,
+    -109.56883
+   ],
+   [
+    38.74925,
+    -109.57135
+   ],
+   [
+    38.75346,
+    -109.57293
+   ],
+   [
+    38.75606,
+    -109.57498
+   ],
+   [
+    38.75708,
+    -109.57738
+   ],
+   [
+    38.75685,
+    -109.5815
+   ],
+   [
+    38.75777,
+    -109.58307
+   ],
+   [
+    38.76649,
+    -109.58366
+   ],
+   [
+    38.76729,
+    -109.58458
+   ],
+   [
+    38.76828,
+    -109.58849
+   ],
+   [
+    38.77082,
+    -109.58969
+   ],
+   [
+    38.77305,
+    -109.59222
+   ],
+   [
+    38.7766,
+    -109.59381
+   ],
+   [
+    38.77931,
+    -109.59325
+   ],
+   [
+    38.78069,
+    -109.59142
+   ],
+   [
+    38.78246,
+    -109.59293
+   ],
+   [
+    38.78279,
+    -109.59498
+   ]
+  ]
+ },
+ "timezone": {
+  "38.0,-111.2": "America/Denver"
+ }
+}

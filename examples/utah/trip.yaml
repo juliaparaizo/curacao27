@@ -1,0 +1,38 @@
+# A road trip: large area, desert, no sea. Everything stays on one map.
+title: "Utah Mighty Five"
+subtitle: "Seven days of red rock"
+dates: {start: 2027-05-02}
+language: en
+units: {temp: F, distance: mi}
+
+days:
+  - title: "Zion"
+    items:
+      - {time: "09:00", type: hike, text: "Riverside Walk", place: "Zion Lodge, Utah"}
+      - {time: "15:00", type: hike, text: "Angels Landing viewpoint", place: "Angels Landing, Utah"}
+  - title: "To Bryce"
+    items:
+      - {time: "08:00", type: sight, text: "Zion Canyon Overlook", place: "Canyon Overlook Trail, Zion"}
+      - {time: "15:00", type: sight, text: "Sunset Point", place: "Sunset Point, Bryce Canyon"}
+  - title: "Bryce Canyon"
+    items:
+      - {time: "07:00", type: hike, text: "Navajo Loop", place: "Navajo Loop Trail, Bryce Canyon"}
+      - {time: "12:00", type: food, text: "Lunch in Tropic", place: "Tropic, Utah"}
+  - title: "Scenic Byway 12"
+    items:
+      - {time: "09:00", type: sight, text: "Stop in Escalante", place: "Escalante, Utah"}
+      - {time: "14:00", type: sight, text: "Boulder Mountain", place: "Boulder, Utah"}
+      - {time: "18:00", type: sight, text: "Capitol Reef", place: "Fruita, Capitol Reef National Park"}
+  - title: "Capitol Reef to Moab"
+    items:
+      - {time: "09:00", type: hike, text: "Hickman Bridge", place: "Hickman Natural Bridge, Utah"}
+      - {time: "16:00", type: hotel, text: "Arrive in Moab", place: "Moab, Utah"}
+  - title: "Arches"
+    items:
+      - {time: "06:30", type: hike, text: "Delicate Arch", place: "Delicate Arch, Utah"}
+      - {time: "11:00", type: hike, text: "Landscape Arch", place: "Landscape Arch, Utah"}
+  - title: "Canyonlands"
+    items:
+      - {time: "07:00", type: sight, text: "Mesa Arch sunrise", place: "Mesa Arch, Utah"}
+      - {time: "12:00", type: sight, text: "Grand View Point", place: "Grand View Point, Canyonlands"}
+      - {time: "17:00", type: sight, text: "Dead Horse Point", place: "Dead Horse Point State Park"}

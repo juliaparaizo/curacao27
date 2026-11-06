@@ -1,0 +1,30 @@
+# Your trip. Edit this file, commit, and your site rebuilds by itself.
+# Only title, dates.start and days are required. A place can be just a name.
+# Careful: on a free GitHub account the site and this file are public. Do not write your exact address.
+
+title: "Four days in Lisbon"
+subtitle: "Hills, tiles and custard tarts"
+dates: {start: 2027-05-14}
+language: en                        # en | pt-BR | es
+units: {temp: C, distance: km}
+
+days:
+  - title: "Old town"
+    items:
+      - {time: "10:00", type: sight, text: "Walk up to the castle", place: "Castelo de Sao Jorge, Lisboa"}
+      - {time: "13:00", type: food, text: "Lunch in Alfama", place: "Alfama, Lisboa"}
+      - {time: "18:00", type: sight, text: "Sunset at the viewpoint", place: "Miradouro da Senhora do Monte, Lisboa"}
+  - title: "Belem"
+    items:
+      - {time: "10:00", type: sight, text: "Tower of Belem", place: "Torre de Belem, Lisboa"}
+      - {time: "12:00", type: food, text: "Custard tarts", place: "Pasteis de Belem, Lisboa"}
+      - {time: "15:00", type: museum, text: "Jeronimos Monastery", place: "Mosteiro dos Jeronimos, Lisboa"}
+  - title: "Sintra"
+    items:
+      - {time: "10:00", type: sight, text: "Pena Palace", place: "Palacio da Pena, Sintra"}
+      - {time: "15:00", type: hike, text: "Moorish Castle", place: "Castelo dos Mouros, Sintra"}
+      - {time: "18:00", type: sight, text: "Cabo da Roca", place: "Cabo da Roca, Portugal"}
+  - title: "Coast"
+    items:
+      - {time: "11:00", type: beach, text: "Cascais", place: "Cascais, Portugal"}
+      - {time: "15:00", type: sight, text: "Boca do Inferno", place: "Boca do Inferno, Cascais"}
