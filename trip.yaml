@@ -1,30 +1,210 @@
-# Your trip. Edit this file, commit, and your site rebuilds by itself.
-# Only title, dates.start and days are required. A place can be just a name.
-# Careful: on a free GitHub account the site and this file are public. Do not write your exact address.
+# Roteiro Curaçao — fevereiro 2027
+# DATA PROVISÓRIA: troque dates.start pela data de chegada em Curaçao assim que a passagem for comprada.
+# Atenção: no GitHub grátis o site é público. Só bairro/região, nada de endereço exato ou nº de voo.
 
-title: "Four days in Lisbon"
-subtitle: "Hills, tiles and custard tarts"
-dates: {start: 2027-05-14}
-language: en                        # en | pt-BR | es
-units: {temp: C, distance: km}
+title: "Curaçao"
+subtitle: "10 noites de praia, trilha e pôr do sol"
+dates: {start: 2027-02-12}
+language: pt-BR
+units: {temp: C, distance: km, waves: ft}
+
+home:
+  name: "Elements Hotel"
+  address: "Punda, Willemstad, Curaçao"
+
+places:
+  - id: aeroporto
+    name: "Aeroporto de Curaçao (Hato)"
+    type: travel
+    desc: "Chegada e saída. Transfer com a Raquel Silva."
+  - id: elements
+    name: "Elements Hotel & Shops"
+    type: home
+    desc: "Base da viagem em Punda, com café da manhã incluso e rooftop com piscina."
+  - id: queen-emma
+    name: "Queen Emma Bridge, Willemstad"
+    type: sight
+    desc: "A ponte flutuante que liga Punda a Otrobanda e abre pra passagem dos navios."
+    model: bridge
+  - id: handelskade
+    name: "Handelskade, Willemstad"
+    type: sight
+    desc: "A fachada colorida do cartão-postal de Willemstad."
+  - id: otrobanda
+    name: "Otrobanda, Willemstad"
+    type: sight
+    desc: "O outro lado da ponte: ruelas, murais e a vista da Handelskade."
+  - id: pietermaai
+    name: "Pietermaai, Willemstad"
+    type: sight
+    desc: "Bairro mais charmoso pra sair à noite, cheio de casarões restaurados."
+  - id: la-boheme
+    name: "La Boheme, Columbusstraat, Willemstad"
+    type: food
+    desc: "Jantar de chegada, a pé do hotel."
+  - id: kome
+    name: "Kome, Pietermaai, Willemstad"
+    type: food
+    desc: "Cozinha criativa num casarão de Pietermaai. Brunch no fim de semana."
+  - id: rozendaels
+    name: "Rozendaels, Penstraat, Willemstad"
+    type: food
+    desc: "Jardim tropical e pratos locais. Abre só à noite."
+  - id: fensi
+    name: "Fensi, Curaçao"
+    type: food
+    desc: "Indicação da amiga."
+  - id: james
+    name: "James, Curaçao"
+    type: food
+    desc: "Indicação da amiga."
+  - id: zanzibar
+    name: "Zanzibar, Jan Thiel, Curaçao"
+    type: food
+    desc: "Beach bar pro pôr do sol, com música ao vivo."
+  - id: daaibooi
+    name: "Daaibooi Beach, Curaçao"
+    type: beach
+    desc: "Baía pequena e calma, boa pra começar o dia."
+  - id: porto-mari
+    name: "Porto Mari, Curaçao"
+    type: beach
+    desc: "Duplo recife: o melhor snorkel do dia."
+  - id: cas-abao
+    name: "Cas Abao Beach, Curaçao"
+    type: beach
+    desc: "Água muito azul e estrutura completa. Fica até o pôr do sol."
+  - id: klein-curacao
+    name: "Klein Curaçao"
+    type: sight
+    desc: "Ilha desabitada de areia branca, com farol e tartarugas. Passeio de barco com a Kezia."
+    model: lighthouse
+  - id: christoffel
+    name: "Christoffelberg, Curaçao"
+    type: hike
+    desc: "372 m, o ponto mais alto da ilha. Cerca de 1h30 de subida."
+    tip: "Começar antes das 7h, antes do calor. Tênis fechado e muita água."
+  - id: shete-boka
+    name: "Shete Boka National Park, Curaçao"
+    type: hike
+    desc: "Costa selvagem, com as ondas explodindo nas rochas da Boka Tabla."
+  - id: playa-jeremi
+    name: "Playa Jeremi, Curaçao"
+    type: beach
+    desc: "Praia tranquila pra descansar depois das trilhas."
+  - id: kabritenburg
+    name: "Seru Kabritu, Caracasbaai, Curaçao"
+    type: hike
+    desc: "Trilha curta (~1h ida e volta) no morro da península de Caracasbaai, com vista de Spanish Water."
+    tip: "Ir cedo, antes do windsurf."
+  - id: sup-curacao
+    name: "SUP Curacao, Caracasbaaiweg, Curaçao"
+    type: surf
+    desc: "Aula de windsurf pra iniciante em Spanish Water (~1h30). Tem tour de SUP pelos mangues também."
+    tip: "Precisa saber nadar."
+  - id: atv
+    name: "Hato, Curaçao"
+    type: sight
+    desc: "Quadriciclo ATV off-road com a Kezia. Ponto de encontro a confirmar."
+  - id: piskado
+    name: "Playa Piskado, Curaçao"
+    type: beach
+    desc: "Nadar com tartarugas perto do píer dos pescadores. Ir cedo."
+  - id: kenepa-grandi
+    name: "Playa Kenepa Grandi, Curaçao"
+    type: beach
+    desc: "O cartão-postal da ilha."
+  - id: kenepa-chiki
+    name: "Playa Kenepa Chiki, Curaçao"
+    type: beach
+    desc: "A versão menor e mais tranquila da Grote Knip."
+  - id: kokomo
+    name: "Kokomo Beach, Curaçao"
+    type: beach
+    desc: "Beach club com o balanço dentro da água."
+  - id: mambo
+    name: "Mambo Beach, Curaçao"
+    type: beach
+    desc: "Praia urbana com beach clubs e lojinhas."
+  - id: renaissance-mall
+    name: "Renaissance Mall, Willemstad"
+    type: sight
+    desc: "Compras de última hora antes do aeroporto."
 
 days:
-  - title: "Old town"
+  - title: "Chegada"
+    area: "Willemstad"
     items:
-      - {time: "10:00", type: sight, text: "Walk up to the castle", place: "Castelo de Sao Jorge, Lisboa"}
-      - {time: "13:00", type: food, text: "Lunch in Alfama", place: "Alfama, Lisboa"}
-      - {time: "18:00", type: sight, text: "Sunset at the viewpoint", place: "Miradouro da Senhora do Monte, Lisboa"}
-  - title: "Belem"
+      - {type: travel, text: "Voo Panamá → Curaçao (Copa) e transfer com a Raquel", place: aeroporto}
+      - {text: "Check-in e drink no rooftop", place: elements}
+      - {time: "20:00", text: "Jantar no La Boheme", place: la-boheme}
+  - title: "Willemstad a pé"
+    area: "Willemstad"
+    route: line
     items:
-      - {time: "10:00", type: sight, text: "Tower of Belem", place: "Torre de Belem, Lisboa"}
-      - {time: "12:00", type: food, text: "Custard tarts", place: "Pasteis de Belem, Lisboa"}
-      - {time: "15:00", type: museum, text: "Jeronimos Monastery", place: "Mosteiro dos Jeronimos, Lisboa"}
-  - title: "Sintra"
+      - {time: "09:00", text: "Punda e a fachada da Handelskade", place: handelskade}
+      - {time: "10:00", text: "Atravessar a ponte flutuante", place: queen-emma}
+      - {time: "10:30", text: "Otrobanda: ruelas e murais", place: otrobanda}
+      - {time: "17:00", text: "Fim de tarde em Pietermaai", place: pietermaai}
+      - {time: "20:00", text: "Jantar no Kome", place: kome}
+  - title: "Praias do sul-oeste"
+    area: "Costa oeste"
     items:
-      - {time: "10:00", type: sight, text: "Pena Palace", place: "Palacio da Pena, Sintra"}
-      - {time: "15:00", type: hike, text: "Moorish Castle", place: "Castelo dos Mouros, Sintra"}
-      - {time: "18:00", type: sight, text: "Cabo da Roca", place: "Cabo da Roca, Portugal"}
-  - title: "Coast"
+      - {time: "09:00", text: "Van com guia (Raquel)", place: elements}
+      - {time: "09:45", text: "Daaibooi", place: daaibooi}
+      - {time: "11:30", text: "Snorkel em Porto Mari", place: porto-mari}
+      - {time: "15:00", text: "Cas Abao até o pôr do sol", place: cas-abao}
+      - {time: "20:00", text: "Jantar no Rozendaels", place: rozendaels}
+  - title: "Klein Curaçao"
+    area: "Mar"
+    route: line
     items:
-      - {time: "11:00", type: beach, text: "Cascais", place: "Cascais, Portugal"}
-      - {time: "15:00", type: sight, text: "Boca do Inferno", place: "Boca do Inferno, Cascais"}
+      - {time: "06:30", text: "Barco pra Klein Curaçao (Kezia)", place: sup-curacao}
+      - {time: "09:00", text: "Dia na ilha: farol, tartarugas, areia branca", place: klein-curacao}
+  - title: "Christoffel e Shete Boka"
+    area: "Westpunt"
+    items:
+      - {time: "06:00", text: "Saída cedo com a Raquel", place: elements}
+      - {time: "07:00", type: hike, text: "Subida do Christoffelberg", place: christoffel}
+      - {time: "10:30", type: hike, text: "Shete Boka e Boka Tabla", place: shete-boka}
+      - {time: "13:00", text: "Descanso na Playa Jeremi", place: playa-jeremi}
+      - {time: "20:00", text: "Jantar no Fensi", place: fensi}
+  - title: "Spanish Water"
+    area: "Sudeste"
+    items:
+      - {time: "07:00", type: hike, text: "Trilha do Kabritenburg", place: kabritenburg}
+      - {time: "10:00", type: surf, text: "Aula de windsurf na SUP Curaçao", place: sup-curacao}
+      - {time: "17:30", text: "Pôr do sol e jantar no Zanzibar", place: zanzibar}
+  - title: "Quadriciclo ATV"
+    area: "Interior"
+    items:
+      - {time: "09:00", text: "ATV off-road com a Kezia", place: atv}
+      - {time: "14:00", text: "Tarde livre na piscina", place: elements}
+      - {time: "20:00", text: "Jantar no James", place: james}
+  - title: "Tartarugas e Kenepa"
+    area: "Westpunt"
+    items:
+      - {time: "08:00", text: "Van com guia (Raquel)", place: elements}
+      - {time: "09:00", text: "Nadar com tartarugas em Piskadó", place: piskado}
+      - {time: "11:00", text: "Kenepa Grandi", place: kenepa-grandi}
+      - {time: "14:30", text: "Kenepa Chiki", place: kenepa-chiki}
+  - title: "Dia livre"
+    area: "Livre"
+    items:
+      - {text: "Beach clubs de Mambo / Jan Thiel ou repetir a praia favorita", place: mambo}
+  - title: "Última praia"
+    area: "Costa oeste"
+    items:
+      - {time: "10:00", text: "Kokomo e o balanço na água", place: kokomo}
+      - {time: "19:00", text: "Despedida com drink no rooftop", place: elements}
+  - title: "Saída"
+    area: "Willemstad"
+    items:
+      - {time: "10:00", text: "Check-out e compras", place: renaissance-mall}
+      - {type: travel, text: "Transfer pro aeroporto (Raquel)", place: aeroporto}
+
+modules:
+  weather: true
+  surf: false
+  tides: false
+  landmarks: auto

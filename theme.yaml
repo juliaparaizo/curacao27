@@ -1,0 +1,27 @@
+preset: oahu
+brand:
+  name: "Curaçao"
+  badge: "27"
+  badge_style: highlighter
+colors:
+  bg: "#EAF2EF"
+  card: "#FBFAF6"
+  ink: "#16302F"
+  accent: "#F6B4A0"
+  line: "#D3E2DD"
+map:
+  land_low: "#D9CF9A"
+  land_mid: "#A9B97A"
+  land_high: "#6E8A55"
+  dry: "#DCCB92"
+  sand: "#F5E7C3"
+  urban: "#E2D9CC"
+  sea_shallow: "#6FDCD3"
+  sea_deep: "#1E64A0"
+  road: "#FBF6E8"
+pins:
+  types:
+    beach: {color: "#1BA6A6", icon: wave}
+    hike: {color: "#5D7A3A", icon: mountain}
+    food: {color: "#D9644A", icon: plate}
+    surf: {color: "#1F7FA6", icon: wave}
