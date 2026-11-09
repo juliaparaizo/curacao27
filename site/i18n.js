@@ -32,6 +32,9 @@
       tip: 'Tip:',
       openMaps: 'Open in Google Maps →',
       routeHere: 'Directions',
+      backTo: 'Back to {t}',
+      dayTotal: 'Driving today',
+      fromBase: '{d} from {t} as the crow flies',
       places: '{n} places: {list}',
       viewItinerary: 'See in the itinerary',
       viewMap: 'See {t}',
@@ -162,6 +165,9 @@
       tip: 'Dica:',
       openMaps: 'Abrir no Google Maps →',
       routeHere: 'Rota até aqui',
+      backTo: 'Volta pro {t}',
+      dayTotal: 'Total do dia',
+      fromBase: 'A {d} do {t} em linha reta',
       places: '{n} lugares: {list}',
       viewItinerary: 'Ver no roteiro',
       viewMap: 'Ver {t}',
@@ -292,6 +298,9 @@
       tip: 'Consejo:',
       openMaps: 'Abrir en Google Maps →',
       routeHere: 'Cómo llegar',
+      backTo: 'Vuelta a {t}',
+      dayTotal: 'Total del día',
+      fromBase: 'A {d} de {t} en línea recta',
       places: '{n} lugares: {list}',
       viewItinerary: 'Ver en el itinerario',
       viewMap: 'Ver {t}',
@@ -435,6 +444,35 @@
     units.distance === 'mi'
       ? `${Math.round(km * 0.621371).toLocaleString(lang)} mi`
       : `${Math.round(km).toLocaleString(lang)} km`;
+  window.fmtKm = km => {
+    const value = units.distance === 'mi' ? km * 0.621371 : km;
+    const unit = units.distance === 'mi' ? 'mi' : 'km';
+    return `${value.toLocaleString(lang, { maximumFractionDigits: value < 10 ? 1 : 0 })} ${unit}`;
+  };
+  // Distance to each item's place from the stop before it, along the day's drawn route.
+  window.dayHops = day => {
+    const hops = (day.legs || []).flatMap(leg => leg.hops || []);
+    const byItem = {};
+    let at = 0;
+    day.items.forEach((item, index) => {
+      if (!item.place) return;
+      const found = hops.findIndex((hop, i) => i >= at && hop.to === item.place);
+      if (found < 0) return;
+      if (hops[found].km >= 0.1) byItem[index] = hops[found].km;
+      at = found + 1;
+    });
+    const rest = hops.slice(at).filter(hop => hop.km >= 0.1);
+    const back = rest.length && rest.at(-1).to === 'home' ? rest.reduce((sum, hop) => sum + hop.km, 0) : 0;
+    const total = hops.reduce((sum, hop) => sum + hop.km, 0);
+    return { byItem, back, total };
+  };
+  window.kmBetween = (a, b) => {
+    const rad = Math.PI / 180,
+      dLat = (b.lat - a.lat) * rad,
+      dLon = (b.lon - a.lon) * rad;
+    const h = Math.sin(dLat / 2) ** 2 + Math.cos(a.lat * rad) * Math.cos(b.lat * rad) * Math.sin(dLon / 2) ** 2;
+    return 12742 * Math.asin(Math.sqrt(h));
+  };
   window.fmtCompass = degrees => words.compass[Math.round((((degrees % 360) + 360) % 360) / 45) % 8];
   window.fmtWaves = (low, high) =>
     units.waves === 'm'

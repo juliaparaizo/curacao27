@@ -41,6 +41,7 @@
     const photos = [...new Set(day.items.map(i => i.place).filter(Boolean))]
       .map(id => byId[id])
       .filter(p => p && p.photo);
+    const hops = dayHops(day);
     const section = document.createElement('section');
     section.className = 'day';
     section.id = 'dia-' + day.n;
@@ -64,13 +65,18 @@
       }
       <ol class="items">
         ${day.items
-          .map(item => {
+          .map((item, k) => {
             const place = item.place && byId[item.place];
+            const km = hops.byItem[k];
             return `<li><time>${esc(fmtTime(item.time))}</time><span class="tag">${esc(typeLabel(item.type))}</span>
-            <span class="txt">${place ? `<a href="index.html#lugar-${place.id}">${esc(item.text)}</a>` : esc(item.text)}</span></li>`;
+            <span class="txt">${place ? `<a href="index.html#lugar-${place.id}">${esc(item.text)}</a>` : esc(item.text)}${km ? `<span class="km">↳ ${esc(fmtKm(km))}</span>` : ''}</span></li>`;
           })
           .join('')}
-      </ol>`;
+      </ol>${
+        hops.total >= 0.1
+          ? `<p class="kmline">${hops.back && byId.home ? `${esc(t('backTo', { t: byId.home.name }))}: ${esc(fmtKm(hops.back))} · ` : ''}<b>${esc(t('dayTotal'))}: ${esc(fmtKm(hops.total))}</b></p>`
+          : ''
+      }`;
     box.appendChild(section);
   }
 

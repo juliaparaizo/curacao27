@@ -9,18 +9,19 @@ language: pt-BR
 units: {temp: C, distance: km, waves: ft}
 
 home:
-  name: "Elements Hotel"
-  address: "Punda, Willemstad, Curaçao"
+  name: "Elements Hotel & Shops"
+  address: "Hendrikplein, Punda, Willemstad, Curaçao"
+  lat: 12.1062
+  lon: -68.9327
+  desc: "Base da viagem em Punda, com café da manhã incluso e rooftop com piscina."
 
 places:
   - id: aeroporto
     name: "Aeroporto de Curaçao (Hato)"
+    lat: 12.1889
+    lon: -68.9598
     type: travel
     desc: "Chegada e saída. Transfer com a Raquel Silva."
-  - id: elements
-    name: "Elements Hotel & Shops"
-    type: home
-    desc: "Base da viagem em Punda, com café da manhã incluso e rooftop com piscina."
   - id: queen-emma
     name: "Queen Emma Bridge, Willemstad"
     lat: 12.1077
@@ -54,6 +55,8 @@ places:
     desc: "Jardim tropical e pratos locais. Abre só à noite."
   - id: fensi
     name: "Fensi, Penstraat, Willemstad"
+    lat: 12.1014
+    lon: -68.9222
     type: food
     desc: "Fine dining em Pietermaai, clima intimista e boa carta de vinhos."
   - id: zanzibar
@@ -92,11 +95,15 @@ places:
     desc: "Praia tranquila pra descansar depois das trilhas."
   - id: kabritenburg
     name: "Seru Kabritu, Caracasbaai, Curaçao"
+    lat: 12.0695
+    lon: -68.8618
     type: hike
     desc: "Trilha curta (~1h ida e volta) no morro da península de Caracasbaai, com vista de Spanish Water."
     tip: "Ir cedo, antes do windsurf."
   - id: sup-curacao
     name: "SUP Curacao, Caracasbaaiweg, Curaçao"
+    lat: 12.0815
+    lon: -68.8735
     type: surf
     desc: "Aula de windsurf pra iniciante em Spanish Water (~1h30). Tem tour de SUP pelos mangues também."
     tip: "Precisa saber nadar."
@@ -106,6 +113,8 @@ places:
     desc: "Quadriciclo ATV off-road com a Kezia. Ponto de encontro a confirmar."
   - id: piskado
     name: "Playa Piskado, Curaçao"
+    lat: 12.3615
+    lon: -69.1545
     type: beach
     desc: "Nadar com tartarugas perto do píer dos pescadores. Ir cedo."
   - id: kenepa-grandi
@@ -134,7 +143,7 @@ days:
     area: "Willemstad"
     items:
       - {type: travel, text: "Voo Panamá → Curaçao (Copa) e transfer com a Raquel", place: aeroporto}
-      - {text: "Check-in e drink no rooftop", place: elements}
+      - {text: "Check-in e drink no rooftop", place: home}
       - {time: "20:00", text: "Jantar no La Boheme", place: la-boheme}
   - title: "Willemstad a pé"
     area: "Willemstad"
@@ -148,7 +157,7 @@ days:
   - title: "Praias do sul-oeste"
     area: "Costa oeste"
     items:
-      - {time: "09:00", text: "Van com guia (Raquel)", place: elements}
+      - {time: "09:00", text: "Van com guia (Raquel)", place: home}
       - {time: "09:45", text: "Daaibooi", place: daaibooi}
       - {time: "11:30", text: "Snorkel em Porto Mari", place: porto-mari}
       - {time: "15:00", text: "Cas Abao até o pôr do sol", place: cas-abao}
@@ -162,7 +171,7 @@ days:
   - title: "Christoffel e Shete Boka"
     area: "Westpunt"
     items:
-      - {time: "06:00", text: "Saída cedo com a Raquel", place: elements}
+      - {time: "06:00", text: "Saída cedo com a Raquel", place: home}
       - {time: "07:00", type: hike, text: "Subida do Christoffelberg", place: christoffel}
       - {time: "10:30", type: hike, text: "Shete Boka e Boka Tabla", place: shete-boka}
       - {time: "13:00", text: "Descanso na Playa Jeremi", place: playa-jeremi}
@@ -177,12 +186,12 @@ days:
     area: "Interior"
     items:
       - {time: "09:00", text: "ATV off-road com a Kezia", place: atv}
-      - {time: "14:00", text: "Tarde livre na piscina", place: elements}
+      - {time: "14:00", text: "Tarde livre na piscina", place: home}
       - {time: "20:00", type: food, text: "Jantar no James (endereço a confirmar)"}
   - title: "Tartarugas e Kenepa"
     area: "Westpunt"
     items:
-      - {time: "08:00", text: "Van com guia (Raquel)", place: elements}
+      - {time: "08:00", text: "Van com guia (Raquel)", place: home}
       - {time: "09:00", text: "Nadar com tartarugas em Piskadó", place: piskado}
       - {time: "11:00", text: "Kenepa Grandi", place: kenepa-grandi}
       - {time: "14:30", text: "Kenepa Chiki", place: kenepa-chiki}
@@ -194,7 +203,7 @@ days:
     area: "Costa oeste"
     items:
       - {time: "10:00", text: "Kokomo e o balanço na água", place: kokomo}
-      - {time: "19:00", text: "Despedida com drink no rooftop", place: elements}
+      - {time: "19:00", text: "Despedida com drink no rooftop", place: home}
   - title: "Saída"
     area: "Willemstad"
     items:

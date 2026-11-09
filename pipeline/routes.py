@@ -51,13 +51,40 @@ def thin(line: list[list[float]]) -> list[list[float]]:
     return line[::step] + ([line[-1]] if (len(line) - 1) % step else [])
 
 
-def leg_points(leg: dict, day: dict, places: dict[str, dict]) -> list[Point]:
-    points = [(places[s]["lat"], places[s]["lon"]) for s in leg["stops"]]
+def leg_stops(leg: dict, day: dict, places: dict[str, dict]) -> list[str]:
+    """The place ids a leg passes, in order, with home at both ends when the day starts and ends there."""
+    stops = list(leg["stops"])
     home = places.get("home")
     if home and home["map"] == leg["map"] and not day["crosses_maps"] and leg["stops"] != ["home"]:
-        spot = (home["lat"], home["lon"])
-        points = [p for p in [spot, *points, spot]]
+        stops = ["home", *stops, "home"]
+    return stops
+
+
+def leg_points(leg: dict, day: dict, places: dict[str, dict]) -> list[Point]:
+    points = [(places[s]["lat"], places[s]["lon"]) for s in leg_stops(leg, day, places)]
     return insert_via(points, [tuple(p) for p in day["route_via"]])
+
+
+def hops(line: list[list[float]], stops: list[str], places: dict[str, dict]) -> list[dict]:
+    """Distance in km between each pair of consecutive stops, measured along the drawn line."""
+    if len(line) < 2 or len(stops) < 2:
+        return []
+    total = [0.0]
+    for a, b in zip(line, line[1:]):
+        total.append(total[-1] + haversine_km(*a, *b))
+    at, marks = 0, []
+    for stop in stops:
+        spot = (places[stop]["lat"], places[stop]["lon"])
+        best = min(range(at, len(line)), key=lambda i: haversine_km(*line[i], *spot))
+        marks.append(best)
+        at = best
+    result = []
+    for (a, ia), (b, ib) in zip(zip(stops, marks), zip(stops[1:], marks[1:])):
+        km = total[ib] - total[ia]
+        if km <= 0:
+            km = haversine_km(places[a]["lat"], places[a]["lon"], places[b]["lat"], places[b]["lon"])
+        result.append({"from": a, "to": b, "km": round(km, 1)})
+    return result
 
 
 def route_days(days: list[dict], places: dict[str, dict], lock: dict, router: Router) -> tuple[list[dict], list[str]]:
@@ -78,6 +105,6 @@ def route_days(days: list[dict], places: dict[str, dict], lock: dict, router: Ro
                     else:
                         lock["routes"][key] = thin(answer)
                 line = lock["routes"].get(key, line)
-            legs.append({**leg, "line": line})
+            legs.append({**leg, "line": line, "hops": hops(line, leg_stops(leg, day, places), places)})
         result.append({**day, "legs": legs})
     return result, notes

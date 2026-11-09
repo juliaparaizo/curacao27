@@ -43,6 +43,7 @@ export function createCards({
       `<p class="kicker">${esc(typeName(place.type))}</p><h2 id="cardTitle">${esc(place.name)}</h2>${place.desc ? `<p>${esc(place.desc)}</p>` : ''}
     <div id="cpl">${modules().surf?.placeHTML(place) ?? ''}</div>
     ${place.tip ? `<p style="color:var(--ink)"><b>${esc(t('tip'))}</b> ${esc(place.tip)}</p>` : ''}
+    ${placeById.home && place.id !== 'home' ? `<p class="kmline">${esc(t('fromBase', { d: fmtKm(kmBetween(placeById.home, place)), t: placeById.home.name }))}</p>` : ''}
     <div class="tags">${tags.join('')}</div>${when}
     <div class="actions"><a class="btn primary" href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(place.maps)}" target="_blank" rel="noopener">${esc(t('openMaps'))}</a><a class="btn" href="https://www.google.com/maps/dir/?api=1&destination=${place.lat},${place.lon}&travelmode=driving" target="_blank" rel="noopener">${esc(t('routeHere'))}</a></div>`,
       place.photo ? place.id : null,
@@ -64,19 +65,24 @@ export function createCards({
   }
   function cardDay(n) {
     const day = dayByNumber(n);
+    const hops = dayHops(day);
+    const base = placeById.home;
     const items = day.items
       .map(
-        i =>
-          `<li><span class="t">${esc(i.time)}</span><span><span class="chip" style="background:${typeColor(i.type)}">${esc(typeName(i.type))}</span>${i.place ? `<button type="button" data-go="lugar-${i.place}">${esc(i.text)}</button>` : esc(i.text)}</span></li>`,
+        (i, k) =>
+          `<li><span class="t">${esc(i.time)}</span><span><span class="chip" style="background:${typeColor(i.type)}">${esc(typeName(i.type))}</span>${i.place ? `<button type="button" data-go="lugar-${i.place}">${esc(i.text)}</button>` : esc(i.text)}${hops.byItem[k] ? `<span class="km">↳ ${esc(fmtKm(hops.byItem[k]))}</span>` : ''}</span></li>`,
       )
       .join('');
+    const kmLine = hops.total >= 0.1
+      ? `<p class="kmline">${hops.back && base ? `${esc(t('backTo', { t: base.name }))}: ${esc(fmtKm(hops.back))} · ` : ''}<b>${esc(t('dayTotal'))}: ${esc(fmtKm(hops.total))}</b></p>`
+      : '';
     const legs = day.crosses
       ? `<p>${esc(t('crossing'))}</p><div class="tags">${day.legs.map(leg => `<button type="button" class="tag" style="background:var(--soft-accent);cursor:pointer" data-go="dia-${n}-${leg.map}">${esc(mapById[leg.map].title)}</button>`).join('')}</div>`
       : '';
     const title = `<span style="color:${day.color}">${esc(t('day', { n }))}</span>${day.title ? ' · ' + esc(day.title) : ''}`;
     openCard(
       `<p class="kicker">${esc(fmtDate(day.date))} · ${esc(day.area)}</p><h2 id="cardTitle">${title}</h2><div id="chj">${modules().live.dayHTML(n)}</div><div id="cdy">${modules().weather.dayHTML(n)}</div>${legs}
-    <ul class="list">${items}</ul>
+    <ul class="list">${items}</ul>${kmLine}
     <div class="actions">${n > 1 ? `<button type="button" class="btn" data-go="dia-${n - 1}">← ${esc(t('day', { n: n - 1 }))}</button>` : ''}${n < T.days.length ? `<button type="button" class="btn" data-go="dia-${n + 1}">${esc(t('day', { n: n + 1 }))} →</button>` : ''}<a class="btn primary" href="roteiro.html#dia-${n}">${esc(t('viewItinerary'))}</a></div>`,
       null,
     );
