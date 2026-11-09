@@ -1,52 +1,5 @@
 {
  "geocode": {
-  "aeroporto de curacao (hato)": [
-   {
-    "city": "Guarulhos",
-    "country": "Brasil",
-    "label": "Aeroporto Internacional Governador André Franco Montoro, Guarulhos, São Paulo, Brasil",
-    "lat": -23.437859,
-    "lon": -46.4805562,
-    "osm": "aerodrome",
-    "state": "São Paulo"
-   },
-   {
-    "city": "Willemstad",
-    "country": "Nederland",
-    "label": "Mirador Curacao Airport, Willemstad, Curaçao, Nederland",
-    "lat": 12.1836383,
-    "lon": -68.9561658,
-    "osm": "attraction",
-    "state": "Curaçao"
-   },
-   {
-    "city": null,
-    "country": "Nederland",
-    "label": "Curaçao International Airport Departures, Curaçao, Nederland",
-    "lat": 12.184831,
-    "lon": -68.9568863,
-    "osm": "terminal",
-    "state": "Curaçao"
-   },
-   {
-    "city": null,
-    "country": "Nederland",
-    "label": "Curaçao International Airport Hotel, Curaçao, Nederland",
-    "lat": 12.1818819,
-    "lon": -68.9511878,
-    "osm": "casino",
-    "state": "Curaçao"
-   },
-   {
-    "city": null,
-    "country": "Nederland",
-    "label": "Curaçao International Airport Hotel, Curaçao, Nederland",
-    "lat": 12.1818819,
-    "lon": -68.9511878,
-    "osm": "motel",
-    "state": "Curaçao"
-   }
-  ],
   "alfama, lisboa": [
    {
     "city": "Lisboa",
@@ -405,64 +358,6 @@
     "lon": -68.9846352,
     "osm": "beach",
     "state": "Curaçao"
-   }
-  ],
-  "elements hotel & shops": [
-   {
-    "city": "Δήμος Χαλανδρίου",
-    "country": "Ελλάς",
-    "label": "Elements hotel, Δήμος Χαλανδρίου, Αποκεντρωμένη Διοίκηση Αττικής, Ελλάς",
-    "lat": 38.0277089,
-    "lon": 23.7914119,
-    "osm": "hotel",
-    "state": "Αποκεντρωμένη Διοίκηση Αττικής"
-   },
-   {
-    "city": "Leipzig",
-    "country": "Deutschland",
-    "label": "Hostel & Hotel Five Elements, Leipzig, Sachsen, Deutschland",
-    "lat": 51.3414057,
-    "lon": 12.3730114,
-    "osm": "hostel",
-    "state": "Sachsen"
-   },
-   {
-    "city": "Willemstad",
-    "country": "Nederland",
-    "label": "Elements Hotel & Cascade Bar Curaçao, Willemstad, Curaçao, Nederland",
-    "lat": 12.1043918,
-    "lon": -68.9325224,
-    "osm": "yes",
-    "state": "Curaçao"
-   },
-   {
-    "city": "Puttalam",
-    "country": "ශ්‍රී ලංකාව இலங்கை",
-    "label": "Elements Watersports & Nature Hotel, Puttalam, North Western Province, ශ්‍රී ලංකාව இலங்கை",
-    "lat": 8.1331479,
-    "lon": 79.7069705,
-    "osm": "beach_resort",
-    "state": "North Western Province"
-   },
-   {
-    "city": "Киров",
-    "country": "Россия",
-    "label": "Elements Hotel Kirov, Киров, Кировская область, Россия",
-    "lat": 58.5903001,
-    "lon": 49.6571029,
-    "osm": "hotel",
-    "state": "Кировская область"
-   }
-  ],
-  "fensi, penstraat, willemstad": [
-   {
-    "city": "Fenaïa Ilmaten",
-    "country": "Algérie / ⵍⵣⵣⴰⵢⴻⵔ / الجزائر",
-    "label": "Pénétrante Béjaïa, Fenaïa Ilmaten, بجاية Béjaïa ⴲⴳⴰⵢⴻⵝ, Algérie / ⵍⵣⵣⴰⵢⴻⵔ / الجزائر",
-    "lat": 36.6399964,
-    "lon": 4.7833447,
-    "osm": "motorway",
-    "state": "بجاية Béjaïa ⴲⴳⴰⵢⴻⵝ"
    }
   ],
   "handelskade, willemstad": [
@@ -1010,53 +905,6 @@
     "state": "Curaçao"
    }
   ],
-  "playa piskado, curacao": [
-   {
-    "city": null,
-    "country": "Nederland",
-    "label": "Playa Porto Marie, Curaçao, Nederland",
-    "lat": 12.2190215,
-    "lon": -69.0860761,
-    "osm": "beach",
-    "state": "Curaçao"
-   },
-   {
-    "city": "Lagún",
-    "country": "Nederland",
-    "label": "Playa Lagun, Lagún, Curaçao, Nederland",
-    "lat": 12.3182611,
-    "lon": -69.1504273,
-    "osm": "beach",
-    "state": "Curaçao"
-   },
-   {
-    "city": null,
-    "country": "Nederland",
-    "label": "Playa Santa Cruz, Curaçao, Nederland",
-    "lat": 12.3061289,
-    "lon": -69.1452822,
-    "osm": "beach",
-    "state": "Curaçao"
-   },
-   {
-    "city": "Westpunt",
-    "country": "Nederland",
-    "label": "Playa Kalki, Westpunt, Curaçao, Nederland",
-    "lat": 12.3755108,
-    "lon": -69.1578193,
-    "osm": "beach",
-    "state": "Curaçao"
-   },
-   {
-    "city": null,
-    "country": "Nederland",
-    "label": "Playa Jeremi, Curaçao, Nederland",
-    "lat": 12.3288358,
-    "lon": -69.1502147,
-    "osm": "beach",
-    "state": "Curaçao"
-   }
-  ],
   "porto mari, curacao": [
    {
     "city": null,
@@ -1101,53 +949,6 @@
     "lat": 12.2188404,
     "lon": -69.0847426,
     "osm": "tertiary",
-    "state": "Curaçao"
-   }
-  ],
-  "punda, willemstad, curacao": [
-   {
-    "city": "Willemstad",
-    "country": "Nederland",
-    "label": "Punda, Willemstad, Curaçao, Nederland",
-    "lat": 12.1053754,
-    "lon": -68.9336622,
-    "osm": "suburb",
-    "state": "Curaçao"
-   },
-   {
-    "city": "Willemstad",
-    "country": "Nederland",
-    "label": "Punda Beach, Willemstad, Curaçao, Nederland",
-    "lat": 12.1028903,
-    "lon": -68.9321251,
-    "osm": "beach",
-    "state": "Curaçao"
-   },
-   {
-    "city": null,
-    "country": "Nederland",
-    "label": "Bus to Punda, Willemstad, Curaçao, Nederland",
-    "lat": 12.1848032,
-    "lon": -68.9593548,
-    "osm": "bus_stop",
-    "state": "Curaçao"
-   },
-   {
-    "city": "Willemstad",
-    "country": "Nederland",
-    "label": "Punda Ferry Dock, Willemstad, Curaçao, Nederland",
-    "lat": 12.1063025,
-    "lon": -68.9341081,
-    "osm": "yes",
-    "state": "Curaçao"
-   },
-   {
-    "city": "Willemstad",
-    "country": "Nederland",
-    "label": "Punda Medical Center, Willemstad, Curaçao, Nederland",
-    "lat": 12.1040419,
-    "lon": -68.9305364,
-    "osm": "clinic",
     "state": "Curaçao"
    }
   ],
@@ -1209,26 +1010,6 @@
     "state": "Curaçao"
    }
   ],
-  "seru kabritu, caracasbaai, curacao": [
-   {
-    "city": "Willemstad",
-    "country": "Nederland",
-    "label": "Friethuis Caracasbaai, Willemstad, Curaçao, Nederland",
-    "lat": 12.1036349,
-    "lon": -68.8877044,
-    "osm": "restaurant",
-    "state": "Curaçao"
-   },
-   {
-    "city": null,
-    "country": "Nederland",
-    "label": "Caracasbaaiweg, Curaçao, Nederland",
-    "lat": 12.1042564,
-    "lon": -68.8885031,
-    "osm": "primary",
-    "state": "Curaçao"
-   }
-  ],
   "shete boka national park, curacao": [
    {
     "city": null,
@@ -1264,53 +1045,6 @@
     "lat": 12.3673466,
     "lon": -69.1167235,
     "osm": "ticket",
-    "state": "Curaçao"
-   }
-  ],
-  "sup curacao, caracasbaaiweg, curacao": [
-   {
-    "city": null,
-    "country": "Nederland",
-    "label": "PMI Curacao, Curaçao, Nederland",
-    "lat": 12.1049305,
-    "lon": -68.8801217,
-    "osm": "commercial",
-    "state": "Curaçao"
-   },
-   {
-    "city": null,
-    "country": "Nederland",
-    "label": "PMI Curacao Tropical Treasure Penthouse, Curaçao, Nederland",
-    "lat": 12.0820462,
-    "lon": -68.8675019,
-    "osm": "apartment",
-    "state": "Curaçao"
-   },
-   {
-    "city": null,
-    "country": "Nederland",
-    "label": "PMI Curacao - CBW  366 Holiday Apartments and Penthouses, Curaçao, Nederland",
-    "lat": 12.0918501,
-    "lon": -68.8726543,
-    "osm": "apartments",
-    "state": "Curaçao"
-   },
-   {
-    "city": "Willemstad",
-    "country": "Nederland",
-    "label": "BTC Curacao, Willemstad, Curaçao, Nederland",
-    "lat": 12.1049757,
-    "lon": -68.8804415,
-    "osm": "educational_institution",
-    "state": "Curaçao"
-   },
-   {
-    "city": "Zuurzak",
-    "country": "Nederland",
-    "label": "Boosty Curacao, Zuurzak, Curaçao, Nederland",
-    "lat": 12.10471,
-    "lon": -68.8807206,
-    "osm": "cafe",
     "state": "Curaçao"
    }
   ],
