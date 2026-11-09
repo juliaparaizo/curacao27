@@ -69,3 +69,12 @@ def test_service_worker_template_keeps_its_placeholders():
 def test_mean_longitude_works_across_the_antimeridian():
     assert abs(mean_longitude([179.9, -179.9])) == pytest.approx(180)
     assert mean_longitude([10, 20]) == pytest.approx(15)
+
+
+def test_hops_skip_home_on_arrival_and_departure():
+    places = {"home": {"lat": 0, "lon": 0, "map": "m"}, "air": {"lat": 1, "lon": 0, "map": "m", "type": "travel"},
+              "b": {"lat": 0, "lon": 1, "map": "m", "type": "beach"}}
+    day = {"n": 1, "route": "road", "route_via": [], "crosses_maps": False, "legs": [{"map": "m", "stops": ["b", "air"]}]}
+    hops = route_days([day], places, {"routes": {}}, lambda p: None)[0][0]["legs"][0]["hops"]
+    assert [(h["from"], h["to"]) for h in hops] == [("home", "b"), ("b", "air")]
+    assert hops[0]["km"] > 100

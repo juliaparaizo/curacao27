@@ -56,7 +56,10 @@ def leg_stops(leg: dict, day: dict, places: dict[str, dict]) -> list[str]:
     stops = list(leg["stops"])
     home = places.get("home")
     if home and home["map"] == leg["map"] and not day["crosses_maps"] and leg["stops"] != ["home"]:
-        stops = ["home", *stops, "home"]
+        # an arrival starts the day at the airport, a departure ends it there: no trip from or back to home
+        start = [] if places[stops[0]].get("type") == "travel" else ["home"]
+        end = [] if places[stops[-1]].get("type") == "travel" else ["home"]
+        stops = [*start, *stops, *end]
     return stops
 
 
@@ -105,6 +108,10 @@ def route_days(days: list[dict], places: dict[str, dict], lock: dict, router: Ro
                     else:
                         lock["routes"][key] = thin(answer)
                 line = lock["routes"].get(key, line)
-            legs.append({**leg, "line": line, "hops": hops(line, leg_stops(leg, day, places), places)})
+            steps = hops(line, leg_stops(leg, day, places), places)
+            if day["route"] != "road":
+                # a straight line to and from home is no real distance (a boat day ends at the pier, not the hotel)
+                steps = [h for h in steps if "home" not in (h["from"], h["to"])]
+            legs.append({**leg, "line": line, "hops": steps})
         result.append({**day, "legs": legs})
     return result, notes
