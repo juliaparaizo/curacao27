@@ -34,10 +34,10 @@ sections:
   - id: transporte
     kicker: "Transporte · carro alugado"
     title: "Carro alugado"
-    lead: "Em Curaçao as praias mais bonitas ficam longe do centro, o transporte público não chega nelas e não tem Uber. A melhor opção é alugar um carro pros 10 dias, retirando e devolvendo no aeroporto. Foi a recomendação da Raquel, guia local."
+    lead: "Em Curaçao as praias mais bonitas ficam longe do centro, o transporte público não chega nelas e não tem Uber. Por isso a viagem é de carro alugado pros 10 dias, com a Bruna, retirando e devolvendo no aeroporto."
     why:
       - title: "Bem mais barato"
-        text: "O carro sai em torno de US$ 50 a 60 por dia. Um tour de motorista por várias praias custa US$ 400 por dia (de 2 a 4 pessoas)."
+        text: "O carro sai US$ 50 por dia. Um tour de motorista por várias praias custa US$ 400 por dia (de 2 a 4 pessoas)."
       - title: "Liberdade de horário"
         text: "Os tours de motorista acabam às 17h. De carro dá pra ficar na praia até o pôr do sol e ir jantar à noite."
       - title: "Fácil de dirigir"
@@ -45,7 +45,8 @@ sections:
       - title: "Chegada e saída resolvidas"
         text: "Retira o carro assim que pousa e devolve no aeroporto no dia de ir embora."
     facts:
-      - {label: "Diária", value: "US$ 50–60"}
+      - {label: "Fornecedora", value: "Bruna"}
+      - {label: "10 dias", value: "US$ 500 (US$ 50/dia)"}
       - {label: "Retirada", value: "Aeroporto (CUR)"}
       - {label: "Precisa", value: "CNH + cartão de crédito"}
     days_title: "Dias com carro"
@@ -66,6 +67,8 @@ sections:
       - "O seguro básico vem com franquia alta: vale a proteção extra ou checar se o cartão já cobre."
       - "A gasolina é vendida em galões e os postos são mais raros no oeste: abastecer de dia e devolver cheio."
       - "Nunca deixar nada à vista no carro nas praias."
+      - "No hotel: estacionamento na rua, em frente. É pago de segunda a sábado, das 8h às 18h (XCG 1 por hora, ou XCG 10 ≈ US$ 5,60 o dia todo). À noite, domingo e feriado é grátis. Paga no parquímetro (moeda), com cartão pré-pago vendido na recepção ou pelo app (parking.cw)."
+      - "Se quiser vaga garantida, o Pietermaai Parking, do lado do hotel, cobra US$ 2 a primeira hora, US$ 1,25 cada hora extra e US$ 20 o pernoite. Funciona das 6h à meia-noite."
     buttons:
       - {text: "Ver o roteiro dia a dia", url: "roteiro.html", primary: true}
 
@@ -208,8 +211,8 @@ budget:
         - {name: "Klein Curaçao + transporte do hotel", status: cotado, usd_pp: 167, note: "Miss Ann US$ 150 + US$ 17. Mermaid sai US$ 164 e Blue Finn US$ 159, já com transporte."}
         - {name: "Quadriciclo ATV + transporte", status: cotado, usd_pp: 138, note: "US$ 118 individual + US$ 20 de transporte. Dividindo o mesmo quadriciclo cai pra US$ 108,50."}
         - {name: "Aula de windsurf em grupo (SUP Curaçao)", status: cotado, usd_pp: 52, note: "1h30 de aula."}
-        - {name: "Carro alugado (10 dias)", status: estimativa, usd_total: [500, 600], note: "Referência da Raquel: US$ 50–60 por dia. Falta cotar na locadora."}
-        - {name: "Gasolina, seguro extra e estacionamento", status: estimativa, usd_pp: [40, 80]}
+        - {name: "Carro alugado (10 dias, Bruna)", status: cotado, usd_total: 500, note: "US$ 50 por dia, retirada e devolução no aeroporto."}
+        - {name: "Gasolina, estacionamento e seguro extra", status: estimativa, usd_pp: [25, 60], note: "Estacionamento na rua em frente ao hotel: ~US$ 5,60 por dia útil, grátis à noite e domingo."}
         - {name: "Entradas de praias e parques", status: estimativa, usd_pp: [60, 90]}
         - {name: "Almoços e jantares (10 dias)", status: estimativa, usd_pp: [600, 900], note: "Varia muito com os restaurantes escolhidos. Levar comida do mercado na bolsa térmica pras praias reduz bastante."}
     - name: "Panamá · 3 noites"
@@ -238,8 +241,9 @@ todos:
       - {text: "Tudo bem dividir uma cama king? (senão, procurar quarto com duas camas)", who: cliente}
       - {text: "Confirmar e reservar o Elements (só depois da passagem: a tarifa não é reembolsável)", who: julia}
       - {text: "Pedir orçamento de transporte à Raquel", who: julia, done: true, note: "Ela recomendou alugar carro: tour de várias praias sai US$ 400 e ela não trabalha à noite."}
-      - {text: "Cotar e reservar o carro alugado (retirada e devolução no aeroporto)", who: julia}
-      - {text: "Perguntar ao Elements se tem estacionamento", who: julia}
+      - {text: "Cotar o carro alugado", who: julia, done: true, note: "Bruna: US$ 500 por 10 dias"}
+      - {text: "Reservar o carro com a Bruna (confirmar seguro incluso e caução)", who: julia}
+      - {text: "Perguntar ao Elements se tem estacionamento", who: julia, done: true, note: "Rua em frente (pago seg–sáb 8h–18h) ou Pietermaai Parking do lado"}
       - {text: "Definir quem vai dirigir", who: cliente, note: "CNH válida + cartão de crédito físico no nome dela"}
       - {text: "Escolher o barco de Klein Curaçao", who: cliente, note: "Miss Ann, Mermaid ou Blue Finn"}
       - {text: "Fechar Klein Curaçao e o ATV com a Kezia", who: julia}
