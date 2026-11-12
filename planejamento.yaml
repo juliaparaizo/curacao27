@@ -52,11 +52,11 @@ sections:
     days_title: "Dias com carro"
     days:
       - {day: 1, text: "Retirada no aeroporto → Elements"}
-      - {day: 3, text: "Cas Abao, Porto Mari e Daaibooi (pôr do sol)"}
-      - {day: 5, text: "Christoffel, Shete Boka e Playa Jeremi (saída 6h)"}
-      - {day: 6, text: "Kabritenburg, SUP Curaçao e Papagayo"}
+      - {day: 2, text: "Píer do Klein Curaçao (saída 6h30)"}
+      - {day: 4, text: "Cas Abao, Porto Mari e Daaibooi (pôr do sol)"}
+      - {day: 6, text: "Christoffel, Shete Boka e Playa Jeremi (saída 6h)"}
+      - {day: 7, text: "Kabritenburg, SUP Curaçao, Papagayo e Zanzibar à noite"}
       - {day: 8, text: "Piskadó, Kalki e Kenepa"}
-      - {day: 9, text: "Jan Thiel e Zanzibar à noite (sábado)"}
       - {day: 10, text: "Kokomo e Fort Nassau (pôr do sol)"}
       - {day: 11, text: "Renaissance Mall → devolução no aeroporto"}
     tips_title: "Pra alugar"
@@ -78,16 +78,16 @@ sections:
     lead: "Os passeios de barco e de aventura saem com a Kezia, guia brasileira que mora na ilha. Ela organiza tudo em português. Em alguns passeios, o guia do operador fala inglês e espanhol. A maioria tem busca nos hotéis centrais, e o Elements é um deles."
     tours:
       - name: "Klein Curaçao"
-        day: 4
+        day: 2
         status: "No roteiro"
         text: "Ilha desabitada de areia branca, com farol e tartarugas. Tem três barcos à escolha:"
         options:
           - {name: "Miss Ann (iate)", when: "seg, ter, qui e sex", info: "1h de navegação. Tem estrutura na ilha (banheiro, ducha, cadeiras, guarda-sol), café da manhã, churrasco e snorkel guiado."}
           - {name: "Mermaid (barco)", when: "todo dia menos quinta", info: "2h de navegação. Tem boa estrutura na ilha, café da manhã, churrasco e snorkel."}
           - {name: "Blue Finn (catamarã)", when: "todo dia", info: "Clima mais animado, com open bar a partir de 12h30. Não tem estrutura própria na ilha, usa os quiosques públicos."}
-        tip: "O barco depende do dia da semana. Escolher quando as datas estiverem fechadas."
+        tip: "Cai numa segunda, dia em que os três barcos saem."
       - name: "Quadriciclo ATV"
-        day: 7
+        day: 5
         status: "No roteiro"
         text: "Off-road de 3h pelo lado oeste: plantação de Aloe Vera, uma caverna antiga com vista panorâmica e o Noordkant, onde as ondas batem nas pedras. Sai às 9h ou às 14h, todo dia."
         tip: "Ir de tênis fechado e evitar roupa branca."
@@ -110,14 +110,38 @@ sections:
     lead: "Indicações de quem já foi, encaixadas por bairro pra não perder tempo no trânsito. Vale reservar com antecedência."
     list:
       - {name: "La Boheme", where: "Punda", day: 1, maps: "La Boheme restaurant Willemstad Curaçao"}
-      - {name: "Kome", where: "Pietermaai", day: 2, maps: "Kome restaurant Pietermaai Curaçao"}
-      - {name: "De Gouverneur", where: "Otrobanda, vista da Handelskade", day: 3, maps: "Gouverneur de Rouville restaurant Curaçao"}
-      - {name: "Fensi", where: "Pietermaai", day: 5, maps: "Fensi restaurant Pietermaai Curaçao"}
-      - {name: "Papagayo Beach Club", where: "Jan Thiel, pôr do sol", day: 6, maps: "Papagayo Beach Club Jan Thiel Curaçao"}
-      - {name: "Zanzibar", where: "Jan Thiel, sábado à noite (festa)", day: 9, maps: "Zanzibar Beach Restaurant Jan Thiel Curaçao"}
-      - {name: "James", where: "Indicação da amiga", day: 4}
-      - {name: "Mundo Bizarro", where: "Pietermaai, quinta à noite (salsa)", day: 7, maps: "Mundo Bizarro Pietermaai Curaçao"}
+      - {name: "Kome", where: "Pietermaai", day: 3, maps: "Kome restaurant Pietermaai Curaçao"}
+      - {name: "De Gouverneur", where: "Otrobanda, vista da Handelskade", day: 4, maps: "Gouverneur de Rouville restaurant Curaçao"}
+      - {name: "Fensi", where: "Pietermaai", day: 6, maps: "Fensi restaurant Pietermaai Curaçao"}
+      - {name: "Papagayo Beach Club", where: "Jan Thiel, pôr do sol", day: 7, maps: "Papagayo Beach Club Jan Thiel Curaçao"}
+      - {name: "Zanzibar", where: "Jan Thiel, sábado à noite (festa)", day: 7, maps: "Zanzibar Beach Restaurant Jan Thiel Curaçao"}
+      - {name: "James", where: "Indicação da amiga", day: 2}
+      - {name: "Mundo Bizarro", where: "Pietermaai, quinta à noite (salsa)", day: 5, maps: "Mundo Bizarro Pietermaai Curaçao"}
       - {name: "Fort Nassau", where: "No alto do morro, pôr do sol", day: 10, maps: "Fort Nassau restaurant Curaçao"}
+
+  - id: panama
+    kicker: "Panamá · 3 noites antes de Curaçao"
+    title: "Panamá"
+    lead: "O stopover da Copa é grátis por até 15 dias. Elas param 3 noites na Cidade do Panamá antes de seguir pra Curaçao, com base em Casco Viejo e um bate-volta pras ilhas de San Blas."
+    facts:
+      - {label: "Datas", value: "11 a 14/02 (proposta)"}
+      - {label: "Base", value: "Casco Viejo"}
+      - {label: "Moeda", value: "Dólar americano"}
+    tours:
+      - name: "Chegada e Casco Viejo"
+        status: "Qui 11/02"
+        text: "Chegada pela Copa, check-in e fim de tarde no centro histórico: Plaza de Francia, Catedral e um rooftop pra jantar."
+      - name: "Bate-volta pra San Blas"
+        status: "Sex 12/02"
+        text: "Ilhas de areia branca no território Guna Yala, com piscina natural e snorkel. A busca no hotel é entre 5h e 5h45: vai de 4x4 até o porto de Cartí e de lá de lancha entre as ilhas. Volta por volta das 19h. Os tours costumam incluir almoço e a taxa de entrada."
+        tip: "Ficou no segundo dia de propósito: se o mar não deixar sair, dá pra passar pro sábado."
+      - name: "Canal do Panamá e cidade"
+        status: "Sáb 13/02"
+        text: "Eclusas de Miraflores (8h às 18h, ≈ US$ 17 com IMAX), Calzada de Amador ou Cinta Costera no fim de tarde e a última noite em Casco Viejo."
+        tip: "Quer trocar? Gamboa (barco até a Isla de los Monos) e a comunidade Emberá também cabem nesse dia."
+      - name: "Voo pra Curaçao"
+        status: "Dom 14/02"
+        text: "Voo curto da Copa e a viagem segue em Curaçao."
 
   - id: dicas
     kicker: "Antes de ir · documentos, dinheiro e segurança"
@@ -146,7 +170,7 @@ sections:
           - "O certificado sai pelo app Meu SUS Digital ou pelo gov.br. A carteirinha amarela comum não vale."
         links:
           - {text: "Emitir o certificado (gov.br)", url: "https://www.gov.br/pt-br/servicos/obter-o-certificado-internacional-de-vacinacao-e-profilaxia"}
-      - title: "Panamá (stopover)"
+      - title: "Panamá (stopover na ida)"
         items:
           - "Brasileiro não precisa de visto pra turismo."
           - "Desde 2023 o Panamá não pede a vacina de febre amarela pra quem fica só na Cidade do Panamá. Ela é recomendada pra San Blas e pras comunidades Emberá, e como elas já vão tomar por causa de Curaçao, fica coberto."
@@ -224,11 +248,11 @@ budget:
         - {name: "Estacionamento e seguro extra do carro", status: estimativa, usd_pp: [10, 40], note: "Na rua em frente ao hotel: ~US$ 5,60 por dia útil, grátis à noite e domingo. Seguro: confirmar com a Bruna."}
         - {name: "Entradas de praias e parques", status: estimativa, usd_pp: [60, 90]}
         - {name: "Almoços e jantares (10 dias)", status: estimativa, usd_pp: [600, 900], note: "Varia muito com os restaurantes escolhidos. Levar comida do mercado na bolsa térmica pras praias reduz bastante."}
-    - name: "Panamá · 3 noites"
+    - name: "Panamá · 3 noites, antes de Curaçao"
       items:
         - {name: "Hotel em Casco Viejo", status: estimativa, usd_pp: [180, 300]}
         - {name: "Canal do Panamá (Miraflores)", status: cotado, usd_pp: 17.22, note: "Entrada pra estrangeiro, com IMAX."}
-        - {name: "Outros passeios (San Blas ou Taboga, Gamboa)", status: estimativa, usd_pp: [140, 260]}
+        - {name: "Bate-volta pra San Blas", status: estimativa, usd_pp: [146, 170], note: "Tours em grupo de ~US$ 146 a 170 com transporte, almoço e a taxa Guna Yala (US$ 22). Falta escolher o operador."}
         - {name: "Comida e transfers", status: estimativa, usd_pp: [180, 260]}
     - name: "Geral"
       items:
@@ -238,9 +262,11 @@ budget:
 todos:
   - group: "Antes de comprar a passagem"
     items:
-      - {text: "Definir as datas exatas (janela de 6 a 28/fev)", who: ambas}
+      - {text: "Definir as datas exatas (janela de 6 a 28/fev)", who: ambas, note: "Proposta: sai do Brasil 11/02, Panamá 11–14, Curaçao 14–24"}
       - {text: "Confirmar se os R$ 20 mil são por pessoa ou pras duas", who: cliente, done: true, note: "Por pessoa, com passagem."}
-      - {text: "Decidir se o stopover no Panamá é na ida ou na volta", who: cliente}
+      - {text: "Decidir se o stopover no Panamá é na ida ou na volta", who: cliente, done: true, note: "Na ida, com bate-volta pra San Blas"}
+      - {text: "Reservar o bate-volta pra San Blas (sex 12/02)", who: julia}
+      - {text: "Reservar hotel em Casco Viejo (3 noites, 11 a 14/02)", who: julia}
       - {text: "Comprar as passagens (Copa, via Panamá)", who: cliente}
   - group: "Reservas"
     items:

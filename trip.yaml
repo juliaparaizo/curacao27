@@ -1,10 +1,10 @@
 # Roteiro Curaçao — fevereiro 2027
-# DATA PROVISÓRIA: troque dates.start pela data de chegada em Curaçao assim que a passagem for comprada.
+# DATA PROVISÓRIA (Panamá 11–14/02 antes): troque dates.start pela chegada em Curaçao quando a passagem for comprada.
 # Atenção: no GitHub grátis o site é público. Só bairro/região, nada de endereço exato ou nº de voo.
 
 title: "Curaçao"
 subtitle: "10 noites de praia, trilha e pôr do sol"
-dates: {start: 2027-02-12}
+dates: {start: 2027-02-14}
 language: pt-BR
 units: {temp: C, distance: km, waves: ft}
 
@@ -179,6 +179,13 @@ days:
       - {type: travel, text: "Voo Panamá → Curaçao (Copa) e retirada do carro alugado", place: aeroporto}
       - {text: "Check-in e drink no rooftop", place: home}
       - {time: "20:00", text: "Jantar no La Boheme", place: la-boheme}
+  - title: "Klein Curaçao"
+    area: "Mar"
+    route: line
+    items:
+      - {time: "06:30", text: "Barco pra Klein Curaçao (Kezia)", place: sup-curacao}
+      - {time: "09:00", text: "Dia na ilha: farol, tartarugas, areia branca", place: klein-curacao}
+      - {time: "20:00", type: food, text: "Jantar no James (endereço a confirmar)"}
   - title: "Willemstad a pé"
     area: "Willemstad"
     route: line
@@ -196,27 +203,6 @@ days:
       - {time: "12:30", text: "Snorkel em Porto Mari", place: porto-mari}
       - {time: "16:00", text: "Daaibooi até o pôr do sol", place: daaibooi}
       - {time: "20:00", text: "Jantar no De Gouverneur, com vista da Handelskade", place: gouverneur}
-  - title: "Klein Curaçao"
-    area: "Mar"
-    route: line
-    items:
-      - {time: "06:30", text: "Barco pra Klein Curaçao (Kezia)", place: sup-curacao}
-      - {time: "09:00", text: "Dia na ilha: farol, tartarugas, areia branca", place: klein-curacao}
-      - {time: "20:00", type: food, text: "Jantar no James (endereço a confirmar)"}
-  - title: "Christoffel e Shete Boka"
-    area: "Westpunt"
-    items:
-      - {time: "06:00", text: "Saída cedo de carro", place: home}
-      - {time: "07:00", type: hike, text: "Subida do Christoffelberg", place: christoffel}
-      - {time: "10:30", type: hike, text: "Shete Boka e Boka Tabla", place: shete-boka}
-      - {time: "13:00", text: "Descanso na Playa Jeremi", place: playa-jeremi}
-      - {time: "20:00", text: "Jantar no Fensi", place: fensi}
-  - title: "Spanish Water"
-    area: "Sudeste"
-    items:
-      - {time: "07:00", type: hike, text: "Trilha do Kabritenburg", place: kabritenburg}
-      - {time: "10:00", type: surf, text: "Aula de windsurf na SUP Curaçao", place: sup-curacao}
-      - {time: "17:30", text: "Pôr do sol e jantar no Papagayo Beach Club", place: papagayo}
   - title: "ATV e quinta em Punda"
     area: "Interior"
     items:
@@ -225,6 +211,21 @@ days:
       - {time: "18:00", text: "Punda Vibes: música, feirinha e comida de rua", place: punda-vibes}
       - {time: "20:15", text: "Fogos de artifício em Punda", place: punda-vibes}
       - {time: "21:00", text: "Salsa, mambo e merengue no Mundo Bizarro (a pé)", place: mundo-bizarro}
+  - title: "Christoffel e Shete Boka"
+    area: "Westpunt"
+    items:
+      - {time: "06:00", text: "Saída cedo de carro", place: home}
+      - {time: "07:00", type: hike, text: "Subida do Christoffelberg", place: christoffel}
+      - {time: "10:30", type: hike, text: "Shete Boka e Boka Tabla", place: shete-boka}
+      - {time: "13:00", text: "Descanso na Playa Jeremi", place: playa-jeremi}
+      - {time: "20:00", text: "Jantar no Fensi", place: fensi}
+  - title: "Spanish Water e sábado em Jan Thiel"
+    area: "Sudeste"
+    items:
+      - {time: "07:00", type: hike, text: "Trilha do Kabritenburg", place: kabritenburg}
+      - {time: "10:00", type: surf, text: "Aula de windsurf na SUP Curaçao", place: sup-curacao}
+      - {time: "17:30", text: "Pôr do sol e jantar no Papagayo Beach Club", place: papagayo}
+      - {time: "22:00", text: "Noite de sábado no Zanzibar (tem festa)", place: zanzibar}
   - title: "Tartarugas e Kenepa"
     area: "Westpunt"
     items:
@@ -237,7 +238,6 @@ days:
     area: "Livre"
     items:
       - {text: "Beach clubs de Mambo / Jan Thiel ou repetir a praia favorita", place: mambo}
-      - {time: "22:00", text: "Noite de sábado no Zanzibar (tem festa)", place: zanzibar}
   - title: "Última praia"
     area: "Costa oeste"
     items:
@@ -247,7 +247,7 @@ days:
     area: "Willemstad"
     items:
       - {time: "10:00", text: "Check-out e compras", place: renaissance-mall}
-      - {type: travel, text: "Devolver o carro no aeroporto", place: aeroporto}
+      - {type: travel, text: "Devolver o carro e voo de volta pro Brasil", place: aeroporto}
 
 modules:
   weather: true
