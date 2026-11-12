@@ -90,13 +90,13 @@ sections:
     title: "Restaurantes"
     lead: "Indicações de quem já foi, encaixadas por bairro pra não perder tempo no trânsito. Vale reservar com antecedência."
     list:
-      - {name: "La Boheme", where: "Punda", day: 1}
-      - {name: "Kome", where: "Pietermaai", day: 2}
-      - {name: "Rozendaels", where: "Pietermaai", day: 3}
-      - {name: "Fensi", where: "Pietermaai", day: 5}
-      - {name: "Zanzibar", where: "Jan Thiel, pôr do sol", day: 6}
-      - {name: "James", where: "a confirmar", day: 7}
-      - {name: "Karakter", where: "Coral Estate, pôr do sol", day: 10}
+      - {name: "La Boheme", where: "Punda", day: 1, maps: "La Boheme restaurant Willemstad Curaçao"}
+      - {name: "Kome", where: "Pietermaai", day: 2, maps: "Kome restaurant Pietermaai Curaçao"}
+      - {name: "Rozendaels", where: "Pietermaai", day: 3, maps: "Rozendaels restaurant Willemstad Curaçao"}
+      - {name: "Fensi", where: "Pietermaai", day: 5, maps: "Fensi restaurant Pietermaai Curaçao"}
+      - {name: "Zanzibar", where: "Jan Thiel, pôr do sol", day: 6, maps: "Zanzibar Beach Restaurant Jan Thiel Curaçao"}
+      - {name: "James", where: "Indicação da amiga", day: 7}
+      - {name: "Karakter", where: "Coral Estate, pôr do sol", day: 10, maps: "Karakter Beach Restaurant Curaçao"}
 
   - id: dicas
     kicker: "Antes de ir · documentos, dinheiro e segurança"

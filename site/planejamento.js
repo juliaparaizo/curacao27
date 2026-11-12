@@ -73,7 +73,14 @@
   const restaurants = list =>
     list && list.length
       ? `<ul class="rest">${list
-          .map(r => `<li>${r.day ? dayChip(r.day) : ''}<b>${esc(r.name)}</b><span>${esc(r.where)}</span></li>`)
+          .map(
+            r =>
+              `<li>${r.day ? dayChip(r.day) : ''}<div class="rest-name"><b>${esc(r.name)}</b><span>${esc(r.where)}</span></div>${
+                r.maps
+                  ? `<a class="mapsbtn" href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(r.maps)}" target="_blank" rel="noopener">Abrir no Maps ↗</a>`
+                  : '<span class="mapsbtn off">endereço a confirmar</span>'
+              }</li>`,
+          )
           .join('')}</ul>`
       : '';
 
