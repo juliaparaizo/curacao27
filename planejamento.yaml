@@ -115,7 +115,8 @@ sections:
       - {name: "Fensi", where: "Pietermaai", day: 5, maps: "Fensi restaurant Pietermaai Curaçao"}
       - {name: "Papagayo Beach Club", where: "Jan Thiel, pôr do sol", day: 6, maps: "Papagayo Beach Club Jan Thiel Curaçao"}
       - {name: "Zanzibar", where: "Jan Thiel, sábado à noite (festa)", day: 9, maps: "Zanzibar Beach Restaurant Jan Thiel Curaçao"}
-      - {name: "James", where: "Indicação da amiga", day: 7}
+      - {name: "James", where: "Indicação da amiga", day: 4}
+      - {name: "Mundo Bizarro", where: "Pietermaai, quinta à noite (salsa)", day: 7, maps: "Mundo Bizarro Pietermaai Curaçao"}
       - {name: "Karakter", where: "Coral Estate, pôr do sol", day: 10, maps: "Karakter Beach Restaurant Curaçao"}
 
   - id: dicas
@@ -212,7 +213,8 @@ budget:
         - {name: "Quadriciclo ATV + transporte", status: cotado, usd_pp: 138, note: "US$ 118 individual + US$ 20 de transporte. Dividindo o mesmo quadriciclo cai pra US$ 108,50."}
         - {name: "Aula de windsurf em grupo (SUP Curaçao)", status: cotado, usd_pp: 52, note: "1h30 de aula."}
         - {name: "Carro alugado (10 dias, Bruna)", status: cotado, usd_total: 500, note: "US$ 50 por dia, retirada e devolução no aeroporto."}
-        - {name: "Gasolina, estacionamento e seguro extra", status: estimativa, usd_pp: [25, 60], note: "Estacionamento na rua em frente ao hotel: ~US$ 5,60 por dia útil, grátis à noite e domingo."}
+        - {name: "Gasolina", status: estimativa, usd_total: [40, 70], note: "~450 km no roteiro todo. A gasolina custa ~XCG 2 por litro (≈ US$ 1,15)."}
+        - {name: "Estacionamento e seguro extra do carro", status: estimativa, usd_pp: [10, 40], note: "Na rua em frente ao hotel: ~US$ 5,60 por dia útil, grátis à noite e domingo. Seguro: confirmar com a Bruna."}
         - {name: "Entradas de praias e parques", status: estimativa, usd_pp: [60, 90]}
         - {name: "Almoços e jantares (10 dias)", status: estimativa, usd_pp: [600, 900], note: "Varia muito com os restaurantes escolhidos. Levar comida do mercado na bolsa térmica pras praias reduz bastante."}
     - name: "Panamá · 3 noites"

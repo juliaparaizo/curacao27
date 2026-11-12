@@ -69,6 +69,18 @@ places:
     lon: -68.8800
     type: food
     desc: "Beach club em Jan Thiel, ótimo pro pôr do sol."
+  - id: punda-vibes
+    name: "Punda Vibes, Punda, Willemstad"
+    lat: 12.1063
+    lon: -68.9340
+    type: sight
+    desc: "Toda quinta à noite: Punda vira festa de rua, com música ao vivo, feirinha e comida. Termina com fogos às 20h15."
+  - id: mundo-bizarro
+    name: "Mundo Bizarro, Nieuwestraat, Pietermaai"
+    lat: 12.1037
+    lon: -68.9265
+    type: food
+    desc: "Bar e restaurante cubano em Pietermaai, com música ao vivo. Depois dos fogos de quinta tem salsa, mambo e merengue, clima de Havana Velha. Dá pra ir a pé do hotel."
   - id: daaibooi
     name: "Daaibooi Beach, Curaçao"
     type: beach
@@ -187,6 +199,7 @@ days:
     items:
       - {time: "06:30", text: "Barco pra Klein Curaçao (Kezia)", place: sup-curacao}
       - {time: "09:00", text: "Dia na ilha: farol, tartarugas, areia branca", place: klein-curacao}
+      - {time: "20:00", type: food, text: "Jantar no James (endereço a confirmar)"}
   - title: "Christoffel e Shete Boka"
     area: "Westpunt"
     items:
@@ -201,12 +214,14 @@ days:
       - {time: "07:00", type: hike, text: "Trilha do Kabritenburg", place: kabritenburg}
       - {time: "10:00", type: surf, text: "Aula de windsurf na SUP Curaçao", place: sup-curacao}
       - {time: "17:30", text: "Pôr do sol e jantar no Papagayo Beach Club", place: papagayo}
-  - title: "Quadriciclo ATV"
+  - title: "ATV e quinta em Punda"
     area: "Interior"
     items:
       - {time: "09:00", text: "ATV off-road com a Kezia", place: atv}
       - {time: "14:00", text: "Tarde livre na piscina", place: home}
-      - {time: "20:00", type: food, text: "Jantar no James (endereço a confirmar)"}
+      - {time: "18:00", text: "Punda Vibes: música, feirinha e comida de rua", place: punda-vibes}
+      - {time: "20:15", text: "Fogos de artifício em Punda", place: punda-vibes}
+      - {time: "21:00", text: "Salsa, mambo e merengue no Mundo Bizarro (a pé)", place: mundo-bizarro}
   - title: "Tartarugas e Kenepa"
     area: "Westpunt"
     items:
