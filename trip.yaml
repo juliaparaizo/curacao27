@@ -84,6 +84,40 @@ places:
     lon: -68.9265
     type: food
     desc: "Bar e restaurante cubano em Pietermaai, com música ao vivo. Depois dos fogos de quinta tem salsa, mambo e merengue, clima de Havana Velha. Dá pra ir a pé do hotel."
+  - id: sinagoga
+    name: "Sinagoga Mikvé Israel-Emanuel, Punda"
+    lat: 12.1069
+    lon: -68.9322
+    type: sight
+    desc: "Sinagoga de 1732, com o chão coberto de areia, de uma congregação fundada em 1651. Ingresso US$ 18 com audioguia, vendido no Museu Judaico ao lado."
+    tip: "Aberta pra visita de segunda a sexta, 9h às 16h30 (última entrada 15h30). Levar documento com foto."
+  - id: kura-hulanda
+    name: "Museu Kura Hulanda, Otrobanda"
+    lat: 12.1079
+    lon: -68.9388
+    type: sight
+    desc: "Museu sobre os reinos da África Ocidental, o tráfico de escravizados e a cultura do Caribe, com mais de 5.000 peças. Fica numa vila restaurada em Otrobanda."
+    tip: "Seg a sáb, 8h às 16h; dom, 9h às 14h. Vale a visita guiada (em espanhol ou inglês)."
+  - id: marshe-bieu
+    name: "Marshe Bieu (Plasa Bieu), Punda"
+    lat: 12.1086
+    lon: -68.9313
+    type: food
+    desc: "O antigo mercado onde os locais almoçam comida típica de Curaçao, em barracas com mesas compartilhadas. Porção grande e preço baixo."
+  - id: chobolobo
+    name: "Landhuis Chobolobo (Blue Curaçao)"
+    lat: 12.1101
+    lon: -68.9038
+    type: sight
+    desc: "Casa de fazenda onde é feito o licor Blue Curaçao original. Tour de 1h com um coquetel incluso, US$ 20."
+    tip: "Só de segunda a sexta, com saídas às 9h, 10h, 11h, 13h, 14h e 15h. Chegar 30 min antes."
+  - id: museo-tula
+    name: "Museo Tula, Landhuis Kenepa"
+    lat: 12.3435
+    lon: -69.1440
+    type: sight
+    desc: "Museu na antiga fazenda Kenepa, onde começou em 1795 a revolta liderada por Tula, a maior resistência à escravidão da história de Curaçao."
+    tip: "Confirmar horário antes de ir (+599 9 560 9003)."
   - id: daaibooi
     name: "Daaibooi Beach, Curaçao"
     type: beach
@@ -186,13 +220,16 @@ days:
       - {time: "06:30", text: "Barco pra Klein Curaçao (Kezia)", place: sup-curacao}
       - {time: "09:00", text: "Dia na ilha: farol, tartarugas, areia branca", place: klein-curacao}
       - {time: "20:00", type: food, text: "Jantar no James (endereço a confirmar)"}
-  - title: "Willemstad a pé"
+  - title: "Willemstad: história e cultura"
     area: "Willemstad"
     route: line
     items:
       - {time: "09:00", text: "Punda e a fachada da Handelskade", place: handelskade}
-      - {time: "10:00", text: "Atravessar a ponte flutuante", place: queen-emma}
-      - {time: "10:30", text: "Otrobanda: ruelas e murais", place: otrobanda}
+      - {time: "09:30", type: sight, text: "Sinagoga Mikvé Israel-Emanuel, com chão de areia", place: sinagoga}
+      - {time: "11:00", text: "Atravessar a ponte flutuante", place: queen-emma}
+      - {time: "11:15", text: "Otrobanda: ruelas e murais", place: otrobanda}
+      - {time: "11:45", type: sight, text: "Museu Kura Hulanda", place: kura-hulanda}
+      - {time: "13:30", type: food, text: "Almoço típico no Marshe Bieu", place: marshe-bieu}
       - {time: "17:00", text: "Fim de tarde em Pietermaai", place: pietermaai}
       - {time: "20:00", text: "Jantar no Kome", place: kome}
   - title: "Praias do sul-oeste"
@@ -207,7 +244,7 @@ days:
     area: "Interior"
     items:
       - {time: "09:00", text: "ATV off-road com a Kezia", place: atv}
-      - {time: "14:00", text: "Tarde livre na piscina", place: home}
+      - {time: "14:00", type: sight, text: "Tour do licor Blue Curaçao no Landhuis Chobolobo", place: chobolobo}
       - {time: "18:00", text: "Punda Vibes: música, feirinha e comida de rua", place: punda-vibes}
       - {time: "20:15", text: "Fogos de artifício em Punda", place: punda-vibes}
       - {time: "21:00", text: "Salsa, mambo e merengue no Mundo Bizarro (a pé)", place: mundo-bizarro}
@@ -218,6 +255,7 @@ days:
       - {time: "07:00", type: hike, text: "Subida do Christoffelberg", place: christoffel}
       - {time: "10:30", type: hike, text: "Shete Boka e Boka Tabla", place: shete-boka}
       - {time: "13:00", text: "Descanso na Playa Jeremi", place: playa-jeremi}
+      - {time: "15:30", type: sight, text: "Museo Tula, na fazenda Kenepa", place: museo-tula}
       - {time: "20:00", text: "Jantar no Fensi", place: fensi}
   - title: "Spanish Water e sábado em Jan Thiel"
     area: "Sudeste"
