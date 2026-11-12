@@ -20,25 +20,26 @@ sections:
         text: "O Cascada, no terraço, tem piscina, drinks e tapas com vista da cidade e do mar. É onde a gente fecha os dias mais tranquilos."
       - title: "Boutique e premiado"
         text: "São só 43 quartos, num 4 estrelas com estilo, e não num resort gigante. Embaixo tem uma praça com 3 restaurantes e lojinhas."
-      - title: "Café da manhã incluso"
-        text: "Já sai do hotel alimentada pros dias de trilha cedo."
+      - title: "Quarto amplo e moderno"
+        text: "De 25 a 31 m², com cama king, mesa de trabalho e vista do pátio ou da ponte Queen Juliana."
     facts:
       - {label: "Onde", value: "Hendrikplein, Punda"}
       - {label: "Noites", value: "10"}
-      - {label: "Regime", value: "Café da manhã"}
+      - {label: "Quarto", value: "Premier King (1 cama king)"}
+      - {label: "Café da manhã", value: "Confirmando na tarifa"}
     buttons:
       - {text: "Ver o hotel e reservar", url: "https://www.elementscuracao.com", primary: true}
       - {text: "Ver no mapa", url: "index.html#lugar-home"}
 
   - id: transporte
-    kicker: "Transporte · van com guia"
+    kicker: "Transporte · carro com motorista"
     title: "Raquel Silva"
-    lead: "Em Curaçao as praias mais bonitas ficam longe do centro e o transporte público não chega nelas. Por isso os dias de praia e trilha são feitos com a van da Raquel, que leva, espera e já conhece a ilha."
+    lead: "Em Curaçao as praias mais bonitas ficam longe do centro e o transporte público não chega nelas. Por isso os dias de praia e trilha são feitos de carro com a Raquel, que leva, espera e já conhece a ilha."
     why:
       - title: "Sem dirigir e sem se perder"
-        text: "As estradas pro oeste são longas e mal sinalizadas. Com a van é só curtir."
+        text: "As estradas pro oeste são longas e mal sinalizadas. Com motorista é só curtir."
       - title: "Horário que funciona"
-        text: "A trilha do Christoffel começa às 6h, antes do calor. Com a van, sair cedo não é problema."
+        text: "A trilha do Christoffel começa às 6h, antes do calor. Com motorista, sair cedo não é problema."
       - title: "Chegada e saída resolvidas"
         text: "Os transfers de aeroporto também são com ela."
     days:
@@ -47,6 +48,7 @@ sections:
       - {day: 5, text: "Christoffel, Shete Boka e Playa Jeremi (saída 6h)"}
       - {day: 6, text: "Kabritenburg, SUP Curaçao e Zanzibar (opcional)"}
       - {day: 8, text: "Piskadó, Kalki e Kenepa"}
+      - {day: 10, text: "Kokomo e Karakter (opcional)"}
       - {day: 11, text: "Renaissance Mall → aeroporto"}
     buttons:
       - {text: "Ver o roteiro dia a dia", url: "roteiro.html", primary: true}
@@ -96,18 +98,50 @@ sections:
       - {name: "James", where: "a confirmar", day: 7}
       - {name: "Karakter", where: "Coral Estate, pôr do sol", day: 10}
 
+budget:
+  title: "Orçamento"
+  lead: "Quanto a viagem deve custar por pessoa, separando o que já tem preço do que ainda é estimativa. O total vai ficando mais preciso a cada cotação."
+  fx: 5.75
+  fx_note: "Dólar comercial a R$ 5,51 (9/11/2026) + IOF e spread do cartão"
+  people: 2
+  target_brl: 20000
+  target_label: "Meta da Isabella com passagem (por pessoa?)"
+  groups:
+    - name: "Curaçao"
+      items:
+        - {name: "Elements Hotel · Premier King · 10 noites", status: cotado, usd_total: 1555.20, note: "Tarifa não reembolsável. Falta confirmar café da manhã e taxas."}
+        - {name: "Klein Curaçao + transporte do hotel", status: cotado, usd_pp: 167, note: "Miss Ann US$ 150 + US$ 17. Mermaid sai US$ 164 e Blue Finn US$ 159, já com transporte."}
+        - {name: "Quadriciclo ATV + transporte", status: cotado, usd_pp: 138, note: "US$ 118 individual + US$ 20 de transporte. Dividindo o mesmo quadriciclo cai pra US$ 108,50."}
+        - {name: "Aula de windsurf em grupo (SUP Curaçao)", status: cotado, usd_pp: 52, note: "1h30 de aula."}
+        - {name: "Carro com motorista (Raquel)", status: a cotar, usd_pp: [250, 450], note: "Transfers e dias 3, 5, 8 (e 6 e 10, opcionais). Orçamento pedido."}
+        - {name: "Entradas de praias e parques", status: estimativa, usd_pp: [60, 90]}
+        - {name: "Almoços e jantares (10 dias)", status: estimativa, usd_pp: [600, 900], note: "Varia muito com os restaurantes escolhidos."}
+    - name: "Panamá · 3 noites"
+      items:
+        - {name: "Hotel em Casco Viejo", status: estimativa, usd_pp: [180, 300]}
+        - {name: "Canal do Panamá (Miraflores)", status: cotado, usd_pp: 17.22, note: "Entrada pra estrangeiro, com IMAX."}
+        - {name: "Outros passeios (San Blas ou Taboga, Gamboa)", status: estimativa, usd_pp: [140, 260]}
+        - {name: "Comida e transfers", status: estimativa, usd_pp: [180, 260]}
+    - name: "Geral"
+      items:
+        - {name: "Passagem Copa ida e volta, com stopover", status: estimativa, brl_pp: [3000, 4500], note: "Preço de fevereiro ainda não pesquisado."}
+        - {name: "Seguro viagem", status: estimativa, brl_pp: [250, 450]}
+
 todos:
   - group: "Antes de comprar a passagem"
     items:
       - {text: "Definir as datas exatas (janela de 6 a 28/fev)", who: ambas}
+      - {text: "Confirmar se os R$ 20 mil são por pessoa ou pras duas", who: cliente}
       - {text: "Decidir se o stopover no Panamá é na ida ou na volta", who: cliente}
       - {text: "Comprar as passagens (Copa, via Panamá)", who: cliente}
   - group: "Reservas"
     items:
       - {text: "Cotar o Elements pras datas (10 noites, quarto duplo com café)", who: julia}
-      - {text: "Confirmar e reservar o Elements", who: julia}
-      - {text: "Cotar com a Raquel os transfers e a van dos dias 1, 3, 5, 8 e 11", who: julia}
-      - {text: "Decidir se a van também vai no dia 6 (Spanish Water)", who: ambas}
+      - {text: "Confirmar se a tarifa do Elements inclui café da manhã e taxas", who: julia}
+      - {text: "Tudo bem dividir uma cama king? (senão, procurar quarto com duas camas)", who: cliente}
+      - {text: "Confirmar e reservar o Elements (só depois da passagem: a tarifa não é reembolsável)", who: julia}
+      - {text: "Pedir orçamento à Raquel: transfers e carro dos dias 1, 3, 5, 8 e 11 (+ 6 e 10 opcionais)", who: julia}
+      - {text: "Decidir se o carro também vai nos dias 6 e 10", who: ambas}
       - {text: "Escolher o barco de Klein Curaçao", who: cliente, note: "Miss Ann, Mermaid ou Blue Finn"}
       - {text: "Fechar Klein Curaçao e o ATV com a Kezia", who: julia}
       - {text: "Agendar a aula de windsurf na SUP Curaçao", who: julia}

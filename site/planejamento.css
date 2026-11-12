@@ -416,3 +416,162 @@ li.done .txt {
     flex-basis: 100%;
   }
 }
+
+/* budget */
+.totals {
+  display: grid;
+  grid-template-columns: 1.3fr 1fr 1fr;
+  gap: 10px;
+  margin: 0 0 18px;
+}
+.total {
+  background: var(--bg);
+  border-radius: 14px;
+  padding: 14px;
+}
+.total span,
+.total small {
+  display: block;
+  font-family: var(--mono);
+  font-size: 12px;
+  color: var(--muted);
+}
+.total b {
+  display: block;
+  font-size: 20px;
+  margin: 4px 0 2px;
+}
+.total.main {
+  background: var(--ink);
+  color: var(--card);
+}
+.total.main span {
+  color: color-mix(in srgb, var(--card) 75%, transparent);
+}
+.total.main b {
+  font-size: 24px;
+}
+.meter {
+  margin: 4px 0 8px;
+}
+.track {
+  position: relative;
+  height: 14px;
+  border-radius: 999px;
+  background: var(--bg);
+}
+.track .band {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  border-radius: 999px;
+  background: var(--accent);
+}
+.track .goal {
+  position: absolute;
+  top: -5px;
+  bottom: -5px;
+  width: 3px;
+  margin-left: -1.5px;
+  border-radius: 2px;
+  background: var(--ink);
+}
+.meter-labels {
+  position: relative;
+  height: 22px;
+  margin-top: 6px;
+}
+.meter-labels span {
+  position: absolute;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  font-family: var(--mono);
+  font-size: 12px;
+  font-weight: 700;
+}
+.meter p {
+  margin: 4px 0 0;
+  font-size: 14.5px;
+  color: var(--ink2);
+}
+.budget-group h3 {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  font-size: 15px;
+  margin: 22px 0 6px;
+}
+.budget-group h3 span {
+  font-family: var(--mono);
+  font-weight: 400;
+  font-size: 13px;
+  color: var(--muted);
+}
+.budget-group ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.budget-group li {
+  display: grid;
+  grid-template-columns: 1fr auto 150px;
+  align-items: start;
+  gap: 12px;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--line);
+}
+.b-main b {
+  font-weight: 600;
+  font-size: 15px;
+}
+.b-main small,
+.b-val small {
+  display: block;
+  font-family: var(--mono);
+  font-size: 12px;
+  color: var(--muted);
+  margin-top: 2px;
+}
+.b-val {
+  text-align: right;
+}
+.b-val b {
+  font-size: 15px;
+  white-space: nowrap;
+}
+.st {
+  font-family: var(--mono);
+  font-size: 11px;
+  font-weight: 700;
+  border-radius: 999px;
+  padding: 3px 9px;
+  white-space: nowrap;
+}
+.st-cotado {
+  background: #1ba6a6;
+  color: #fff;
+}
+.st-estimativa {
+  background: var(--bg);
+  color: var(--ink2);
+  border: 1px dashed var(--muted);
+}
+.st-a-cotar {
+  background: #f6b4a0;
+  color: var(--ink);
+}
+@media (max-width: 560px) {
+  .totals {
+    grid-template-columns: 1fr 1fr;
+  }
+  .total.main {
+    grid-column: 1 / -1;
+  }
+  .budget-group li {
+    grid-template-columns: 1fr auto;
+  }
+  .b-val {
+    grid-column: 1 / -1;
+    text-align: left;
+  }
+}
