@@ -44,8 +44,8 @@ self.addEventListener('fetch', event => {
     return;
   }
   if (url.origin !== location.origin) return;
-  // pages: try the network, fall back to the saved version
-  if (request.mode === 'navigate') {
+  // pages and trip data (data/*.js changes on every edit): try the network, fall back to the saved version
+  if (request.mode === 'navigate' || /\/data\/[^/]+\.(js|css)$/.test(url.pathname)) {
     event.respondWith(
       fetch(request)
         .then(response => {
