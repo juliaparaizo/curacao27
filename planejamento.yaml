@@ -175,7 +175,7 @@ budget:
     - name: "Curaçao"
       items:
         - {name: "Elements Hotel · Premier King · 10 noites", status: cotado, usd_total: 1555.20, note: "Tarifa não reembolsável, sem café. Falta confirmar se inclui taxas."}
-        - {name: "Café da manhã no Elements (10 dias)", status: cotado, usd_pp: 200, note: "US$ 20 por dia, por pessoa (confirmar se não é por quarto)."}
+        - {name: "Café da manhã no Elements (10 dias)", status: cotado, usd_pp: 200, note: "US$ 20 por dia, por pessoa."}
         - {name: "Klein Curaçao + transporte do hotel", status: cotado, usd_pp: 167, note: "Miss Ann US$ 150 + US$ 17. Mermaid sai US$ 164 e Blue Finn US$ 159, já com transporte."}
         - {name: "Quadriciclo ATV + transporte", status: cotado, usd_pp: 138, note: "US$ 118 individual + US$ 20 de transporte. Dividindo o mesmo quadriciclo cai pra US$ 108,50."}
         - {name: "Aula de windsurf em grupo (SUP Curaçao)", status: cotado, usd_pp: 52, note: "1h30 de aula."}
@@ -203,7 +203,7 @@ todos:
   - group: "Reservas"
     items:
       - {text: "Cotar o Elements pras datas (10 noites, quarto duplo com café)", who: julia}
-      - {text: "Confirmar se a tarifa do Elements inclui as taxas e se o café (US$ 20/dia) é por pessoa ou por quarto", who: julia}
+      - {text: "Confirmar se a tarifa do Elements inclui as taxas", who: julia}
       - {text: "Querem incluir o café da manhã do hotel?", who: cliente}
       - {text: "Tudo bem dividir uma cama king? (senão, procurar quarto com duas camas)", who: cliente}
       - {text: "Confirmar e reservar o Elements (só depois da passagem: a tarifa não é reembolsável)", who: julia}
