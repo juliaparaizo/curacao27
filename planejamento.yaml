@@ -32,24 +32,40 @@ sections:
       - {text: "Ver no mapa", url: "index.html#lugar-home"}
 
   - id: transporte
-    kicker: "Transporte · carro com motorista"
-    title: "Raquel Silva"
-    lead: "Em Curaçao as praias mais bonitas ficam longe do centro e o transporte público não chega nelas. Por isso os dias de praia e trilha são feitos de carro com a Raquel, que leva, espera e já conhece a ilha."
+    kicker: "Transporte · carro alugado"
+    title: "Carro alugado"
+    lead: "Em Curaçao as praias mais bonitas ficam longe do centro, o transporte público não chega nelas e não tem Uber. A melhor opção é alugar um carro pros 10 dias, retirando e devolvendo no aeroporto. Foi a recomendação da Raquel, guia local."
     why:
-      - title: "Sem dirigir e sem se perder"
-        text: "As estradas pro oeste são longas e mal sinalizadas. Com motorista é só curtir."
-      - title: "Horário que funciona"
-        text: "A trilha do Christoffel começa às 6h, antes do calor. Com motorista, sair cedo não é problema."
+      - title: "Bem mais barato"
+        text: "O carro sai em torno de US$ 50 a 60 por dia. Um tour de motorista por várias praias custa US$ 400 por dia (de 2 a 4 pessoas)."
+      - title: "Liberdade de horário"
+        text: "Os tours de motorista acabam às 17h. De carro dá pra ficar na praia até o pôr do sol e ir jantar à noite."
+      - title: "Fácil de dirigir"
+        text: "Dirige-se do mesmo lado do Brasil. Nas praias o estacionamento é grátis ou barato."
       - title: "Chegada e saída resolvidas"
-        text: "Os transfers de aeroporto também são com ela."
+        text: "Retira o carro assim que pousa e devolve no aeroporto no dia de ir embora."
+    facts:
+      - {label: "Diária", value: "US$ 50–60"}
+      - {label: "Retirada", value: "Aeroporto (CUR)"}
+      - {label: "Precisa", value: "CNH + cartão de crédito"}
+    days_title: "Dias com carro"
     days:
-      - {day: 1, text: "Transfer aeroporto → Elements"}
-      - {day: 3, text: "Daaibooi, Porto Mari e Cas Abao"}
+      - {day: 1, text: "Retirada no aeroporto → Elements"}
+      - {day: 3, text: "Cas Abao, Porto Mari e Daaibooi (pôr do sol)"}
       - {day: 5, text: "Christoffel, Shete Boka e Playa Jeremi (saída 6h)"}
-      - {day: 6, text: "Kabritenburg, SUP Curaçao e Zanzibar (opcional)"}
+      - {day: 6, text: "Kabritenburg, SUP Curaçao e Papagayo"}
       - {day: 8, text: "Piskadó, Kalki e Kenepa"}
-      - {day: 10, text: "Kokomo e Karakter (opcional)"}
-      - {day: 11, text: "Renaissance Mall → aeroporto"}
+      - {day: 9, text: "Jan Thiel e Zanzibar à noite (sábado)"}
+      - {day: 10, text: "Kokomo e Karakter"}
+      - {day: 11, text: "Renaissance Mall → devolução no aeroporto"}
+    tips_title: "Pra alugar"
+    notes:
+      - "Precisa de CNH válida e de cartão de crédito físico no nome de quem vai dirigir (débito não serve)."
+      - "Algumas locadoras aceitam só a CNH; outras pedem a Permissão Internacional pra Dirigir (PID). Tirar a PID no Detran evita surpresa."
+      - "A idade mínima costuma ser 21 anos. Abaixo de 25, algumas cobram taxa de motorista jovem."
+      - "O seguro básico vem com franquia alta: vale a proteção extra ou checar se o cartão já cobre."
+      - "A gasolina é vendida em galões e os postos são mais raros no oeste: abastecer de dia e devolver cheio."
+      - "Nunca deixar nada à vista no carro nas praias."
     buttons:
       - {text: "Ver o roteiro dia a dia", url: "roteiro.html", primary: true}
 
@@ -94,7 +110,8 @@ sections:
       - {name: "Kome", where: "Pietermaai", day: 2, maps: "Kome restaurant Pietermaai Curaçao"}
       - {name: "Rozendaels", where: "Pietermaai", day: 3, maps: "Rozendaels restaurant Willemstad Curaçao"}
       - {name: "Fensi", where: "Pietermaai", day: 5, maps: "Fensi restaurant Pietermaai Curaçao"}
-      - {name: "Zanzibar", where: "Jan Thiel, pôr do sol", day: 6, maps: "Zanzibar Beach Restaurant Jan Thiel Curaçao"}
+      - {name: "Papagayo Beach Club", where: "Jan Thiel, pôr do sol", day: 6, maps: "Papagayo Beach Club Jan Thiel Curaçao"}
+      - {name: "Zanzibar", where: "Jan Thiel, sábado à noite (festa)", day: 9, maps: "Zanzibar Beach Restaurant Jan Thiel Curaçao"}
       - {name: "James", where: "Indicação da amiga", day: 7}
       - {name: "Karakter", where: "Coral Estate, pôr do sol", day: 10, maps: "Karakter Beach Restaurant Curaçao"}
 
@@ -191,7 +208,8 @@ budget:
         - {name: "Klein Curaçao + transporte do hotel", status: cotado, usd_pp: 167, note: "Miss Ann US$ 150 + US$ 17. Mermaid sai US$ 164 e Blue Finn US$ 159, já com transporte."}
         - {name: "Quadriciclo ATV + transporte", status: cotado, usd_pp: 138, note: "US$ 118 individual + US$ 20 de transporte. Dividindo o mesmo quadriciclo cai pra US$ 108,50."}
         - {name: "Aula de windsurf em grupo (SUP Curaçao)", status: cotado, usd_pp: 52, note: "1h30 de aula."}
-        - {name: "Carro com motorista (Raquel)", status: a cotar, usd_pp: [250, 450], note: "Transfers e dias 3, 5, 8 (e 6 e 10, opcionais). Orçamento pedido."}
+        - {name: "Carro alugado (10 dias)", status: estimativa, usd_total: [500, 600], note: "Referência da Raquel: US$ 50–60 por dia. Falta cotar na locadora."}
+        - {name: "Gasolina, seguro extra e estacionamento", status: estimativa, usd_pp: [40, 80]}
         - {name: "Entradas de praias e parques", status: estimativa, usd_pp: [60, 90]}
         - {name: "Almoços e jantares (10 dias)", status: estimativa, usd_pp: [600, 900], note: "Varia muito com os restaurantes escolhidos. Levar comida do mercado na bolsa térmica pras praias reduz bastante."}
     - name: "Panamá · 3 noites"
@@ -219,8 +237,10 @@ todos:
       - {text: "Querem incluir o café da manhã do hotel?", who: cliente}
       - {text: "Tudo bem dividir uma cama king? (senão, procurar quarto com duas camas)", who: cliente}
       - {text: "Confirmar e reservar o Elements (só depois da passagem: a tarifa não é reembolsável)", who: julia}
-      - {text: "Pedir orçamento à Raquel: transfers e carro dos dias 1, 3, 5, 8 e 11 (+ 6 e 10 opcionais)", who: julia}
-      - {text: "Decidir se o carro também vai nos dias 6 e 10", who: ambas}
+      - {text: "Pedir orçamento de transporte à Raquel", who: julia, done: true, note: "Ela recomendou alugar carro: tour de várias praias sai US$ 400 e ela não trabalha à noite."}
+      - {text: "Cotar e reservar o carro alugado (retirada e devolução no aeroporto)", who: julia}
+      - {text: "Perguntar ao Elements se tem estacionamento", who: julia}
+      - {text: "Definir quem vai dirigir", who: cliente, note: "CNH válida + cartão de crédito físico no nome dela"}
       - {text: "Escolher o barco de Klein Curaçao", who: cliente, note: "Miss Ann, Mermaid ou Blue Finn"}
       - {text: "Fechar Klein Curaçao e o ATV com a Kezia", who: julia}
       - {text: "Agendar a aula de windsurf na SUP Curaçao", who: julia}
@@ -231,6 +251,7 @@ todos:
       - {text: "Passaporte válido", who: cliente}
       - {text: "Tomar a vacina de febre amarela e tirar o certificado internacional (pelo menos 10 dias antes)", who: cliente}
       - {text: "Contratar seguro viagem", who: cliente}
+      - {text: "Tirar a Permissão Internacional pra Dirigir (PID) no Detran, por garantia", who: cliente}
       - {text: "Preencher o DI Card nos 7 dias antes do embarque e salvar o PDF", who: cliente, note: "Grátis, só no dicardcuracao.com/portal"}
       - {text: "Levar adaptador de tomada (padrão americano)", who: cliente}
       - {text: "Baixar o app 24-7 Taxi Curaçao (não tem Uber na ilha)", who: cliente}

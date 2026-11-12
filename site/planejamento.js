@@ -43,9 +43,14 @@
       ? `<dl class="facts">${list.map(f => `<div><dt>${esc(f.label)}</dt><dd>${esc(f.value)}</dd></div>`).join('')}</dl>`
       : '';
 
-  const days = list =>
+  const notes = (list, title) =>
     list && list.length
-      ? `<h3 class="sub-h">Dias com motorista</h3><ul class="daylist">${list
+      ? `<h3 class="sub-h">${esc(title || 'Bom saber')}</h3><ul class="notes">${list.map(n => `<li>${esc(n)}</li>`).join('')}</ul>`
+      : '';
+
+  const days = (list, title) =>
+    list && list.length
+      ? `<h3 class="sub-h">${esc(title || 'Dias')}</h3><ul class="daylist">${list
           .map(d => `<li>${dayChip(d.day)}<span>${esc(d.text)}</span>${dayDate(d.day) ? `<time>${esc(dayDate(d.day))}</time>` : ''}</li>`)
           .join('')}</ul>`
       : '';
@@ -104,7 +109,7 @@
         <p class="kicker">${esc(s.kicker)}</p>
         <h2>${esc(s.title)}</h2>
         <p class="lead">${esc(s.lead)}</p>
-        ${facts(s.facts)}${why(s.why)}${days(s.days)}${tours(s.tours)}${restaurants(s.list)}${tips(s.tips)}${buttons(s.buttons)}
+        ${facts(s.facts)}${why(s.why)}${days(s.days, s.days_title)}${notes(s.notes, s.tips_title)}${tours(s.tours)}${restaurants(s.list)}${tips(s.tips)}${buttons(s.buttons)}
       </section>`,
     )
     .join('');

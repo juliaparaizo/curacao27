@@ -642,3 +642,13 @@ li.done .txt {
     flex-wrap: nowrap;
   }
 }
+
+.notes {
+  margin: 0;
+  padding-left: 18px;
+}
+.notes li {
+  font-size: 14.5px;
+  color: var(--ink2);
+  margin: 0 0 6px;
+}

@@ -21,7 +21,7 @@ places:
     lat: 12.1889
     lon: -68.9598
     type: travel
-    desc: "Chegada e saída. Transfer com a Raquel Silva."
+    desc: "Chegada e saída. Retirada e devolução do carro alugado."
   - id: queen-emma
     name: "Queen Emma Bridge, Willemstad"
     lat: 12.1077
@@ -62,11 +62,17 @@ places:
   - id: zanzibar
     name: "Zanzibar, Jan Thiel, Curaçao"
     type: food
-    desc: "Beach bar pro pôr do sol, com música ao vivo."
+    desc: "Beach bar em Jan Thiel. À noite só vale no sábado, quando tem festa."
+  - id: papagayo
+    name: "Papagayo Beach Club, Jan Thiel, Curaçao"
+    lat: 12.0772
+    lon: -68.8800
+    type: food
+    desc: "Beach club em Jan Thiel, ótimo pro pôr do sol."
   - id: daaibooi
     name: "Daaibooi Beach, Curaçao"
     type: beach
-    desc: "Baía pequena e calma, boa pra começar o dia."
+    desc: "Praia pública, que não fecha: a melhor das três pro pôr do sol."
   - id: porto-mari
     name: "Porto Mari, Curaçao"
     type: beach
@@ -74,7 +80,7 @@ places:
   - id: cas-abao
     name: "Cas Abao Beach, Curaçao"
     type: beach
-    desc: "Água muito azul e estrutura completa. Fica até o pôr do sol."
+    desc: "Água muito azul e estrutura completa. Fecha no fim da tarde (começam a liberar a praia por volta das 18h30)."
   - id: klein-curacao
     name: "Klein Curaçao"
     type: sight
@@ -155,7 +161,7 @@ days:
   - title: "Chegada"
     area: "Willemstad"
     items:
-      - {type: travel, text: "Voo Panamá → Curaçao (Copa) e transfer com a Raquel", place: aeroporto}
+      - {type: travel, text: "Voo Panamá → Curaçao (Copa) e retirada do carro alugado", place: aeroporto}
       - {text: "Check-in e drink no rooftop", place: home}
       - {time: "20:00", text: "Jantar no La Boheme", place: la-boheme}
   - title: "Willemstad a pé"
@@ -170,10 +176,10 @@ days:
   - title: "Praias do sul-oeste"
     area: "Costa oeste"
     items:
-      - {time: "09:00", text: "Van com guia (Raquel)", place: home}
-      - {time: "09:45", text: "Daaibooi", place: daaibooi}
-      - {time: "11:30", text: "Snorkel em Porto Mari", place: porto-mari}
-      - {time: "15:00", text: "Cas Abao até o pôr do sol", place: cas-abao}
+      - {time: "09:00", text: "Saída de carro", place: home}
+      - {time: "09:30", text: "Cas Abao", place: cas-abao}
+      - {time: "12:30", text: "Snorkel em Porto Mari", place: porto-mari}
+      - {time: "16:00", text: "Daaibooi até o pôr do sol", place: daaibooi}
       - {time: "20:00", text: "Jantar no Rozendaels", place: rozendaels}
   - title: "Klein Curaçao"
     area: "Mar"
@@ -184,7 +190,7 @@ days:
   - title: "Christoffel e Shete Boka"
     area: "Westpunt"
     items:
-      - {time: "06:00", text: "Saída cedo com a Raquel", place: home}
+      - {time: "06:00", text: "Saída cedo de carro", place: home}
       - {time: "07:00", type: hike, text: "Subida do Christoffelberg", place: christoffel}
       - {time: "10:30", type: hike, text: "Shete Boka e Boka Tabla", place: shete-boka}
       - {time: "13:00", text: "Descanso na Playa Jeremi", place: playa-jeremi}
@@ -194,7 +200,7 @@ days:
     items:
       - {time: "07:00", type: hike, text: "Trilha do Kabritenburg", place: kabritenburg}
       - {time: "10:00", type: surf, text: "Aula de windsurf na SUP Curaçao", place: sup-curacao}
-      - {time: "17:30", text: "Pôr do sol e jantar no Zanzibar", place: zanzibar}
+      - {time: "17:30", text: "Pôr do sol e jantar no Papagayo Beach Club", place: papagayo}
   - title: "Quadriciclo ATV"
     area: "Interior"
     items:
@@ -204,7 +210,7 @@ days:
   - title: "Tartarugas e Kenepa"
     area: "Westpunt"
     items:
-      - {time: "08:00", text: "Van com guia (Raquel)", place: home}
+      - {time: "08:00", text: "Saída de carro", place: home}
       - {time: "09:00", text: "Nadar com tartarugas em Piskadó", place: piskado}
       - {time: "10:30", text: "Snorkel na Playa Kalki", place: kalki}
       - {time: "12:00", text: "Kenepa Grandi", place: kenepa-grandi}
@@ -213,6 +219,7 @@ days:
     area: "Livre"
     items:
       - {text: "Beach clubs de Mambo / Jan Thiel ou repetir a praia favorita", place: mambo}
+      - {time: "22:00", text: "Noite de sábado no Zanzibar (tem festa)", place: zanzibar}
   - title: "Última praia"
     area: "Costa oeste"
     items:
@@ -222,7 +229,7 @@ days:
     area: "Willemstad"
     items:
       - {time: "10:00", text: "Check-out e compras", place: renaissance-mall}
-      - {type: travel, text: "Transfer pro aeroporto (Raquel)", place: aeroporto}
+      - {type: travel, text: "Devolver o carro no aeroporto", place: aeroporto}
 
 modules:
   weather: true
