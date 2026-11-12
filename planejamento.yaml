@@ -57,7 +57,7 @@ sections:
       - {day: 6, text: "Kabritenburg, SUP Curaçao e Papagayo"}
       - {day: 8, text: "Piskadó, Kalki e Kenepa"}
       - {day: 9, text: "Jan Thiel e Zanzibar à noite (sábado)"}
-      - {day: 10, text: "Kokomo e Karakter"}
+      - {day: 10, text: "Kokomo e Fort Nassau (pôr do sol)"}
       - {day: 11, text: "Renaissance Mall → devolução no aeroporto"}
     tips_title: "Pra alugar"
     notes:
@@ -111,13 +111,13 @@ sections:
     list:
       - {name: "La Boheme", where: "Punda", day: 1, maps: "La Boheme restaurant Willemstad Curaçao"}
       - {name: "Kome", where: "Pietermaai", day: 2, maps: "Kome restaurant Pietermaai Curaçao"}
-      - {name: "Rozendaels", where: "Pietermaai", day: 3, maps: "Rozendaels restaurant Willemstad Curaçao"}
+      - {name: "De Gouverneur", where: "Otrobanda, vista da Handelskade", day: 3, maps: "Gouverneur de Rouville restaurant Curaçao"}
       - {name: "Fensi", where: "Pietermaai", day: 5, maps: "Fensi restaurant Pietermaai Curaçao"}
       - {name: "Papagayo Beach Club", where: "Jan Thiel, pôr do sol", day: 6, maps: "Papagayo Beach Club Jan Thiel Curaçao"}
       - {name: "Zanzibar", where: "Jan Thiel, sábado à noite (festa)", day: 9, maps: "Zanzibar Beach Restaurant Jan Thiel Curaçao"}
       - {name: "James", where: "Indicação da amiga", day: 4}
       - {name: "Mundo Bizarro", where: "Pietermaai, quinta à noite (salsa)", day: 7, maps: "Mundo Bizarro Pietermaai Curaçao"}
-      - {name: "Karakter", where: "Coral Estate, pôr do sol", day: 10, maps: "Karakter Beach Restaurant Curaçao"}
+      - {name: "Fort Nassau", where: "No alto do morro, pôr do sol", day: 10, maps: "Fort Nassau restaurant Curaçao"}
 
   - id: dicas
     kicker: "Antes de ir · documentos, dinheiro e segurança"
@@ -250,7 +250,7 @@ todos:
       - {text: "Escolher o barco de Klein Curaçao", who: cliente, note: "Miss Ann, Mermaid ou Blue Finn"}
       - {text: "Fechar Klein Curaçao e o ATV com a Kezia", who: julia}
       - {text: "Agendar a aula de windsurf na SUP Curaçao", who: julia}
-      - {text: "Reservar o Karakter (dia 10) e os jantares", who: julia}
+      - {text: "Reservar o Fort Nassau (dia 10), o De Gouverneur (dia 3) e os outros jantares", who: julia}
       - {text: "Confirmar o endereço do James", who: julia}
   - group: "Documentos"
     items:

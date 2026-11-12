@@ -49,10 +49,13 @@ places:
     name: "Kome, Pietermaai, Willemstad"
     type: food
     desc: "Cozinha criativa num casarão de Pietermaai. Brunch no fim de semana."
-  - id: rozendaels
-    name: "Rozendaels, Penstraat, Willemstad"
+  - id: gouverneur
+    name: "De Gouverneur, De Rouvilleweg, Otrobanda"
+    lat: 12.1064
+    lon: -68.9373
     type: food
-    desc: "Jardim tropical e pratos locais. Abre só à noite."
+    desc: "Restaurante, bar e rooftop num casarão histórico na beira d'água de Otrobanda, de frente pra Handelskade e a ponte flutuante. Pratos locais e internacionais."
+    tip: "Reservar mesa na varanda, que tem a melhor vista."
   - id: fensi
     name: "Fensi, Penstraat, Willemstad"
     lat: 12.1014
@@ -141,13 +144,13 @@ places:
     lon: -69.1578
     type: beach
     desc: "A \"Alice in Wonderland\" da ilha, com corais em formato de cogumelo. Ótima pra snorkel, com centro de mergulho na praia."
-  - id: karakter
-    name: "Karakter Beach, Coral Estate, Curaçao"
-    lat: 12.2004
-    lon: -69.0818
+  - id: fort-nassau
+    name: "Fort Nassau, Fort Nassauweg, Willemstad"
+    lat: 12.1154
+    lon: -68.9269
     type: food
-    desc: "Beach club de dia e restaurante pé na areia no pôr do sol, em Coral Estate."
-    tip: "Reservar pelo site e levar documento com foto pra entrar."
+    desc: "Restaurante dentro de um forte de 1797, no alto do morro, com vista de Willemstad e da costa. Frutos do mar, carnes e boa carta de vinhos."
+    tip: "Chegar antes do pôr do sol pra ver a vista. Reservar."
   - id: kenepa-grandi
     name: "Playa Kenepa Grandi, Curaçao"
     type: beach
@@ -192,7 +195,7 @@ days:
       - {time: "09:30", text: "Cas Abao", place: cas-abao}
       - {time: "12:30", text: "Snorkel em Porto Mari", place: porto-mari}
       - {time: "16:00", text: "Daaibooi até o pôr do sol", place: daaibooi}
-      - {time: "20:00", text: "Jantar no Rozendaels", place: rozendaels}
+      - {time: "20:00", text: "Jantar no De Gouverneur, com vista da Handelskade", place: gouverneur}
   - title: "Klein Curaçao"
     area: "Mar"
     route: line
@@ -239,7 +242,7 @@ days:
     area: "Costa oeste"
     items:
       - {time: "10:00", text: "Kokomo e o balanço na água", place: kokomo}
-      - {time: "16:30", text: "Pôr do sol e jantar de despedida no Karakter", place: karakter}
+      - {time: "18:00", text: "Pôr do sol e jantar de despedida no Fort Nassau", place: fort-nassau}
   - title: "Saída"
     area: "Willemstad"
     items:
