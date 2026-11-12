@@ -117,6 +117,19 @@ places:
     lon: -69.1545
     type: beach
     desc: "Nadar com tartarugas perto do píer dos pescadores. Ir cedo."
+  - id: kalki
+    name: "Playa Kalki, Westpunt, Curaçao"
+    lat: 12.3756
+    lon: -69.1578
+    type: beach
+    desc: "A \"Alice in Wonderland\" da ilha, com corais em formato de cogumelo. Ótima pra snorkel, com centro de mergulho na praia."
+  - id: karakter
+    name: "Karakter Beach, Coral Estate, Curaçao"
+    lat: 12.2004
+    lon: -69.0818
+    type: food
+    desc: "Beach club de dia e restaurante pé na areia no pôr do sol, em Coral Estate."
+    tip: "Reservar pelo site e levar documento com foto pra entrar."
   - id: kenepa-grandi
     name: "Playa Kenepa Grandi, Curaçao"
     type: beach
@@ -193,7 +206,8 @@ days:
     items:
       - {time: "08:00", text: "Van com guia (Raquel)", place: home}
       - {time: "09:00", text: "Nadar com tartarugas em Piskadó", place: piskado}
-      - {time: "11:00", text: "Kenepa Grandi", place: kenepa-grandi}
+      - {time: "10:30", text: "Snorkel na Playa Kalki", place: kalki}
+      - {time: "12:00", text: "Kenepa Grandi", place: kenepa-grandi}
       - {time: "14:30", text: "Kenepa Chiki", place: kenepa-chiki}
   - title: "Dia livre"
     area: "Livre"
@@ -203,7 +217,7 @@ days:
     area: "Costa oeste"
     items:
       - {time: "10:00", text: "Kokomo e o balanço na água", place: kokomo}
-      - {time: "19:00", text: "Despedida com drink no rooftop", place: home}
+      - {time: "16:30", text: "Pôr do sol e jantar de despedida no Karakter", place: karakter}
   - title: "Saída"
     area: "Willemstad"
     items:
