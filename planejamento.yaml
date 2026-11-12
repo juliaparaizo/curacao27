@@ -107,10 +107,17 @@ sections:
         items:
           - "Passaporte válido durante toda a viagem. O ideal é ter 6 meses de validade. RG não vale."
           - "Brasileiro não precisa de visto pra turismo de até 90 dias."
-          - "Cartão de Imigração Digital (DI Card): é grátis e se preenche no site oficial, assim que o voo e o hotel estiverem confirmados. Site que cobra não é o oficial."
+          - "Preencher o Cartão de Imigração Digital (DI Card), que é obrigatório. Os detalhes estão no cartão ao lado."
           - "Levar no celular, ou impresso, a reserva do hotel e a passagem de volta. Também podem pedir pra comprovar que tem dinheiro pra estadia."
+      - title: "Cartão de Imigração Digital (DI Card)"
+        items:
+          - "É obrigatório pra todo visitante estrangeiro, inclusive bebês e crianças, que fica de 1 a 90 noites. Substituiu o antigo cartão de papel (ED card)."
+          - "Só pode ser preenchido nos 7 dias antes do embarque pra Curaçao, até 1 hora antes do voo."
+          - "É grátis e só vale o preenchido no portal oficial. Site que cobra taxa não é oficial."
+          - "Depois de enviar, chega um PDF por e-mail (ou pra baixar). Ele tem que ser mostrado no check-in da companhia aérea e na imigração, no celular ou impresso."
+          - "Cada uma preenche o seu."
         links:
-          - {text: "Site oficial do DI Card", url: "https://www.dicardcuracao.com"}
+          - {text: "Preencher no portal oficial", url: "https://dicardcuracao.com/portal"}
       - title: "Vacina de febre amarela"
         items:
           - "Curaçao pede o Certificado Internacional de Vacinação (CIVP) contra febre amarela."
@@ -219,7 +226,7 @@ todos:
       - {text: "Passaporte válido", who: cliente}
       - {text: "Tomar a vacina de febre amarela e tirar o certificado internacional (pelo menos 10 dias antes)", who: cliente}
       - {text: "Contratar seguro viagem", who: cliente}
-      - {text: "Preencher o Cartão de Imigração Digital (grátis, no dicardcuracao.com)", who: cliente}
+      - {text: "Preencher o DI Card nos 7 dias antes do embarque e salvar o PDF", who: cliente, note: "Grátis, só no dicardcuracao.com/portal"}
       - {text: "Levar adaptador de tomada (padrão americano)", who: cliente}
       - {text: "Baixar o app 24-7 Taxi Curaçao (não tem Uber na ilha)", who: cliente}
   - group: "Na mala"
