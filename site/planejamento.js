@@ -158,7 +158,6 @@
       <p class="lead">${esc(B.lead || '')}</p>
       <div class="totals">
         <div class="total main"><span>Total estimado por pessoa</span><b>${esc(range(lo, hi, brl))}</b></div>
-        <div class="total"><span>Pras ${people}</span><b>${esc(range(lo * people, hi * people, brl))}</b></div>
         <div class="total"><span>Já cotado, por pessoa</span><b>${esc(brl(sum(quoted, 'lo')))}</b><small>${quoted.length} de ${items.length} itens</small></div>
       </div>
       ${

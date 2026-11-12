@@ -420,7 +420,7 @@ li.done .txt {
 /* budget */
 .totals {
   display: grid;
-  grid-template-columns: 1.3fr 1fr 1fr;
+  grid-template-columns: 1.4fr 1fr;
   gap: 10px;
   margin: 0 0 18px;
 }
@@ -562,10 +562,7 @@ li.done .txt {
 }
 @media (max-width: 560px) {
   .totals {
-    grid-template-columns: 1fr 1fr;
-  }
-  .total.main {
-    grid-column: 1 / -1;
+    grid-template-columns: 1fr;
   }
   .budget-group li {
     grid-template-columns: 1fr auto;
