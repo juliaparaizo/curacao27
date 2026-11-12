@@ -170,7 +170,7 @@ budget:
   fx_note: "Dólar comercial a R$ 5,51 (9/11/2026) + IOF e spread do cartão"
   people: 2
   target_brl: 20000
-  target_label: "Meta da Isabella com passagem (por pessoa?)"
+  target_label: "Meta da Isabella por pessoa, com passagem"
   groups:
     - name: "Curaçao"
       items:
@@ -197,7 +197,7 @@ todos:
   - group: "Antes de comprar a passagem"
     items:
       - {text: "Definir as datas exatas (janela de 6 a 28/fev)", who: ambas}
-      - {text: "Confirmar se os R$ 20 mil são por pessoa ou pras duas", who: cliente}
+      - {text: "Confirmar se os R$ 20 mil são por pessoa ou pras duas", who: cliente, done: true, note: "Por pessoa, com passagem."}
       - {text: "Decidir se o stopover no Panamá é na ida ou na volta", who: cliente}
       - {text: "Comprar as passagens (Copa, via Panamá)", who: cliente}
   - group: "Reservas"
