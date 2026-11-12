@@ -143,6 +143,15 @@ sections:
           - "À noite, ficar em lugares movimentados: Punda, Pietermaai, Jan Thiel e Mambo. Evitar praia e lugar isolado depois que escurece."
           - "Táxi oficial tem placa começando com TX e não tem taxímetro: combinar o preço antes de entrar."
           - "No aeroporto, nunca deixar a mala sozinha nem levar pacote pra ninguém."
+      - title: "Táxi e apps"
+        items:
+          - "Não tem Uber em Curaçao."
+          - "A alternativa é o app 24-7 Taxi Curaçao, com táxis licenciados: chama pelo app, acompanha o carro no GPS e o preço é fixo por km, sem taxímetro."
+          - "Paga ao chegar, em dinheiro (florim ou dólar) ou no cartão, com 3% de taxa. Aceita Apple Pay."
+          - "Também dá pra pedir pelo WhatsApp ou telefone: +5999 844 9247."
+          - "Baixar o app e criar a conta ainda no Brasil, com Wi-Fi."
+        links:
+          - {text: "Baixar o app 24-7 Taxi", url: "https://247taxi.cw/download-app/"}
       - title: "Telefones de emergência"
         items:
           - "Polícia e bombeiros: 911"
@@ -212,6 +221,7 @@ todos:
       - {text: "Contratar seguro viagem", who: cliente}
       - {text: "Preencher o Cartão de Imigração Digital (grátis, no dicardcuracao.com)", who: cliente}
       - {text: "Levar adaptador de tomada (padrão americano)", who: cliente}
+      - {text: "Baixar o app 24-7 Taxi Curaçao (não tem Uber na ilha)", who: cliente}
   - group: "Na mala"
     items:
       - {text: "Tênis fechado pras trilhas e pro ATV", who: cliente}
