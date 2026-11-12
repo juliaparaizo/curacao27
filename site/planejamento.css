@@ -575,3 +575,34 @@ li.done .txt {
     text-align: left;
   }
 }
+
+/* before-you-go tips */
+.tips {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  gap: 12px;
+}
+.tipcard {
+  background: var(--bg);
+  border-radius: 14px;
+  padding: 14px 16px;
+}
+.tipcard h3 {
+  font-size: 16px;
+  margin: 0 0 8px;
+}
+.tipcard ul {
+  margin: 0;
+  padding-left: 18px;
+}
+.tipcard li {
+  font-size: 14.5px;
+  color: var(--ink2);
+  margin: 0 0 6px;
+}
+.tiplink {
+  display: inline-block;
+  margin-top: 6px;
+  font-weight: 700;
+  font-size: 14px;
+}

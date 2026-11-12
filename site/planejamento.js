@@ -77,6 +77,19 @@
           .join('')}</ul>`
       : '';
 
+  const tips = list =>
+    list && list.length
+      ? `<div class="tips">${list
+          .map(
+            tip => `<article class="tipcard"><h3>${esc(tip.title)}</h3><ul>${(tip.items || []).map(i => `<li>${esc(i)}</li>`).join('')}</ul>${(
+              tip.links || []
+            )
+              .map(l => `<a class="tiplink" href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.text)} ↗</a>`)
+              .join('')}</article>`,
+          )
+          .join('')}</div>`
+      : '';
+
   const sections = P.sections || [];
   document.getElementById('sections').innerHTML = sections
     .map(
@@ -84,7 +97,7 @@
         <p class="kicker">${esc(s.kicker)}</p>
         <h2>${esc(s.title)}</h2>
         <p class="lead">${esc(s.lead)}</p>
-        ${facts(s.facts)}${why(s.why)}${days(s.days)}${tours(s.tours)}${restaurants(s.list)}${buttons(s.buttons)}
+        ${facts(s.facts)}${why(s.why)}${days(s.days)}${tours(s.tours)}${restaurants(s.list)}${tips(s.tips)}${buttons(s.buttons)}
       </section>`,
     )
     .join('');

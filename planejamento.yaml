@@ -98,6 +98,62 @@ sections:
       - {name: "James", where: "a confirmar", day: 7}
       - {name: "Karakter", where: "Coral Estate, pôr do sol", day: 10}
 
+  - id: dicas
+    kicker: "Antes de ir · documentos, dinheiro e segurança"
+    title: "Antes de ir"
+    lead: "O que precisa estar pronto antes do embarque e o que é bom saber pra chegar tranquila. Regras de entrada mudam: vale reconferir com a companhia aérea uns dias antes."
+    tips:
+      - title: "Documentos pra Curaçao"
+        items:
+          - "Passaporte válido durante toda a viagem. O ideal é ter 6 meses de validade. RG não vale."
+          - "Brasileiro não precisa de visto pra turismo de até 90 dias."
+          - "Cartão de Imigração Digital (DI Card): é grátis e se preenche no site oficial, assim que o voo e o hotel estiverem confirmados. Site que cobra não é o oficial."
+          - "Levar no celular, ou impresso, a reserva do hotel e a passagem de volta. Também podem pedir pra comprovar que tem dinheiro pra estadia."
+        links:
+          - {text: "Site oficial do DI Card", url: "https://www.dicardcuracao.com"}
+      - title: "Vacina de febre amarela"
+        items:
+          - "Curaçao pede o Certificado Internacional de Vacinação (CIVP) contra febre amarela."
+          - "A vacina tem que ser tomada pelo menos 10 dias antes da viagem."
+          - "O certificado sai pelo app Meu SUS Digital ou pelo gov.br. A carteirinha amarela comum não vale."
+        links:
+          - {text: "Emitir o certificado (gov.br)", url: "https://www.gov.br/pt-br/servicos/obter-o-certificado-internacional-de-vacinacao-e-profilaxia"}
+      - title: "Panamá (stopover)"
+        items:
+          - "Brasileiro não precisa de visto pra turismo."
+          - "Desde 2023 o Panamá não pede a vacina de febre amarela pra quem fica só na Cidade do Panamá. Ela é recomendada pra San Blas e pras comunidades Emberá, e como elas já vão tomar por causa de Curaçao, fica coberto."
+          - "O dólar americano é a moeda do dia a dia. O balboa vale o mesmo que o dólar."
+      - title: "Dinheiro em Curaçao"
+        items:
+          - "A moeda oficial é o florim caribenho (XCG), que substituiu o florim antilhano em 2025. O câmbio é fixo: US$ 1 = XCG 1,79."
+          - "O dólar é aceito em quase todo lugar, mas o troco vem em florim e a conta da loja costuma sair um pouco pior."
+          - "Visa e Mastercard passam em quase tudo, e Amex menos. Pagar no cartão em florim costuma sair mais barato. Por aproximação, o limite costuma ser de XCG 100."
+          - "Caixa eletrônico cobra taxa: melhor sacar poucas vezes, em valores maiores."
+      - title: "Saúde"
+        items:
+          - "A água da torneira é potável, vem de dessalinização."
+          - "Levar repelente: tem mosquito e doenças transmitidas por ele na região."
+          - "O sol é forte o ano todo: protetor, chapéu e água sempre, principalmente nas trilhas."
+          - "Seguro viagem não é obrigatório, mas é muito recomendado."
+          - "Emergência médica: Curaçao Medical Center (CMC), aberto 24h."
+      - title: "Segurança"
+        items:
+          - "As áreas turísticas são tranquilas. O problema mais comum é furto."
+          - "Não deixar nada no carro nas praias. Deixar o porta-luvas aberto mostra que está vazio."
+          - "À noite, ficar em lugares movimentados: Punda, Pietermaai, Jan Thiel e Mambo. Evitar praia e lugar isolado depois que escurece."
+          - "Táxi oficial tem placa começando com TX e não tem taxímetro: combinar o preço antes de entrar."
+          - "No aeroporto, nunca deixar a mala sozinha nem levar pacote pra ninguém."
+      - title: "Telefones de emergência"
+        items:
+          - "Polícia e bombeiros: 911"
+          - "Ambulância: 912"
+          - "Guarda costeira: 913"
+          - "Polícia turística: 917"
+      - title: "Tomada e energia"
+        items:
+          - "A rede é de 127 V e as tomadas são no padrão americano (A/B), às vezes europeu (C/F). O plugue brasileiro precisa de adaptador."
+          - "O quarto do Elements tem tomadas de 220–240 V. Mesmo assim, levar um adaptador universal."
+
 budget:
   title: "Orçamento"
   lead: "Quanto a viagem deve custar por pessoa, separando o que já tem preço do que ainda é estimativa. O total vai ficando mais preciso a cada cotação."
@@ -154,7 +210,8 @@ todos:
       - {text: "Passaporte válido", who: cliente}
       - {text: "Tomar a vacina de febre amarela e tirar o certificado internacional (pelo menos 10 dias antes)", who: cliente}
       - {text: "Contratar seguro viagem", who: cliente}
-      - {text: "Preencher o Cartão de Imigração Digital (perto do embarque)", who: cliente}
+      - {text: "Preencher o Cartão de Imigração Digital (grátis, no dicardcuracao.com)", who: cliente}
+      - {text: "Levar adaptador de tomada (padrão americano)", who: cliente}
   - group: "Na mala"
     items:
       - {text: "Tênis fechado pras trilhas e pro ATV", who: cliente}
