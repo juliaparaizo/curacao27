@@ -1,0 +1,127 @@
+# Página "Planejamento" do site: apresentação de cada parte da viagem + checklist.
+# Pra marcar uma tarefa como feita pra todo mundo, troque done: false por done: true e faça o commit.
+# Atenção: o site é público. Nada de valores negociados, telefone, nº de reserva ou documento aqui.
+
+title: "Planejamento da viagem"
+lead: "Tudo o que está fechado, por que escolhemos cada coisa e o que falta resolver até o embarque."
+people:
+  julia: "Julia"
+  cliente: "Isabella"
+
+sections:
+  - id: hotel
+    kicker: "Hospedagem · 10 noites"
+    title: "Elements Hotel & Shops"
+    lead: "Um hotel boutique no coração de Punda, o centro histórico de Willemstad. É a melhor base da ilha pra quem quer sair a pé à noite e chegar rápido nas praias de dia."
+    why:
+      - title: "Tudo a pé"
+        text: "A Handelskade colorida, a ponte flutuante e o mercado ficam a poucos minutos andando. Pietermaai, o bairro dos melhores restaurantes, fica logo ao lado."
+      - title: "Rooftop com piscina de borda infinita"
+        text: "O Cascada, no terraço, tem piscina, drinks e tapas com vista da cidade e do mar. É onde a gente fecha os dias mais tranquilos."
+      - title: "Boutique e premiado"
+        text: "São só 43 quartos, num 4 estrelas com estilo, e não num resort gigante. Embaixo tem uma praça com 3 restaurantes e lojinhas."
+      - title: "Café da manhã incluso"
+        text: "Já sai do hotel alimentada pros dias de trilha cedo."
+    facts:
+      - {label: "Onde", value: "Hendrikplein, Punda"}
+      - {label: "Noites", value: "10"}
+      - {label: "Regime", value: "Café da manhã"}
+    buttons:
+      - {text: "Ver o hotel e reservar", url: "https://www.elementscuracao.com", primary: true}
+      - {text: "Ver no mapa", url: "index.html#lugar-home"}
+
+  - id: transporte
+    kicker: "Transporte · van com guia"
+    title: "Raquel Silva"
+    lead: "Em Curaçao as praias mais bonitas ficam longe do centro e o transporte público não chega nelas. Por isso os dias de praia e trilha são feitos com a van da Raquel, que leva, espera e já conhece a ilha."
+    why:
+      - title: "Sem dirigir e sem se perder"
+        text: "As estradas pro oeste são longas e mal sinalizadas. Com a van é só curtir."
+      - title: "Horário que funciona"
+        text: "A trilha do Christoffel começa às 6h, antes do calor. Com a van, sair cedo não é problema."
+      - title: "Chegada e saída resolvidas"
+        text: "Os transfers de aeroporto também são com ela."
+    days:
+      - {day: 1, text: "Transfer aeroporto → Elements"}
+      - {day: 3, text: "Daaibooi, Porto Mari e Cas Abao"}
+      - {day: 5, text: "Christoffel, Shete Boka e Playa Jeremi (saída 6h)"}
+      - {day: 6, text: "Kabritenburg, SUP Curaçao e Zanzibar (opcional)"}
+      - {day: 8, text: "Piskadó, Kalki e Kenepa"}
+      - {day: 11, text: "Renaissance Mall → aeroporto"}
+    buttons:
+      - {text: "Ver o roteiro dia a dia", url: "roteiro.html", primary: true}
+
+  - id: passeios
+    kicker: "Passeios · com a Kezia, guia brasileira"
+    title: "Passeios"
+    lead: "Os passeios de barco e de aventura saem com a Kezia, guia brasileira que mora na ilha. Ela organiza tudo em português. Em alguns passeios, o guia do operador fala inglês e espanhol. A maioria tem busca nos hotéis centrais, e o Elements é um deles."
+    tours:
+      - name: "Klein Curaçao"
+        day: 4
+        status: "No roteiro"
+        text: "Ilha desabitada de areia branca, com farol e tartarugas. Tem três barcos à escolha:"
+        options:
+          - {name: "Miss Ann (iate)", when: "seg, ter, qui e sex", info: "1h de navegação. Tem estrutura na ilha (banheiro, ducha, cadeiras, guarda-sol), café da manhã, churrasco e snorkel guiado."}
+          - {name: "Mermaid (barco)", when: "todo dia menos quinta", info: "2h de navegação. Tem boa estrutura na ilha, café da manhã, churrasco e snorkel."}
+          - {name: "Blue Finn (catamarã)", when: "todo dia", info: "Clima mais animado, com open bar a partir de 12h30. Não tem estrutura própria na ilha, usa os quiosques públicos."}
+        tip: "O barco depende do dia da semana. Escolher quando as datas estiverem fechadas."
+      - name: "Quadriciclo ATV"
+        day: 7
+        status: "No roteiro"
+        text: "Off-road de 3h pelo lado oeste: plantação de Aloe Vera, uma caverna antiga com vista panorâmica e o Noordkant, onde as ondas batem nas pedras. Sai às 9h ou às 14h, todo dia."
+        tip: "Ir de tênis fechado e evitar roupa branca."
+      - name: "Barco pro pôr do sol"
+        status: "Extra"
+        text: "Das 17h às 19h30, pela Bahia Espanhola até a baía de Santa Anna, com petiscos e open bar. Sai seg, qua, sex e sáb."
+      - name: "Costa Oeste: praias e Blue Room"
+        status: "Extra"
+        text: "Um dia inteiro de barco com parada no Kokomo, no Cas Abao e na gruta Blue Room, vendo as praias do oeste pelo mar. Sai ter, qui e sáb."
+      - name: "Sea Trek"
+        status: "Extra"
+        text: "Caminhada no fundo do mar, com capacete, entre corais e peixes. Não precisa saber mergulhar. Sai de ter a sáb."
+      - name: "Tuk tuk por Willemstad"
+        status: "Extra"
+        text: "Tour de 1h ou 2h por Punda e Otrobanda, com busca no hotel. Boa opção pro dia 2, se não quiser andar."
+
+  - id: restaurantes
+    kicker: "Onde comer"
+    title: "Restaurantes"
+    lead: "Indicações de quem já foi, encaixadas por bairro pra não perder tempo no trânsito. Vale reservar com antecedência."
+    list:
+      - {name: "La Boheme", where: "Punda", day: 1}
+      - {name: "Kome", where: "Pietermaai", day: 2}
+      - {name: "Rozendaels", where: "Pietermaai", day: 3}
+      - {name: "Fensi", where: "Pietermaai", day: 5}
+      - {name: "Zanzibar", where: "Jan Thiel, pôr do sol", day: 6}
+      - {name: "James", where: "a confirmar", day: 7}
+      - {name: "Karakter", where: "Coral Estate, pôr do sol", day: 10}
+
+todos:
+  - group: "Antes de comprar a passagem"
+    items:
+      - {text: "Definir as datas exatas (janela de 6 a 28/fev)", who: ambas}
+      - {text: "Decidir se o stopover no Panamá é na ida ou na volta", who: cliente}
+      - {text: "Comprar as passagens (Copa, via Panamá)", who: cliente}
+  - group: "Reservas"
+    items:
+      - {text: "Cotar o Elements pras datas (10 noites, quarto duplo com café)", who: julia}
+      - {text: "Confirmar e reservar o Elements", who: julia}
+      - {text: "Cotar com a Raquel os transfers e a van dos dias 1, 3, 5, 8 e 11", who: julia}
+      - {text: "Decidir se a van também vai no dia 6 (Spanish Water)", who: ambas}
+      - {text: "Escolher o barco de Klein Curaçao", who: cliente, note: "Miss Ann, Mermaid ou Blue Finn"}
+      - {text: "Fechar Klein Curaçao e o ATV com a Kezia", who: julia}
+      - {text: "Agendar a aula de windsurf na SUP Curaçao", who: julia}
+      - {text: "Reservar o Karakter (dia 10) e os jantares", who: julia}
+      - {text: "Confirmar o endereço do James", who: julia}
+  - group: "Documentos"
+    items:
+      - {text: "Passaporte válido", who: cliente}
+      - {text: "Tomar a vacina de febre amarela e tirar o certificado internacional (pelo menos 10 dias antes)", who: cliente}
+      - {text: "Contratar seguro viagem", who: cliente}
+      - {text: "Preencher o Cartão de Imigração Digital (perto do embarque)", who: cliente}
+  - group: "Na mala"
+    items:
+      - {text: "Tênis fechado pras trilhas e pro ATV", who: cliente}
+      - {text: "Protetor solar, chapéu e garrafinha de água", who: cliente}
+      - {text: "Máscara de snorkel (opcional, os passeios emprestam)", who: cliente}
+      - {text: "Roupa escura pro ATV (a poeira mancha)", who: cliente}

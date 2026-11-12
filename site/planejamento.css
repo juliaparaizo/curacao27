@@ -1,0 +1,418 @@
+/* Planning page: presentation cards + checklist. Builds on roteiro.css and the theme variables. */
+.plan-hero .hero-text {
+  color: var(--card);
+}
+.plan-hero .kicker,
+.plan-hero .sub {
+  color: color-mix(in srgb, var(--card) 78%, transparent);
+}
+.plan-hero h1 {
+  --bgc: var(--ink);
+}
+.hero-progress {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 0 0 20px;
+  font-family: var(--mono);
+  font-size: 13px;
+}
+.hero-progress .bar {
+  flex: 1;
+  max-width: 260px;
+  background: color-mix(in srgb, var(--card) 22%, transparent);
+}
+.hero-actions,
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.btn.light {
+  background: var(--accent);
+  color: var(--ink);
+  --bgc: var(--accent);
+}
+.btn.ghost {
+  background: transparent;
+  color: var(--card);
+  border: 1px solid color-mix(in srgb, var(--card) 45%, transparent);
+  --bgc: var(--ink);
+}
+.btn.outline {
+  background: var(--card);
+  color: var(--ink);
+  border: 1px solid var(--line);
+  --bgc: var(--card);
+}
+.btn.outline:hover {
+  border-color: var(--ink);
+  background: var(--card);
+}
+.btn {
+  --bgc: var(--ink);
+}
+
+.plan-card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  box-shadow: var(--shadow);
+  margin: 16px 0;
+  padding: 24px 22px 22px;
+}
+.plan-card > .kicker {
+  margin-bottom: 4px;
+}
+.plan-card h2 {
+  font-family: var(--draw);
+  font-weight: 400;
+  letter-spacing: 0.015em;
+  -webkit-text-stroke: var(--thin) var(--card);
+  font-size: clamp(26px, 4vw, 34px);
+  line-height: 1.05;
+  margin: 0 0 10px;
+}
+.plan-card .lead {
+  font-size: 16.5px;
+  color: var(--ink2);
+  max-width: 62ch;
+  margin: 0 0 18px;
+}
+.plan-card .actions {
+  margin-top: 20px;
+}
+.sub-h {
+  font-size: 15px;
+  margin: 20px 0 8px;
+}
+
+.facts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0 0 18px;
+}
+.facts div {
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 8px 12px;
+  background: var(--bg);
+}
+.facts dt {
+  font-family: var(--mono);
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--muted);
+}
+.facts dd {
+  margin: 2px 0 0;
+  font-weight: 700;
+}
+
+.why {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 12px;
+}
+.why-item {
+  display: flex;
+  gap: 12px;
+  padding: 14px;
+  border-radius: 14px;
+  background: var(--bg);
+}
+.why-item .num {
+  flex: none;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  background: var(--accent);
+  color: var(--ink);
+  font-weight: 800;
+  font-size: 14px;
+}
+.why-item h3 {
+  font-size: 15.5px;
+  margin: 3px 0 4px;
+}
+.why-item p {
+  margin: 0;
+  font-size: 14.5px;
+  color: var(--ink2);
+}
+
+.daychip {
+  flex: none;
+  display: inline-block;
+  text-decoration: none;
+  font-family: var(--mono);
+  font-size: 12px;
+  font-weight: 700;
+  color: #fff;
+  background: var(--c);
+  border-radius: 999px;
+  padding: 3px 9px;
+}
+.daylist,
+.rest {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.daylist li,
+.rest li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 9px 0;
+  border-bottom: 1px solid var(--line);
+}
+.daylist li:last-child,
+.rest li:last-child {
+  border-bottom: 0;
+}
+.daylist time,
+.rest li span {
+  margin-left: auto;
+  font-family: var(--mono);
+  font-size: 12.5px;
+  color: var(--muted);
+  text-align: right;
+}
+.daylist li > span {
+  font-size: 15px;
+}
+
+.tours {
+  display: grid;
+  gap: 12px;
+}
+.tour {
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: 16px;
+}
+.tour.extra {
+  background: var(--bg);
+}
+.tour-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+}
+.tour-head h3 {
+  margin: 0;
+  font-size: 18px;
+  margin-right: auto;
+}
+.status {
+  font-family: var(--mono);
+  font-size: 11.5px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 3px 9px;
+  background: var(--card);
+}
+.tour:not(.extra) .status {
+  background: var(--accent);
+  border-color: var(--accent);
+}
+.tour p {
+  margin: 10px 0 0;
+  font-size: 15px;
+  color: var(--ink2);
+}
+.options {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+  margin-top: 12px;
+}
+.option {
+  background: var(--bg);
+  border-radius: 12px;
+  padding: 12px;
+}
+.option .when {
+  display: block;
+  font-family: var(--mono);
+  font-size: 12px;
+  color: var(--muted);
+  margin-top: 2px;
+}
+.option p {
+  margin: 6px 0 0;
+  font-size: 14px;
+}
+.tip {
+  font-size: 14px !important;
+}
+
+/* checklist */
+.progress p {
+  margin: 8px 0 0;
+  font-family: var(--mono);
+  font-size: 13px;
+  color: var(--muted);
+}
+.progress p b {
+  color: var(--ink);
+}
+.bar {
+  height: 10px;
+  border-radius: 999px;
+  background: var(--bg);
+  overflow: hidden;
+}
+.bar i {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+  background: var(--accent);
+  transition: width 0.3s ease;
+}
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 18px 0 6px;
+}
+.filters button {
+  font: inherit;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  color: var(--ink);
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 7px 14px;
+}
+.filters button[aria-pressed='true'] {
+  background: var(--ink);
+  border-color: var(--ink);
+  color: var(--card);
+}
+.todo-group h3 {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  margin: 22px 0 6px;
+}
+.todo-group h3 span {
+  font-family: var(--mono);
+  font-weight: 400;
+  font-size: 13px;
+  color: var(--muted);
+}
+.todo-group ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.todo-group li {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--line);
+}
+.todo-group label {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  flex: 1;
+  cursor: pointer;
+}
+.todo-group input {
+  position: absolute;
+  opacity: 0;
+  width: 1px;
+  height: 1px;
+}
+.box {
+  flex: none;
+  width: 22px;
+  height: 22px;
+  border-radius: 7px;
+  border: 2px solid var(--ink);
+  background: var(--card);
+  margin-top: 1px;
+  display: grid;
+  place-items: center;
+  transition: background 0.15s;
+}
+.todo-group input:focus-visible + .box {
+  outline: 3px solid #1f6fb2;
+  outline-offset: 2px;
+}
+.todo-group input:checked + .box {
+  background: var(--ink);
+}
+.todo-group input:checked + .box::after {
+  content: '';
+  width: 6px;
+  height: 11px;
+  border: solid var(--card);
+  border-width: 0 2.5px 2.5px 0;
+  transform: translateY(-1px) rotate(45deg);
+}
+.txt {
+  font-size: 15.5px;
+}
+.txt small {
+  display: block;
+  font-family: var(--mono);
+  font-size: 12.5px;
+  color: var(--muted);
+  margin-top: 2px;
+}
+li.done .txt {
+  color: var(--muted);
+  text-decoration: line-through;
+}
+.who {
+  flex: none;
+  font-family: var(--mono);
+  font-size: 11.5px;
+  font-weight: 700;
+  border-radius: 999px;
+  padding: 3px 9px;
+  margin-top: 1px;
+  background: var(--bg);
+  color: var(--ink2);
+}
+.who-julia {
+  background: #1ba6a6;
+  color: #fff;
+}
+.who-cliente {
+  background: #d9644a;
+  color: #fff;
+}
+.note {
+  margin-top: 18px;
+}
+
+@media (max-width: 560px) {
+  .plan-card {
+    padding: 20px 16px 18px;
+  }
+  .daylist li,
+  .rest li {
+    flex-wrap: wrap;
+  }
+  .daylist time,
+  .rest li span {
+    margin-left: 0;
+    text-align: left;
+    flex-basis: 100%;
+  }
+}

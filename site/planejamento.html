@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="{{LANG}}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Planejamento · {{TITLE}}</title>
+<meta name="description" content="{{SUBTITLE}}">
+<meta name="generator" content="trip-map-3d">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="stylesheet" href="roteiro.css">
+<link rel="stylesheet" href="planejamento.css">
+<link rel="stylesheet" href="data/theme.css">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="{{THEME_COLOR}}">
+<link rel="apple-touch-icon" href="icons/icon-180.png">
+</head>
+<body data-badge="{{BADGE_STYLE}}">
+<header class="top">
+  <a class="brand" href="index.html" aria-label="{{BRAND}}">{{BRAND}}<b>{{BADGE}}</b></a>
+  <nav class="toplinks">
+    <a href="index.html" data-t="map3d"></a>
+    <a href="roteiro.html" data-t="itinerary"></a>
+  </nav>
+</header>
+
+<main>
+  <section class="hero nocover plan-hero">
+    <div class="hero-text">
+      <p class="kicker" id="heroDates"></p>
+      <h1 id="planTitle"></h1>
+      <p class="sub" id="planLead"></p>
+      <div class="hero-progress" id="heroProgress"></div>
+      <div class="hero-actions">
+        <a class="btn light" href="#checklist">Ver o checklist</a>
+        <a class="btn ghost" href="#hotel">Ver a apresentação</a>
+      </div>
+    </div>
+  </section>
+
+  <nav class="daynav" id="plannav" aria-label="Seções"></nav>
+  <div id="sections"></div>
+
+  <section class="plan-card checklist" id="checklist">
+    <p class="kicker">O que falta resolver</p>
+    <h2>Checklist</h2>
+    <div class="progress" id="progress"></div>
+    <div class="filters" id="filters" role="group" aria-label="Filtrar tarefas"></div>
+    <div id="todoGroups"></div>
+    <p class="muted note">As marcações ficam salvas neste aparelho. A <span class="julia-name"></span> atualiza o status oficial no site conforme as coisas vão sendo fechadas.</p>
+  </section>
+</main>
+
+<footer class="foot">
+  <a href="index.html" data-t="map3d"></a> · <a href="roteiro.html" data-t="itinerary"></a> · <a href="#" id="toTop" data-t="backToTop"></a>
+</footer>
+
+<script src="data/trip.js"></script>
+<script src="data/plan.js"></script>
+<script src="i18n.js"></script>
+<script src="planejamento.js"></script>
+</body>
+</html>

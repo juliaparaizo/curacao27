@@ -14,6 +14,7 @@ from urllib.parse import quote
 
 import numpy as np
 import requests
+import yaml
 from PIL import Image, ImageDraw, ImageOps
 
 from .geocode import USER_AGENT
@@ -260,8 +261,21 @@ def assemble(trip: dict, theme: dict, tides: dict | None, trip_dir: Path, out_di
     write_tides(tides, out_dir)
     (out_dir / "data" / "trip.js").write_text(
         "window.TRIP=" + json.dumps(data, ensure_ascii=False, separators=(",", ":")) + ";\n", encoding="utf-8")
-    for page in ("index.html", "roteiro.html"):
-        (out_dir / page).write_text(fill_template((SITE_DIR / page).read_text(encoding="utf-8"), trip, theme), encoding="utf-8")
+    plan_file = trip_dir / "planejamento.yaml"
+    pages = ["index.html", "roteiro.html"]
+    if plan_file.exists():
+        plan = yaml.safe_load(plan_file.read_text(encoding="utf-8")) or {}
+        (out_dir / "data" / "plan.js").write_text(
+            "window.PLAN=" + json.dumps(plan, ensure_ascii=False, default=str, separators=(",", ":")) + ";\n", encoding="utf-8")
+        pages.append("planejamento.html")
+    else:
+        for name in ("planejamento.html", "planejamento.js", "planejamento.css"):
+            (out_dir / name).unlink(missing_ok=True)
+    for page in pages:
+        text = fill_template((SITE_DIR / page).read_text(encoding="utf-8"), trip, theme)
+        if plan_file.exists():
+            text = text.replace('class="plan-link" hidden', 'class="plan-link"')
+        (out_dir / page).write_text(text, encoding="utf-8")
     manifest = {"name": trip["title"], "short_name": trip["title"][:12], "start_url": "./index.html", "display": "standalone",
                 "background_color": theme["colors"]["bg"], "theme_color": theme["colors"]["ink"],
                 "icons": [{"src": f"icons/icon-{s}.png", "sizes": f"{s}x{s}", "type": "image/png"} for s in (192, 512)]
