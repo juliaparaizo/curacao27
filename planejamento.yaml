@@ -26,7 +26,7 @@ sections:
       - {label: "Onde", value: "Hendrikplein, Punda"}
       - {label: "Noites", value: "10"}
       - {label: "Quarto", value: "Premier King (1 cama king)"}
-      - {label: "Café da manhã", value: "Confirmando na tarifa"}
+      - {label: "Café da manhã", value: "Opcional · US$ 20/dia"}
     buttons:
       - {text: "Ver o hotel e reservar", url: "https://www.elementscuracao.com", primary: true}
       - {text: "Ver no mapa", url: "index.html#lugar-home"}
@@ -109,7 +109,8 @@ budget:
   groups:
     - name: "Curaçao"
       items:
-        - {name: "Elements Hotel · Premier King · 10 noites", status: cotado, usd_total: 1555.20, note: "Tarifa não reembolsável. Falta confirmar café da manhã e taxas."}
+        - {name: "Elements Hotel · Premier King · 10 noites", status: cotado, usd_total: 1555.20, note: "Tarifa não reembolsável, sem café. Falta confirmar se inclui taxas."}
+        - {name: "Café da manhã no Elements (10 dias)", status: cotado, usd_pp: 200, note: "US$ 20 por dia, por pessoa (confirmar se não é por quarto)."}
         - {name: "Klein Curaçao + transporte do hotel", status: cotado, usd_pp: 167, note: "Miss Ann US$ 150 + US$ 17. Mermaid sai US$ 164 e Blue Finn US$ 159, já com transporte."}
         - {name: "Quadriciclo ATV + transporte", status: cotado, usd_pp: 138, note: "US$ 118 individual + US$ 20 de transporte. Dividindo o mesmo quadriciclo cai pra US$ 108,50."}
         - {name: "Aula de windsurf em grupo (SUP Curaçao)", status: cotado, usd_pp: 52, note: "1h30 de aula."}
@@ -137,7 +138,8 @@ todos:
   - group: "Reservas"
     items:
       - {text: "Cotar o Elements pras datas (10 noites, quarto duplo com café)", who: julia}
-      - {text: "Confirmar se a tarifa do Elements inclui café da manhã e taxas", who: julia}
+      - {text: "Confirmar se a tarifa do Elements inclui as taxas e se o café (US$ 20/dia) é por pessoa ou por quarto", who: julia}
+      - {text: "Querem incluir o café da manhã do hotel?", who: cliente}
       - {text: "Tudo bem dividir uma cama king? (senão, procurar quarto com duas camas)", who: cliente}
       - {text: "Confirmar e reservar o Elements (só depois da passagem: a tarifa não é reembolsável)", who: julia}
       - {text: "Pedir orçamento à Raquel: transfers e carro dos dias 1, 3, 5, 8 e 11 (+ 6 e 10 opcionais)", who: julia}
