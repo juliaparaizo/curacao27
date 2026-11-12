@@ -150,6 +150,11 @@ sections:
           - "À noite, ficar em lugares movimentados: Punda, Pietermaai, Jan Thiel e Mambo. Evitar praia e lugar isolado depois que escurece."
           - "Táxi oficial tem placa começando com TX e não tem taxímetro: combinar o preço antes de entrar."
           - "No aeroporto, nunca deixar a mala sozinha nem levar pacote pra ninguém."
+      - title: "Dia de praia"
+        items:
+          - "Em Curaçao é muito comum levar uma bolsa térmica com comida e bebida do mercado pra passar o dia na praia."
+          - "Ajuda bastante no orçamento: dá pra deixar os restaurantes pros jantares."
+          - "Vale comprar uma bolsa térmica barata no primeiro dia e passar no mercado na véspera dos dias de praia."
       - title: "Táxi e apps"
         items:
           - "Não tem Uber em Curaçao."
@@ -188,7 +193,7 @@ budget:
         - {name: "Aula de windsurf em grupo (SUP Curaçao)", status: cotado, usd_pp: 52, note: "1h30 de aula."}
         - {name: "Carro com motorista (Raquel)", status: a cotar, usd_pp: [250, 450], note: "Transfers e dias 3, 5, 8 (e 6 e 10, opcionais). Orçamento pedido."}
         - {name: "Entradas de praias e parques", status: estimativa, usd_pp: [60, 90]}
-        - {name: "Almoços e jantares (10 dias)", status: estimativa, usd_pp: [600, 900], note: "Varia muito com os restaurantes escolhidos."}
+        - {name: "Almoços e jantares (10 dias)", status: estimativa, usd_pp: [600, 900], note: "Varia muito com os restaurantes escolhidos. Levar comida do mercado na bolsa térmica pras praias reduz bastante."}
     - name: "Panamá · 3 noites"
       items:
         - {name: "Hotel em Casco Viejo", status: estimativa, usd_pp: [180, 300]}
