@@ -15,6 +15,15 @@ export function createCards({
   mapById,
 }) {
   const tag = type => `<span class="tag" style="background:${tagBackground(type)}">${esc(typeName(type))}</span>`;
+  // Official TikTok player (the video stays on TikTok, credited to its creator). Accepts one link or a list.
+  const tiktokEmbed = links =>
+    (Array.isArray(links) ? links : links ? [links] : [])
+      .map(link => {
+        const match = String(link).match(/tiktok\.com\/@([\w.]+)\/video\/(\d+)/);
+        if (!match) return '';
+        return `<figure class="tiktok"><iframe src="https://www.tiktok.com/player/v1/${match[2]}?description=1&music_info=0&rel=0" allow="fullscreen; encrypted-media" loading="lazy" title="Vídeo de @${esc(match[1])} no TikTok"></iframe><figcaption><a href="${esc(link)}" target="_blank" rel="noopener">@${esc(match[1])} no TikTok ↗</a></figcaption></figure>`;
+      })
+      .join('');
   function openCard(content, photo, focus) {
     card.hidden = false;
     card.style.cssText = '';
@@ -43,6 +52,7 @@ export function createCards({
       `<p class="kicker">${esc(typeName(place.type))}</p><h2 id="cardTitle">${esc(place.name)}</h2>${place.desc ? `<p>${esc(place.desc)}</p>` : ''}
     <div id="cpl">${modules().surf?.placeHTML(place) ?? ''}</div>
     ${place.tip ? `<p style="color:var(--ink)"><b>${esc(t('tip'))}</b> ${esc(place.tip)}</p>` : ''}
+    ${tiktokEmbed(place.tiktok)}
     ${placeById.home && place.id !== 'home' ? `<p class="kmline">${esc(t('fromBase', { d: fmtKm(kmBetween(placeById.home, place)), t: placeById.home.name }))}</p>` : ''}
     <div class="tags">${tags.join('')}</div>${when}
     <div class="actions"><a class="btn primary" href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(place.maps)}" target="_blank" rel="noopener">${esc(t('openMaps'))}</a><a class="btn" href="https://www.google.com/maps/dir/?api=1&destination=${place.lat},${place.lon}&travelmode=driving" target="_blank" rel="noopener">${esc(t('routeHere'))}</a></div>`,

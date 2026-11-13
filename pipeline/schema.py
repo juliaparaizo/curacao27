@@ -19,7 +19,7 @@ TOP_LEVEL_KEYS = {
     "title", "subtitle", "dates", "timezone", "language", "units", "home", "regions",
     "places", "days", "stories", "modules", "services", "downloads", "surf_spots", "tide_stations", "landmarks",
 }
-PLACE_FIELDS = ("type", "desc", "tip", "photo", "photo_focus", "model", "camera", "maps")
+PLACE_FIELDS = ("type", "desc", "tip", "photo", "photo_focus", "model", "camera", "maps", "tiktok")
 
 
 class TripError(Exception):

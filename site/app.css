@@ -1911,3 +1911,22 @@ body[data-badge='pill'] .brand b {
 body[data-badge='none'] .brand b {
   display: none;
 }
+
+/* TikTok videos inside a place card */
+.card .tiktok {
+  margin: 12px 0 4px;
+}
+.card .tiktok iframe {
+  display: block;
+  width: 100%;
+  max-width: 325px;
+  aspect-ratio: 9 / 16;
+  border: 0;
+  border-radius: 14px;
+  background: #000;
+}
+.card .tiktok figcaption {
+  margin-top: 6px;
+  font-family: var(--mono);
+  font-size: 12px;
+}

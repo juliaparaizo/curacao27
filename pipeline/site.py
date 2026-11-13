@@ -157,7 +157,7 @@ def site_places(trip: dict, photos: frozenset[str]) -> list[dict]:
         for item in day["items"]:
             if item["place"]:
                 items.setdefault(item["place"], []).append({"day": day["n"], "time": item["time"], "text": item["text"]})
-    keep = ("id", "name", "lat", "lon", "type", "desc", "tip", "photo_focus", "model", "camera", "map", "spot")
+    keep = ("id", "name", "lat", "lon", "type", "desc", "tip", "photo_focus", "model", "camera", "map", "spot", "tiktok")
     return [{**{k: p.get(k) for k in keep}, "photo": p["id"] in photos, "maps": p.get("maps") or p["query"],
              "items": items.get(p["id"], [])} for p in trip["places"]]
 
