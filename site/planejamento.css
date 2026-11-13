@@ -420,7 +420,7 @@ li.done .txt {
 /* budget */
 .totals {
   display: grid;
-  grid-template-columns: 1.4fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 10px;
   margin: 0 0 18px;
 }
@@ -651,4 +651,10 @@ li.done .txt {
   font-size: 14.5px;
   color: var(--ink2);
   margin: 0 0 6px;
+}
+
+.st-opcional {
+  background: var(--card);
+  color: var(--muted);
+  border: 1px solid var(--line);
 }

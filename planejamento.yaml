@@ -10,26 +10,22 @@ people:
 
 sections:
   - id: hotel
-    kicker: "Hospedagem · 10 noites"
-    title: "Elements Hotel & Shops"
-    lead: "Um hotel boutique no coração de Punda, o centro histórico de Willemstad. É a melhor base da ilha pra quem quer sair a pé à noite e chegar rápido nas praias de dia."
+    kicker: "Hospedagem · 10 noites em Curaçao"
+    title: "Hospedagem"
+    lead: "Pra caber no orçamento, a hospedagem em Curaçao fica em até US$ 80 por noite o quarto, ou US$ 40 por pessoa (≈ R$ 230). Ainda em busca: a ideia é um guesthouse ou apartamento em Pietermaai, Punda ou Otrobanda."
     why:
-      - title: "Tudo a pé"
-        text: "A Handelskade colorida, a ponte flutuante e o mercado ficam a poucos minutos andando. Pietermaai, o bairro dos melhores restaurantes, fica logo ao lado."
-      - title: "Rooftop com piscina de borda infinita"
-        text: "O Cascada, no terraço, tem piscina, drinks e tapas com vista da cidade e do mar. É onde a gente fecha os dias mais tranquilos."
-      - title: "Boutique e premiado"
-        text: "São só 43 quartos, num 4 estrelas com estilo, e não num resort gigante. Embaixo tem uma praça com 3 restaurantes e lojinhas."
-      - title: "Quarto amplo e moderno"
-        text: "De 25 a 31 m², com cama king, mesa de trabalho e vista do pátio ou da ponte Queen Juliana."
+      - title: "Perto do centro"
+        text: "Pietermaai, Punda ou Otrobanda: dá pra sair a pé à noite pros restaurantes e pro Punda Vibes de quinta."
+      - title: "Com cozinha"
+        text: "Uma cozinha ou kitchenette deixa fazer o café da manhã e montar a bolsa térmica pras praias. É o que mais economiza."
+      - title: "Lugar pro carro"
+        text: "Estacionamento próprio ou rua tranquila na frente, já que a viagem é de carro."
+      - title: "Bem avaliado"
+        text: "Nota alta nos sites de reserva, principalmente em limpeza e segurança."
     facts:
-      - {label: "Onde", value: "Hendrikplein, Punda"}
+      - {label: "Faixa por noite", value: "US$ 70–80 o quarto"}
+      - {label: "Por pessoa", value: "≈ US$ 35–40 por noite"}
       - {label: "Noites", value: "10"}
-      - {label: "Quarto", value: "Premier King (1 cama king)"}
-      - {label: "Café da manhã", value: "Opcional · US$ 20/dia"}
-    buttons:
-      - {text: "Ver o hotel e reservar", url: "https://www.elementscuracao.com", primary: true}
-      - {text: "Ver no mapa", url: "index.html#lugar-home"}
 
   - id: transporte
     kicker: "Transporte · carro alugado"
@@ -51,7 +47,7 @@ sections:
       - {label: "Precisa", value: "CNH + cartão de crédito"}
     days_title: "Dias com carro"
     days:
-      - {day: 1, text: "Retirada no aeroporto → Elements"}
+      - {day: 1, text: "Retirada no aeroporto → hospedagem"}
       - {day: 2, text: "Píer do Klein Curaçao (saída 6h30)"}
       - {day: 4, text: "Cas Abao, Porto Mari e Daaibooi (pôr do sol)"}
       - {day: 6, text: "Christoffel, Shete Boka e Playa Jeremi (saída 6h)"}
@@ -67,8 +63,6 @@ sections:
       - "O seguro básico vem com franquia alta: vale a proteção extra ou checar se o cartão já cobre."
       - "A gasolina é vendida em galões e os postos são mais raros no oeste: abastecer de dia e devolver cheio."
       - "Nunca deixar nada à vista no carro nas praias."
-      - "No hotel: estacionamento na rua, em frente. É pago de segunda a sábado, das 8h às 18h (XCG 1 por hora, ou XCG 10 ≈ US$ 5,60 o dia todo). À noite, domingo e feriado é grátis. Paga no parquímetro (moeda), com cartão pré-pago vendido na recepção ou pelo app (parking.cw)."
-      - "Se quiser vaga garantida, o Pietermaai Parking, do lado do hotel, cobra US$ 2 a primeira hora, US$ 1,25 cada hora extra e US$ 20 o pernoite. Funciona das 6h à meia-noite."
     buttons:
       - {text: "Ver o roteiro dia a dia", url: "roteiro.html", primary: true}
 
@@ -257,40 +251,40 @@ sections:
       - title: "Tomada e energia"
         items:
           - "A rede é de 127 V e as tomadas são no padrão americano (A/B), às vezes europeu (C/F). O plugue brasileiro precisa de adaptador."
-          - "O quarto do Elements tem tomadas de 220–240 V. Mesmo assim, levar um adaptador universal."
+          - "Levar um adaptador universal."
 
 budget:
   title: "Orçamento"
-  lead: "Quanto a viagem deve custar por pessoa, separando o que já tem preço do que ainda é estimativa. O total vai ficando mais preciso a cada cotação."
+  lead: "Quanto a viagem deve custar por pessoa, sem a passagem aérea. Os passeios opcionais aparecem separados: só entram se sobrar espaço."
   fx: 5.75
   fx_note: "Dólar comercial a R$ 5,51 (9/11/2026) + IOF e spread do cartão"
   people: 2
-  target_brl: 20000
-  target_label: "Meta da Isabella por pessoa, com passagem"
+  target_brl: 10000
+  target_label: "Meta sem passagem"
   groups:
-    - name: "Curaçao"
+    - name: "Curaçao · 10 noites"
       items:
-        - {name: "Elements Hotel · Premier King · 10 noites", status: cotado, usd_total: 1555.20, note: "Tarifa não reembolsável, sem café. Falta confirmar se inclui taxas."}
-        - {name: "Café da manhã no Elements (10 dias)", status: cotado, usd_pp: 200, note: "US$ 20 por dia, por pessoa."}
-        - {name: "Klein Curaçao + transporte do hotel", status: cotado, usd_pp: 167, note: "Miss Ann US$ 150 + US$ 17. Mermaid sai US$ 164 e Blue Finn US$ 159, já com transporte."}
-        - {name: "Quadriciclo ATV + transporte", status: cotado, usd_pp: 138, note: "US$ 118 individual + US$ 20 de transporte. Dividindo o mesmo quadriciclo cai pra US$ 108,50."}
-        - {name: "Aula de windsurf em grupo (SUP Curaçao)", status: cotado, usd_pp: 52, note: "1h30 de aula."}
-        - {name: "Cultura: sinagoga, Blue Curaçao e museus", status: estimativa, usd_pp: [55, 80], note: "Sinagoga US$ 18 e Chobolobo US$ 20; Kura Hulanda e Museo Tula sem preço confirmado."}
+        - {name: "Hospedagem (10 noites)", status: estimativa, usd_total: [700, 800], note: "Meta: até US$ 80 por noite o quarto, com cozinha. Ainda em busca."}
         - {name: "Carro alugado (10 dias, Bruna)", status: cotado, usd_total: 500, note: "US$ 50 por dia, retirada e devolução no aeroporto."}
         - {name: "Gasolina", status: estimativa, usd_total: [40, 70], note: "~450 km no roteiro todo. A gasolina custa ~XCG 2 por litro (≈ US$ 1,15)."}
-        - {name: "Estacionamento e seguro extra do carro", status: estimativa, usd_pp: [10, 40], note: "Na rua em frente ao hotel: ~US$ 5,60 por dia útil, grátis à noite e domingo. Seguro: confirmar com a Bruna."}
-        - {name: "Entradas de praias e parques", status: estimativa, usd_pp: [60, 90]}
-        - {name: "Almoços e jantares (10 dias)", status: estimativa, usd_pp: [600, 900], note: "Varia muito com os restaurantes escolhidos. Levar comida do mercado na bolsa térmica pras praias reduz bastante."}
+        - {name: "Estacionamento e seguro extra do carro", status: estimativa, usd_pp: [10, 40]}
+        - {name: "Klein Curaçao", status: cotado, usd_pp: 159, note: "Blue Finn com transporte. Miss Ann sai US$ 167 e Mermaid US$ 164. De carro, dá pra ir direto ao píer e economizar o transporte."}
+        - {name: "Entradas de praias e parques", status: estimativa, usd_pp: [50, 80]}
+        - {name: "Comida (10 dias)", status: estimativa, usd_pp: [350, 450], note: "Café em casa, bolsa térmica do mercado nas praias e restaurante à noite, alternando caros e baratos."}
     - name: "Panamá · 3 noites, antes de Curaçao"
       items:
-        - {name: "Hotel em Casco Viejo", status: estimativa, usd_pp: [180, 300]}
+        - {name: "Hospedagem em Casco Viejo (3 noites)", status: estimativa, usd_total: [150, 210], note: "Meta: US$ 50–70 por noite o quarto."}
+        - {name: "Bate-volta pra San Blas", status: estimativa, usd_pp: [146, 170], note: "Tours em grupo com transporte, almoço e a taxa Guna Yala (US$ 22). Falta escolher o operador."}
         - {name: "Canal do Panamá (Miraflores)", status: cotado, usd_pp: 17.22, note: "Entrada pra estrangeiro, com IMAX."}
-        - {name: "Bate-volta pra San Blas", status: estimativa, usd_pp: [146, 170], note: "Tours em grupo de ~US$ 146 a 170 com transporte, almoço e a taxa Guna Yala (US$ 22). Falta escolher o operador."}
-        - {name: "Comida e transfers", status: estimativa, usd_pp: [180, 260]}
+        - {name: "Comida e transfers", status: estimativa, usd_pp: [150, 220]}
     - name: "Geral"
       items:
-        - {name: "Passagem Copa ida e volta, com stopover", status: estimativa, brl_pp: [3000, 4500], note: "Preço de fevereiro ainda não pesquisado."}
         - {name: "Seguro viagem", status: estimativa, brl_pp: [250, 450]}
+    - name: "Opcionais · só se sobrar espaço"
+      items:
+        - {name: "Quadriciclo ATV", status: opcional, usd_pp: [88.5, 118], note: "US$ 177 dividindo o mesmo quadriciclo (US$ 88,50 cada) ou US$ 118 individual. De carro, sem o transporte da Kezia."}
+        - {name: "Aula de windsurf em grupo (SUP Curaçao)", status: opcional, usd_pp: 52}
+        - {name: "Cultura: sinagoga, Blue Curaçao e museus", status: opcional, usd_pp: [55, 80], note: "Sinagoga US$ 18 e Chobolobo US$ 20. O Punda Vibes e o Marshe Bieu continuam, porque são de graça ou baratos."}
 
 todos:
   - group: "Antes de comprar a passagem"
@@ -303,15 +297,14 @@ todos:
       - {text: "Comprar as passagens (Copa, via Panamá)", who: cliente}
   - group: "Reservas"
     items:
-      - {text: "Cotar o Elements pras datas (10 noites, quarto duplo com café)", who: julia}
-      - {text: "Confirmar se a tarifa do Elements inclui as taxas", who: julia}
-      - {text: "Querem incluir o café da manhã do hotel?", who: cliente}
-      - {text: "Tudo bem dividir uma cama king? (senão, procurar quarto com duas camas)", who: cliente}
-      - {text: "Confirmar e reservar o Elements (só depois da passagem: a tarifa não é reembolsável)", who: julia}
+      - {text: "Buscar hospedagem em Curaçao até US$ 80/noite o quarto, com cozinha (Pietermaai, Punda ou Otrobanda)", who: julia}
+      - {text: "Buscar hospedagem em Casco Viejo até US$ 70/noite o quarto", who: julia}
+      - {text: "Tudo bem dividir cama de casal? (senão, buscar quarto com duas camas)", who: cliente}
+      - {text: "Reservar a hospedagem (de preferência com cancelamento grátis até a passagem sair)", who: julia}
+      - {text: "Escolher quais opcionais entram (ATV, windsurf, museus)", who: cliente}
       - {text: "Pedir orçamento de transporte à Raquel", who: julia, done: true, note: "Ela recomendou alugar carro: tour de várias praias sai US$ 400 e ela não trabalha à noite."}
       - {text: "Cotar o carro alugado", who: julia, done: true, note: "Bruna: US$ 500 por 10 dias"}
       - {text: "Reservar o carro com a Bruna (confirmar seguro incluso e caução)", who: julia}
-      - {text: "Perguntar ao Elements se tem estacionamento", who: julia, done: true, note: "Rua em frente (pago seg–sáb 8h–18h) ou Pietermaai Parking do lado"}
       - {text: "Definir quem vai dirigir", who: cliente, note: "CNH válida + cartão de crédito físico no nome dela"}
       - {text: "Escolher o barco de Klein Curaçao", who: cliente, note: "Miss Ann, Mermaid ou Blue Finn"}
       - {text: "Fechar Klein Curaçao e o ATV com a Kezia", who: julia}
