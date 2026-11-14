@@ -48,7 +48,7 @@ sections:
     days_title: "Dias com carro"
     days:
       - {day: 1, text: "Retirada no aeroporto → hospedagem"}
-      - {day: 2, text: "Píer do Klein Curaçao (saída 6h30)"}
+      - {day: 2, text: "Fishermen's Pier, Jan Thiel (barco às 6h45)"}
       - {day: 4, text: "Cas Abao, Porto Mari e Daaibooi (pôr do sol)"}
       - {day: 6, text: "Christoffel, Shete Boka e Playa Jeremi (saída 6h)"}
       - {day: 7, text: "Kabritenburg, SUP Curaçao, Papagayo e Zanzibar à noite"}
@@ -67,23 +67,20 @@ sections:
       - {text: "Ver o roteiro dia a dia", url: "roteiro.html", primary: true}
 
   - id: passeios
-    kicker: "Passeios · com a Kezia, guia brasileira"
+    kicker: "Passeios · Klein confirmado"
     title: "Passeios"
-    lead: "Os passeios de barco e de aventura saem com a Kezia, guia brasileira que mora na ilha. Ela organiza tudo em português. Em alguns passeios, o guia do operador fala inglês e espanhol. A maioria tem busca nos hotéis centrais, e o Elements é um deles."
+    lead: "O passeio principal de Curaçao já está fechado: Klein Curaçao com o Mermaid, comprado direto pelo GetYourGuide. Os outros passeios são opcionais, com a Kezia, guia brasileira que mora na ilha, e só entram se couberem no orçamento."
     tours:
-      - name: "Klein Curaçao"
+      - name: "Klein Curaçao com o Mermaid"
         day: 2
-        status: "No roteiro"
-        text: "Ilha desabitada de areia branca, com farol e tartarugas. Tem três barcos à escolha:"
-        options:
-          - {name: "Miss Ann (iate)", when: "seg, ter, qui e sex", info: "1h de navegação. Tem estrutura na ilha (banheiro, ducha, cadeiras, guarda-sol), café da manhã, churrasco e snorkel guiado."}
-          - {name: "Mermaid (barco)", when: "todo dia menos quinta", info: "2h de navegação. Tem boa estrutura na ilha, café da manhã, churrasco e snorkel."}
-          - {name: "Blue Finn (catamarã)", when: "todo dia", info: "Clima mais animado, com open bar a partir de 12h30. Não tem estrutura própria na ilha, usa os quiosques públicos."}
-        tip: "Cai numa segunda, dia em que os três barcos saem."
+        status: "Confirmado"
+        text: "Dia inteiro (9h) na ilha desabitada de areia branca, com o farol rosa e os naufrágios. São 2h de barco saindo de Spanish Water. Inclui café e chá a bordo, café da manhã e churrasco na ilha, a casa de praia exclusiva do Mermaid com sombra, banheiros e espreguiçadeiras, e equipamento de snorkel. Bebida alcoólica é à parte (US$ 5 a 10). Nota 4,8 com 369 avaliações. US$ 150 por pessoa."
+        tip: "O barco sai às 6h45 do Fishermen's Pier (Caracasbaaiweg, Jan Thiel), todo dia menos sábado. Elas vão de carro até o píer. Cancelamento grátis até 24h antes."
+        link: {text: "Comprar no GetYourGuide", url: "https://www.getyourguide.com/willemstad-l351/klein-curacao-full-day-boat-trip-t694757/?partner_id=X5GTDRF&utm_medium=online_publisher"}
       - name: "Quadriciclo ATV"
         day: 5
-        status: "No roteiro"
-        text: "Off-road de 3h pelo lado oeste: plantação de Aloe Vera, uma caverna antiga com vista panorâmica e o Noordkant, onde as ondas batem nas pedras. Sai às 9h ou às 14h, todo dia."
+        status: "Opcional"
+        text: "Off-road de 3h com a Kezia pelo lado oeste: plantação de Aloe Vera, uma caverna antiga com vista panorâmica e o Noordkant, onde as ondas batem nas pedras. Sai às 9h ou às 14h, todo dia. US$ 177 dividindo o quadriciclo ou US$ 118 individual."
         tip: "Ir de tênis fechado e evitar roupa branca."
       - name: "Barco pro pôr do sol"
         status: "Extra"
@@ -157,9 +154,10 @@ sections:
       - name: "Chegada e Casco Viejo"
         status: "Qui 11/02"
         text: "Chegada pela Copa, check-in e fim de tarde no centro histórico: Plaza de Francia, Catedral e um rooftop pra jantar."
-      - name: "Bate-volta pra San Blas"
+      - name: "Bate-volta pra San Blas · confirmado"
         status: "Sex 12/02"
-        text: "Ilhas de areia branca no território Guna Yala, com piscina natural e snorkel. A busca no hotel é entre 5h e 5h45: vai de 4x4 até o porto de Cartí e de lá de lancha entre as ilhas. Volta por volta das 19h. Os tours costumam incluir almoço e a taxa de entrada."
+        text: "4 ilhas em um dia, em grupo pequeno (até 15 pessoas): a ilha remota de Misdub, a piscina natural cheia de estrelas-do-mar, Perro Grande com almoço (peixe, frango ou vegetariano) e uma bebida, caiaque e stand up, e o naufrágio de Perro Chico pra snorkel. A busca é no hotel, na Cidade do Panamá, entre 5h e 5h45. São 2h30 de 4x4 até o porto de Cartí, e a volta é à noite. Guia fala inglês e espanhol. Nota 4,3 com 742 avaliações. US$ 145 por pessoa + US$ 22 da taxa de entrada Guna Yala, paga lá."
+        link: {text: "Comprar no GetYourGuide", url: "https://www.getyourguide.com/san-blas-islands-l123270/from-panama-city-4-san-blas-islands-day-trip-with-lunch-t246297/?partner_id=X5GTDRF&utm_medium=online_publisher"}
         tip: "Ficou no segundo dia de propósito: se o mar não deixar sair, dá pra passar pro sábado."
       - name: "Canal do Panamá e cidade"
         status: "Sáb 13/02"
@@ -268,13 +266,13 @@ budget:
         - {name: "Carro alugado (10 dias, Bruna)", status: cotado, usd_total: 500, note: "US$ 50 por dia, retirada e devolução no aeroporto."}
         - {name: "Gasolina", status: estimativa, usd_total: [40, 70], note: "~450 km no roteiro todo. A gasolina custa ~XCG 2 por litro (≈ US$ 1,15)."}
         - {name: "Estacionamento e seguro extra do carro", status: estimativa, usd_pp: [10, 40]}
-        - {name: "Klein Curaçao", status: cotado, usd_pp: 159, note: "Blue Finn com transporte. Miss Ann sai US$ 167 e Mermaid US$ 164. De carro, dá pra ir direto ao píer e economizar o transporte."}
+        - {name: "Klein Curaçao (Mermaid)", status: confirmado, usd_pp: 150, note: "Com café da manhã, churrasco e snorkel. De carro até o píer."}
         - {name: "Entradas de praias e parques", status: estimativa, usd_pp: [50, 80]}
         - {name: "Comida (10 dias)", status: estimativa, usd_pp: [350, 450], note: "Café em casa, bolsa térmica do mercado nas praias e restaurante à noite, alternando caros e baratos."}
     - name: "Panamá · 3 noites, antes de Curaçao"
       items:
         - {name: "Hospedagem em Casco Viejo (3 noites)", status: estimativa, usd_total: [150, 210], note: "Meta: US$ 50–70 por noite o quarto."}
-        - {name: "Bate-volta pra San Blas", status: estimativa, usd_pp: [146, 170], note: "Tours em grupo com transporte, almoço e a taxa Guna Yala (US$ 22). Falta escolher o operador."}
+        - {name: "Bate-volta pra San Blas", status: confirmado, usd_pp: 167, note: "US$ 145 do passeio (busca no hotel, almoço e 1 bebida) + US$ 22 da taxa Guna Yala."}
         - {name: "Canal do Panamá (Miraflores)", status: cotado, usd_pp: 17.22, note: "Entrada pra estrangeiro, com IMAX."}
         - {name: "Comida e transfers", status: estimativa, usd_pp: [150, 220]}
     - name: "Geral"
@@ -292,7 +290,7 @@ todos:
       - {text: "Definir as datas exatas (janela de 6 a 28/fev)", who: ambas, note: "Proposta: sai do Brasil 11/02, Panamá 11–14, Curaçao 14–24"}
       - {text: "Confirmar se os R$ 20 mil são por pessoa ou pras duas", who: cliente, done: true, note: "Por pessoa, com passagem."}
       - {text: "Decidir se o stopover no Panamá é na ida ou na volta", who: cliente, done: true, note: "Na ida, com bate-volta pra San Blas"}
-      - {text: "Reservar o bate-volta pra San Blas (sex 12/02)", who: julia}
+      - {text: "Comprar o bate-volta pra San Blas (sex 12/02) pelo link do site", who: cliente, note: "Levar US$ 22 em dinheiro pra taxa Guna Yala"}
       - {text: "Reservar hotel em Casco Viejo (3 noites, 11 a 14/02)", who: julia}
       - {text: "Comprar as passagens (Copa, via Panamá)", who: cliente}
   - group: "Reservas"
@@ -306,8 +304,8 @@ todos:
       - {text: "Cotar o carro alugado", who: julia, done: true, note: "Bruna: US$ 500 por 10 dias"}
       - {text: "Reservar o carro com a Bruna (confirmar seguro incluso e caução)", who: julia}
       - {text: "Definir quem vai dirigir", who: cliente, note: "CNH válida + cartão de crédito físico no nome dela"}
-      - {text: "Escolher o barco de Klein Curaçao", who: cliente, note: "Miss Ann, Mermaid ou Blue Finn"}
-      - {text: "Fechar Klein Curaçao e o ATV com a Kezia", who: julia}
+      - {text: "Escolher o barco de Klein Curaçao", who: cliente, done: true, note: "Mermaid"}
+      - {text: "Comprar o Klein Curaçao (seg 15/02) pelo link do site", who: cliente}
       - {text: "Agendar a aula de windsurf na SUP Curaçao", who: julia}
       - {text: "Reservar o Fort Nassau (dia 10), o De Gouverneur (dia 3) e os outros jantares", who: julia}
       - {text: "Confirmar o endereço do James", who: julia}

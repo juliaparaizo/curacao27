@@ -130,10 +130,16 @@ places:
     name: "Cas Abao Beach, Curaçao"
     type: beach
     desc: "Água muito azul e estrutura completa. Fecha no fim da tarde (começam a liberar a praia por volta das 18h30)."
+  - id: pier-klein
+    name: "Fishermen's Pier, Caracasbaaiweg, Jan Thiel"
+    lat: 12.0805
+    lon: -68.8710
+    type: travel
+    desc: "Saída do barco Mermaid pra Klein Curaçao, às 6h45."
   - id: klein-curacao
     name: "Klein Curaçao"
     type: sight
-    desc: "Ilha desabitada de areia branca, com farol e tartarugas. Passeio de barco com a Kezia."
+    desc: "Ilha desabitada de areia branca, com farol rosa, naufrágios e tartarugas. Dia inteiro com o barco Mermaid, com café da manhã e churrasco."
     model: lighthouse
   - id: christoffel
     name: "Christoffelberg, Curaçao"
@@ -217,7 +223,7 @@ days:
     area: "Mar"
     route: line
     items:
-      - {time: "06:30", text: "Barco pra Klein Curaçao (Kezia)", place: sup-curacao}
+      - {time: "06:30", text: "Carro até o píer; barco Mermaid sai às 6h45", place: pier-klein}
       - {time: "09:00", text: "Dia na ilha: farol, tartarugas, areia branca", place: klein-curacao}
       - {time: "20:00", type: food, text: "Jantar no James (endereço a confirmar)"}
   - title: "Willemstad: história e cultura"

@@ -658,3 +658,12 @@ li.done .txt {
   color: var(--muted);
   border: 1px solid var(--line);
 }
+
+.tour .btn.buy {
+  margin-top: 12px;
+  display: inline-block;
+}
+.st-confirmado {
+  background: var(--ink);
+  color: var(--card);
+}

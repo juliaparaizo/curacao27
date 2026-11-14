@@ -70,6 +70,7 @@
                   : ''
               }
               ${tour.tip ? `<p class="tip"><b>${esc(t('tip'))}</b> ${esc(tour.tip)}</p>` : ''}
+              ${tour.link ? `<a class="btn buy" href="${esc(tour.link.url)}" target="_blank" rel="noopener">${esc(tour.link.text)} ↗</a>` : ''}
             </article>`,
           )
           .join('')}</div>`
@@ -137,7 +138,7 @@
       const [lo, hi] = pair(item.brl_pp ?? 0);
       return { lo, hi, own: null };
     };
-    const statusName = { cotado: 'Cotado', estimativa: 'Estimativa', 'a cotar': 'A cotar', opcional: 'Opcional' };
+    const statusName = { confirmado: 'Confirmado', cotado: 'Cotado', estimativa: 'Estimativa', 'a cotar': 'A cotar', opcional: 'Opcional' };
     const rows = B.groups.map(g => ({ ...g, items: g.items.map(item => ({ ...item, ...cost(item) })) }));
     // optional items are listed but kept out of the total
     const items = rows.flatMap(g => g.items).filter(i => i.status !== 'opcional');
@@ -145,7 +146,7 @@
     const sum = (list, key) => list.reduce((total, item) => total + item[key], 0);
     const lo = sum(items, 'lo'),
       hi = sum(items, 'hi');
-    const quoted = items.filter(i => i.status === 'cotado');
+    const quoted = items.filter(i => i.status === 'cotado' || i.status === 'confirmado');
     const target = Number(B.target_brl) || 0;
     // the target marker sits on a scale from 0 to whichever is larger: the high estimate or the target
     const top = Math.max(hi, target) * 1.05;
@@ -165,7 +166,7 @@
       <p class="lead">${esc(B.lead || '')}</p>
       <div class="totals">
         <div class="total main"><span>Total estimado por pessoa</span><b>${esc(range(lo, hi, brl))}</b></div>
-        <div class="total"><span>Já cotado, por pessoa</span><b>${esc(brl(sum(quoted, 'lo')))}</b><small>${quoted.length} de ${items.length} itens</small></div>
+        <div class="total"><span>Já fechado ou cotado, por pessoa</span><b>${esc(brl(sum(quoted, 'lo')))}</b><small>${quoted.length} de ${items.length} itens</small></div>
         ${extras.length ? `<div class="total"><span>Se incluir todos os opcionais</span><b>+ ${esc(range(sum(extras, 'lo'), sum(extras, 'hi'), brl))}</b><small>${extras.length} itens, fora do total</small></div>` : ''}
       </div>
       ${
