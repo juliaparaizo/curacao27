@@ -11,21 +11,24 @@ people:
 sections:
   - id: hotel
     kicker: "Hospedagem · 10 noites em Curaçao"
-    title: "Hospedagem"
-    lead: "Pra caber no orçamento, a hospedagem em Curaçao fica em até US$ 80 por noite o quarto, ou US$ 40 por pessoa (≈ R$ 230). Ainda em busca: a ideia é um guesthouse ou apartamento em Pietermaai, Punda ou Otrobanda."
+    title: "Lora Apartment"
+    lead: "Um apartamento num prédio histórico de 1933, restaurado e cuidado por uma família local, em Otrobanda. Tem cozinha pra fazer o café e a bolsa térmica das praias, e o centro de Otrobanda e a ponte flutuante ficam a uma caminhada."
     why:
       - title: "Perto do centro"
-        text: "Pietermaai, Punda ou Otrobanda: dá pra sair a pé à noite pros restaurantes e pro Punda Vibes de quinta."
-      - title: "Com cozinha"
-        text: "Uma cozinha ou kitchenette deixa fazer o café da manhã e montar a bolsa térmica pras praias. É o que mais economiza."
-      - title: "Lugar pro carro"
-        text: "Estacionamento próprio ou rua tranquila na frente, já que a viagem é de carro."
-      - title: "Bem avaliado"
-        text: "Nota alta nos sites de reserva, principalmente em limpeza e segurança."
+        text: "De 5 a 15 min a pé do centro de Otrobanda e da ponte flutuante pra Punda. O Museu Kura Hulanda fica no caminho, e as praias mais perto ficam a 5 min de carro."
+      - title: "Cozinha e pátio"
+        text: "Cozinha completa, sala e pátio externo, com entrada privativa. Dá pra tomar café em casa e montar a bolsa térmica das praias, o que ajuda muito no orçamento."
+      - title: "Estacionamento grátis"
+        text: "Vaga na rua, de graça, pro carro alugado."
+      - title: "Anfitriã elogiada"
+        text: "Superhost, nota 4,88 e selo de favorito dos hóspedes. Quem se hospeda elogia muito o carinho e a atenção da Susana."
     facts:
-      - {label: "Faixa por noite", value: "US$ 70–80 o quarto"}
-      - {label: "Por pessoa", value: "≈ US$ 35–40 por noite"}
-      - {label: "Noites", value: "10"}
+      - {label: "10 noites", value: "US$ 686 (≈ US$ 34 por pessoa/noite)"}
+      - {label: "Quarto", value: "1 quarto, 1 cama de casal"}
+      - {label: "Cancelamento", value: "Grátis até 1 dia antes"}
+    buttons:
+      - {text: "Ver no Airbnb", url: "https://www.airbnb.com/rooms/1204300698174965476?adults=2&check_in=2027-02-14&check_out=2027-02-24", primary: true}
+      - {text: "Ver no mapa", url: "index.html#lugar-home"}
 
   - id: transporte
     kicker: "Transporte · carro alugado"
@@ -262,7 +265,7 @@ budget:
   groups:
     - name: "Curaçao · 10 noites"
       items:
-        - {name: "Hospedagem (10 noites)", status: estimativa, usd_total: [700, 800], note: "Meta: até US$ 80 por noite o quarto, com cozinha. Ainda em busca."}
+        - {name: "Lora Apartment, Airbnb (10 noites)", status: cotado, usd_total: 686, note: "Valor do Airbnb pra 12–22/02. Confirmar o preço pras datas 14–24/02."}
         - {name: "Carro alugado (10 dias, Bruna)", status: cotado, usd_total: 500, note: "US$ 50 por dia, retirada e devolução no aeroporto."}
         - {name: "Gasolina", status: estimativa, usd_total: [40, 70], note: "~450 km no roteiro todo. A gasolina custa ~XCG 2 por litro (≈ US$ 1,15)."}
         - {name: "Estacionamento e seguro extra do carro", status: estimativa, usd_pp: [10, 40]}
@@ -295,10 +298,10 @@ todos:
       - {text: "Comprar as passagens (Copa, via Panamá)", who: cliente}
   - group: "Reservas"
     items:
-      - {text: "Buscar hospedagem em Curaçao até US$ 80/noite o quarto, com cozinha (Pietermaai, Punda ou Otrobanda)", who: julia}
+      - {text: "Escolher a hospedagem em Curaçao", who: julia, done: true, note: "Lora Apartment (Airbnb), em Otrobanda"}
       - {text: "Buscar hospedagem em Casco Viejo até US$ 70/noite o quarto", who: julia}
       - {text: "Tudo bem dividir cama de casal? (senão, buscar quarto com duas camas)", who: cliente}
-      - {text: "Reservar a hospedagem (de preferência com cancelamento grátis até a passagem sair)", who: julia}
+      - {text: "Reservar o Lora Apartment no Airbnb pras datas certas (14 a 24/02)", who: julia, note: "Cancelamento grátis até 1 dia antes do check-in"}
       - {text: "Escolher quais opcionais entram (ATV, windsurf, museus)", who: cliente}
       - {text: "Pedir orçamento de transporte à Raquel", who: julia, done: true, note: "Ela recomendou alugar carro: tour de várias praias sai US$ 400 e ela não trabalha à noite."}
       - {text: "Cotar o carro alugado", who: julia, done: true, note: "Bruna: US$ 500 por 10 dias"}

@@ -9,12 +9,11 @@ language: pt-BR
 units: {temp: C, distance: km, waves: ft}
 
 home:
-  name: "Elements Hotel & Shops"
-  address: "Hendrikplein, Punda, Willemstad, Curaçao"
-  lat: 12.1062
-  lon: -68.9327
-  desc: "Base da viagem em Punda, com café da manhã incluso e rooftop com piscina."
-
+  name: "Lora Apartment (The Time Apartment)"
+  address: "Otrobanda, Willemstad, Curaçao"
+  lat: 12.1108
+  lon: -68.9440
+  desc: "Base da viagem: apartamento num prédio restaurado de 1933 em Otrobanda, com cozinha, pátio e estacionamento grátis na rua. Fica a 5–15 min a pé do centro de Otrobanda e da ponte flutuante."
 places:
   - id: aeroporto
     name: "Aeroporto de Curaçao (Hato)"
