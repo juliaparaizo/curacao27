@@ -154,18 +154,28 @@ sections:
       - {label: "Base", value: "Casco Viejo"}
       - {label: "Moeda", value: "Dólar americano"}
     tours:
-      - name: "Chegada e Casco Viejo"
+      - name: "Chegada e primeira noite em Casco Viejo"
         status: "Qui 11/02"
-        text: "Chegada pela Copa, check-in e fim de tarde no centro histórico: Plaza de Francia, Catedral e um rooftop pra jantar."
+        text: "Check-in em Casco Viejo e um fim de tarde sem pressa no centro histórico."
+        options:
+          - {name: "Pôr do sol no Paseo Esteban Huertas", when: "fim de tarde", info: "Calçadão em cima da antiga muralha, com vista do skyline e dos navios esperando pra entrar no Canal. Ali perto, mulheres Guna vendem as molas bordadas."}
+          - {name: "Plaza de Francia e Plaza de la Independencia", when: "a pé", info: "As praças principais, com a Catedral Basílica Santa María la Antigua."}
+          - {name: "Jantar panamenho", when: "noite", info: "Fonda Lo Que Hay, famoso pelos patacones, ou frutos do mar na La Pulpería."}
+          - {name: "Um drink num rooftop", when: "noite", info: "Tántalo, Lazotea (com piscina) ou Casa Casco (vista 360°). Dormir cedo: a busca pro San Blas é às 5h."}
       - name: "Bate-volta pra San Blas · confirmado"
         status: "Sex 12/02"
         text: "4 ilhas em um dia, em grupo pequeno (até 15 pessoas): a ilha remota de Misdub, a piscina natural cheia de estrelas-do-mar, Perro Grande com almoço (peixe, frango ou vegetariano) e uma bebida, caiaque e stand up, e o naufrágio de Perro Chico pra snorkel. A busca é no hotel, na Cidade do Panamá, entre 5h e 5h45. São 2h30 de 4x4 até o porto de Cartí, e a volta é à noite. Guia fala inglês e espanhol. Nota 4,3 com 742 avaliações. US$ 145 por pessoa + US$ 22 da taxa de entrada Guna Yala, paga lá."
         link: {text: "Comprar no GetYourGuide", url: "https://www.getyourguide.com/san-blas-islands-l123270/from-panama-city-4-san-blas-islands-day-trip-with-lunch-t246297/?partner_id=X5GTDRF&utm_medium=online_publisher"}
         tip: "Ficou no segundo dia de propósito: se o mar não deixar sair, dá pra passar pro sábado."
-      - name: "Canal do Panamá e cidade"
+      - name: "Canal do Panamá e Casco Viejo a pé"
         status: "Sáb 13/02"
-        text: "Eclusas de Miraflores (8h às 18h, ≈ US$ 17 com IMAX), Calzada de Amador ou Cinta Costera no fim de tarde e a última noite em Casco Viejo."
-        tip: "Quer trocar? Gamboa (barco até a Isla de los Monos) e a comunidade Emberá também cabem nesse dia."
+        text: "O dia mais completo na cidade:"
+        options:
+          - {name: "Manhã: eclusas de Miraflores", when: "8h às 18h", info: "Ver os navios passando pelo Canal, com mirante e IMAX. ≈ US$ 17. Fica a uns 20 min de Uber de Casco Viejo. Olhar antes o horário de passagem dos navios."}
+          - {name: "Almoço: ceviche no Mercado de Mariscos", when: "até ~17h", info: "Mercado de peixe no começo da Cinta Costera, com barracas de ceviche baratas. O restaurante do andar de cima fica aberto até a noite."}
+          - {name: "Tarde: Casco Viejo a pé", when: "a pé", info: "Igreja de San José e o Altar de Ouro, Plaza Bolívar, o Museu do Canal (ter–dom, 10h às 18h), café Gesha no Café Unido e chapéu-panamá na Victor's Hats."}
+          - {name: "Noite: rum e despedida", when: "noite", info: "Pedro Mandinga, destilaria de rum artesanal (happy hour até 18h), ou o rooftop que ficou faltando."}
+        tip: "Quer trocar alguma coisa? Dá pra ir nas ruínas do Panamá Viejo (ter–dom, 8h30 às 17h30), no Biomuseo do Frank Gehry (fim de semana, 11h às 16h) ou fazer Gamboa e a comunidade Emberá no lugar do Canal."
       - name: "Voo pra Curaçao"
         status: "Dom 14/02"
         text: "Voo curto da Copa e a viagem segue em Curaçao."
@@ -202,6 +212,11 @@ sections:
           - "Brasileiro não precisa de visto pra turismo."
           - "Desde 2023 o Panamá não pede a vacina de febre amarela pra quem fica só na Cidade do Panamá. Ela é recomendada pra San Blas e pras comunidades Emberá, e como elas já vão tomar por causa de Curaçao, fica coberto."
           - "O dólar americano é a moeda do dia a dia. O balboa vale o mesmo que o dólar."
+          - "Levar notas pequenas: pagar com nota acima de US$ 20 pede documento, e notas de 50 e 100 são olhadas com desconfiança."
+          - "Uber funciona na cidade. Táxi não tem taxímetro: combinar o preço antes de entrar."
+          - "Casco Viejo tem policiamento e é tranquilo. Evitar El Chorrillo (bairro vizinho, a oeste), as ruas laterais a leste da Santa Ana e Calidonia à noite. À noite, ir de Uber em vez de andar até a estação 5 de Mayo."
+          - "Em restaurante bom, os 10% às vezes já vêm na conta: conferir antes de dar gorjeta."
+          - "Fevereiro é seca e alta temporada: calor e umidade alta. Protetor e água sempre."
       - title: "Dinheiro em Curaçao"
         items:
           - "A moeda oficial é o florim caribenho (XCG), que substituiu o florim antilhano em 2025. O câmbio é fixo: US$ 1 = XCG 1,79."
