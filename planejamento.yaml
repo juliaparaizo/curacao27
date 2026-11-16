@@ -27,7 +27,7 @@ sections:
       - {label: "Quarto", value: "1 quarto, 1 cama de casal"}
       - {label: "Cancelamento", value: "Grátis até 1 dia antes"}
     buttons:
-      - {text: "Ver no Airbnb", url: "https://www.airbnb.com/rooms/1204300698174965476?adults=2&check_in=2027-02-14&check_out=2027-02-24", primary: true}
+      - {text: "Ver no Airbnb", url: "https://www.airbnb.com/rooms/1204300698174965476?adults=2&check_in=2027-02-12&check_out=2027-02-22", primary: true}
       - {text: "Ver no mapa", url: "index.html#lugar-home"}
 
   - id: transporte
@@ -51,10 +51,10 @@ sections:
     days_title: "Dias com carro"
     days:
       - {day: 1, text: "Retirada no aeroporto → hospedagem"}
-      - {day: 2, text: "Fishermen's Pier, Jan Thiel (barco às 6h45)"}
-      - {day: 4, text: "Cas Abao, Porto Mari e Daaibooi (pôr do sol)"}
+      - {day: 2, text: "Kabritenburg, SUP Curaçao, Papagayo e Zanzibar à noite"}
+      - {day: 3, text: "Cas Abao, Porto Mari e Daaibooi (pôr do sol)"}
+      - {day: 4, text: "Fishermen's Pier, Jan Thiel (barco às 6h45)"}
       - {day: 6, text: "Christoffel, Shete Boka e Playa Jeremi (saída 6h)"}
-      - {day: 7, text: "Kabritenburg, SUP Curaçao, Papagayo e Zanzibar à noite"}
       - {day: 8, text: "Piskadó, Kalki e Kenepa"}
       - {day: 10, text: "Kokomo e Fort Nassau (pôr do sol)"}
       - {day: 11, text: "Renaissance Mall → devolução no aeroporto"}
@@ -75,13 +75,13 @@ sections:
     lead: "O passeio principal de Curaçao já está fechado: Klein Curaçao com o Mermaid, comprado direto pelo GetYourGuide. Os outros passeios são opcionais, com a Kezia, guia brasileira que mora na ilha, e só entram se couberem no orçamento."
     tours:
       - name: "Klein Curaçao com o Mermaid"
-        day: 2
+        day: 4
         status: "Confirmado"
         text: "Dia inteiro (9h) na ilha desabitada de areia branca, com o farol rosa e os naufrágios. São 2h de barco saindo de Spanish Water. Inclui café e chá a bordo, café da manhã e churrasco na ilha, a casa de praia exclusiva do Mermaid com sombra, banheiros e espreguiçadeiras, e equipamento de snorkel. Bebida alcoólica é à parte (US$ 5 a 10). Nota 4,8 com 369 avaliações. US$ 150 por pessoa."
         tip: "O barco sai às 6h45 do Fishermen's Pier (Caracasbaaiweg, Jan Thiel), todo dia menos sábado. Elas vão de carro até o píer. Cancelamento grátis até 24h antes."
         link: {text: "Comprar no GetYourGuide", url: "https://www.getyourguide.com/willemstad-l351/klein-curacao-full-day-boat-trip-t694757/?partner_id=X5GTDRF&utm_medium=online_publisher"}
       - name: "Quadriciclo ATV"
-        day: 5
+        day: 7
         status: "Opcional"
         text: "Off-road de 3h com a Kezia pelo lado oeste: plantação de Aloe Vera, uma caverna antiga com vista panorâmica e o Noordkant, onde as ondas batem nas pedras. Sai às 9h ou às 14h, todo dia. US$ 177 dividindo o quadriciclo ou US$ 118 individual."
         tip: "Ir de tênis fechado e evitar roupa branca."
@@ -104,20 +104,20 @@ sections:
     lead: "Curaçao tem quase 400 anos de história misturando holandeses, africanos, judeus sefarditas e latinos. Encaixamos as visitas nos dias em que elas já estão por perto."
     tours:
       - name: "Sinagoga Mikvé Israel-Emanuel"
-        day: 3
+        day: 5
         status: "No roteiro"
         text: "Sinagoga de 1732, com o chão coberto de areia, em Punda. A congregação foi fundada em 1651. US$ 18 com audioguia."
         tip: "Abre pra visita de segunda a sexta, das 9h às 16h30. Levar documento com foto."
       - name: "Museu Kura Hulanda"
-        day: 3
+        day: 5
         status: "No roteiro"
         text: "Em Otrobanda, conta a história dos reinos da África Ocidental, do tráfico de escravizados e da cultura do Caribe, com mais de 5.000 peças. Vale a visita guiada."
       - name: "Almoço no Marshe Bieu"
-        day: 3
+        day: 5
         status: "No roteiro"
         text: "O antigo mercado onde os locais almoçam comida típica de Curaçao, em barracas com mesas compartilhadas. Barato e autêntico."
       - name: "Blue Curaçao no Landhuis Chobolobo"
-        day: 5
+        day: 7
         status: "No roteiro"
         text: "Tour de 1h na casa de fazenda onde é feito o licor Blue Curaçao original, com um coquetel incluso. US$ 20. Só de segunda a sexta."
       - name: "Museo Tula"
@@ -126,7 +126,7 @@ sections:
         text: "Na antiga fazenda Kenepa, onde começou a revolta de 1795 liderada por Tula, a maior resistência à escravidão da ilha. Fica perto da Playa Jeremi."
         tip: "Confirmar o horário antes."
       - name: "Punda Vibes"
-        day: 5
+        day: 7
         status: "No roteiro"
         text: "Toda quinta à noite, com música ao vivo, feirinha e fogos às 20h15. Depois, salsa no Mundo Bizarro."
 
@@ -136,13 +136,13 @@ sections:
     lead: "Indicações de quem já foi, encaixadas por bairro pra não perder tempo no trânsito. Vale reservar com antecedência."
     list:
       - {name: "La Boheme", where: "Punda", day: 1, maps: "La Boheme restaurant Willemstad Curaçao"}
-      - {name: "Kome", where: "Pietermaai", day: 3, maps: "Kome restaurant Pietermaai Curaçao"}
-      - {name: "De Gouverneur", where: "Otrobanda, vista da Handelskade", day: 4, maps: "Gouverneur de Rouville restaurant Curaçao"}
+      - {name: "Papagayo Beach Club", where: "Jan Thiel, pôr do sol", day: 2, maps: "Papagayo Beach Club Jan Thiel Curaçao"}
+      - {name: "Zanzibar", where: "Jan Thiel, sábado à noite (festa)", day: 2, maps: "Zanzibar Beach Restaurant Jan Thiel Curaçao"}
+      - {name: "De Gouverneur", where: "Otrobanda, vista da Handelskade", day: 3, maps: "Gouverneur de Rouville restaurant Curaçao"}
+      - {name: "James", where: "Indicação da amiga", day: 4}
+      - {name: "Kome", where: "Pietermaai", day: 5, maps: "Kome restaurant Pietermaai Curaçao"}
       - {name: "Fensi", where: "Pietermaai", day: 6, maps: "Fensi restaurant Pietermaai Curaçao"}
-      - {name: "Papagayo Beach Club", where: "Jan Thiel, pôr do sol", day: 7, maps: "Papagayo Beach Club Jan Thiel Curaçao"}
-      - {name: "Zanzibar", where: "Jan Thiel, sábado à noite (festa)", day: 7, maps: "Zanzibar Beach Restaurant Jan Thiel Curaçao"}
-      - {name: "James", where: "Indicação da amiga", day: 2}
-      - {name: "Mundo Bizarro", where: "Pietermaai, quinta à noite (salsa)", day: 5, maps: "Mundo Bizarro Pietermaai Curaçao"}
+      - {name: "Mundo Bizarro", where: "Pietermaai, quinta à noite (salsa)", day: 7, maps: "Mundo Bizarro Pietermaai Curaçao"}
       - {name: "Fort Nassau", where: "No alto do morro, pôr do sol", day: 10, maps: "Fort Nassau restaurant Curaçao"}
 
   - id: panama
@@ -150,12 +150,12 @@ sections:
     title: "Panamá"
     lead: "O stopover da Copa é grátis por até 15 dias. Elas param 3 noites na Cidade do Panamá antes de seguir pra Curaçao, com base em Casco Viejo e um bate-volta pras ilhas de San Blas."
     facts:
-      - {label: "Datas", value: "11 a 14/02 (proposta)"}
+      - {label: "Datas", value: "9 a 12/02"}
       - {label: "Base", value: "Casco Viejo"}
       - {label: "Moeda", value: "Dólar americano"}
     tours:
       - name: "Chegada e primeira noite em Casco Viejo"
-        status: "Qui 11/02"
+        status: "Ter 09/02"
         text: "Check-in em Casco Viejo e um fim de tarde sem pressa no centro histórico."
         options:
           - {name: "Pôr do sol no Paseo Esteban Huertas", when: "fim de tarde", info: "Calçadão em cima da antiga muralha, com vista do skyline e dos navios esperando pra entrar no Canal. Ali perto, mulheres Guna vendem as molas bordadas."}
@@ -163,21 +163,21 @@ sections:
           - {name: "Jantar panamenho", when: "noite", info: "Fonda Lo Que Hay, famoso pelos patacones, ou frutos do mar na La Pulpería."}
           - {name: "Um drink num rooftop", when: "noite", info: "Tántalo, Lazotea (com piscina) ou Casa Casco (vista 360°). Dormir cedo: a busca pro San Blas é às 5h."}
       - name: "Bate-volta pra San Blas · confirmado"
-        status: "Sex 12/02"
+        status: "Qua 10/02"
         text: "4 ilhas em um dia, em grupo pequeno (até 15 pessoas): a ilha remota de Misdub, a piscina natural cheia de estrelas-do-mar, Perro Grande com almoço (peixe, frango ou vegetariano) e uma bebida, caiaque e stand up, e o naufrágio de Perro Chico pra snorkel. A busca é no hotel, na Cidade do Panamá, entre 5h e 5h45. São 2h30 de 4x4 até o porto de Cartí, e a volta é à noite. Guia fala inglês e espanhol. Nota 4,3 com 742 avaliações. US$ 145 por pessoa + US$ 22 da taxa de entrada Guna Yala, paga lá."
         link: {text: "Comprar no GetYourGuide", url: "https://www.getyourguide.com/san-blas-islands-l123270/from-panama-city-4-san-blas-islands-day-trip-with-lunch-t246297/?partner_id=X5GTDRF&utm_medium=online_publisher"}
-        tip: "Ficou no segundo dia de propósito: se o mar não deixar sair, dá pra passar pro sábado."
+        tip: "Ficou no segundo dia de propósito: se o mar não deixar sair, dá pra passar pra quinta."
       - name: "Canal do Panamá e Casco Viejo a pé"
-        status: "Sáb 13/02"
+        status: "Qui 11/02"
         text: "O dia mais completo na cidade:"
         options:
           - {name: "Manhã: eclusas de Miraflores", when: "8h às 18h", info: "Ver os navios passando pelo Canal, com mirante e IMAX. ≈ US$ 17. Fica a uns 20 min de Uber de Casco Viejo. Olhar antes o horário de passagem dos navios."}
           - {name: "Almoço: ceviche no Mercado de Mariscos", when: "até ~17h", info: "Mercado de peixe no começo da Cinta Costera, com barracas de ceviche baratas. O restaurante do andar de cima fica aberto até a noite."}
           - {name: "Tarde: Casco Viejo a pé", when: "a pé", info: "Igreja de San José e o Altar de Ouro, Plaza Bolívar, o Museu do Canal (ter–dom, 10h às 18h), café Gesha no Café Unido e chapéu-panamá na Victor's Hats."}
           - {name: "Noite: rum e despedida", when: "noite", info: "Pedro Mandinga, destilaria de rum artesanal (happy hour até 18h), ou o rooftop que ficou faltando."}
-        tip: "Quer trocar alguma coisa? Dá pra ir nas ruínas do Panamá Viejo (ter–dom, 8h30 às 17h30), no Biomuseo do Frank Gehry (fim de semana, 11h às 16h) ou fazer Gamboa e a comunidade Emberá no lugar do Canal."
+        tip: "Quer trocar alguma coisa? Dá pra ir nas ruínas do Panamá Viejo (ter–dom, 8h30 às 17h30), no Biomuseo do Frank Gehry (qua a sex, 10h às 15h) ou fazer Gamboa e a comunidade Emberá no lugar do Canal."
       - name: "Voo pra Curaçao"
-        status: "Dom 14/02"
+        status: "Sex 12/02"
         text: "Voo curto da Copa e a viagem segue em Curaçao."
 
   - id: dicas
@@ -280,7 +280,7 @@ budget:
   groups:
     - name: "Curaçao · 10 noites"
       items:
-        - {name: "Lora Apartment, Airbnb (10 noites)", status: cotado, usd_total: 686, note: "Valor do Airbnb pra 12–22/02. Confirmar o preço pras datas 14–24/02."}
+        - {name: "Lora Apartment, Airbnb (10 noites)", status: cotado, usd_total: 686, note: "Valor do Airbnb pras datas da viagem (12 a 22/02)."}
         - {name: "Carro alugado (10 dias, Bruna)", status: cotado, usd_total: 500, note: "US$ 50 por dia, retirada e devolução no aeroporto."}
         - {name: "Gasolina", status: estimativa, usd_total: [40, 70], note: "~450 km no roteiro todo. A gasolina custa ~XCG 2 por litro (≈ US$ 1,15)."}
         - {name: "Estacionamento e seguro extra do carro", status: estimativa, usd_pp: [10, 40]}
@@ -305,18 +305,18 @@ budget:
 todos:
   - group: "Antes de comprar a passagem"
     items:
-      - {text: "Definir as datas exatas (janela de 6 a 28/fev)", who: ambas, note: "Proposta: sai do Brasil 11/02, Panamá 11–14, Curaçao 14–24"}
+      - {text: "Definir as datas exatas (janela de 6 a 28/fev)", who: ambas, done: true, note: "Panamá 9–12/02, Curaçao 12–22/02"}
       - {text: "Confirmar se os R$ 20 mil são por pessoa ou pras duas", who: cliente, done: true, note: "Por pessoa, com passagem."}
       - {text: "Decidir se o stopover no Panamá é na ida ou na volta", who: cliente, done: true, note: "Na ida, com bate-volta pra San Blas"}
-      - {text: "Comprar o bate-volta pra San Blas (sex 12/02) pelo link do site", who: cliente, note: "Levar US$ 22 em dinheiro pra taxa Guna Yala"}
-      - {text: "Reservar hotel em Casco Viejo (3 noites, 11 a 14/02)", who: julia}
+      - {text: "Comprar o bate-volta pra San Blas (qua 10/02) pelo link do site", who: cliente, note: "Levar US$ 22 em dinheiro pra taxa Guna Yala"}
+      - {text: "Reservar hotel em Casco Viejo (3 noites, 9 a 12/02)", who: julia}
       - {text: "Comprar as passagens (Copa, via Panamá)", who: cliente}
   - group: "Reservas"
     items:
       - {text: "Escolher a hospedagem em Curaçao", who: julia, done: true, note: "Lora Apartment (Airbnb), em Otrobanda"}
       - {text: "Buscar hospedagem em Casco Viejo até US$ 70/noite o quarto", who: julia}
       - {text: "Tudo bem dividir cama de casal? (senão, buscar quarto com duas camas)", who: cliente}
-      - {text: "Reservar o Lora Apartment no Airbnb pras datas certas (14 a 24/02)", who: julia, note: "Cancelamento grátis até 1 dia antes do check-in"}
+      - {text: "Reservar o Lora Apartment no Airbnb (12 a 22/02)", who: julia, note: "Cancelamento grátis até 1 dia antes do check-in"}
       - {text: "Escolher quais opcionais entram (ATV, windsurf, museus)", who: cliente}
       - {text: "Pedir orçamento de transporte à Raquel", who: julia, done: true, note: "Ela recomendou alugar carro: tour de várias praias sai US$ 400 e ela não trabalha à noite."}
       - {text: "Cotar o carro alugado", who: julia, done: true, note: "Bruna: US$ 500 por 10 dias"}
