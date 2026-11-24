@@ -1,6 +1,6 @@
 preset: oahu
 brand:
-  name: "Curaçao"
+  name: "Aruba"
   badge: "27"
   badge_style: highlighter
 colors:
@@ -10,9 +10,9 @@ colors:
   accent: "#F6B4A0"
   line: "#D3E2DD"
 map:
-  land_low: "#D9CF9A"
-  land_mid: "#A9B97A"
-  land_high: "#6E8A55"
+  land_low: "#DCCB92"
+  land_mid: "#B9B07A"
+  land_high: "#8A8A55"
   dry: "#DCCB92"
   sand: "#F5E7C3"
   urban: "#E2D9CC"
@@ -24,4 +24,3 @@ pins:
     beach: {color: "#1BA6A6", icon: wave}
     hike: {color: "#5D7A3A", icon: mountain}
     food: {color: "#D9644A", icon: plate}
-    surf: {color: "#1F7FA6", icon: wave}

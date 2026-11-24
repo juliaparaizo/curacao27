@@ -10,335 +10,271 @@ people:
 
 sections:
   - id: hotel
-    kicker: "Hospedagem · 10 noites em Curaçao"
-    title: "Lora Apartment"
-    lead: "Um apartamento num prédio histórico de 1933, restaurado e cuidado por uma família local, em Otrobanda. Tem cozinha pra fazer o café e a bolsa térmica das praias, e o centro de Otrobanda e a ponte flutuante ficam a uma caminhada."
+    kicker: "Hospedagem · 7 noites em Aruba (+ a noite do dia 10)"
+    title: "Hospedagem em Oranjestad"
+    lead: "Ainda em aberto. A Camila sugeriu um quarto no CottonSuites, em Oranjestad. Como o voo pousa às 4h do dia 11, a reserva precisa começar no dia 10 (ou ter check-in antecipado combinado), senão elas ficam sem onde ir de madrugada."
     why:
-      - title: "Perto do centro"
-        text: "De 5 a 15 min a pé do centro de Otrobanda e da ponte flutuante pra Punda. O Museu Kura Hulanda fica no caminho, e as praias mais perto ficam a 5 min de carro."
-      - title: "Cozinha e pátio"
-        text: "Cozinha completa, sala e pátio externo, com entrada privativa. Dá pra tomar café em casa e montar a bolsa térmica das praias, o que ajuda muito no orçamento."
-      - title: "Estacionamento grátis"
-        text: "Vaga na rua, de graça, pro carro alugado."
-      - title: "Anfitriã elogiada"
-        text: "Superhost, nota 4,88 e selo de favorito dos hóspedes. Quem se hospeda elogia muito o carinho e a atenção da Susana."
+      - title: "Bem avaliado"
+        text: "Nota 4,85 com 20 avaliações, anfitrião Superhost e estacionamento grátis pro carro alugado."
+      - title: "Bem localizado"
+        text: "Fica em Oranjestad, a capital: perto do aeroporto, do centro e do bonde, e a uns 10 min de carro de Eagle Beach."
+      - title: "O que pesar"
+        text: "É um quarto privativo, sem cozinha. Isso pesa no orçamento de comida, porque não dá pra tomar café em casa nem montar a bolsa térmica das praias."
+      - title: "Datas erradas no link"
+        text: "O link que a Camila mandou está com 11 a 18 de janeiro. O certo é 10 a 18 de fevereiro."
     facts:
-      - {label: "10 noites", value: "US$ 686 (≈ US$ 34 por pessoa/noite)"}
-      - {label: "Quarto", value: "1 quarto, 1 cama de casal"}
-      - {label: "Cancelamento", value: "Grátis até 1 dia antes"}
+      - {label: "Datas", value: "10 a 18/02 (8 noites)"}
+      - {label: "Tipo", value: "Quarto privativo, sem cozinha"}
+      - {label: "Status", value: "A decidir"}
     buttons:
-      - {text: "Ver no Airbnb", url: "https://www.airbnb.com/rooms/1204300698174965476?adults=2&check_in=2027-02-12&check_out=2027-02-22", primary: true}
-      - {text: "Ver no mapa", url: "index.html#lugar-home"}
+      - {text: "Ver no Airbnb (datas certas)", url: "https://www.airbnb.com.br/rooms/1316925446641138925?check_in=2027-02-10&check_out=2027-02-18&adults=2", primary: true}
 
   - id: transporte
-    kicker: "Transporte · carro alugado"
+    kicker: "Transporte · carro alugado no aeroporto"
     title: "Carro alugado"
-    lead: "Em Curaçao as praias mais bonitas ficam longe do centro, o transporte público não chega nelas e não tem Uber. Por isso a viagem é de carro alugado pros 10 dias, com a Bruna, retirando e devolvendo no aeroporto."
+    lead: "A recomendação é alugar o carro no próprio aeroporto e ficar com ele os 7 dias, retirando na chegada e devolvendo na hora de embarcar pro Panamá. Dá pra se virar de ônibus e táxi na parte dos hotéis, mas metade do roteiro (as rochas, a costa norte, Mangel Halto, Zeerovers e Baby Beach) fica fora do caminho do ônibus."
     why:
-      - title: "Bem mais barato"
-        text: "O carro sai US$ 50 por dia. Um tour de motorista por várias praias custa US$ 400 por dia (de 2 a 4 pessoas)."
+      - title: "As melhores partes ficam longe"
+        text: "O ônibus da orla (linha 10) passa a cada 15 min de dia, mas só cobre Oranjestad, Eagle e Palm Beach. A Baby Beach, por exemplo, não tem mais ônibus."
+      - title: "Táxi sai caro"
+        text: "Só o táxi do aeroporto até Eagle Beach custa uns US$ 18 a 22. Com ida e volta todo dia, o carro se paga."
       - title: "Liberdade de horário"
-        text: "Os tours de motorista acabam às 17h. De carro dá pra ficar na praia até o pôr do sol e ir jantar à noite."
+        text: "Dá pra chegar nas rochas cedinho, antes do calor, e ficar na praia até o pôr do sol."
       - title: "Fácil de dirigir"
-        text: "Dirige-se do mesmo lado do Brasil. Nas praias o estacionamento é grátis ou barato."
-      - title: "Chegada e saída resolvidas"
-        text: "Retira o carro assim que pousa e devolve no aeroporto no dia de ir embora."
+        text: "A ilha é pequena, as estradas são boas e se dirige do mesmo lado do Brasil."
     facts:
-      - {label: "Fornecedora", value: "Bruna"}
-      - {label: "10 dias", value: "US$ 500 (US$ 50/dia)"}
-      - {label: "Retirada", value: "Aeroporto (CUR)"}
+      - {label: "7 dias", value: "≈ US$ 447 + US$ 67 de gasolina"}
+      - {label: "Por pessoa", value: "≈ US$ 223,50 + US$ 33,50"}
+      - {label: "Retirada", value: "Aeroporto (AUA), dia 11"}
       - {label: "Precisa", value: "CNH + cartão de crédito"}
     days_title: "Dias com carro"
     days:
-      - {day: 1, text: "Retirada no aeroporto → hospedagem"}
-      - {day: 2, text: "Kabritenburg, SUP Curaçao, Papagayo e Zanzibar à noite"}
-      - {day: 3, text: "Cas Abao, Porto Mari e Daaibooi (pôr do sol)"}
-      - {day: 4, text: "Fishermen's Pier, Jan Thiel (barco às 6h45)"}
-      - {day: 6, text: "Christoffel, Shete Boka e Playa Jeremi (saída 6h)"}
-      - {day: 8, text: "Piskadó, Kalki e Kenepa"}
-      - {day: 10, text: "Kokomo e Fort Nassau (pôr do sol)"}
-      - {day: 11, text: "Renaissance Mall → devolução no aeroporto"}
+      - {day: 1, text: "Retirada no aeroporto → hospedagem → Eagle Beach"}
+      - {day: 2, text: "Casibari, Ayo, Bushiribana e a fábrica de aloe"}
+      - {day: 3, text: "Arashi, Boca Catalina e o farol"}
+      - {day: 4, text: "Mangel Halto, Zeerovers, Baby Beach e San Nicolas"}
+      - {day: 5, text: "Oranjestad, Palm Beach e o Pelican Pier"}
+      - {day: 8, text: "Devolução no aeroporto"}
     tips_title: "Pra alugar"
     notes:
-      - "Precisa de CNH válida e de cartão de crédito físico no nome de quem vai dirigir (débito não serve)."
-      - "Algumas locadoras aceitam só a CNH; outras pedem a Permissão Internacional pra Dirigir (PID). Tirar a PID no Detran evita surpresa."
-      - "A idade mínima costuma ser 21 anos. Abaixo de 25, algumas cobram taxa de motorista jovem."
-      - "O seguro básico vem com franquia alta: vale a proteção extra ou checar se o cartão já cobre."
-      - "A gasolina é vendida em galões e os postos são mais raros no oeste: abastecer de dia e devolver cheio."
-      - "Nunca deixar nada à vista no carro nas praias."
+      - "Os balcões do aeroporto abrem por volta das 7h (a Enterprise abre às 7h, a Sixt às 9h). Como o pouso é às 4h, dá pra esperar o balcão abrir ou ir de táxi pra hospedagem e combinar a entrega do carro lá: a Enterprise entrega em qualquer ponto da ilha sem custo, se combinado antes."
+      - "Precisa de CNH válida e de cartão de crédito físico no nome de quem vai dirigir. As locadoras seguram um caução no cartão (na National, US$ 300 + o valor do aluguel)."
+      - "A idade mínima costuma ser 21 anos, e abaixo de 25 tem taxa de motorista jovem."
+      - "Carro comum dá conta de tudo do roteiro. Só o Parque Arikok e a Natural Pool pedem 4x4, e eles não estão no plano."
+      - "Não deixar nada à vista no carro nas praias."
     buttons:
       - {text: "Ver o roteiro dia a dia", url: "roteiro.html", primary: true}
 
   - id: passeios
-    kicker: "Passeios · Klein confirmado"
+    kicker: "Passeios · quase tudo grátis"
     title: "Passeios"
-    lead: "O passeio principal de Curaçao já está fechado: Klein Curaçao com o Mermaid, comprado direto pelo GetYourGuide. Os outros passeios são opcionais, com a Kezia, guia brasileira que mora na ilha, e só entram se couberem no orçamento."
+    lead: "A maior parte do que elas querem fazer em Aruba é de graça e dá pra fazer de carro, no próprio ritmo. O único passeio pago é o barco do pôr do sol."
     tours:
-      - name: "Klein Curaçao com o Mermaid"
+      - name: "Barco do pôr do sol (Pelican Adventures)"
+        day: 5
+        status: "A comprar"
+        text: "2h de catamarã pela costa dos hotéis, com open bar e petiscos, saindo às 17h30 do Pelican Pier, em Palm Beach. Nota 4,8 com mais de 1.200 avaliações. ≈ US$ 70 a 82 por pessoa, conforme o site."
+        tip: "Sai seg, qua, sex, sáb e dom. No roteiro está na segunda (dia 5). Cancelamento grátis até 24h antes."
+        options:
+          - {name: "Mais barato", when: "≈ US$ 60", info: "Sunset Sail saindo do Moomba Beach."}
+          - {name: "Mais completo", when: "US$ 112–123", info: "Palm Pleasure da De Palm, ou o Pelican com jantar de 3 pratos no píer depois."}
+      - name: "Casibari"
+        day: 2
+        status: "Grátis"
+        text: "Rochas gigantes no meio da ilha, com caminho e escadinhas fáceis até o topo e vista da ilha inteira."
+      - name: "Trilha nas rochas de Ayo"
+        day: 2
+        status: "Grátis"
+        text: "Trilhas curtas entre pedras enormes, com petróglifos dos povos originários. Aberto durante o dia, sem horário fixo."
+        tip: "Ir antes das 10h ou depois das 16h por causa do calor. Casibari e Ayo ficam pertinho uma da outra."
+      - name: "Ruínas de Bushiribana"
+        day: 2
+        status: "Grátis"
+        text: "Ruínas de pedra de uma usina de ouro de 1872, na costa norte, com o mar batendo forte. No caminho fica a praia de Andicuri, pra foto."
+      - name: "Fábrica de aloe"
+        day: 2
+        status: "Grátis"
+        text: "Tour guiado de uns 25 min pelo museu e pela fábrica de aloe vera em Hato, com lojinha no final. Em dia de semana dá pra ver a produção."
+        tip: "Seg a sex, 8h30 às 16h, e sáb, 9h às 12h. Fecha domingo."
+      - name: "Bonde de Oranjestad"
+        day: 5
+        status: "Grátis"
+        text: "Bondinho elétrico que sobe e desce a Main Street, a rua de compras do centro, saindo perto do terminal de cruzeiros. Não precisa de bilhete."
+        tip: "O horário muda conforme os navios no porto, e o último sai às 17h. Por isso ficou de manhã, num dia de semana."
+
+  - id: praias
+    kicker: "Beach hopping · as melhores praias"
+    title: "Praias"
+    lead: "As praias escolhidas, agrupadas por região pra não perder tempo no carro. A costa oeste tem mar calmo; a costa norte é bonita, mas o mar é bravo e não é pra nadar."
+    tours:
+      - name: "Eagle Beach"
+        day: 1
+        status: "Dias 1, 2 e 7"
+        text: "A melhor da ilha: areia branca larga, mar calmo e as árvores fofoti do cartão-postal. Tem palapas (sombra) grátis. Melhor praia pro pôr do sol."
+      - name: "Arashi"
+        day: 3
+        status: "Dia 3"
+        text: "A preferida dos locais, perto do California Lighthouse, com mar calmo e beach bar."
+      - name: "Boca Catalina"
+        day: 3
+        status: "Dia 3"
+        text: "O melhor snorkel saindo da areia, em água rasa e clara. Levar máscara ou alugar."
+      - name: "Mangel Halto"
         day: 4
-        status: "Confirmado"
-        text: "Dia inteiro (9h) na ilha desabitada de areia branca, com o farol rosa e os naufrágios. São 2h de barco saindo de Spanish Water. Inclui café e chá a bordo, café da manhã e churrasco na ilha, a casa de praia exclusiva do Mermaid com sombra, banheiros e espreguiçadeiras, e equipamento de snorkel. Bebida alcoólica é à parte (US$ 5 a 10). Nota 4,8 com 369 avaliações. US$ 150 por pessoa."
-        tip: "O barco sai às 6h45 do Fishermen's Pier (Caracasbaaiweg, Jan Thiel), todo dia menos sábado. Elas vão de carro até o píer. Cancelamento grátis até 24h antes."
-        link: {text: "Comprar no GetYourGuide", url: "https://www.getyourguide.com/willemstad-l351/klein-curacao-full-day-boat-trip-t694757/?partner_id=X5GTDRF&utm_medium=online_publisher"}
-      - name: "Quadriciclo ATV"
-        day: 7
-        status: "Opcional"
-        text: "Off-road de 3h com a Kezia pelo lado oeste: plantação de Aloe Vera, uma caverna antiga com vista panorâmica e o Noordkant, onde as ondas batem nas pedras. Sai às 9h ou às 14h, todo dia. US$ 177 dividindo o quadriciclo ou US$ 118 individual."
-        tip: "Ir de tênis fechado e evitar roupa branca."
-      - name: "Barco pro pôr do sol"
-        status: "Extra"
-        text: "Das 17h às 19h30, pela Bahia Espanhola até a baía de Santa Anna, com petiscos e open bar. Sai seg, qua, sex e sáb."
-      - name: "Costa Oeste: praias e Blue Room"
-        status: "Extra"
-        text: "Um dia inteiro de barco com parada no Kokomo, no Cas Abao e na gruta Blue Room, vendo as praias do oeste pelo mar. Sai ter, qui e sáb."
-      - name: "Sea Trek"
-        status: "Extra"
-        text: "Caminhada no fundo do mar, com capacete, entre corais e peixes. Não precisa saber mergulhar. Sai de ter a sáb."
-      - name: "Tuk tuk por Willemstad"
-        status: "Extra"
-        text: "Tour de 1h ou 2h por Punda e Otrobanda, com busca no hotel. Boa opção pro dia 2, se não quiser andar."
-
-  - id: cultura
-    kicker: "Cultura · história da ilha"
-    title: "Cultura"
-    lead: "Curaçao tem quase 400 anos de história misturando holandeses, africanos, judeus sefarditas e latinos. Encaixamos as visitas nos dias em que elas já estão por perto."
-    tours:
-      - name: "Sinagoga Mikvé Israel-Emanuel"
+        status: "Dia 4"
+        text: "Lagoa rasa entre mangues, ótima pra snorkel, caiaque e stand up. Fica pertinho do Zeerovers."
+      - name: "Zeerovers (almoço)"
+        day: 4
+        status: "Dia 4"
+        text: "Peixe e camarão fritos na hora num píer de pescadores, a preço local. Abre de ter a dom, das 11h às 21h, e só aceita dinheiro."
+        tip: "No fim de semana a fila é grande: chegar perto das 11h30."
+      - name: "Baby Beach"
+        day: 4
+        status: "Dia 4"
+        text: "Lagoa rasinha e calma no extremo sul, a uns 40 min de carro. Na volta, os murais de San Nicolas."
+      - name: "Palm Beach"
         day: 5
-        status: "No roteiro"
-        text: "Sinagoga de 1732, com o chão coberto de areia, em Punda. A congregação foi fundada em 1651. US$ 18 com audioguia."
-        tip: "Abre pra visita de segunda a sexta, das 9h às 16h30. Levar documento com foto."
-      - name: "Museu Kura Hulanda"
-        day: 5
-        status: "No roteiro"
-        text: "Em Otrobanda, conta a história dos reinos da África Ocidental, do tráfico de escravizados e da cultura do Caribe, com mais de 5.000 peças. Vale a visita guiada."
-      - name: "Almoço no Marshe Bieu"
-        day: 5
-        status: "No roteiro"
-        text: "O antigo mercado onde os locais almoçam comida típica de Curaçao, em barracas com mesas compartilhadas. Barato e autêntico."
-      - name: "Blue Curaçao no Landhuis Chobolobo"
-        day: 7
-        status: "No roteiro"
-        text: "Tour de 1h na casa de fazenda onde é feito o licor Blue Curaçao original, com um coquetel incluso. US$ 20. Só de segunda a sexta."
-      - name: "Museo Tula"
-        day: 6
-        status: "No roteiro"
-        text: "Na antiga fazenda Kenepa, onde começou a revolta de 1795 liderada por Tula, a maior resistência à escravidão da ilha. Fica perto da Playa Jeremi."
-        tip: "Confirmar o horário antes."
-      - name: "Punda Vibes"
-        day: 7
-        status: "No roteiro"
-        text: "Toda quinta à noite, com música ao vivo, feirinha e fogos às 20h15. Depois, salsa no Mundo Bizarro."
-
-  - id: restaurantes
-    kicker: "Onde comer"
-    title: "Restaurantes"
-    lead: "Indicações de quem já foi, encaixadas por bairro pra não perder tempo no trânsito. Vale reservar com antecedência."
-    list:
-      - {name: "La Boheme", where: "Punda", day: 1, maps: "La Boheme restaurant Willemstad Curaçao"}
-      - {name: "Papagayo Beach Club", where: "Jan Thiel, pôr do sol", day: 2, maps: "Papagayo Beach Club Jan Thiel Curaçao"}
-      - {name: "Zanzibar", where: "Jan Thiel, sábado à noite (festa)", day: 2, maps: "Zanzibar Beach Restaurant Jan Thiel Curaçao"}
-      - {name: "De Gouverneur", where: "Otrobanda, vista da Handelskade", day: 3, maps: "Gouverneur de Rouville restaurant Curaçao"}
-      - {name: "James", where: "Indicação da amiga", day: 4}
-      - {name: "Kome", where: "Pietermaai", day: 5, maps: "Kome restaurant Pietermaai Curaçao"}
-      - {name: "Fensi", where: "Pietermaai", day: 6, maps: "Fensi restaurant Pietermaai Curaçao"}
-      - {name: "Mundo Bizarro", where: "Pietermaai, quinta à noite (salsa)", day: 7, maps: "Mundo Bizarro Pietermaai Curaçao"}
-      - {name: "Fort Nassau", where: "No alto do morro, pôr do sol", day: 10, maps: "Fort Nassau restaurant Curaçao"}
+        status: "Dias 5 e 7"
+        text: "A praia dos resorts, com beach bars e muito movimento. É de onde sai o barco do pôr do sol."
 
   - id: panama
-    kicker: "Panamá · 3 noites antes de Curaçao"
+    kicker: "Panamá · 2 noites, na volta"
     title: "Panamá"
-    lead: "O stopover da Copa é grátis por até 15 dias. Elas param 3 noites na Cidade do Panamá antes de seguir pra Curaçao, com base em Casco Viejo e um bate-volta pras ilhas de San Blas."
+    lead: "Na volta de Aruba elas param 2 noites na Cidade do Panamá, com base em Casco Viejo e um bate-volta pras ilhas de San Blas no dia do meio."
     facts:
-      - {label: "Datas", value: "9 a 12/02"}
+      - {label: "Datas", value: "18 a 20/02"}
       - {label: "Base", value: "Casco Viejo"}
       - {label: "Moeda", value: "Dólar americano"}
     tours:
-      - name: "Chegada e primeira noite em Casco Viejo"
-        status: "Ter 09/02"
+      - name: "Chegada e noite em Casco Viejo"
+        status: "Qui 18/02"
         text: "Check-in em Casco Viejo e um fim de tarde sem pressa no centro histórico."
         options:
           - {name: "Pôr do sol no Paseo Esteban Huertas", when: "fim de tarde", info: "Calçadão em cima da antiga muralha, com vista do skyline e dos navios esperando pra entrar no Canal. Ali perto, mulheres Guna vendem as molas bordadas."}
           - {name: "Plaza de Francia e Plaza de la Independencia", when: "a pé", info: "As praças principais, com a Catedral Basílica Santa María la Antigua."}
           - {name: "Jantar panamenho", when: "noite", info: "Fonda Lo Que Hay, famoso pelos patacones, ou frutos do mar na La Pulpería."}
-          - {name: "Um drink num rooftop", when: "noite", info: "Tántalo, Lazotea (com piscina) ou Casa Casco (vista 360°). Dormir cedo: a busca pro San Blas é às 5h."}
+          - {name: "Dormir cedo", when: "noite", info: "A busca pro San Blas é às 5h."}
       - name: "Bate-volta pra San Blas · confirmado"
-        status: "Qua 10/02"
+        status: "Sex 19/02"
         text: "4 ilhas em um dia, em grupo pequeno (até 15 pessoas): a ilha remota de Misdub, a piscina natural cheia de estrelas-do-mar, Perro Grande com almoço (peixe, frango ou vegetariano) e uma bebida, caiaque e stand up, e o naufrágio de Perro Chico pra snorkel. A busca é no hotel, na Cidade do Panamá, entre 5h e 5h45. São 2h30 de 4x4 até o porto de Cartí, e a volta é à noite. Guia fala inglês e espanhol. Nota 4,3 com 742 avaliações. US$ 145 por pessoa + US$ 22 da taxa de entrada Guna Yala, paga lá."
         link: {text: "Comprar no GetYourGuide", url: "https://www.getyourguide.com/san-blas-islands-l123270/from-panama-city-4-san-blas-islands-day-trip-with-lunch-t246297/?partner_id=X5GTDRF&utm_medium=online_publisher"}
-        tip: "Ficou no segundo dia de propósito: se o mar não deixar sair, dá pra passar pra quinta."
-      - name: "Canal do Panamá e Casco Viejo a pé"
-        status: "Qui 11/02"
-        text: "O dia mais completo na cidade:"
+        tip: "Com só 2 noites não sobra dia reserva: se o mar não deixar sair, o passeio é cancelado. Por isso vale comprar com cancelamento grátis (até 24h antes)."
+      - name: "Canal e voo de volta"
+        status: "Sáb 20/02"
+        text: "Depende do horário do voo pro Brasil:"
         options:
-          - {name: "Manhã: eclusas de Miraflores", when: "8h às 18h", info: "Ver os navios passando pelo Canal, com mirante e IMAX. ≈ US$ 17. Fica a uns 20 min de Uber de Casco Viejo. Olhar antes o horário de passagem dos navios."}
-          - {name: "Almoço: ceviche no Mercado de Mariscos", when: "até ~17h", info: "Mercado de peixe no começo da Cinta Costera, com barracas de ceviche baratas. O restaurante do andar de cima fica aberto até a noite."}
-          - {name: "Tarde: Casco Viejo a pé", when: "a pé", info: "Igreja de San José e o Altar de Ouro, Plaza Bolívar, o Museu do Canal (ter–dom, 10h às 18h), café Gesha no Café Unido e chapéu-panamá na Victor's Hats."}
-          - {name: "Noite: rum e despedida", when: "noite", info: "Pedro Mandinga, destilaria de rum artesanal (happy hour até 18h), ou o rooftop que ficou faltando."}
-        tip: "Quer trocar alguma coisa? Dá pra ir nas ruínas do Panamá Viejo (ter–dom, 8h30 às 17h30), no Biomuseo do Frank Gehry (qua a sex, 10h às 15h) ou fazer Gamboa e a comunidade Emberá no lugar do Canal."
-      - name: "Voo pra Curaçao"
-        status: "Sex 12/02"
-        text: "Voo curto da Copa e a viagem segue em Curaçao."
+          - {name: "Eclusas de Miraflores", when: "8h às 18h", info: "Ver os navios passando pelo Canal, com mirante e IMAX. ≈ US$ 17. Fica a uns 20 min de Uber de Casco Viejo e no caminho do aeroporto."}
+          - {name: "Ceviche no Mercado de Mariscos", when: "almoço", info: "Mercado de peixe no começo da Cinta Costera, com barracas de ceviche baratas."}
+          - {name: "Café Gesha e chapéu-panamá", when: "a pé", info: "Café Unido e Victor's Hats, em Casco Viejo."}
+        tip: "Se o voo do dia 20 for cedo, Miraflores pode entrar no fim de tarde do dia 18, dependendo da hora que pousarem."
 
   - id: dicas
     kicker: "Antes de ir · documentos, dinheiro e segurança"
     title: "Antes de ir"
     lead: "O que precisa estar pronto antes do embarque e o que é bom saber pra chegar tranquila. Regras de entrada mudam: vale reconferir com a companhia aérea uns dias antes."
     tips:
-      - title: "Documentos pra Curaçao"
+      - title: "Documentos pra Aruba"
         items:
           - "Passaporte válido durante toda a viagem. O ideal é ter 6 meses de validade. RG não vale."
-          - "Brasileiro não precisa de visto pra turismo de até 90 dias."
-          - "Preencher o Cartão de Imigração Digital (DI Card), que é obrigatório. Os detalhes estão no cartão ao lado."
-          - "Levar no celular, ou impresso, a reserva do hotel e a passagem de volta. Também podem pedir pra comprovar que tem dinheiro pra estadia."
-      - title: "Cartão de Imigração Digital (DI Card)"
+          - "Brasileiro não precisa de visto pra turismo."
+          - "Preencher o ED Card online, que é obrigatório. Os detalhes estão no cartão ao lado."
+          - "Levar no celular, ou impresso, a reserva da hospedagem e a passagem de saída de Aruba."
+      - title: "ED Card + taxa de US$ 20"
         items:
-          - "É obrigatório pra todo visitante estrangeiro, inclusive bebês e crianças, que fica de 1 a 90 noites. Substituiu o antigo cartão de papel (ED card)."
-          - "Só pode ser preenchido nos 7 dias antes do embarque pra Curaçao, até 1 hora antes do voo."
-          - "É grátis e só vale o preenchido no portal oficial. Site que cobra taxa não é oficial."
-          - "Depois de enviar, chega um PDF por e-mail (ou pra baixar). Ele tem que ser mostrado no check-in da companhia aérea e na imigração, no celular ou impresso."
-          - "Cada uma preenche o seu."
+          - "É o formulário de entrada de Aruba, obrigatório pra quem chega de avião. Sem ele aprovado, a companhia pode não deixar embarcar."
+          - "Só pode ser preenchido nos 7 dias antes da viagem."
+          - "O formulário é grátis, mas junto se paga a Sustainability Fee de US$ 20 por pessoa, no cartão."
+          - "Cada uma preenche e paga o seu. Se errar algum dado, tem que fazer um novo (não dá pra editar)."
+          - "Só no site oficial, edcardaruba.aw."
         links:
-          - {text: "Preencher no portal oficial", url: "https://dicardcuracao.com/portal"}
+          - {text: "Preencher no site oficial", url: "https://edcardaruba.aw/"}
       - title: "Vacina de febre amarela"
         items:
-          - "Curaçao pede o Certificado Internacional de Vacinação (CIVP) contra febre amarela."
-          - "A vacina tem que ser tomada pelo menos 10 dias antes da viagem."
-          - "O certificado sai pelo app Meu SUS Digital ou pelo gov.br. A carteirinha amarela comum não vale."
+          - "Aruba pede o Certificado Internacional de Vacinação (CIVP) contra febre amarela pra brasileiros."
+          - "A vacina tem que ser tomada pelo menos 10 dias antes da viagem. É grátis no posto de saúde."
+          - "O certificado sai pelo app Meu SUS Digital ou pelo gov.br e vale pra vida toda. A carteirinha amarela comum não vale."
         links:
           - {text: "Emitir o certificado (gov.br)", url: "https://www.gov.br/pt-br/servicos/obter-o-certificado-internacional-de-vacinacao-e-profilaxia"}
-      - title: "Panamá (stopover na ida)"
+      - title: "Chegada às 4h"
+        items:
+          - "A hospedagem precisa estar reservada desde o dia 10, ou com check-in de madrugada combinado com o anfitrião."
+          - "Os balcões de aluguel de carro abrem por volta das 7h. Táxi do aeroporto até a região de Eagle Beach sai uns US$ 18 a 22."
+      - title: "Panamá (stopover na volta)"
         items:
           - "Brasileiro não precisa de visto pra turismo."
-          - "Desde 2023 o Panamá não pede a vacina de febre amarela pra quem fica só na Cidade do Panamá. Ela é recomendada pra San Blas e pras comunidades Emberá, e como elas já vão tomar por causa de Curaçao, fica coberto."
-          - "O dólar americano é a moeda do dia a dia. O balboa vale o mesmo que o dólar."
-          - "Levar notas pequenas: pagar com nota acima de US$ 20 pede documento, e notas de 50 e 100 são olhadas com desconfiança."
+          - "O Panamá não pede a vacina de febre amarela pra quem fica na Cidade do Panamá. Ela é recomendada pra San Blas, e como elas já vão tomar por causa de Aruba, fica coberto."
+          - "O dólar americano é a moeda do dia a dia."
+          - "Levar notas pequenas: notas de 50 e 100 são olhadas com desconfiança."
           - "Uber funciona na cidade. Táxi não tem taxímetro: combinar o preço antes de entrar."
-          - "Casco Viejo tem policiamento e é tranquilo. Evitar El Chorrillo (bairro vizinho, a oeste), as ruas laterais a leste da Santa Ana e Calidonia à noite. À noite, ir de Uber em vez de andar até a estação 5 de Mayo."
-          - "Em restaurante bom, os 10% às vezes já vêm na conta: conferir antes de dar gorjeta."
-          - "Fevereiro é seca e alta temporada: calor e umidade alta. Protetor e água sempre."
-      - title: "Dinheiro em Curaçao"
+          - "Casco Viejo tem policiamento e é tranquilo. Evitar El Chorrillo (bairro vizinho) e Calidonia à noite. À noite, ir de Uber."
+      - title: "Dinheiro em Aruba"
         items:
-          - "A moeda oficial é o florim caribenho (XCG), que substituiu o florim antilhano em 2025. O câmbio é fixo: US$ 1 = XCG 1,79."
-          - "O dólar é aceito em quase todo lugar, mas o troco vem em florim e a conta da loja costuma sair um pouco pior."
-          - "Visa e Mastercard passam em quase tudo, e Amex menos. Pagar no cartão em florim costuma sair mais barato. Por aproximação, o limite costuma ser de XCG 100."
-          - "Caixa eletrônico cobra taxa: melhor sacar poucas vezes, em valores maiores."
-      - title: "Saúde"
+          - "A moeda é o florim arubano (AWG), mas o dólar americano é aceito em praticamente todo lugar. Não precisa trocar dinheiro."
+          - "Cartão passa quase em tudo. Levar um pouco de dólar em notas pequenas pro que é só em dinheiro, como o Zeerovers."
+      - title: "Saúde e sol"
         items:
           - "A água da torneira é potável, vem de dessalinização."
-          - "Levar repelente: tem mosquito e doenças transmitidas por ele na região."
-          - "O sol é forte o ano todo: protetor, chapéu e água sempre, principalmente nas trilhas."
+          - "O sol é muito forte e o vento engana: protetor, chapéu e água sempre, principalmente nas rochas."
           - "Seguro viagem não é obrigatório, mas é muito recomendado."
-          - "Emergência médica: Curaçao Medical Center (CMC), aberto 24h."
       - title: "Segurança"
         items:
-          - "As áreas turísticas são tranquilas. O problema mais comum é furto."
-          - "Não deixar nada no carro nas praias. Deixar o porta-luvas aberto mostra que está vazio."
-          - "À noite, ficar em lugares movimentados: Punda, Pietermaai, Jan Thiel e Mambo. Evitar praia e lugar isolado depois que escurece."
-          - "Táxi oficial tem placa começando com TX e não tem taxímetro: combinar o preço antes de entrar."
-          - "No aeroporto, nunca deixar a mala sozinha nem levar pacote pra ninguém."
-      - title: "Dia de praia"
-        items:
-          - "Em Curaçao é muito comum levar uma bolsa térmica com comida e bebida do mercado pra passar o dia na praia."
-          - "Ajuda bastante no orçamento: dá pra deixar os restaurantes pros jantares."
-          - "Vale comprar uma bolsa térmica barata no primeiro dia e passar no mercado na véspera dos dias de praia."
-      - title: "Noite"
-        items:
-          - "Quinta: Punda Vibes, com música na rua e fogos às 20h15. Depois, salsa no Mundo Bizarro, em Pietermaai."
-          - "Sábado: noite de festa no Zanzibar, em Jan Thiel. Nos outros dias, à noite, ele é mais parado."
-          - "Pôr do sol: Papagayo Beach Club (Jan Thiel), Daaibooi e Fort Nassau."
-          - "Baladas indicadas por quem mora lá: Liv e Emporio. O Emporio tem DJ e abre de terça a sábado."
-          - "Pra voltar de madrugada, usar o app 24-7 Taxi em vez de dirigir."
-      - title: "Táxi e apps"
-        items:
-          - "Não tem Uber em Curaçao."
-          - "A alternativa é o app 24-7 Taxi Curaçao, com táxis licenciados: chama pelo app, acompanha o carro no GPS e o preço é fixo por km, sem taxímetro."
-          - "Paga ao chegar, em dinheiro (florim ou dólar) ou no cartão, com 3% de taxa. Aceita Apple Pay."
-          - "Também dá pra pedir pelo WhatsApp ou telefone: +5999 844 9247."
-          - "Baixar o app e criar a conta ainda no Brasil, com Wi-Fi."
-        links:
-          - {text: "Baixar o app 24-7 Taxi", url: "https://247taxi.cw/download-app/"}
-      - title: "Telefones de emergência"
-        items:
-          - "Polícia e bombeiros: 911"
-          - "Ambulância: 912"
-          - "Guarda costeira: 913"
-          - "Polícia turística: 917"
-      - title: "Tomada e energia"
-        items:
-          - "A rede é de 127 V e as tomadas são no padrão americano (A/B), às vezes europeu (C/F). O plugue brasileiro precisa de adaptador."
-          - "Levar um adaptador universal."
+          - "Aruba é uma ilha tranquila. O problema mais comum é furto em carro e na praia."
+          - "Não deixar nada à vista no carro."
+          - "Na costa norte (Andicuri, Bushiribana) o mar é forte: só olhar e fotografar."
+          - "Emergência: 911."
 
 budget:
   title: "Orçamento"
-  lead: "Quanto a viagem deve custar por pessoa, sem a passagem aérea. Os passeios opcionais aparecem separados: só entram se sobrar espaço."
+  lead: "Quanto a viagem deve custar por pessoa, sem a passagem aérea."
   fx: 5.75
   fx_note: "Dólar comercial a R$ 5,51 (9/11/2026) + IOF e spread do cartão"
   people: 2
   target_brl: 10000
   target_label: "Meta sem passagem"
   groups:
-    - name: "Curaçao · 10 noites"
+    - name: "Aruba · 7 dias"
       items:
-        - {name: "Lora Apartment, Airbnb (10 noites)", status: cotado, usd_total: 686, note: "Valor do Airbnb pras datas da viagem (12 a 22/02)."}
-        - {name: "Carro alugado (10 dias, Bruna)", status: cotado, usd_total: 500, note: "US$ 50 por dia, retirada e devolução no aeroporto."}
-        - {name: "Gasolina", status: estimativa, usd_total: [40, 70], note: "~450 km no roteiro todo. A gasolina custa ~XCG 2 por litro (≈ US$ 1,15)."}
-        - {name: "Estacionamento e seguro extra do carro", status: estimativa, usd_pp: [10, 40]}
-        - {name: "Klein Curaçao (Mermaid)", status: confirmado, usd_pp: 150, note: "Com café da manhã, churrasco e snorkel. De carro até o píer."}
-        - {name: "Entradas de praias e parques", status: estimativa, usd_pp: [50, 80]}
-        - {name: "Comida (10 dias)", status: estimativa, usd_pp: [350, 450], note: "Café em casa, bolsa térmica do mercado nas praias e restaurante à noite, alternando caros e baratos."}
-    - name: "Panamá · 3 noites, antes de Curaçao"
+        - {name: "Hospedagem em Oranjestad (10 a 18/02)", status: "a cotar", usd_total: [700, 1000], note: "Estimativa até fechar o lugar. Inclui a noite do dia 10, por causa do pouso às 4h."}
+        - {name: "Carro alugado no aeroporto (7 dias)", status: estimativa, usd_total: 447, note: "Com base no orçamento de quem já foi: US$ 447 por semana."}
+        - {name: "Gasolina", status: estimativa, usd_total: 67}
+        - {name: "ED Card (Sustainability Fee)", status: confirmado, usd_pp: 20, note: "Taxa obrigatória, paga no site oficial."}
+        - {name: "Barco do pôr do sol (Pelican)", status: cotado, usd_pp: [70, 82], note: "Com open bar e petiscos."}
+        - {name: "Bonde, fábrica de aloe, Casibari, Ayo e Bushiribana", status: confirmado, usd_pp: 0, note: "Tudo grátis."}
+        - {name: "Aluguel de snorkel e caiaque", status: estimativa, usd_pp: [20, 50]}
+        - {name: "Comida (7 dias)", status: estimativa, usd_pp: [420, 560], note: "Aruba é mais cara que o Brasil. Sem cozinha, conta café da manhã fora todo dia; com cozinha, sai mais barato."}
+    - name: "Panamá · 2 noites, na volta"
       items:
-        - {name: "Hospedagem em Casco Viejo (3 noites)", status: estimativa, usd_total: [150, 210], note: "Meta: US$ 50–70 por noite o quarto."}
+        - {name: "Hospedagem em Casco Viejo (2 noites)", status: estimativa, usd_total: [100, 140], note: "Meta: US$ 50–70 por noite o quarto."}
         - {name: "Bate-volta pra San Blas", status: confirmado, usd_pp: 167, note: "US$ 145 do passeio (busca no hotel, almoço e 1 bebida) + US$ 22 da taxa Guna Yala."}
-        - {name: "Canal do Panamá (Miraflores)", status: cotado, usd_pp: 17.22, note: "Entrada pra estrangeiro, com IMAX."}
-        - {name: "Comida e transfers", status: estimativa, usd_pp: [150, 220]}
+        - {name: "Canal do Panamá (Miraflores)", status: cotado, usd_pp: 17.22, note: "Se der tempo antes do voo."}
+        - {name: "Comida e transfers", status: estimativa, usd_pp: [100, 150]}
     - name: "Geral"
       items:
         - {name: "Seguro viagem", status: estimativa, brl_pp: [250, 450]}
-    - name: "Opcionais · só se sobrar espaço"
-      items:
-        - {name: "Quadriciclo ATV", status: opcional, usd_pp: [88.5, 118], note: "US$ 177 dividindo o mesmo quadriciclo (US$ 88,50 cada) ou US$ 118 individual. De carro, sem o transporte da Kezia."}
-        - {name: "Aula de windsurf em grupo (SUP Curaçao)", status: opcional, usd_pp: 52}
-        - {name: "Cultura: sinagoga, Blue Curaçao e museus", status: opcional, usd_pp: [55, 80], note: "Sinagoga US$ 18 e Chobolobo US$ 20. O Punda Vibes e o Marshe Bieu continuam, porque são de graça ou baratos."}
 
 todos:
-  - group: "Antes de comprar a passagem"
+  - group: "Passagens e datas"
     items:
-      - {text: "Definir as datas exatas (janela de 6 a 28/fev)", who: ambas, done: true, note: "Panamá 9–12/02, Curaçao 12–22/02"}
-      - {text: "Confirmar se os R$ 20 mil são por pessoa ou pras duas", who: cliente, done: true, note: "Por pessoa, com passagem."}
-      - {text: "Decidir se o stopover no Panamá é na ida ou na volta", who: cliente, done: true, note: "Na ida, com bate-volta pra San Blas"}
-      - {text: "Comprar o bate-volta pra San Blas (qua 10/02) pelo link do site", who: cliente, note: "Levar US$ 22 em dinheiro pra taxa Guna Yala"}
-      - {text: "Reservar hotel em Casco Viejo (3 noites, 9 a 12/02)", who: julia}
-      - {text: "Comprar as passagens (Copa, via Panamá)", who: cliente}
+      - {text: "Comprar as passagens", who: cliente, done: true, note: "10/02 Brasil → Aruba (pouso 4h do dia 11), 18/02 Aruba → Panamá, 20/02 Panamá → Brasil"}
+      - {text: "Mandar os horários dos voos de 18/02 e 20/02", who: cliente, note: "Pra encaixar o Canal e o fim de tarde em Casco Viejo"}
   - group: "Reservas"
     items:
-      - {text: "Escolher a hospedagem em Curaçao", who: julia, done: true, note: "Lora Apartment (Airbnb), em Otrobanda"}
-      - {text: "Buscar hospedagem em Casco Viejo até US$ 70/noite o quarto", who: julia}
-      - {text: "Tudo bem dividir cama de casal? (senão, buscar quarto com duas camas)", who: cliente}
-      - {text: "Reservar o Lora Apartment no Airbnb (12 a 22/02)", who: julia, note: "Cancelamento grátis até 1 dia antes do check-in"}
-      - {text: "Escolher quais opcionais entram (ATV, windsurf, museus)", who: cliente}
-      - {text: "Pedir orçamento de transporte à Raquel", who: julia, done: true, note: "Ela recomendou alugar carro: tour de várias praias sai US$ 400 e ela não trabalha à noite."}
-      - {text: "Cotar o carro alugado", who: julia, done: true, note: "Bruna: US$ 500 por 10 dias"}
-      - {text: "Reservar o carro com a Bruna (confirmar seguro incluso e caução)", who: julia}
+      - {text: "Decidir a hospedagem em Aruba (quarto da Camila ou um lugar com cozinha)", who: ambas}
+      - {text: "Reservar a hospedagem de 10 a 18/02 (corrigir as datas do link, que está em janeiro)", who: cliente, note: "Ou combinar check-in às 4h do dia 11"}
+      - {text: "Reservar o carro no aeroporto, 11 a 18/02", who: cliente, note: "Ver se espera o balcão abrir às 7h ou se pede a entrega na hospedagem"}
       - {text: "Definir quem vai dirigir", who: cliente, note: "CNH válida + cartão de crédito físico no nome dela"}
-      - {text: "Escolher o barco de Klein Curaçao", who: cliente, done: true, note: "Mermaid"}
-      - {text: "Comprar o Klein Curaçao (seg 15/02) pelo link do site", who: cliente}
-      - {text: "Agendar a aula de windsurf na SUP Curaçao", who: julia}
-      - {text: "Reservar o Fort Nassau (dia 10), o De Gouverneur (dia 3) e os outros jantares", who: julia}
-      - {text: "Confirmar o endereço do James", who: julia}
+      - {text: "Comprar o barco do pôr do sol (seg 15/02)", who: cliente}
+      - {text: "Comprar o bate-volta pra San Blas (sex 19/02) pelo link do site", who: cliente, note: "Levar US$ 22 em dinheiro pra taxa Guna Yala"}
+      - {text: "Buscar hospedagem em Casco Viejo até US$ 70/noite o quarto (18 a 20/02)", who: julia}
   - group: "Documentos"
     items:
       - {text: "Passaporte válido", who: cliente}
       - {text: "Tomar a vacina de febre amarela e tirar o certificado internacional (pelo menos 10 dias antes)", who: cliente}
       - {text: "Contratar seguro viagem", who: cliente}
-      - {text: "Tirar a Permissão Internacional pra Dirigir (PID) no Detran, por garantia", who: cliente}
-      - {text: "Preencher o DI Card nos 7 dias antes do embarque e salvar o PDF", who: cliente, note: "Grátis, só no dicardcuracao.com/portal"}
-      - {text: "Levar adaptador de tomada (padrão americano)", who: cliente}
-      - {text: "Baixar o app 24-7 Taxi Curaçao (não tem Uber na ilha)", who: cliente}
+      - {text: "Preencher o ED Card e pagar os US$ 20 nos 7 dias antes do embarque", who: cliente, note: "Só no edcardaruba.aw"}
   - group: "Na mala"
     items:
-      - {text: "Tênis fechado pras trilhas e pro ATV", who: cliente}
+      - {text: "Tênis pras rochas de Ayo e Casibari", who: cliente}
       - {text: "Protetor solar, chapéu e garrafinha de água", who: cliente}
-      - {text: "Máscara de snorkel (opcional, os passeios emprestam)", who: cliente}
-      - {text: "Roupa escura pro ATV (a poeira mancha)", who: cliente}
+      - {text: "Máscara de snorkel (pra Boca Catalina e Mangel Halto)", who: cliente}
+      - {text: "Dólar em notas pequenas", who: cliente}
