@@ -151,16 +151,6 @@ days:
       - {time: "04:00", type: travel, text: "Pouso em Aruba e táxi até a hospedagem", place: aeroporto}
       - {time: "05:00", text: "Descanso", place: home}
       - {time: "15:00", text: "Ônibus até Eagle Beach: primeira tarde e pôr do sol", place: eagle}
-  - title: "Carro: rochas, aloe e ponta norte"
-    area: "Interior e noroeste · com carro"
-    items:
-      - {time: "08:00", text: "Casibari: subir até o topo das rochas", place: casibari}
-      - {time: "08:45", text: "Trilha entre as rochas de Ayo", place: ayo}
-      - {time: "10:00", text: "Ruínas de Bushiribana", place: bushiribana}
-      - {time: "10:30", text: "Costa de Andicuri", place: andicuri}
-      - {time: "13:30", text: "Tour grátis na fábrica de aloe", place: aloe}
-      - {time: "15:00", text: "Arashi Beach", place: arashi}
-      - {time: "17:30", text: "Pôr do sol no California Lighthouse", place: farol}
   - title: "Carro: Baby Beach e San Nicolas"
     area: "Sul · com carro"
     items:
@@ -168,6 +158,16 @@ days:
       - {time: "12:30", text: "Almoço de peixe no Zeerovers", place: zeerovers}
       - {time: "14:00", text: "Caminhada pelos murais de San Nicolas", place: san-nicolas}
       - {time: "16:00", text: "Fim de tarde em Mangel Halto", place: mangel-halto}
+  - title: "Carro: rochas, aloe e ponta norte"
+    area: "Interior e noroeste · com carro"
+    items:
+      - {time: "08:00", text: "Casibari: subir até o topo das rochas", place: casibari}
+      - {time: "08:45", text: "Trilha entre as rochas de Ayo", place: ayo}
+      - {time: "10:00", text: "Tour grátis na fábrica de aloe", place: aloe}
+      - {time: "11:15", text: "Ruínas de Bushiribana", place: bushiribana}
+      - {time: "11:45", text: "Costa de Andicuri", place: andicuri}
+      - {time: "15:00", text: "Arashi Beach", place: arashi}
+      - {time: "17:30", text: "Pôr do sol no California Lighthouse", place: farol}
   - title: "Arikok de 4x4 e a Conchi"
     area: "Arikok e Eagle · sem carro"
     items:
