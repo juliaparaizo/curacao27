@@ -146,55 +146,54 @@ places:
 
 days:
   - title: "Chegada"
-    area: "Oranjestad e Eagle"
+    area: "Oranjestad e Eagle · sem carro"
     items:
-      - {time: "04:00", type: travel, text: "Pouso em Aruba", place: aeroporto}
-      - {time: "07:00", type: travel, text: "Retirada do carro no aeroporto", place: aeroporto}
-      - {time: "08:00", text: "Descanso na hospedagem", place: home}
-      - {time: "15:00", text: "Primeira tarde em Eagle Beach e pôr do sol", place: eagle}
-  - title: "Rochas, ruínas e aloe"
-    area: "Interior e costa norte"
+      - {time: "04:00", type: travel, text: "Pouso em Aruba e táxi até a hospedagem", place: aeroporto}
+      - {time: "05:00", text: "Descanso", place: home}
+      - {time: "15:00", text: "Ônibus até Eagle Beach: primeira tarde e pôr do sol", place: eagle}
+  - title: "Arikok de 4x4 e bonde"
+    area: "Arikok e Oranjestad · sem carro"
+    items:
+      - {time: "08:00", text: "Jeep 4x4 no Parque Arikok, com busca na hospedagem", place: arikok}
+      - {time: "09:30", text: "Banho e snorkel na piscina natural Conchi", place: conchi}
+      - {time: "15:00", text: "Bonde grátis pela Main Street", place: tram}
+  - title: "Carro: rochas, aloe e ponta norte"
+    area: "Interior e noroeste · com carro"
     items:
       - {time: "08:00", text: "Casibari: subir até o topo das rochas", place: casibari}
-      - {time: "09:15", text: "Trilha entre as rochas de Ayo e os petróglifos", place: ayo}
-      - {time: "10:30", text: "Andicuri e a costa norte", place: andicuri}
-      - {time: "11:15", text: "Ruínas da usina de ouro de Bushiribana", place: bushiribana}
-      - {time: "14:00", text: "Tour grátis na fábrica de aloe", place: aloe}
-      - {time: "16:30", text: "Fim de tarde em Eagle Beach", place: eagle}
-  - title: "Arikok de 4x4 e a Conchi"
-    area: "Arikok e ponta norte"
-    items:
-      - {time: "08:00", text: "Tour de 4x4 no Parque Arikok, com busca na hospedagem", place: arikok}
-      - {time: "09:30", text: "Banho e snorkel na piscina natural Conchi", place: conchi}
-      - {time: "15:30", text: "Arashi Beach", place: arashi}
+      - {time: "08:45", text: "Trilha entre as rochas de Ayo", place: ayo}
+      - {time: "10:00", text: "Tour grátis na fábrica de aloe", place: aloe}
+      - {time: "11:15", text: "Ruínas de Bushiribana", place: bushiribana}
+      - {time: "11:45", text: "Costa de Andicuri", place: andicuri}
+      - {time: "15:00", text: "Arashi Beach", place: arashi}
       - {time: "17:30", text: "Pôr do sol no California Lighthouse", place: farol}
-  - title: "Sul: Baby Beach e San Nicolas"
-    area: "Sul"
+  - title: "Carro: Baby Beach e San Nicolas"
+    area: "Sul · com carro"
     items:
       - {time: "08:30", text: "Manhã inteira em Baby Beach", place: baby-beach}
       - {time: "12:30", text: "Almoço de peixe no Zeerovers", place: zeerovers}
       - {time: "14:00", text: "Caminhada pelos murais de San Nicolas", place: san-nicolas}
       - {time: "16:00", text: "Fim de tarde em Mangel Halto", place: mangel-halto}
-  - title: "Bonde e catamarã com tartarugas"
-    area: "Oranjestad e costa oeste"
+  - title: "Catamarã com tartarugas"
+    area: "Eagle e costa oeste · sem carro"
     items:
-      - {time: "09:30", text: "Bonde grátis pela Main Street", place: tram}
+      - {time: "09:30", text: "Manhã em Eagle Beach", place: eagle}
       - {time: "14:30", text: "Saída do catamarã da Spronk", place: spronk}
       - {time: "15:30", text: "Snorkel em Boca Catalina", place: catalina}
-      - {time: "16:30", text: "Nadar com tartarugas em Tres Trapi, depois pôr do sol e churrasco a bordo", place: tres-trapi}
+      - {time: "16:30", text: "Tartarugas em Tres Trapi, pôr do sol e churrasco a bordo", place: tres-trapi}
   - title: "Palm Beach"
-    area: "Palm Beach"
+    area: "Palm Beach · sem carro"
     items:
-      - {time: "10:00", text: "Dia em Palm Beach, com os beach bars", place: palm}
+      - {time: "10:00", text: "Ônibus até Palm Beach: dia na praia", place: palm}
   - title: "Eagle Beach"
-    area: "Eagle Beach"
+    area: "Eagle Beach · sem carro"
     items:
-      - {time: "10:00", text: "Último dia inteiro em Eagle Beach e último pôr do sol", place: eagle}
+      - {time: "10:00", text: "Último dia inteiro em Eagle Beach", place: eagle}
   - title: "Saída pro Panamá"
     area: "Oranjestad"
     items:
       - {text: "Check-out", place: home}
-      - {type: travel, text: "Devolver o carro e voo Aruba → Panamá", place: aeroporto}
+      - {type: travel, text: "Táxi até o aeroporto e voo Aruba → Panamá", place: aeroporto}
 modules:
   weather: true
   surf: false
