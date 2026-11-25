@@ -75,12 +75,30 @@ places:
     lon: -70.0450
     type: beach
     desc: "A praia dos resorts: mar calmo, beach bars e muito movimento."
-  - id: pelican-pier
-    name: "Pelican Pier, Palm Beach, Aruba"
-    lat: 12.5755
-    lon: -70.0470
+  - id: spronk
+    name: "Píer do Renaissance Marina, Oranjestad"
+    lat: 12.5170
+    lon: -70.0380
     type: sight
-    desc: "Píer de onde sai o barco do pôr do sol."
+    desc: "Saída do catamarã da Spronk: snorkel no naufrágio Antilla, Boca Catalina e Tres Trapi, com pôr do sol e churrasco."
+  - id: arikok
+    name: "Parque Nacional Arikok, Aruba"
+    lat: 12.4995
+    lon: -69.9600
+    type: hike
+    desc: "O parque ocupa quase 20% da ilha: deserto de cactos, falésias e cavernas com pinturas indígenas. Vai com tour de 4x4."
+  - id: conchi
+    name: "Conchi (Natural Pool), Aruba"
+    lat: 12.5155
+    lon: -69.9395
+    type: beach
+    desc: "Piscina natural protegida por rochas vulcânicas, dentro do Arikok. Só chega de 4x4."
+  - id: tres-trapi
+    name: "Tres Trapi, Aruba"
+    lat: 12.6005
+    lon: -70.0505
+    type: beach
+    desc: "Cantinho de snorkel ao lado de Boca Catalina, onde aparecem as tartarugas."
   - id: arashi
     name: "Arashi Beach, Aruba"
     lat: 12.6097
@@ -131,7 +149,7 @@ days:
     area: "Oranjestad e Eagle"
     items:
       - {time: "04:00", type: travel, text: "Pouso em Aruba", place: aeroporto}
-      - {time: "07:00", type: travel, text: "Retirada do carro no aeroporto (os balcões abrem por volta das 7h)", place: aeroporto}
+      - {time: "07:00", type: travel, text: "Retirada do carro no aeroporto", place: aeroporto}
       - {time: "08:00", text: "Descanso na hospedagem", place: home}
       - {time: "15:00", text: "Primeira tarde em Eagle Beach e pôr do sol", place: eagle}
   - title: "Rochas, ruínas e aloe"
@@ -143,34 +161,35 @@ days:
       - {time: "11:15", text: "Ruínas da usina de ouro de Bushiribana", place: bushiribana}
       - {time: "14:00", text: "Tour grátis na fábrica de aloe", place: aloe}
       - {time: "16:30", text: "Fim de tarde em Eagle Beach", place: eagle}
-  - title: "Ponta norte"
-    area: "Noroeste"
+  - title: "Arikok de 4x4 e a Conchi"
+    area: "Arikok e ponta norte"
     items:
-      - {time: "09:00", text: "Arashi Beach", place: arashi}
-      - {time: "11:30", text: "Snorkel em Boca Catalina", place: catalina}
+      - {time: "08:00", text: "Tour de 4x4 no Parque Arikok, com busca na hospedagem", place: arikok}
+      - {time: "09:30", text: "Banho e snorkel na piscina natural Conchi", place: conchi}
+      - {time: "15:30", text: "Arashi Beach", place: arashi}
       - {time: "17:30", text: "Pôr do sol no California Lighthouse", place: farol}
-  - title: "Sul: mangue, Zeerovers e Baby Beach"
+  - title: "Sul: Baby Beach e San Nicolas"
     area: "Sul"
     items:
-      - {time: "09:00", text: "Snorkel e caiaque em Mangel Halto", place: mangel-halto}
+      - {time: "08:30", text: "Manhã inteira em Baby Beach", place: baby-beach}
       - {time: "12:30", text: "Almoço de peixe no Zeerovers", place: zeerovers}
-      - {time: "14:00", text: "Baby Beach", place: baby-beach}
-      - {time: "17:00", text: "Murais de San Nicolas no caminho de volta", place: san-nicolas}
-  - title: "Bonde de Oranjestad e barco do pôr do sol"
-    area: "Oranjestad e Palm Beach"
+      - {time: "14:00", text: "Caminhada pelos murais de San Nicolas", place: san-nicolas}
+      - {time: "16:00", text: "Fim de tarde em Mangel Halto", place: mangel-halto}
+  - title: "Bonde e catamarã com tartarugas"
+    area: "Oranjestad e costa oeste"
     items:
-      - {time: "09:30", text: "Bonde grátis pela Main Street e centro de Oranjestad", place: tram}
-      - {time: "13:00", text: "Tarde em Palm Beach", place: palm}
-      - {time: "17:00", text: "Barco do pôr do sol saindo do Pelican Pier", place: pelican-pier}
-  - title: "Dia livre"
-    area: "Livre"
+      - {time: "09:30", text: "Bonde grátis pela Main Street", place: tram}
+      - {time: "14:30", text: "Saída do catamarã da Spronk", place: spronk}
+      - {time: "15:30", text: "Snorkel em Boca Catalina", place: catalina}
+      - {time: "16:30", text: "Nadar com tartarugas em Tres Trapi, depois pôr do sol e churrasco a bordo", place: tres-trapi}
+  - title: "Palm Beach"
+    area: "Palm Beach"
     items:
-      - {text: "Repetir a praia favorita (ou Mangel Halto de novo)", place: eagle}
-  - title: "Última praia"
-    area: "Palm e Eagle"
+      - {time: "10:00", text: "Dia em Palm Beach, com os beach bars", place: palm}
+  - title: "Eagle Beach"
+    area: "Eagle Beach"
     items:
-      - {time: "10:00", text: "Manhã em Palm Beach", place: palm}
-      - {time: "16:30", text: "Último pôr do sol em Eagle Beach", place: eagle}
+      - {time: "10:00", text: "Último dia inteiro em Eagle Beach e último pôr do sol", place: eagle}
   - title: "Saída pro Panamá"
     area: "Oranjestad"
     items:
